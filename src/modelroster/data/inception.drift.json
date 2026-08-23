@@ -1,21 +1,17 @@
 {
  "provider": "inception",
- "first_run": true,
- "previous_retrieved_at": null,
- "retrieved_at": "2026-08-23T18:50:01Z",
+ "first_run": false,
+ "previous_retrieved_at": "2026-08-23T18:50:01Z",
+ "retrieved_at": "2026-08-23T21:18:52Z",
  "parser_version": "2026.08.23-1",
- "previous_parser_version": null,
+ "previous_parser_version": "2026.08.23-1",
  "counts": {
-  "previous": 0,
+  "previous": 1,
   "current": 1
  },
- "added_models": [
-  "mercury-2"
- ],
+ "added_models": [],
  "removed_models": [],
- "added_families": [
-  "mercury-2"
- ],
+ "added_families": [],
  "removed_families": [],
  "new_snapshots": [],
  "removed_snapshots": [],
