@@ -167,3 +167,67 @@ def test_record_round_trip_and_unknown_fields():
     assert back.raw["_unknown_fields"] == {"novel_field": 1}
     assert back.supports("tool_calling") is True and back.supports("nothing") is None
     assert back.ref == "p/m"
+
+
+# ── alias/snapshot index (documented ids the listing does not carry) ──
+
+def test_documented_alias_absent_from_listing_resolves(registry):
+    # "gpt-5.6" is gpt-5.6-sol's prose alias and is NOT an id in the /v1/models fixture
+    assert "gpt-5.6" not in [r.model_id for r in registry.models("openai")]
+    rec = registry.resolve("gpt-5.6")
+    assert rec is not None and rec.model_id == "gpt-5.6-sol" and rec.relationship == "canonical"
+    assert registry.get("gpt-5.6").model_id == "gpt-5.6-sol"
+    assert registry.get("openai/gpt-5.6").model_id == "gpt-5.6-sol"
+    assert registry.alias_owner("gpt-5.6", "openai") == ("gpt-5.6-sol", "alias")
+    assert "openai" in registry.find_providers("gpt-5.6")
+    # and it now parses/validates as a ModelRef
+    assert ModelRef.parse("gpt-5.6", registry) == ModelRef("openai", "gpt-5.6")
+    assert ModelRef("openai", "gpt-5.6").validate(registry)
+    assert ModelRef("openai", "gpt-5.6").resolve(registry).model_id == "gpt-5.6-sol"
+
+
+def test_snapshot_id_resolves_to_family_record(registry):
+    # snapshot that IS in the listing: resolves through its own record's family link
+    fam = registry.resolve("gpt-4o-2024-11-20")
+    assert fam.model_id == "gpt-4o" and fam.relationship == "canonical"
+    # documented snapshot that is NOT in the listing: resolves through the index
+    listed = {r.model_id for r in registry.models("openai")}
+    assert "gpt-4-0314" not in listed
+    assert registry.resolve("gpt-4-0314").model_id == "gpt-4"
+
+
+def test_exact_record_always_beats_alias_claim(registry):
+    # daybreak-blue-latest's Snapshots list claims gpt-5.6-sol, which has its own page
+    assert registry.get("gpt-5.6-sol").relationship == "canonical"
+    assert registry.resolve("gpt-5.6-sol").model_id == "gpt-5.6-sol"
+
+
+def test_fine_tune_id_resolves_via_base(registry):
+    rec = registry.resolve("ft:gpt-4o-2024-08-06:acme::abc123")
+    assert rec.model_id == "gpt-4o"
+    assert registry.get("ft:gpt-4o-2024-08-06:acme::abc123").family == "gpt-4o"
+    assert registry.resolve("ft:mystery-9:acme::zzz") is None
+
+
+def test_alias_index_conflict_is_deterministic():
+    from modelroster.registry import Registry
+    def rec(mid, snaps):
+        return ModelRecord(provider="p", model_id=mid, family=mid, relationship="canonical", snapshots=snaps).to_dict()
+    env = {"p": {"models": {"b-stable": rec("b-stable", ["shared-007"]), "a-latest": rec("a-latest", ["shared-007"])},
+                 "model_order": ["b-stable", "a-latest"]}}
+    reg = Registry(env)
+    assert reg.alias_owner("shared-007", "p") == ("a-latest", "snapshot")   # lexicographically first owner
+    assert reg.resolve("shared-007").model_id == "a-latest"
+    # a claimed id that is itself a record is never indexed
+    env["p"]["models"]["shared-007"] = rec("shared-007", [])
+    reg2 = Registry(env)
+    assert reg2.alias_owner("shared-007", "p") is None
+    assert reg2.resolve("shared-007").model_id == "shared-007"
+
+
+def test_snapshot_claim_outranks_alias_claim_from_same_owner():
+    from modelroster.registry import Registry
+    d = ModelRecord(provider="p", model_id="fam", family="fam", relationship="canonical",
+                    aliases=["x"], snapshots=["x"]).to_dict()
+    reg = Registry({"p": {"models": {"fam": d}, "model_order": ["fam"]}})
+    assert reg.alias_owner("x", "p") == ("fam", "snapshot")

@@ -17,6 +17,7 @@ True/False filter — pass `unknown_ok=True` to let None pass as well.
 from __future__ import annotations
 
 import os
+import re
 from dataclasses import dataclass
 from typing import Any, Iterable
 
@@ -25,6 +26,9 @@ from .schema import CAPABILITY_FIELDS, MODALITIES, ModelRecord
 from .store import available_providers, read_json, registry_path
 
 _FILTER_MODALITY = {"%s_%s" % (m, d): (m, d) for m in MODALITIES for d in ("input", "output")}
+_RE_FINE_TUNE = re.compile(r"^ft:([^:]+):")
+
+_REL_PRECEDENCE = {"snapshot": 0, "alias": 1}
 
 
 @dataclass
@@ -50,6 +54,31 @@ class Registry:
             order = [m for m in env.get("model_order") or [] if m in recs]
             order += [m for m in recs if m not in set(order)]
             self._order[prov] = order
+        # Alias index: every documented alias and snapshot id maps to the
+        # record that declares it, so ids the listing does not carry (e.g. a
+        # prose alias like "gpt-5.6") still resolve. A real record always wins
+        # over a claim; between competing claims the deterministic rule from
+        # the update pipeline applies (the record whose own id equals the
+        # claimed id would be a record, so: lexicographically first owner).
+        self._alias: dict[str, dict[str, tuple[str, str]]] = {}
+        for prov, recs in self._records.items():
+            claims: dict[str, list[tuple[str, str]]] = {}
+            for mid in self._order[prov]:
+                rec = recs[mid]
+                for a in rec.aliases:
+                    if a != mid:
+                        claims.setdefault(a, []).append((mid, "alias"))
+                for snap in rec.snapshots:
+                    if snap != mid:
+                        claims.setdefault(snap, []).append((mid, "snapshot"))
+            index: dict[str, tuple[str, str]] = {}
+            for aid, claimants in claims.items():
+                if aid in recs:
+                    continue
+                owner = min(c for c, _ in claimants)
+                rel = min((r for c, r in claimants if c == owner), key=lambda r: _REL_PRECEDENCE.get(r, 9))
+                index[aid] = (owner, rel)
+            self._alias[prov] = index
 
     # ── introspection ──
     def providers(self) -> list[str]:
@@ -83,17 +112,42 @@ class Registry:
         provs = [provider] if provider else self.providers()
         return [self._records[p][model_id] for p in provs if p in self._records and model_id in self._records[p]]
 
+    def _alias_lookup(self, model_id: str, provider: str | None = None) -> list[ModelRecord]:
+        """Owning records for a documented alias/snapshot id (or a fine-tune
+        id whose base is known) that has no record of its own."""
+        provs = [provider] if provider else self.providers()
+        hits = []
+        for p in provs:
+            hit = self._alias.get(p, {}).get(model_id)
+            if hit:
+                hits.append(self._records[p][hit[0]])
+        if hits:
+            return hits
+        m = _RE_FINE_TUNE.match(model_id)
+        if m and m.group(1) != model_id:
+            return self._lookup(m.group(1), provider) or self._alias_lookup(m.group(1), provider)
+        return hits
+
+    def alias_owner(self, model_id: str, provider: str) -> tuple[str, str] | None:
+        """(owning model_id, relationship) when `model_id` is an indexed alias/snapshot."""
+        return self._alias.get(provider, {}).get(model_id)
+
     def get(self, ref: str | ModelRef, provider: str | None = None) -> ModelRecord | None:
-        """Exact-id lookup. 'provider/model_id' strings and ModelRefs are honoured."""
+        """
+        Exact-id lookup; 'provider/model_id' strings and ModelRefs are
+        honoured. An id that has no record of its own but is a documented
+        alias, snapshot, or fine-tune of one (per the alias index) returns the
+        owning record; exact records always take precedence.
+        """
         if isinstance(ref, ModelRef):
             provider, model_id = ref.provider, ref.model_id
         else:
             model_id = ref
             if provider is None and "/" in ref:
                 head, _, tail = ref.partition("/")
-                if head in self._records and tail in self._records[head]:
-                    return self._records[head][tail]
-        hits = self._lookup(model_id, provider)
+                if head in self._records:
+                    return self.get(tail, head) if tail not in self._records.get(head, {}) else self._records[head][tail]
+        hits = self._lookup(model_id, provider) or self._alias_lookup(model_id, provider)
         if len(hits) == 1:
             return hits[0]
         if not hits:
@@ -105,10 +159,17 @@ class Registry:
         return hits[0]
 
     def find_providers(self, model_id: str) -> list[str]:
-        return [p for p in self.providers() if model_id in self._records[p]]
+        return [p for p in self.providers()
+                if model_id in self._records[p] or model_id in self._alias.get(p, {})]
 
     def resolve(self, ref: str | ModelRef, provider: str | None = None) -> ModelRecord | None:
-        """Follow aliases/snapshots/fine-tune inheritance to the canonical record (or the record itself)."""
+        """
+        The canonical family record behind an id, or None if the id is
+        unknown. Follows the record's own `family` link, the alias index
+        (documented aliases and snapshots that the listing does not carry),
+        and `ft:<base>:...` inheritance. An id whose family is undocumented
+        (relationship "unknown") resolves to its own record.
+        """
         rec = self.get(ref, provider)
         if rec is None:
             return None
