@@ -45,7 +45,9 @@ jobs:
         run: |
           git config user.name "modelroster-bot"
           git config user.email "modelroster-bot@users.noreply.github.com"
-          git add src/modelroster/data/*.json
+          # add the directory, not a glob: explicit paths matching
+          # .gitignore (*.previous.json, cache/) make git add exit 1
+          git add src/modelroster/data
           if git diff --cached --quiet; then echo "no data changes"; exit 0; fi
           git commit -m "data: daily refresh $(date -u +%F)" -m "$(modelroster diff | head -200)"
           git push
