@@ -1,0 +1,22 @@
+{"object": "list", "data": [
+ {"id": "mistral-large-latest", "object": "model", "created": 1731542400, "owned_by": "mistralai",
+  "capabilities": {"completion_chat": true, "completion_fim": false, "function_calling": true, "fine_tuning": false, "vision": false, "classification": false},
+  "name": "mistral-large-latest", "description": "Official mistral-large-latest Mistral AI model", "max_context_length": 131072,
+  "aliases": ["mistral-large-2411"], "deprecation": null, "default_model_temperature": 0.7, "type": "base"},
+ {"id": "codestral-latest", "object": "model", "created": 1737331200, "owned_by": "mistralai",
+  "capabilities": {"completion_chat": true, "completion_fim": true, "function_calling": true, "fine_tuning": false, "vision": false, "classification": false},
+  "name": "codestral-latest", "description": "Official codestral-latest Mistral AI model", "max_context_length": 262144,
+  "aliases": ["codestral-2501"], "deprecation": null, "default_model_temperature": 0.3, "type": "base"},
+ {"id": "pixtral-12b-2409", "object": "model", "created": 1726617600, "owned_by": "mistralai",
+  "capabilities": {"completion_chat": true, "completion_fim": false, "function_calling": true, "fine_tuning": false, "vision": true, "classification": false},
+  "name": "pixtral-12b-2409", "description": "Official pixtral-12b-2409 Mistral AI model", "max_context_length": 131072,
+  "aliases": ["pixtral-12b", "pixtral-12b-latest"], "deprecation": null, "default_model_temperature": 0.7, "type": "base"},
+ {"id": "open-mistral-7b", "object": "model", "created": 1695686400, "owned_by": "mistralai",
+  "capabilities": {"completion_chat": true, "completion_fim": false, "function_calling": false, "fine_tuning": true, "vision": false, "classification": false},
+  "name": "open-mistral-7b", "description": "Official open-mistral-7b Mistral AI model", "max_context_length": 32768,
+  "aliases": ["mistral-tiny", "mistral-tiny-2312"], "deprecation": "2025-03-30T00:00:00Z", "default_model_temperature": 0.7, "type": "base"},
+ {"id": "mistral-embed", "object": "model", "created": 1702857600, "owned_by": "mistralai",
+  "capabilities": {"completion_chat": false, "completion_fim": false, "function_calling": false, "fine_tuning": false, "vision": false, "classification": false},
+  "name": "mistral-embed", "description": "Official mistral-embed Mistral AI model", "max_context_length": 8192,
+  "aliases": [], "deprecation": null, "default_model_temperature": null, "type": "base"}
+]}

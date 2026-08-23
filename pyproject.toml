@@ -1,0 +1,57 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "modelroster"
+dynamic = ["version"]
+description = "Accurate, current LLM model identifiers and capabilities for every provider — shipped as data, refreshed from official sources."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+authors = [{ name = "Zach Hanson", email = "zhanson1@gmail.com" }]
+keywords = ["llm", "models", "registry", "openai", "anthropic", "capabilities"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Software Development :: Libraries",
+]
+dependencies = ["httpx>=0.25"]
+
+[project.optional-dependencies]
+dotenv = ["python-dotenv>=1.0"]
+dev = ["pytest>=8", "python-dotenv>=1.0", "build", "twine"]
+
+[project.scripts]
+modelroster = "modelroster.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/zhanson/modelroster"
+Changelog = "https://github.com/zhanson/modelroster/blob/main/CHANGELOG.md"
+
+[tool.hatch.version]
+path = "src/modelroster/_version.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/modelroster"]
+
+[tool.hatch.build]
+exclude = [
+  "src/modelroster/data/*.previous.json",
+  "src/modelroster/data/*.drift.json",
+  "src/modelroster/data/cache/**",
+  "src/modelroster/data/discovered/**",
+  "src/modelroster/data/*.tmp",
+]
+
+[tool.hatch.build.targets.sdist]
+exclude = ["src/modelroster/data/cache", "src/modelroster/data/*.previous.json", ".github"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

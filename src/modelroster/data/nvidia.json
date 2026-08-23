@@ -1,0 +1,7873 @@
+{
+ "provider": "nvidia",
+ "schema_version": 2,
+ "parser_version": "2026.08.23-1",
+ "retrieved_at": "2026-08-23T18:50:01Z",
+ "sources": {
+  "listing": "https://integrate.api.nvidia.com/v1/models"
+ },
+ "model_order": [
+  "01-ai/yi-large",
+  "adept/fuyu-8b",
+  "ai21labs/jamba-1.5-large-instruct",
+  "aisingapore/sea-lion-7b-instruct",
+  "baai/bge-m3",
+  "bigcode/starcoder2-15b",
+  "databricks/dbrx-instruct",
+  "deepseek-ai/deepseek-coder-6.7b-instruct",
+  "deepseek-ai/deepseek-v4-flash-0731",
+  "google/codegemma-1.1-7b",
+  "google/codegemma-7b",
+  "google/deplot",
+  "google/diffusiongemma-26b-a4b-it",
+  "google/gemma-2b",
+  "google/gemma-3-12b-it",
+  "google/gemma-3-4b-it",
+  "google/gemma-4-31b-it",
+  "google/recurrentgemma-2b",
+  "ibm/granite-3.0-3b-a800m-instruct",
+  "ibm/granite-3.0-8b-instruct",
+  "ibm/granite-34b-code-instruct",
+  "ibm/granite-8b-code-instruct",
+  "meta/codellama-70b",
+  "meta/llama-3.1-70b-instruct",
+  "meta/llama-3.1-8b-instruct",
+  "meta/llama-3.2-11b-vision-instruct",
+  "meta/llama-3.2-1b-instruct",
+  "meta/llama-3.2-3b-instruct",
+  "meta/llama-3.2-90b-vision-instruct",
+  "meta/llama-3.3-70b-instruct",
+  "meta/llama-guard-4-12b",
+  "meta/llama2-70b",
+  "meta/muse-glimmer-30b",
+  "microsoft/kosmos-2",
+  "microsoft/phi-3-vision-128k-instruct",
+  "microsoft/phi-3.5-moe-instruct",
+  "minimaxai/minimax-m3",
+  "mistralai/codestral-22b-instruct-v0.1",
+  "mistralai/mistral-7b-instruct-v0.3",
+  "mistralai/mistral-large",
+  "mistralai/mistral-large-2-instruct",
+  "mistralai/mistral-nemotron",
+  "mistralai/mixtral-8x22b-v0.1",
+  "moonshotai/kimi-k2.6",
+  "moonshotai/kimi-k3",
+  "nv-mistralai/mistral-nemo-12b-instruct",
+  "nvidia/ai-synthetic-video-detector",
+  "nvidia/cosmos-reason2-8b",
+  "nvidia/embed-qa-4",
+  "nvidia/ising-calibration-1.5-31b",
+  "nvidia/llama-3.1-nemoguard-8b-content-safety",
+  "nvidia/llama-3.1-nemoguard-8b-topic-control",
+  "nvidia/llama-3.1-nemotron-51b-instruct",
+  "nvidia/llama-3.1-nemotron-70b-instruct",
+  "nvidia/llama-3.1-nemotron-nano-8b-v1",
+  "nvidia/llama-3.1-nemotron-nano-vl-8b-v1",
+  "nvidia/llama-3.1-nemotron-safety-guard-8b-v3",
+  "nvidia/llama-3.1-nemotron-ultra-253b-v1",
+  "nvidia/llama-3.2-nemoretriever-1b-vlm-embed-v1",
+  "nvidia/llama-3.2-nv-embedqa-1b-v1",
+  "nvidia/llama-3.3-nemotron-super-49b-v1",
+  "nvidia/llama-3.3-nemotron-super-49b-v1.5",
+  "nvidia/llama-nemotron-embed-1b-v2",
+  "nvidia/llama-nemotron-embed-vl-1b-v2",
+  "nvidia/llama3-chatqa-1.5-70b",
+  "nvidia/mistral-nemo-minitron-8b-8k-instruct",
+  "nvidia/nemoretriever-parse",
+  "nvidia/nemotron-3-embed-1b",
+  "nvidia/nemotron-3-nano-30b-a3b",
+  "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+  "nvidia/nemotron-3-super-120b-a12b",
+  "nvidia/nemotron-3-ultra-550b-a55b",
+  "nvidia/nemotron-3.5-content-safety",
+  "nvidia/nemotron-3.5-lightning-30b-a3b",
+  "nvidia/nemotron-4-340b-instruct",
+  "nvidia/nemotron-4-340b-reward",
+  "nvidia/nemotron-mini-4b-instruct",
+  "nvidia/nemotron-nano-12b-v2-vl",
+  "nvidia/nemotron-nano-3-30b-a3b",
+  "nvidia/nemotron-parse",
+  "nvidia/neva-22b",
+  "nvidia/nv-embed-v1",
+  "nvidia/nv-embedcode-7b-v1",
+  "nvidia/nv-embedqa-e5-v5",
+  "nvidia/nv-embedqa-mistral-7b-v2",
+  "nvidia/nvclip",
+  "nvidia/nvidia-nemotron-nano-9b-v2",
+  "nvidia/riva-translate-4b-instruct",
+  "nvidia/riva-translate-4b-instruct-v1.1",
+  "nvidia/riva-translate-4b-instruct-v2",
+  "nvidia/vila",
+  "openai/gpt-oss-120b",
+  "openai/gpt-oss-20b",
+  "poolside/laguna-xs-2.1",
+  "snowflake/arctic-embed-l",
+  "stepfun-ai/step-3.7-flash",
+  "thinkingmachines/inkling",
+  "writer/palmyra-creative-122b",
+  "writer/palmyra-fin-70b-32k",
+  "writer/palmyra-med-70b",
+  "writer/palmyra-med-70b-32k",
+  "zyphra/zamba2-7b-instruct"
+ ],
+ "models": {
+  "01-ai/yi-large": {
+   "provider": "nvidia",
+   "model_id": "01-ai/yi-large",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "01-ai",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "adept/fuyu-8b": {
+   "provider": "nvidia",
+   "model_id": "adept/fuyu-8b",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "adept",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "ai21labs/jamba-1.5-large-instruct": {
+   "provider": "nvidia",
+   "model_id": "ai21labs/jamba-1.5-large-instruct",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "ai21labs",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "aisingapore/sea-lion-7b-instruct": {
+   "provider": "nvidia",
+   "model_id": "aisingapore/sea-lion-7b-instruct",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "aisingapore",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "baai/bge-m3": {
+   "provider": "nvidia",
+   "model_id": "baai/bge-m3",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "baai",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "bigcode/starcoder2-15b": {
+   "provider": "nvidia",
+   "model_id": "bigcode/starcoder2-15b",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "bigcode",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "databricks/dbrx-instruct": {
+   "provider": "nvidia",
+   "model_id": "databricks/dbrx-instruct",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "databricks",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "deepseek-ai/deepseek-coder-6.7b-instruct": {
+   "provider": "nvidia",
+   "model_id": "deepseek-ai/deepseek-coder-6.7b-instruct",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "deepseek-ai",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "deepseek-ai/deepseek-v4-flash-0731": {
+   "provider": "nvidia",
+   "model_id": "deepseek-ai/deepseek-v4-flash-0731",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "deepseek-ai",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "google/codegemma-1.1-7b": {
+   "provider": "nvidia",
+   "model_id": "google/codegemma-1.1-7b",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "google",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "google/codegemma-7b": {
+   "provider": "nvidia",
+   "model_id": "google/codegemma-7b",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "google",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "google/deplot": {
+   "provider": "nvidia",
+   "model_id": "google/deplot",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "google",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "google/diffusiongemma-26b-a4b-it": {
+   "provider": "nvidia",
+   "model_id": "google/diffusiongemma-26b-a4b-it",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "google",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "google/gemma-2b": {
+   "provider": "nvidia",
+   "model_id": "google/gemma-2b",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "google",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "google/gemma-3-12b-it": {
+   "provider": "nvidia",
+   "model_id": "google/gemma-3-12b-it",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "google",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "google/gemma-3-4b-it": {
+   "provider": "nvidia",
+   "model_id": "google/gemma-3-4b-it",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "google",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "google/gemma-4-31b-it": {
+   "provider": "nvidia",
+   "model_id": "google/gemma-4-31b-it",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "google",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "google/recurrentgemma-2b": {
+   "provider": "nvidia",
+   "model_id": "google/recurrentgemma-2b",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "google",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "ibm/granite-3.0-3b-a800m-instruct": {
+   "provider": "nvidia",
+   "model_id": "ibm/granite-3.0-3b-a800m-instruct",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "ibm",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "ibm/granite-3.0-8b-instruct": {
+   "provider": "nvidia",
+   "model_id": "ibm/granite-3.0-8b-instruct",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "ibm",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "ibm/granite-34b-code-instruct": {
+   "provider": "nvidia",
+   "model_id": "ibm/granite-34b-code-instruct",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "ibm",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "ibm/granite-8b-code-instruct": {
+   "provider": "nvidia",
+   "model_id": "ibm/granite-8b-code-instruct",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "ibm",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "meta/codellama-70b": {
+   "provider": "nvidia",
+   "model_id": "meta/codellama-70b",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "meta",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "meta/llama-3.1-70b-instruct": {
+   "provider": "nvidia",
+   "model_id": "meta/llama-3.1-70b-instruct",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "meta",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "meta/llama-3.1-8b-instruct": {
+   "provider": "nvidia",
+   "model_id": "meta/llama-3.1-8b-instruct",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "meta",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "meta/llama-3.2-11b-vision-instruct": {
+   "provider": "nvidia",
+   "model_id": "meta/llama-3.2-11b-vision-instruct",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "meta",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "meta/llama-3.2-1b-instruct": {
+   "provider": "nvidia",
+   "model_id": "meta/llama-3.2-1b-instruct",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "meta",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "meta/llama-3.2-3b-instruct": {
+   "provider": "nvidia",
+   "model_id": "meta/llama-3.2-3b-instruct",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "meta",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "meta/llama-3.2-90b-vision-instruct": {
+   "provider": "nvidia",
+   "model_id": "meta/llama-3.2-90b-vision-instruct",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "meta",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "meta/llama-3.3-70b-instruct": {
+   "provider": "nvidia",
+   "model_id": "meta/llama-3.3-70b-instruct",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "meta",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "meta/llama-guard-4-12b": {
+   "provider": "nvidia",
+   "model_id": "meta/llama-guard-4-12b",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "meta",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "meta/llama2-70b": {
+   "provider": "nvidia",
+   "model_id": "meta/llama2-70b",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "meta",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "meta/muse-glimmer-30b": {
+   "provider": "nvidia",
+   "model_id": "meta/muse-glimmer-30b",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "meta",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "microsoft/kosmos-2": {
+   "provider": "nvidia",
+   "model_id": "microsoft/kosmos-2",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "microsoft",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "microsoft/phi-3-vision-128k-instruct": {
+   "provider": "nvidia",
+   "model_id": "microsoft/phi-3-vision-128k-instruct",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "microsoft",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "microsoft/phi-3.5-moe-instruct": {
+   "provider": "nvidia",
+   "model_id": "microsoft/phi-3.5-moe-instruct",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "microsoft",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "minimaxai/minimax-m3": {
+   "provider": "nvidia",
+   "model_id": "minimaxai/minimax-m3",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "minimaxai",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "mistralai/codestral-22b-instruct-v0.1": {
+   "provider": "nvidia",
+   "model_id": "mistralai/codestral-22b-instruct-v0.1",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "mistralai",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "mistralai/mistral-7b-instruct-v0.3": {
+   "provider": "nvidia",
+   "model_id": "mistralai/mistral-7b-instruct-v0.3",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "mistralai",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "mistralai/mistral-large": {
+   "provider": "nvidia",
+   "model_id": "mistralai/mistral-large",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "mistralai",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "mistralai/mistral-large-2-instruct": {
+   "provider": "nvidia",
+   "model_id": "mistralai/mistral-large-2-instruct",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "mistralai",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "mistralai/mistral-nemotron": {
+   "provider": "nvidia",
+   "model_id": "mistralai/mistral-nemotron",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "mistralai",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "mistralai/mixtral-8x22b-v0.1": {
+   "provider": "nvidia",
+   "model_id": "mistralai/mixtral-8x22b-v0.1",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "mistralai",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "moonshotai/kimi-k2.6": {
+   "provider": "nvidia",
+   "model_id": "moonshotai/kimi-k2.6",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "moonshotai",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "moonshotai/kimi-k3": {
+   "provider": "nvidia",
+   "model_id": "moonshotai/kimi-k3",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "moonshotai",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nv-mistralai/mistral-nemo-12b-instruct": {
+   "provider": "nvidia",
+   "model_id": "nv-mistralai/mistral-nemo-12b-instruct",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nv-mistralai",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/ai-synthetic-video-detector": {
+   "provider": "nvidia",
+   "model_id": "nvidia/ai-synthetic-video-detector",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/cosmos-reason2-8b": {
+   "provider": "nvidia",
+   "model_id": "nvidia/cosmos-reason2-8b",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/embed-qa-4": {
+   "provider": "nvidia",
+   "model_id": "nvidia/embed-qa-4",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/ising-calibration-1.5-31b": {
+   "provider": "nvidia",
+   "model_id": "nvidia/ising-calibration-1.5-31b",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/llama-3.1-nemoguard-8b-content-safety": {
+   "provider": "nvidia",
+   "model_id": "nvidia/llama-3.1-nemoguard-8b-content-safety",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/llama-3.1-nemoguard-8b-topic-control": {
+   "provider": "nvidia",
+   "model_id": "nvidia/llama-3.1-nemoguard-8b-topic-control",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/llama-3.1-nemotron-51b-instruct": {
+   "provider": "nvidia",
+   "model_id": "nvidia/llama-3.1-nemotron-51b-instruct",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/llama-3.1-nemotron-70b-instruct": {
+   "provider": "nvidia",
+   "model_id": "nvidia/llama-3.1-nemotron-70b-instruct",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/llama-3.1-nemotron-nano-8b-v1": {
+   "provider": "nvidia",
+   "model_id": "nvidia/llama-3.1-nemotron-nano-8b-v1",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/llama-3.1-nemotron-nano-vl-8b-v1": {
+   "provider": "nvidia",
+   "model_id": "nvidia/llama-3.1-nemotron-nano-vl-8b-v1",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/llama-3.1-nemotron-safety-guard-8b-v3": {
+   "provider": "nvidia",
+   "model_id": "nvidia/llama-3.1-nemotron-safety-guard-8b-v3",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/llama-3.1-nemotron-ultra-253b-v1": {
+   "provider": "nvidia",
+   "model_id": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/llama-3.2-nemoretriever-1b-vlm-embed-v1": {
+   "provider": "nvidia",
+   "model_id": "nvidia/llama-3.2-nemoretriever-1b-vlm-embed-v1",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/llama-3.2-nv-embedqa-1b-v1": {
+   "provider": "nvidia",
+   "model_id": "nvidia/llama-3.2-nv-embedqa-1b-v1",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/llama-3.3-nemotron-super-49b-v1": {
+   "provider": "nvidia",
+   "model_id": "nvidia/llama-3.3-nemotron-super-49b-v1",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/llama-3.3-nemotron-super-49b-v1.5": {
+   "provider": "nvidia",
+   "model_id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/llama-nemotron-embed-1b-v2": {
+   "provider": "nvidia",
+   "model_id": "nvidia/llama-nemotron-embed-1b-v2",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/llama-nemotron-embed-vl-1b-v2": {
+   "provider": "nvidia",
+   "model_id": "nvidia/llama-nemotron-embed-vl-1b-v2",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/llama3-chatqa-1.5-70b": {
+   "provider": "nvidia",
+   "model_id": "nvidia/llama3-chatqa-1.5-70b",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/mistral-nemo-minitron-8b-8k-instruct": {
+   "provider": "nvidia",
+   "model_id": "nvidia/mistral-nemo-minitron-8b-8k-instruct",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/nemoretriever-parse": {
+   "provider": "nvidia",
+   "model_id": "nvidia/nemoretriever-parse",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/nemotron-3-embed-1b": {
+   "provider": "nvidia",
+   "model_id": "nvidia/nemotron-3-embed-1b",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/nemotron-3-nano-30b-a3b": {
+   "provider": "nvidia",
+   "model_id": "nvidia/nemotron-3-nano-30b-a3b",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning": {
+   "provider": "nvidia",
+   "model_id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/nemotron-3-super-120b-a12b": {
+   "provider": "nvidia",
+   "model_id": "nvidia/nemotron-3-super-120b-a12b",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/nemotron-3-ultra-550b-a55b": {
+   "provider": "nvidia",
+   "model_id": "nvidia/nemotron-3-ultra-550b-a55b",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/nemotron-3.5-content-safety": {
+   "provider": "nvidia",
+   "model_id": "nvidia/nemotron-3.5-content-safety",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/nemotron-3.5-lightning-30b-a3b": {
+   "provider": "nvidia",
+   "model_id": "nvidia/nemotron-3.5-lightning-30b-a3b",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/nemotron-4-340b-instruct": {
+   "provider": "nvidia",
+   "model_id": "nvidia/nemotron-4-340b-instruct",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/nemotron-4-340b-reward": {
+   "provider": "nvidia",
+   "model_id": "nvidia/nemotron-4-340b-reward",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/nemotron-mini-4b-instruct": {
+   "provider": "nvidia",
+   "model_id": "nvidia/nemotron-mini-4b-instruct",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/nemotron-nano-12b-v2-vl": {
+   "provider": "nvidia",
+   "model_id": "nvidia/nemotron-nano-12b-v2-vl",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/nemotron-nano-3-30b-a3b": {
+   "provider": "nvidia",
+   "model_id": "nvidia/nemotron-nano-3-30b-a3b",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/nemotron-parse": {
+   "provider": "nvidia",
+   "model_id": "nvidia/nemotron-parse",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/neva-22b": {
+   "provider": "nvidia",
+   "model_id": "nvidia/neva-22b",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/nv-embed-v1": {
+   "provider": "nvidia",
+   "model_id": "nvidia/nv-embed-v1",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/nv-embedcode-7b-v1": {
+   "provider": "nvidia",
+   "model_id": "nvidia/nv-embedcode-7b-v1",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/nv-embedqa-e5-v5": {
+   "provider": "nvidia",
+   "model_id": "nvidia/nv-embedqa-e5-v5",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/nv-embedqa-mistral-7b-v2": {
+   "provider": "nvidia",
+   "model_id": "nvidia/nv-embedqa-mistral-7b-v2",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/nvclip": {
+   "provider": "nvidia",
+   "model_id": "nvidia/nvclip",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/nvidia-nemotron-nano-9b-v2": {
+   "provider": "nvidia",
+   "model_id": "nvidia/nvidia-nemotron-nano-9b-v2",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/riva-translate-4b-instruct": {
+   "provider": "nvidia",
+   "model_id": "nvidia/riva-translate-4b-instruct",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/riva-translate-4b-instruct-v1.1": {
+   "provider": "nvidia",
+   "model_id": "nvidia/riva-translate-4b-instruct-v1.1",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/riva-translate-4b-instruct-v2": {
+   "provider": "nvidia",
+   "model_id": "nvidia/riva-translate-4b-instruct-v2",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "nvidia/vila": {
+   "provider": "nvidia",
+   "model_id": "nvidia/vila",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "openai/gpt-oss-120b": {
+   "provider": "nvidia",
+   "model_id": "openai/gpt-oss-120b",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "openai",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "openai/gpt-oss-20b": {
+   "provider": "nvidia",
+   "model_id": "openai/gpt-oss-20b",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "openai",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "poolside/laguna-xs-2.1": {
+   "provider": "nvidia",
+   "model_id": "poolside/laguna-xs-2.1",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "poolside",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "snowflake/arctic-embed-l": {
+   "provider": "nvidia",
+   "model_id": "snowflake/arctic-embed-l",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "snowflake",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "stepfun-ai/step-3.7-flash": {
+   "provider": "nvidia",
+   "model_id": "stepfun-ai/step-3.7-flash",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "stepfun-ai",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "thinkingmachines/inkling": {
+   "provider": "nvidia",
+   "model_id": "thinkingmachines/inkling",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "thinkingmachines",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "writer/palmyra-creative-122b": {
+   "provider": "nvidia",
+   "model_id": "writer/palmyra-creative-122b",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "writer",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "writer/palmyra-fin-70b-32k": {
+   "provider": "nvidia",
+   "model_id": "writer/palmyra-fin-70b-32k",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "writer",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "writer/palmyra-med-70b": {
+   "provider": "nvidia",
+   "model_id": "writer/palmyra-med-70b",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "writer",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "writer/palmyra-med-70b-32k": {
+   "provider": "nvidia",
+   "model_id": "writer/palmyra-med-70b-32k",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "writer",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "zyphra/zamba2-7b-instruct": {
+   "provider": "nvidia",
+   "model_id": "zyphra/zamba2-7b-instruct",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "zyphra",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  }
+ },
+ "stats": {
+  "api_models": 102,
+  "models": 102
+ },
+ "warnings": [],
+ "extra": {}
+}

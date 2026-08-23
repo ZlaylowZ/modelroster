@@ -1,0 +1,2175 @@
+{
+ "provider": "anthropic",
+ "schema_version": 2,
+ "parser_version": "2026.08.23-1",
+ "retrieved_at": "2026-08-23T18:49:57Z",
+ "sources": {
+  "listing": "https://api.anthropic.com/v1/models"
+ },
+ "model_order": [
+  "claude-opus-5",
+  "claude-sonnet-5",
+  "claude-fable-5",
+  "claude-opus-4-8",
+  "claude-opus-4-7",
+  "claude-sonnet-4-6",
+  "claude-opus-4-6",
+  "claude-opus-4-5-20251101",
+  "claude-haiku-4-5-20251001",
+  "claude-sonnet-4-5-20250929"
+ ],
+ "models": {
+  "claude-opus-5": {
+   "provider": "anthropic",
+   "model_id": "claude-opus-5",
+   "display_name": "Claude Opus 5",
+   "description": null,
+   "family": "claude-opus-5",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": "2026-07-24",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 1000000,
+   "max_input_tokens": 1000000,
+   "max_output_tokens": 128000,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": true,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": true,
+    "reasoning_efforts": [
+     "low",
+     "medium",
+     "high",
+     "xhigh",
+     "max"
+    ],
+    "default_effort": null,
+    "extended_thinking": true,
+    "tool_calling": true,
+    "structured_outputs": true,
+    "streaming": true,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": true,
+    "citations": true,
+    "code_execution": true,
+    "pdf_input": true,
+    "extra": {
+     "effort_supported": true,
+     "thinking_types": [
+      "adaptive"
+     ],
+     "context_management": true,
+     "context_management.clear_tool_uses_20250919": true,
+     "context_management.clear_thinking_20251015": true,
+     "context_management.compact_20260112": true
+    }
+   },
+   "endpoints": {
+    "messages": true
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "max_input_tokens": {
+     "section": "api:/v1/models",
+     "evidence": "model object field"
+    },
+    "max_output_tokens": {
+     "section": "api:/v1/models",
+     "evidence": "model object field"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "model object field",
+     "note": "max_input_tokens reported as context window"
+    },
+    "reasoning_efforts": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities object"
+    },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.thinking.supported"
+    },
+    "extended_thinking": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.thinking.supported"
+    },
+    "batch": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.batch.supported"
+    },
+    "citations": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.citations.supported"
+    },
+    "code_execution": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.code_execution.supported"
+    },
+    "pdf_input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.pdf_input.supported"
+    },
+    "structured_outputs": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.structured_outputs.supported"
+    },
+    "modalities.image.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.image_input.supported"
+    },
+    "modalities.text": {
+     "section": "api:/v1/models",
+     "evidence": "Messages API model (text in/out)"
+    },
+    "tool_calling": {
+     "section": "provider_docs",
+     "evidence": "provider-wide statement",
+     "url": "https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/overview"
+    },
+    "streaming": {
+     "section": "provider_docs",
+     "evidence": "provider-wide statement",
+     "url": "https://docs.anthropic.com/en/docs/build-with-claude/streaming"
+    },
+    "endpoints.messages": {
+     "section": "api:/v1/models",
+     "evidence": "listed by the Messages API models endpoint"
+    }
+   },
+   "sources": {
+    "listing": "https://api.anthropic.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created_at": "2026-07-24T00:00:00Z",
+    "type": "model",
+    "capabilities": {
+     "batch": {
+      "supported": true
+     },
+     "citations": {
+      "supported": true
+     },
+     "code_execution": {
+      "supported": true
+     },
+     "context_management": {
+      "supported": true,
+      "clear_tool_uses_20250919": {
+       "supported": true
+      },
+      "clear_thinking_20251015": {
+       "supported": true
+      },
+      "compact_20260112": {
+       "supported": true
+      }
+     },
+     "effort": {
+      "supported": true,
+      "low": {
+       "supported": true
+      },
+      "medium": {
+       "supported": true
+      },
+      "high": {
+       "supported": true
+      },
+      "xhigh": {
+       "supported": true
+      },
+      "max": {
+       "supported": true
+      }
+     },
+     "image_input": {
+      "supported": true
+     },
+     "pdf_input": {
+      "supported": true
+     },
+     "structured_outputs": {
+      "supported": true
+     },
+     "thinking": {
+      "supported": true,
+      "types": {
+       "enabled": {
+        "supported": false
+       },
+       "adaptive": {
+        "supported": true
+       }
+      }
+     }
+    }
+   },
+   "retrieved_at": "2026-08-23T18:49:57Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "claude-sonnet-5": {
+   "provider": "anthropic",
+   "model_id": "claude-sonnet-5",
+   "display_name": "Claude Sonnet 5",
+   "description": null,
+   "family": "claude-sonnet-5",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": "2026-06-29",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 1000000,
+   "max_input_tokens": 1000000,
+   "max_output_tokens": 128000,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": true,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": true,
+    "reasoning_efforts": [
+     "low",
+     "medium",
+     "high",
+     "xhigh",
+     "max"
+    ],
+    "default_effort": null,
+    "extended_thinking": true,
+    "tool_calling": true,
+    "structured_outputs": true,
+    "streaming": true,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": true,
+    "citations": true,
+    "code_execution": true,
+    "pdf_input": true,
+    "extra": {
+     "effort_supported": true,
+     "thinking_types": [
+      "adaptive"
+     ],
+     "context_management": true,
+     "context_management.clear_tool_uses_20250919": true,
+     "context_management.clear_thinking_20251015": true,
+     "context_management.compact_20260112": true
+    }
+   },
+   "endpoints": {
+    "messages": true
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "max_input_tokens": {
+     "section": "api:/v1/models",
+     "evidence": "model object field"
+    },
+    "max_output_tokens": {
+     "section": "api:/v1/models",
+     "evidence": "model object field"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "model object field",
+     "note": "max_input_tokens reported as context window"
+    },
+    "reasoning_efforts": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities object"
+    },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.thinking.supported"
+    },
+    "extended_thinking": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.thinking.supported"
+    },
+    "batch": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.batch.supported"
+    },
+    "citations": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.citations.supported"
+    },
+    "code_execution": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.code_execution.supported"
+    },
+    "pdf_input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.pdf_input.supported"
+    },
+    "structured_outputs": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.structured_outputs.supported"
+    },
+    "modalities.image.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.image_input.supported"
+    },
+    "modalities.text": {
+     "section": "api:/v1/models",
+     "evidence": "Messages API model (text in/out)"
+    },
+    "tool_calling": {
+     "section": "provider_docs",
+     "evidence": "provider-wide statement",
+     "url": "https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/overview"
+    },
+    "streaming": {
+     "section": "provider_docs",
+     "evidence": "provider-wide statement",
+     "url": "https://docs.anthropic.com/en/docs/build-with-claude/streaming"
+    },
+    "endpoints.messages": {
+     "section": "api:/v1/models",
+     "evidence": "listed by the Messages API models endpoint"
+    }
+   },
+   "sources": {
+    "listing": "https://api.anthropic.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created_at": "2026-06-29T00:00:00Z",
+    "type": "model",
+    "capabilities": {
+     "batch": {
+      "supported": true
+     },
+     "citations": {
+      "supported": true
+     },
+     "code_execution": {
+      "supported": true
+     },
+     "context_management": {
+      "supported": true,
+      "clear_tool_uses_20250919": {
+       "supported": true
+      },
+      "clear_thinking_20251015": {
+       "supported": true
+      },
+      "compact_20260112": {
+       "supported": true
+      }
+     },
+     "effort": {
+      "supported": true,
+      "low": {
+       "supported": true
+      },
+      "medium": {
+       "supported": true
+      },
+      "high": {
+       "supported": true
+      },
+      "xhigh": {
+       "supported": true
+      },
+      "max": {
+       "supported": true
+      }
+     },
+     "image_input": {
+      "supported": true
+     },
+     "pdf_input": {
+      "supported": true
+     },
+     "structured_outputs": {
+      "supported": true
+     },
+     "thinking": {
+      "supported": true,
+      "types": {
+       "enabled": {
+        "supported": false
+       },
+       "adaptive": {
+        "supported": true
+       }
+      }
+     }
+    }
+   },
+   "retrieved_at": "2026-08-23T18:49:57Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "claude-fable-5": {
+   "provider": "anthropic",
+   "model_id": "claude-fable-5",
+   "display_name": "Claude Fable 5",
+   "description": null,
+   "family": "claude-fable-5",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": "2026-06-07",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 1000000,
+   "max_input_tokens": 1000000,
+   "max_output_tokens": 128000,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": true,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": true,
+    "reasoning_efforts": [
+     "low",
+     "medium",
+     "high",
+     "xhigh",
+     "max"
+    ],
+    "default_effort": null,
+    "extended_thinking": true,
+    "tool_calling": true,
+    "structured_outputs": true,
+    "streaming": true,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": true,
+    "citations": true,
+    "code_execution": true,
+    "pdf_input": true,
+    "extra": {
+     "effort_supported": true,
+     "thinking_types": [
+      "adaptive"
+     ],
+     "context_management": true,
+     "context_management.clear_tool_uses_20250919": true,
+     "context_management.clear_thinking_20251015": true,
+     "context_management.compact_20260112": true
+    }
+   },
+   "endpoints": {
+    "messages": true
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "max_input_tokens": {
+     "section": "api:/v1/models",
+     "evidence": "model object field"
+    },
+    "max_output_tokens": {
+     "section": "api:/v1/models",
+     "evidence": "model object field"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "model object field",
+     "note": "max_input_tokens reported as context window"
+    },
+    "reasoning_efforts": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities object"
+    },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.thinking.supported"
+    },
+    "extended_thinking": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.thinking.supported"
+    },
+    "batch": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.batch.supported"
+    },
+    "citations": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.citations.supported"
+    },
+    "code_execution": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.code_execution.supported"
+    },
+    "pdf_input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.pdf_input.supported"
+    },
+    "structured_outputs": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.structured_outputs.supported"
+    },
+    "modalities.image.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.image_input.supported"
+    },
+    "modalities.text": {
+     "section": "api:/v1/models",
+     "evidence": "Messages API model (text in/out)"
+    },
+    "tool_calling": {
+     "section": "provider_docs",
+     "evidence": "provider-wide statement",
+     "url": "https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/overview"
+    },
+    "streaming": {
+     "section": "provider_docs",
+     "evidence": "provider-wide statement",
+     "url": "https://docs.anthropic.com/en/docs/build-with-claude/streaming"
+    },
+    "endpoints.messages": {
+     "section": "api:/v1/models",
+     "evidence": "listed by the Messages API models endpoint"
+    }
+   },
+   "sources": {
+    "listing": "https://api.anthropic.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created_at": "2026-06-07T00:00:00Z",
+    "type": "model",
+    "capabilities": {
+     "batch": {
+      "supported": true
+     },
+     "citations": {
+      "supported": true
+     },
+     "code_execution": {
+      "supported": true
+     },
+     "context_management": {
+      "supported": true,
+      "clear_tool_uses_20250919": {
+       "supported": true
+      },
+      "clear_thinking_20251015": {
+       "supported": true
+      },
+      "compact_20260112": {
+       "supported": true
+      }
+     },
+     "effort": {
+      "supported": true,
+      "low": {
+       "supported": true
+      },
+      "medium": {
+       "supported": true
+      },
+      "high": {
+       "supported": true
+      },
+      "xhigh": {
+       "supported": true
+      },
+      "max": {
+       "supported": true
+      }
+     },
+     "image_input": {
+      "supported": true
+     },
+     "pdf_input": {
+      "supported": true
+     },
+     "structured_outputs": {
+      "supported": true
+     },
+     "thinking": {
+      "supported": true,
+      "types": {
+       "enabled": {
+        "supported": false
+       },
+       "adaptive": {
+        "supported": true
+       }
+      }
+     }
+    }
+   },
+   "retrieved_at": "2026-08-23T18:49:57Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "claude-opus-4-8": {
+   "provider": "anthropic",
+   "model_id": "claude-opus-4-8",
+   "display_name": "Claude Opus 4.8",
+   "description": null,
+   "family": "claude-opus-4-8",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": "2026-05-28",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 1000000,
+   "max_input_tokens": 1000000,
+   "max_output_tokens": 128000,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": true,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": true,
+    "reasoning_efforts": [
+     "low",
+     "medium",
+     "high",
+     "xhigh",
+     "max"
+    ],
+    "default_effort": null,
+    "extended_thinking": true,
+    "tool_calling": true,
+    "structured_outputs": true,
+    "streaming": true,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": true,
+    "citations": true,
+    "code_execution": true,
+    "pdf_input": true,
+    "extra": {
+     "effort_supported": true,
+     "thinking_types": [
+      "adaptive"
+     ],
+     "context_management": true,
+     "context_management.clear_tool_uses_20250919": true,
+     "context_management.clear_thinking_20251015": true,
+     "context_management.compact_20260112": true
+    }
+   },
+   "endpoints": {
+    "messages": true
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "max_input_tokens": {
+     "section": "api:/v1/models",
+     "evidence": "model object field"
+    },
+    "max_output_tokens": {
+     "section": "api:/v1/models",
+     "evidence": "model object field"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "model object field",
+     "note": "max_input_tokens reported as context window"
+    },
+    "reasoning_efforts": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities object"
+    },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.thinking.supported"
+    },
+    "extended_thinking": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.thinking.supported"
+    },
+    "batch": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.batch.supported"
+    },
+    "citations": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.citations.supported"
+    },
+    "code_execution": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.code_execution.supported"
+    },
+    "pdf_input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.pdf_input.supported"
+    },
+    "structured_outputs": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.structured_outputs.supported"
+    },
+    "modalities.image.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.image_input.supported"
+    },
+    "modalities.text": {
+     "section": "api:/v1/models",
+     "evidence": "Messages API model (text in/out)"
+    },
+    "tool_calling": {
+     "section": "provider_docs",
+     "evidence": "provider-wide statement",
+     "url": "https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/overview"
+    },
+    "streaming": {
+     "section": "provider_docs",
+     "evidence": "provider-wide statement",
+     "url": "https://docs.anthropic.com/en/docs/build-with-claude/streaming"
+    },
+    "endpoints.messages": {
+     "section": "api:/v1/models",
+     "evidence": "listed by the Messages API models endpoint"
+    }
+   },
+   "sources": {
+    "listing": "https://api.anthropic.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created_at": "2026-05-28T00:00:00Z",
+    "type": "model",
+    "capabilities": {
+     "batch": {
+      "supported": true
+     },
+     "citations": {
+      "supported": true
+     },
+     "code_execution": {
+      "supported": true
+     },
+     "context_management": {
+      "supported": true,
+      "clear_tool_uses_20250919": {
+       "supported": true
+      },
+      "clear_thinking_20251015": {
+       "supported": true
+      },
+      "compact_20260112": {
+       "supported": true
+      }
+     },
+     "effort": {
+      "supported": true,
+      "low": {
+       "supported": true
+      },
+      "medium": {
+       "supported": true
+      },
+      "high": {
+       "supported": true
+      },
+      "xhigh": {
+       "supported": true
+      },
+      "max": {
+       "supported": true
+      }
+     },
+     "image_input": {
+      "supported": true
+     },
+     "pdf_input": {
+      "supported": true
+     },
+     "structured_outputs": {
+      "supported": true
+     },
+     "thinking": {
+      "supported": true,
+      "types": {
+       "enabled": {
+        "supported": false
+       },
+       "adaptive": {
+        "supported": true
+       }
+      }
+     }
+    }
+   },
+   "retrieved_at": "2026-08-23T18:49:57Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "claude-opus-4-7": {
+   "provider": "anthropic",
+   "model_id": "claude-opus-4-7",
+   "display_name": "Claude Opus 4.7",
+   "description": null,
+   "family": "claude-opus-4-7",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": "2026-04-14",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 1000000,
+   "max_input_tokens": 1000000,
+   "max_output_tokens": 128000,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": true,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": true,
+    "reasoning_efforts": [
+     "low",
+     "medium",
+     "high",
+     "xhigh",
+     "max"
+    ],
+    "default_effort": null,
+    "extended_thinking": true,
+    "tool_calling": true,
+    "structured_outputs": true,
+    "streaming": true,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": true,
+    "citations": true,
+    "code_execution": true,
+    "pdf_input": true,
+    "extra": {
+     "effort_supported": true,
+     "thinking_types": [
+      "adaptive"
+     ],
+     "context_management": true,
+     "context_management.clear_tool_uses_20250919": true,
+     "context_management.clear_thinking_20251015": true,
+     "context_management.compact_20260112": true
+    }
+   },
+   "endpoints": {
+    "messages": true
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "max_input_tokens": {
+     "section": "api:/v1/models",
+     "evidence": "model object field"
+    },
+    "max_output_tokens": {
+     "section": "api:/v1/models",
+     "evidence": "model object field"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "model object field",
+     "note": "max_input_tokens reported as context window"
+    },
+    "reasoning_efforts": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities object"
+    },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.thinking.supported"
+    },
+    "extended_thinking": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.thinking.supported"
+    },
+    "batch": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.batch.supported"
+    },
+    "citations": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.citations.supported"
+    },
+    "code_execution": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.code_execution.supported"
+    },
+    "pdf_input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.pdf_input.supported"
+    },
+    "structured_outputs": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.structured_outputs.supported"
+    },
+    "modalities.image.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.image_input.supported"
+    },
+    "modalities.text": {
+     "section": "api:/v1/models",
+     "evidence": "Messages API model (text in/out)"
+    },
+    "tool_calling": {
+     "section": "provider_docs",
+     "evidence": "provider-wide statement",
+     "url": "https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/overview"
+    },
+    "streaming": {
+     "section": "provider_docs",
+     "evidence": "provider-wide statement",
+     "url": "https://docs.anthropic.com/en/docs/build-with-claude/streaming"
+    },
+    "endpoints.messages": {
+     "section": "api:/v1/models",
+     "evidence": "listed by the Messages API models endpoint"
+    }
+   },
+   "sources": {
+    "listing": "https://api.anthropic.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created_at": "2026-04-14T00:00:00Z",
+    "type": "model",
+    "capabilities": {
+     "batch": {
+      "supported": true
+     },
+     "citations": {
+      "supported": true
+     },
+     "code_execution": {
+      "supported": true
+     },
+     "context_management": {
+      "supported": true,
+      "clear_tool_uses_20250919": {
+       "supported": true
+      },
+      "clear_thinking_20251015": {
+       "supported": true
+      },
+      "compact_20260112": {
+       "supported": true
+      }
+     },
+     "effort": {
+      "supported": true,
+      "low": {
+       "supported": true
+      },
+      "medium": {
+       "supported": true
+      },
+      "high": {
+       "supported": true
+      },
+      "xhigh": {
+       "supported": true
+      },
+      "max": {
+       "supported": true
+      }
+     },
+     "image_input": {
+      "supported": true
+     },
+     "pdf_input": {
+      "supported": true
+     },
+     "structured_outputs": {
+      "supported": true
+     },
+     "thinking": {
+      "supported": true,
+      "types": {
+       "enabled": {
+        "supported": false
+       },
+       "adaptive": {
+        "supported": true
+       }
+      }
+     }
+    }
+   },
+   "retrieved_at": "2026-08-23T18:49:57Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "claude-sonnet-4-6": {
+   "provider": "anthropic",
+   "model_id": "claude-sonnet-4-6",
+   "display_name": "Claude Sonnet 4.6",
+   "description": null,
+   "family": "claude-sonnet-4-6",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": "2026-02-17",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 1000000,
+   "max_input_tokens": 1000000,
+   "max_output_tokens": 128000,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": true,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": true,
+    "reasoning_efforts": [
+     "low",
+     "medium",
+     "high",
+     "max"
+    ],
+    "default_effort": null,
+    "extended_thinking": true,
+    "tool_calling": true,
+    "structured_outputs": true,
+    "streaming": true,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": true,
+    "citations": true,
+    "code_execution": true,
+    "pdf_input": true,
+    "extra": {
+     "effort_supported": true,
+     "thinking_types": [
+      "enabled",
+      "adaptive"
+     ],
+     "context_management": true,
+     "context_management.clear_tool_uses_20250919": true,
+     "context_management.clear_thinking_20251015": true,
+     "context_management.compact_20260112": true
+    }
+   },
+   "endpoints": {
+    "messages": true
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "max_input_tokens": {
+     "section": "api:/v1/models",
+     "evidence": "model object field"
+    },
+    "max_output_tokens": {
+     "section": "api:/v1/models",
+     "evidence": "model object field"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "model object field",
+     "note": "max_input_tokens reported as context window"
+    },
+    "reasoning_efforts": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities object"
+    },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.thinking.supported"
+    },
+    "extended_thinking": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.thinking.supported"
+    },
+    "batch": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.batch.supported"
+    },
+    "citations": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.citations.supported"
+    },
+    "code_execution": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.code_execution.supported"
+    },
+    "pdf_input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.pdf_input.supported"
+    },
+    "structured_outputs": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.structured_outputs.supported"
+    },
+    "modalities.image.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.image_input.supported"
+    },
+    "modalities.text": {
+     "section": "api:/v1/models",
+     "evidence": "Messages API model (text in/out)"
+    },
+    "tool_calling": {
+     "section": "provider_docs",
+     "evidence": "provider-wide statement",
+     "url": "https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/overview"
+    },
+    "streaming": {
+     "section": "provider_docs",
+     "evidence": "provider-wide statement",
+     "url": "https://docs.anthropic.com/en/docs/build-with-claude/streaming"
+    },
+    "endpoints.messages": {
+     "section": "api:/v1/models",
+     "evidence": "listed by the Messages API models endpoint"
+    }
+   },
+   "sources": {
+    "listing": "https://api.anthropic.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created_at": "2026-02-17T00:00:00Z",
+    "type": "model",
+    "capabilities": {
+     "batch": {
+      "supported": true
+     },
+     "citations": {
+      "supported": true
+     },
+     "code_execution": {
+      "supported": true
+     },
+     "context_management": {
+      "supported": true,
+      "clear_tool_uses_20250919": {
+       "supported": true
+      },
+      "clear_thinking_20251015": {
+       "supported": true
+      },
+      "compact_20260112": {
+       "supported": true
+      }
+     },
+     "effort": {
+      "supported": true,
+      "low": {
+       "supported": true
+      },
+      "medium": {
+       "supported": true
+      },
+      "high": {
+       "supported": true
+      },
+      "xhigh": {
+       "supported": false
+      },
+      "max": {
+       "supported": true
+      }
+     },
+     "image_input": {
+      "supported": true
+     },
+     "pdf_input": {
+      "supported": true
+     },
+     "structured_outputs": {
+      "supported": true
+     },
+     "thinking": {
+      "supported": true,
+      "types": {
+       "enabled": {
+        "supported": true
+       },
+       "adaptive": {
+        "supported": true
+       }
+      }
+     }
+    }
+   },
+   "retrieved_at": "2026-08-23T18:49:57Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "claude-opus-4-6": {
+   "provider": "anthropic",
+   "model_id": "claude-opus-4-6",
+   "display_name": "Claude Opus 4.6",
+   "description": null,
+   "family": "claude-opus-4-6",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": "2026-02-04",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 1000000,
+   "max_input_tokens": 1000000,
+   "max_output_tokens": 128000,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": true,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": true,
+    "reasoning_efforts": [
+     "low",
+     "medium",
+     "high",
+     "max"
+    ],
+    "default_effort": null,
+    "extended_thinking": true,
+    "tool_calling": true,
+    "structured_outputs": true,
+    "streaming": true,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": true,
+    "citations": true,
+    "code_execution": true,
+    "pdf_input": true,
+    "extra": {
+     "effort_supported": true,
+     "thinking_types": [
+      "enabled",
+      "adaptive"
+     ],
+     "context_management": true,
+     "context_management.clear_tool_uses_20250919": true,
+     "context_management.clear_thinking_20251015": true,
+     "context_management.compact_20260112": true
+    }
+   },
+   "endpoints": {
+    "messages": true
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "max_input_tokens": {
+     "section": "api:/v1/models",
+     "evidence": "model object field"
+    },
+    "max_output_tokens": {
+     "section": "api:/v1/models",
+     "evidence": "model object field"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "model object field",
+     "note": "max_input_tokens reported as context window"
+    },
+    "reasoning_efforts": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities object"
+    },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.thinking.supported"
+    },
+    "extended_thinking": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.thinking.supported"
+    },
+    "batch": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.batch.supported"
+    },
+    "citations": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.citations.supported"
+    },
+    "code_execution": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.code_execution.supported"
+    },
+    "pdf_input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.pdf_input.supported"
+    },
+    "structured_outputs": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.structured_outputs.supported"
+    },
+    "modalities.image.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.image_input.supported"
+    },
+    "modalities.text": {
+     "section": "api:/v1/models",
+     "evidence": "Messages API model (text in/out)"
+    },
+    "tool_calling": {
+     "section": "provider_docs",
+     "evidence": "provider-wide statement",
+     "url": "https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/overview"
+    },
+    "streaming": {
+     "section": "provider_docs",
+     "evidence": "provider-wide statement",
+     "url": "https://docs.anthropic.com/en/docs/build-with-claude/streaming"
+    },
+    "endpoints.messages": {
+     "section": "api:/v1/models",
+     "evidence": "listed by the Messages API models endpoint"
+    }
+   },
+   "sources": {
+    "listing": "https://api.anthropic.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created_at": "2026-02-04T00:00:00Z",
+    "type": "model",
+    "capabilities": {
+     "batch": {
+      "supported": true
+     },
+     "citations": {
+      "supported": true
+     },
+     "code_execution": {
+      "supported": true
+     },
+     "context_management": {
+      "supported": true,
+      "clear_tool_uses_20250919": {
+       "supported": true
+      },
+      "clear_thinking_20251015": {
+       "supported": true
+      },
+      "compact_20260112": {
+       "supported": true
+      }
+     },
+     "effort": {
+      "supported": true,
+      "low": {
+       "supported": true
+      },
+      "medium": {
+       "supported": true
+      },
+      "high": {
+       "supported": true
+      },
+      "xhigh": {
+       "supported": false
+      },
+      "max": {
+       "supported": true
+      }
+     },
+     "image_input": {
+      "supported": true
+     },
+     "pdf_input": {
+      "supported": true
+     },
+     "structured_outputs": {
+      "supported": true
+     },
+     "thinking": {
+      "supported": true,
+      "types": {
+       "enabled": {
+        "supported": true
+       },
+       "adaptive": {
+        "supported": true
+       }
+      }
+     }
+    }
+   },
+   "retrieved_at": "2026-08-23T18:49:57Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "claude-opus-4-5-20251101": {
+   "provider": "anthropic",
+   "model_id": "claude-opus-4-5-20251101",
+   "display_name": "Claude Opus 4.5",
+   "description": null,
+   "family": "claude-opus-4-5-20251101",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": "2025-11-24",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 200000,
+   "max_input_tokens": 200000,
+   "max_output_tokens": 64000,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": true,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": true,
+    "reasoning_efforts": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "default_effort": null,
+    "extended_thinking": true,
+    "tool_calling": true,
+    "structured_outputs": true,
+    "streaming": true,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": true,
+    "citations": true,
+    "code_execution": true,
+    "pdf_input": true,
+    "extra": {
+     "effort_supported": true,
+     "thinking_types": [
+      "enabled"
+     ],
+     "context_management": true,
+     "context_management.clear_tool_uses_20250919": true,
+     "context_management.clear_thinking_20251015": true,
+     "context_management.compact_20260112": false
+    }
+   },
+   "endpoints": {
+    "messages": true
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "max_input_tokens": {
+     "section": "api:/v1/models",
+     "evidence": "model object field"
+    },
+    "max_output_tokens": {
+     "section": "api:/v1/models",
+     "evidence": "model object field"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "model object field",
+     "note": "max_input_tokens reported as context window"
+    },
+    "reasoning_efforts": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities object"
+    },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.thinking.supported"
+    },
+    "extended_thinking": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.thinking.supported"
+    },
+    "batch": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.batch.supported"
+    },
+    "citations": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.citations.supported"
+    },
+    "code_execution": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.code_execution.supported"
+    },
+    "pdf_input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.pdf_input.supported"
+    },
+    "structured_outputs": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.structured_outputs.supported"
+    },
+    "modalities.image.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.image_input.supported"
+    },
+    "modalities.text": {
+     "section": "api:/v1/models",
+     "evidence": "Messages API model (text in/out)"
+    },
+    "tool_calling": {
+     "section": "provider_docs",
+     "evidence": "provider-wide statement",
+     "url": "https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/overview"
+    },
+    "streaming": {
+     "section": "provider_docs",
+     "evidence": "provider-wide statement",
+     "url": "https://docs.anthropic.com/en/docs/build-with-claude/streaming"
+    },
+    "endpoints.messages": {
+     "section": "api:/v1/models",
+     "evidence": "listed by the Messages API models endpoint"
+    }
+   },
+   "sources": {
+    "listing": "https://api.anthropic.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created_at": "2025-11-24T00:00:00Z",
+    "type": "model",
+    "capabilities": {
+     "batch": {
+      "supported": true
+     },
+     "citations": {
+      "supported": true
+     },
+     "code_execution": {
+      "supported": true
+     },
+     "context_management": {
+      "supported": true,
+      "clear_tool_uses_20250919": {
+       "supported": true
+      },
+      "clear_thinking_20251015": {
+       "supported": true
+      },
+      "compact_20260112": {
+       "supported": false
+      }
+     },
+     "effort": {
+      "supported": true,
+      "low": {
+       "supported": true
+      },
+      "medium": {
+       "supported": true
+      },
+      "high": {
+       "supported": true
+      },
+      "xhigh": {
+       "supported": false
+      },
+      "max": {
+       "supported": false
+      }
+     },
+     "image_input": {
+      "supported": true
+     },
+     "pdf_input": {
+      "supported": true
+     },
+     "structured_outputs": {
+      "supported": true
+     },
+     "thinking": {
+      "supported": true,
+      "types": {
+       "enabled": {
+        "supported": true
+       },
+       "adaptive": {
+        "supported": false
+       }
+      }
+     }
+    }
+   },
+   "retrieved_at": "2026-08-23T18:49:57Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "claude-haiku-4-5-20251001": {
+   "provider": "anthropic",
+   "model_id": "claude-haiku-4-5-20251001",
+   "display_name": "Claude Haiku 4.5",
+   "description": null,
+   "family": "claude-haiku-4-5-20251001",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": "2025-10-15",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 200000,
+   "max_input_tokens": 200000,
+   "max_output_tokens": 64000,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": true,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": true,
+    "reasoning_efforts": [],
+    "default_effort": null,
+    "extended_thinking": true,
+    "tool_calling": true,
+    "structured_outputs": true,
+    "streaming": true,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": true,
+    "citations": true,
+    "code_execution": false,
+    "pdf_input": true,
+    "extra": {
+     "effort_supported": false,
+     "thinking_types": [
+      "enabled"
+     ],
+     "context_management": true,
+     "context_management.clear_tool_uses_20250919": true,
+     "context_management.clear_thinking_20251015": true,
+     "context_management.compact_20260112": false
+    }
+   },
+   "endpoints": {
+    "messages": true
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "max_input_tokens": {
+     "section": "api:/v1/models",
+     "evidence": "model object field"
+    },
+    "max_output_tokens": {
+     "section": "api:/v1/models",
+     "evidence": "model object field"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "model object field",
+     "note": "max_input_tokens reported as context window"
+    },
+    "reasoning_efforts": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities object"
+    },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.thinking.supported"
+    },
+    "extended_thinking": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.thinking.supported"
+    },
+    "batch": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.batch.supported"
+    },
+    "citations": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.citations.supported"
+    },
+    "code_execution": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.code_execution.supported"
+    },
+    "pdf_input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.pdf_input.supported"
+    },
+    "structured_outputs": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.structured_outputs.supported"
+    },
+    "modalities.image.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.image_input.supported"
+    },
+    "modalities.text": {
+     "section": "api:/v1/models",
+     "evidence": "Messages API model (text in/out)"
+    },
+    "tool_calling": {
+     "section": "provider_docs",
+     "evidence": "provider-wide statement",
+     "url": "https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/overview"
+    },
+    "streaming": {
+     "section": "provider_docs",
+     "evidence": "provider-wide statement",
+     "url": "https://docs.anthropic.com/en/docs/build-with-claude/streaming"
+    },
+    "endpoints.messages": {
+     "section": "api:/v1/models",
+     "evidence": "listed by the Messages API models endpoint"
+    }
+   },
+   "sources": {
+    "listing": "https://api.anthropic.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created_at": "2025-10-15T00:00:00Z",
+    "type": "model",
+    "capabilities": {
+     "batch": {
+      "supported": true
+     },
+     "citations": {
+      "supported": true
+     },
+     "code_execution": {
+      "supported": false
+     },
+     "context_management": {
+      "supported": true,
+      "clear_tool_uses_20250919": {
+       "supported": true
+      },
+      "clear_thinking_20251015": {
+       "supported": true
+      },
+      "compact_20260112": {
+       "supported": false
+      }
+     },
+     "effort": {
+      "supported": false,
+      "low": {
+       "supported": false
+      },
+      "medium": {
+       "supported": false
+      },
+      "high": {
+       "supported": false
+      },
+      "xhigh": {
+       "supported": false
+      },
+      "max": {
+       "supported": false
+      }
+     },
+     "image_input": {
+      "supported": true
+     },
+     "pdf_input": {
+      "supported": true
+     },
+     "structured_outputs": {
+      "supported": true
+     },
+     "thinking": {
+      "supported": true,
+      "types": {
+       "enabled": {
+        "supported": true
+       },
+       "adaptive": {
+        "supported": false
+       }
+      }
+     }
+    }
+   },
+   "retrieved_at": "2026-08-23T18:49:57Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "claude-sonnet-4-5-20250929": {
+   "provider": "anthropic",
+   "model_id": "claude-sonnet-4-5-20250929",
+   "display_name": "Claude Sonnet 4.5",
+   "description": null,
+   "family": "claude-sonnet-4-5-20250929",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": "2025-09-29",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 1000000,
+   "max_input_tokens": 1000000,
+   "max_output_tokens": 64000,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": true,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": true,
+    "reasoning_efforts": [],
+    "default_effort": null,
+    "extended_thinking": true,
+    "tool_calling": true,
+    "structured_outputs": true,
+    "streaming": true,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": true,
+    "citations": true,
+    "code_execution": true,
+    "pdf_input": true,
+    "extra": {
+     "effort_supported": false,
+     "thinking_types": [
+      "enabled"
+     ],
+     "context_management": true,
+     "context_management.clear_tool_uses_20250919": true,
+     "context_management.clear_thinking_20251015": true,
+     "context_management.compact_20260112": false
+    }
+   },
+   "endpoints": {
+    "messages": true
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "max_input_tokens": {
+     "section": "api:/v1/models",
+     "evidence": "model object field"
+    },
+    "max_output_tokens": {
+     "section": "api:/v1/models",
+     "evidence": "model object field"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "model object field",
+     "note": "max_input_tokens reported as context window"
+    },
+    "reasoning_efforts": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities object"
+    },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.thinking.supported"
+    },
+    "extended_thinking": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.thinking.supported"
+    },
+    "batch": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.batch.supported"
+    },
+    "citations": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.citations.supported"
+    },
+    "code_execution": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.code_execution.supported"
+    },
+    "pdf_input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.pdf_input.supported"
+    },
+    "structured_outputs": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.structured_outputs.supported"
+    },
+    "modalities.image.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.image_input.supported"
+    },
+    "modalities.text": {
+     "section": "api:/v1/models",
+     "evidence": "Messages API model (text in/out)"
+    },
+    "tool_calling": {
+     "section": "provider_docs",
+     "evidence": "provider-wide statement",
+     "url": "https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/overview"
+    },
+    "streaming": {
+     "section": "provider_docs",
+     "evidence": "provider-wide statement",
+     "url": "https://docs.anthropic.com/en/docs/build-with-claude/streaming"
+    },
+    "endpoints.messages": {
+     "section": "api:/v1/models",
+     "evidence": "listed by the Messages API models endpoint"
+    }
+   },
+   "sources": {
+    "listing": "https://api.anthropic.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created_at": "2025-09-29T00:00:00Z",
+    "type": "model",
+    "capabilities": {
+     "batch": {
+      "supported": true
+     },
+     "citations": {
+      "supported": true
+     },
+     "code_execution": {
+      "supported": true
+     },
+     "context_management": {
+      "supported": true,
+      "clear_tool_uses_20250919": {
+       "supported": true
+      },
+      "clear_thinking_20251015": {
+       "supported": true
+      },
+      "compact_20260112": {
+       "supported": false
+      }
+     },
+     "effort": {
+      "supported": false,
+      "low": {
+       "supported": false
+      },
+      "medium": {
+       "supported": false
+      },
+      "high": {
+       "supported": false
+      },
+      "xhigh": {
+       "supported": false
+      },
+      "max": {
+       "supported": false
+      }
+     },
+     "image_input": {
+      "supported": true
+     },
+     "pdf_input": {
+      "supported": true
+     },
+     "structured_outputs": {
+      "supported": true
+     },
+     "thinking": {
+      "supported": true,
+      "types": {
+       "enabled": {
+        "supported": true
+       },
+       "adaptive": {
+        "supported": false
+       }
+      }
+     }
+    }
+   },
+   "retrieved_at": "2026-08-23T18:49:57Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  }
+ },
+ "stats": {
+  "api_models": 10,
+  "models": 10
+ },
+ "warnings": [],
+ "extra": {}
+}

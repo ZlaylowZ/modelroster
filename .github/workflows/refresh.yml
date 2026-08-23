@@ -1,0 +1,61 @@
+name: Daily refresh
+
+on:
+  schedule:
+    - cron: "17 6 * * *"      # 06:17 UTC daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -e ".[dev]"
+      - name: Refresh every provider (missing keys are skipped, not failed)
+        id: update
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          COHERE_API_KEY: ${{ secrets.COHERE_API_KEY }}
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+          INCEPTION_API_KEY: ${{ secrets.INCEPTION_API_KEY }}
+        run: |
+          set +e
+          modelroster update --all --no-cache | tee refresh.log
+          echo "code=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+      - name: Live test suite
+        if: steps.update.outputs.code == '0'
+        env:
+          MODELROSTER_LIVE: "1"
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python -m pytest tests/test_live.py -q
+      - name: Commit refreshed data and drift reports
+        if: steps.update.outputs.code == '0'
+        run: |
+          git config user.name "modelroster-bot"
+          git config user.email "modelroster-bot@users.noreply.github.com"
+          git add src/modelroster/data/*.json
+          if git diff --cached --quiet; then echo "no data changes"; exit 0; fi
+          git commit -m "data: daily refresh $(date -u +%F)" -m "$(modelroster diff | head -200)"
+          git push
+      - name: Open an issue on validation refusal or fetch failure
+        if: steps.update.outputs.code != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CODE: ${{ steps.update.outputs.code }}
+        run: |
+          title="Refresh failed with exit $CODE on $(date -u +%F)"
+          body="$(printf 'Exit code %s (2 = validation refused, 3 = fetch failure, 4 = usage).\n\nSee MAINTAINERS.md.\n\n```\n%s\n```' "$CODE" "$(tail -c 6000 refresh.log)")"
+          gh issue create --title "$title" --body "$body" --label refresh-failure || true
+          exit 1

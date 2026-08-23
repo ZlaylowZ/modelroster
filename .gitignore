@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+src/modelroster/data/cache/
+src/modelroster/data/*.previous.json
+src/modelroster/data/discovered/
+src/modelroster/data/*.tmp
+.env

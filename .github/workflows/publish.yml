@@ -1,0 +1,27 @@
+name: Publish to PyPI
+
+on:
+  push:
+    tags: ["v*"]
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    environment: pypi
+    permissions:
+      id-token: write      # trusted publishing
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -e ".[dev]" build
+      - run: python -m pytest -q
+      - run: modelroster validate
+      - name: Check the tag matches the package version
+        run: |
+          v=$(python -c "import modelroster; print(modelroster.__version__)")
+          [ "v$v" = "${GITHUB_REF_NAME}" ] || { echo "tag ${GITHUB_REF_NAME} != v$v"; exit 1; }
+      - run: python -m build
+      - uses: pypa/gh-action-pypi-publish@release/v1

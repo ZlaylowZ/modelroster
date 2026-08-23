@@ -1,0 +1,6 @@
+{"object": "list", "data": [
+ {"id": "grok-4", "created": 1752537600, "object": "model", "owned_by": "xai"},
+ {"id": "grok-4-latest", "created": 1752537600, "object": "model", "owned_by": "xai"},
+ {"id": "grok-3-mini", "created": 1743724800, "object": "model", "owned_by": "xai"},
+ {"id": "grok-2-image-1212", "created": 1733961600, "object": "model", "owned_by": "xai"}
+]}

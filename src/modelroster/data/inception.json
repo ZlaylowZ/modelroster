@@ -1,0 +1,145 @@
+{
+ "provider": "inception",
+ "schema_version": 2,
+ "parser_version": "2026.08.23-1",
+ "retrieved_at": "2026-08-23T18:50:01Z",
+ "sources": {
+  "listing": "https://api.inceptionlabs.ai/v1/models"
+ },
+ "model_order": [
+  "mercury-2"
+ ],
+ "models": {
+  "mercury-2": {
+   "provider": "inception",
+   "model_id": "mercury-2",
+   "display_name": "Inception: Mercury 2",
+   "description": "Mercury is the first diffusion large language model (dLLM). Applying a breakthrough discrete diffusion approach, the model runs 5-10x faster than even speed optimized models like Claude 3.5 Haiku and GPT-4o Mini while matching their performance. Mercury's speed means that users can stay in the flow, enjoying rapid chat-based iteration and responsive completion suggestions. On Copilot Arena, Mercury ranks 1st in speed and ties for 2nd in quality.",
+   "family": "mercury-2",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": "2025-04-01",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 128000,
+   "max_input_tokens": null,
+   "max_output_tokens": 50000,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": false,
+     "output": false
+    },
+    "audio": {
+     "input": false,
+     "output": false
+    },
+    "video": {
+     "input": false,
+     "output": false
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": true,
+    "structured_outputs": true,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {
+     "inception.tools": true,
+     "inception.json_mode": true,
+     "inception.structured_outputs": true,
+     "inception.streaming": false,
+     "inception.reasoning": false,
+     "inception.vision": false
+    }
+   },
+   "endpoints": {
+    "chat_completions": true
+   },
+   "builtin_tools": null,
+   "pricing": {
+    "input": 0.25,
+    "output": 0.75,
+    "cached_input": 0.025,
+    "currency": "USD",
+    "per": "1M tokens"
+   },
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    },
+    "modalities.input": {
+     "section": "api:/v1/models",
+     "evidence": "input_modalities"
+    },
+    "modalities.output": {
+     "section": "api:/v1/models",
+     "evidence": "output_modalities"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "context_length"
+    },
+    "max_output_tokens": {
+     "section": "api:/v1/models",
+     "evidence": "max_output_length"
+    },
+    "tool_calling": {
+     "section": "api:/v1/models",
+     "evidence": "supported_features list"
+    },
+    "structured_outputs": {
+     "section": "api:/v1/models",
+     "evidence": "supported_features list"
+    },
+    "pricing": {
+     "section": "api:/v1/models",
+     "evidence": "pricing per token x 1e6"
+    },
+    "endpoints.chat_completions": {
+     "section": "api:/v1/models",
+     "evidence": "listed by the OpenAI-compatible models endpoint"
+    }
+   },
+   "sources": {
+    "listing": "https://api.inceptionlabs.ai/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 1743465660,
+    "supported_sampling_parameters": [
+     "temperature",
+     "stop"
+    ]
+   },
+   "retrieved_at": "2026-08-23T18:50:01Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  }
+ },
+ "stats": {
+  "api_models": 1,
+  "models": 1
+ },
+ "warnings": [],
+ "extra": {}
+}

@@ -1,0 +1,10 @@
+{"models": [
+ {"id": "grok-4", "fingerprint": "fp_0", "created": 1752537600, "object": "model", "owned_by": "xai", "version": "1.0.0",
+  "input_modalities": ["text", "image"], "output_modalities": ["text"],
+  "prompt_text_token_price": 30000, "prompt_image_token_price": 30000, "cached_prompt_token_price": 7500,
+  "completion_text_token_price": 150000, "aliases": ["grok-4-latest"]},
+ {"id": "grok-3-mini", "fingerprint": "fp_1", "created": 1743724800, "object": "model", "owned_by": "xai", "version": "1.0.0",
+  "input_modalities": ["text"], "output_modalities": ["text"],
+  "prompt_text_token_price": 3000, "prompt_image_token_price": 0, "cached_prompt_token_price": 750,
+  "completion_text_token_price": 5000, "aliases": []}
+]}

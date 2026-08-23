@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: python -m pip install -e ".[dev]"
+      - name: Offline test suite
+        run: python -m pytest -q
+      - name: Fixture replay of the full pipeline (exit 0, zero page failures)
+        env:
+          ANTHROPIC_API_KEY: fixture
+          OPENAI_API_KEY: fixture
+        run: modelroster --data-dir /tmp/mr update --provider openai --provider anthropic --dry-run --fixtures tests/fixtures -q
+      - name: Shipped data validates
+        run: modelroster validate
+      - name: Wheel builds and installs cleanly with data
+        run: |
+          python -m pip install build
+          python -m build --wheel
+          python -m venv /tmp/clean && /tmp/clean/bin/pip install --no-index dist/*.whl httpx 2>/dev/null || /tmp/clean/bin/pip install dist/*.whl
+          /tmp/clean/bin/python -c "import modelroster; r = modelroster.load(); n = len(r.models(tool_calling=True, reasoning=True)); print(n); assert n > 0"
