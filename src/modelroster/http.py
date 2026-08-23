@@ -32,7 +32,7 @@ import httpx
 
 from ._version import __version__
 
-USER_AGENT = "modelroster/%s (+https://github.com/zhanson/modelroster)" % __version__
+USER_AGENT = "modelroster/%s (+https://github.com/ZlaylowZ/modelroster)" % __version__
 DEFAULT_TIMEOUT = httpx.Timeout(connect=10.0, read=30.0, write=10.0, pool=10.0)
 RETRY_STATUSES = frozenset({429, 500, 502, 503, 504})
 MAX_BACKOFF = 30.0

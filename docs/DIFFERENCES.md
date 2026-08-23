@@ -110,6 +110,14 @@ filter on provenance. Nothing else is inferred (Anthropic `prompt_caching`,
     same filters as `Registry.models`; the Nukez-specific header, `--require-
     reasoning`, and the "both registries required" rule are gone.
 27. **`refresh()`** helper for scheduled agents.
+27b. **Runtime alias index.** The prototype's `get_model` was exact-only, so a
+    documented alias the listing does not carry (`gpt-5.6`) or a retired
+    snapshot (`gpt-4-0314`) returned `None`. `Registry` now builds an
+    in-memory index of every record's `aliases[]`/`snapshots[]` at load time
+    (same deterministic conflict rule as the update pipeline; real records
+    always win) and `get`/`resolve`/`ModelRef` consult it, with `ft:<base>:...`
+    falling back to the base. Matching is still exact — the index only
+    contains ids the provider itself documented.
 
 ## Packaging and naming
 

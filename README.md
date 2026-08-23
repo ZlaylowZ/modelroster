@@ -62,10 +62,16 @@ catalog.
 | `inception` | `GET api.inceptionlabs.ai/v1/models` (public) | the same call (modalities, limits, features, pricing) | optional |
 | `ollama` | local `GET /api/tags` | local `POST /api/show` (capabilities, context) | none (`OLLAMA_HOST`) |
 
-The wheel ships data for every provider that could be refreshed without a
-private key at release time (`modelroster providers` shows what is loaded and
-when it was retrieved). Run `modelroster update` with your keys to add the rest;
-a missing key skips that provider, it is never an error.
+**Data coverage.** The wheel ships *live* data for **anthropic, openai,
+nvidia, and inception** — the providers refreshable at release time with the
+keys at hand or public listings (`modelroster providers` shows what is loaded
+and when it was retrieved). **xai, mistral, cohere, and google** currently
+have no shipped data: their test fixtures are reference-shaped (hand-written
+to each provider's public API reference, see `tests/fixtures/README.md`)
+pending real keys — the Google key available at build time was rejected with
+HTTP 400 and needs replacement. Run `modelroster update` with your own keys to
+populate them; a missing key skips that provider, it is never an error, and
+the daily refresh workflow behaves the same way.
 
 A separate **discovery tier** (`modelroster discover huggingface|ollama_library|nvidia_nim`)
 lists candidate models from broad registries with mostly-unknown capabilities.

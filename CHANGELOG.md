@@ -29,5 +29,10 @@ Initial release, ported from the `model_registry` prototype.
   full `--offline` coverage, and fixture replay.
 - Validation gates (page failures, parser regression, catalog shrink,
   header-fact loss, generic shrink) with byte-for-byte preservation on refusal.
-- Shipped data for anthropic, openai, nvidia, inception (retrieved 2026-08-23).
+- Shipped data for anthropic, openai, nvidia, inception (retrieved 2026-08-23);
+  xai, mistral, cohere, google populate via `modelroster update` with keys.
+- Runtime alias index: documented aliases, snapshots, and `ft:` bases resolve
+  through `Registry.get`/`resolve`/`ModelRef` even when the listing does not
+  carry them.
+- `py.typed` marker for downstream type-checkers.
 - GitHub Actions: offline tests on push, daily live refresh, PyPI publish on tags.

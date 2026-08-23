@@ -31,8 +31,9 @@ dev = ["pytest>=8", "python-dotenv>=1.0", "build", "twine"]
 modelroster = "modelroster.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/zhanson/modelroster"
-Changelog = "https://github.com/zhanson/modelroster/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/ZlaylowZ/modelroster"
+Repository = "https://github.com/ZlaylowZ/modelroster"
+Changelog = "https://github.com/ZlaylowZ/modelroster/blob/main/CHANGELOG.md"
 
 [tool.hatch.version]
 path = "src/modelroster/_version.py"
