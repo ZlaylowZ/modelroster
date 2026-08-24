@@ -1,11 +1,12 @@
 {
  "provider": "xai",
  "schema_version": 2,
- "parser_version": "2026.08.24-1",
- "retrieved_at": "2026-08-24T17:12:28Z",
+ "parser_version": "2026.08.24-2",
+ "retrieved_at": "2026-08-24T17:49:06Z",
  "sources": {
   "listing": "https://api.x.ai/v1/models",
-  "language_models": "https://api.x.ai/v1/language-models"
+  "language_models": "https://api.x.ai/v1/language-models",
+  "documentation": "https://docs.x.ai/developers/models/<model id>.md"
  },
  "model_order": [
   "grok-4.20-0309-non-reasoning",
@@ -25,8 +26,8 @@
   "grok-4.20-0309-non-reasoning": {
    "provider": "xai",
    "model_id": "grok-4.20-0309-non-reasoning",
-   "display_name": null,
-   "description": null,
+   "display_name": "Grok 4.20 (Non-Reasoning)",
+   "description": "Grok 4.20 is a high-performance model with industry-leading speed and agentic tool calling capabilities. It combines the lowest hallucination rate on the market with strict prompt adherence, delivering consistently precise and truthful responses.",
    "family": "grok-4.20-0309-non-reasoning",
    "aliases": [
     "grok-4.20-non-reasoning",
@@ -45,7 +46,7 @@
    "released": "2026-03-09",
    "deprecated": null,
    "shutdown_date": null,
-   "context_window": null,
+   "context_window": 1000000,
    "max_input_tokens": null,
    "max_output_tokens": null,
    "knowledge_cutoff": null,
@@ -69,16 +70,16 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
-    "tool_calling": null,
-    "structured_outputs": null,
+    "tool_calling": true,
+    "structured_outputs": true,
     "streaming": null,
     "prompt_caching": null,
     "fine_tuning": null,
-    "batch": null,
+    "batch": true,
     "citations": null,
     "code_execution": null,
     "pdf_input": null,
@@ -106,11 +107,31 @@
     "endpoints.chat_completions": {
      "section": "api:/v1/language-models",
      "evidence": "listed as a language model"
+    },
+    "tool_calling": {
+     "section": "docs:developers/models",
+     "evidence": "Capabilities bullet"
+    },
+    "structured_outputs": {
+     "section": "docs:developers/models",
+     "evidence": "Capabilities bullet"
+    },
+    "reasoning": {
+     "section": "docs:developers/models",
+     "evidence": "Capabilities bullet"
+    },
+    "batch": {
+     "section": "docs:developers/models",
+     "evidence": "At a glance: Batch API"
+    },
+    "context_window": {
+     "section": "docs:developers/models",
+     "evidence": "At a glance: Context window"
     }
    },
    "sources": {
     "listing": "https://api.x.ai/v1/models",
-    "documentation": null,
+    "documentation": "https://docs.x.ai/developers/models/grok-4.20-0309-non-reasoning.md",
     "language_models": "https://api.x.ai/v1/language-models"
    },
    "raw": {
@@ -152,15 +173,15 @@
      ]
     }
    },
-   "retrieved_at": "2026-08-24T17:12:28Z",
-   "parser_version": "2026.08.24-1",
+   "retrieved_at": "2026-08-24T17:49:06Z",
+   "parser_version": "2026.08.24-2",
    "warnings": []
   },
   "grok-4.20-0309-reasoning": {
    "provider": "xai",
    "model_id": "grok-4.20-0309-reasoning",
-   "display_name": null,
-   "description": null,
+   "display_name": "Grok 4.20",
+   "description": "Grok 4.20 is a high-performance model with industry-leading speed and agentic tool calling capabilities. It combines the lowest hallucination rate on the market with strict prompt adherence, delivering consistently precise and truthful responses.",
    "family": "grok-4.20-0309-reasoning",
    "aliases": [
     "grok-4.20-reasoning-latest",
@@ -186,7 +207,7 @@
    "released": "2026-03-09",
    "deprecated": null,
    "shutdown_date": null,
-   "context_window": null,
+   "context_window": 1000000,
    "max_input_tokens": null,
    "max_output_tokens": null,
    "knowledge_cutoff": null,
@@ -210,16 +231,16 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": true,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
-    "tool_calling": null,
-    "structured_outputs": null,
+    "tool_calling": true,
+    "structured_outputs": true,
     "streaming": null,
     "prompt_caching": null,
     "fine_tuning": null,
-    "batch": null,
+    "batch": true,
     "citations": null,
     "code_execution": null,
     "pdf_input": null,
@@ -247,11 +268,31 @@
     "endpoints.chat_completions": {
      "section": "api:/v1/language-models",
      "evidence": "listed as a language model"
+    },
+    "tool_calling": {
+     "section": "docs:developers/models",
+     "evidence": "Capabilities bullet"
+    },
+    "structured_outputs": {
+     "section": "docs:developers/models",
+     "evidence": "Capabilities bullet"
+    },
+    "reasoning": {
+     "section": "docs:developers/models",
+     "evidence": "Capabilities bullet"
+    },
+    "batch": {
+     "section": "docs:developers/models",
+     "evidence": "At a glance: Batch API"
+    },
+    "context_window": {
+     "section": "docs:developers/models",
+     "evidence": "At a glance: Context window"
     }
    },
    "sources": {
     "listing": "https://api.x.ai/v1/models",
-    "documentation": null,
+    "documentation": "https://docs.x.ai/developers/models/grok-4.20-0309-reasoning.md",
     "language_models": "https://api.x.ai/v1/language-models"
    },
    "raw": {
@@ -300,15 +341,15 @@
      ]
     }
    },
-   "retrieved_at": "2026-08-24T17:12:28Z",
-   "parser_version": "2026.08.24-1",
+   "retrieved_at": "2026-08-24T17:49:06Z",
+   "parser_version": "2026.08.24-2",
    "warnings": []
   },
   "grok-4.20-multi-agent-0309": {
    "provider": "xai",
    "model_id": "grok-4.20-multi-agent-0309",
-   "display_name": null,
-   "description": null,
+   "display_name": "Grok 4.20 Multi-Agent Beta",
+   "description": "Multiple agents collaborate in parallel to perform deep research tasks.",
    "family": "grok-4.20-multi-agent-0309",
    "aliases": [
     "grok-4.20-multi-agent",
@@ -325,7 +366,7 @@
    "released": "2026-03-09",
    "deprecated": null,
    "shutdown_date": null,
-   "context_window": null,
+   "context_window": 1000000,
    "max_input_tokens": null,
    "max_output_tokens": null,
    "knowledge_cutoff": null,
@@ -349,16 +390,16 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": true,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
-    "tool_calling": null,
-    "structured_outputs": null,
+    "tool_calling": true,
+    "structured_outputs": true,
     "streaming": null,
     "prompt_caching": null,
     "fine_tuning": null,
-    "batch": null,
+    "batch": true,
     "citations": null,
     "code_execution": null,
     "pdf_input": null,
@@ -386,11 +427,31 @@
     "endpoints.chat_completions": {
      "section": "api:/v1/language-models",
      "evidence": "listed as a language model"
+    },
+    "tool_calling": {
+     "section": "docs:developers/models",
+     "evidence": "Capabilities bullet"
+    },
+    "structured_outputs": {
+     "section": "docs:developers/models",
+     "evidence": "Capabilities bullet"
+    },
+    "reasoning": {
+     "section": "docs:developers/models",
+     "evidence": "Capabilities bullet"
+    },
+    "batch": {
+     "section": "docs:developers/models",
+     "evidence": "At a glance: Batch API"
+    },
+    "context_window": {
+     "section": "docs:developers/models",
+     "evidence": "At a glance: Context window"
     }
    },
    "sources": {
     "listing": "https://api.x.ai/v1/models",
-    "documentation": null,
+    "documentation": "https://docs.x.ai/developers/models/grok-4.20-multi-agent-0309.md",
     "language_models": "https://api.x.ai/v1/language-models"
    },
    "raw": {
@@ -430,15 +491,15 @@
      ]
     }
    },
-   "retrieved_at": "2026-08-24T17:12:28Z",
-   "parser_version": "2026.08.24-1",
+   "retrieved_at": "2026-08-24T17:49:06Z",
+   "parser_version": "2026.08.24-2",
    "warnings": []
   },
   "grok-4.3": {
    "provider": "xai",
    "model_id": "grok-4.3",
-   "display_name": null,
-   "description": null,
+   "display_name": "Grok 4.3",
+   "description": "Fast, reliable model with strong tool calling and instruction following capabilities.",
    "family": "grok-4.3",
    "aliases": [
     "grok-4.3-latest"
@@ -450,7 +511,7 @@
    "released": "2026-04-17",
    "deprecated": null,
    "shutdown_date": null,
-   "context_window": null,
+   "context_window": 1000000,
    "max_input_tokens": null,
    "max_output_tokens": null,
    "knowledge_cutoff": null,
@@ -474,16 +535,16 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": true,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
-    "tool_calling": null,
-    "structured_outputs": null,
+    "tool_calling": true,
+    "structured_outputs": true,
     "streaming": null,
     "prompt_caching": null,
     "fine_tuning": null,
-    "batch": null,
+    "batch": true,
     "citations": null,
     "code_execution": null,
     "pdf_input": null,
@@ -511,11 +572,31 @@
     "endpoints.chat_completions": {
      "section": "api:/v1/language-models",
      "evidence": "listed as a language model"
+    },
+    "tool_calling": {
+     "section": "docs:developers/models",
+     "evidence": "Capabilities bullet"
+    },
+    "structured_outputs": {
+     "section": "docs:developers/models",
+     "evidence": "Capabilities bullet"
+    },
+    "reasoning": {
+     "section": "docs:developers/models",
+     "evidence": "Capabilities bullet"
+    },
+    "batch": {
+     "section": "docs:developers/models",
+     "evidence": "At a glance: Batch API"
+    },
+    "context_window": {
+     "section": "docs:developers/models",
+     "evidence": "At a glance: Context window"
     }
    },
    "sources": {
     "listing": "https://api.x.ai/v1/models",
-    "documentation": null,
+    "documentation": "https://docs.x.ai/developers/models/grok-4.3.md",
     "language_models": "https://api.x.ai/v1/language-models"
    },
    "raw": {
@@ -550,15 +631,15 @@
      ]
     }
    },
-   "retrieved_at": "2026-08-24T17:12:28Z",
-   "parser_version": "2026.08.24-1",
+   "retrieved_at": "2026-08-24T17:49:06Z",
+   "parser_version": "2026.08.24-2",
    "warnings": []
   },
   "grok-4.5": {
    "provider": "xai",
    "model_id": "grok-4.5",
-   "display_name": null,
-   "description": null,
+   "display_name": "Grok 4.5",
+   "description": "SpaceXAI's intelligent coding model for agentic software, engineering, and workflow tasks. Trained in SpaceXAI's data centers in Memphis with new datasets spanning science, engineering, and math.",
    "family": "grok-4.5",
    "aliases": [
     "grok-4.5-latest",
@@ -571,7 +652,7 @@
    "released": "2026-06-29",
    "deprecated": null,
    "shutdown_date": null,
-   "context_window": null,
+   "context_window": 500000,
    "max_input_tokens": null,
    "max_output_tokens": null,
    "knowledge_cutoff": null,
@@ -595,16 +676,16 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": true,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
-    "tool_calling": null,
-    "structured_outputs": null,
+    "tool_calling": true,
+    "structured_outputs": true,
     "streaming": null,
     "prompt_caching": null,
     "fine_tuning": null,
-    "batch": null,
+    "batch": false,
     "citations": null,
     "code_execution": null,
     "pdf_input": null,
@@ -632,11 +713,31 @@
     "endpoints.chat_completions": {
      "section": "api:/v1/language-models",
      "evidence": "listed as a language model"
+    },
+    "tool_calling": {
+     "section": "docs:developers/models",
+     "evidence": "Capabilities bullet"
+    },
+    "structured_outputs": {
+     "section": "docs:developers/models",
+     "evidence": "Capabilities bullet"
+    },
+    "reasoning": {
+     "section": "docs:developers/models",
+     "evidence": "Capabilities bullet"
+    },
+    "batch": {
+     "section": "docs:developers/models",
+     "evidence": "At a glance: Batch API"
+    },
+    "context_window": {
+     "section": "docs:developers/models",
+     "evidence": "At a glance: Context window"
     }
    },
    "sources": {
     "listing": "https://api.x.ai/v1/models",
-    "documentation": null,
+    "documentation": "https://docs.x.ai/developers/models/grok-4.5.md",
     "language_models": "https://api.x.ai/v1/language-models"
    },
    "raw": {
@@ -672,15 +773,15 @@
      ]
     }
    },
-   "retrieved_at": "2026-08-24T17:12:28Z",
-   "parser_version": "2026.08.24-1",
+   "retrieved_at": "2026-08-24T17:49:06Z",
+   "parser_version": "2026.08.24-2",
    "warnings": []
   },
   "grok-4.6": {
    "provider": "xai",
    "model_id": "grok-4.6",
-   "display_name": null,
-   "description": null,
+   "display_name": "Grok 4.6",
+   "description": "SpaceXAI's frontier model for coding, agentic tasks, and knowledge work.",
    "family": "grok-4.6",
    "aliases": [],
    "snapshots": [],
@@ -690,7 +791,7 @@
    "released": "2026-08-06",
    "deprecated": null,
    "shutdown_date": null,
-   "context_window": null,
+   "context_window": 500000,
    "max_input_tokens": null,
    "max_output_tokens": null,
    "knowledge_cutoff": null,
@@ -714,16 +815,16 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": true,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
-    "tool_calling": null,
-    "structured_outputs": null,
+    "tool_calling": true,
+    "structured_outputs": true,
     "streaming": null,
     "prompt_caching": null,
     "fine_tuning": null,
-    "batch": null,
+    "batch": false,
     "citations": null,
     "code_execution": null,
     "pdf_input": null,
@@ -751,11 +852,31 @@
     "endpoints.chat_completions": {
      "section": "api:/v1/language-models",
      "evidence": "listed as a language model"
+    },
+    "tool_calling": {
+     "section": "docs:developers/models",
+     "evidence": "Capabilities bullet"
+    },
+    "structured_outputs": {
+     "section": "docs:developers/models",
+     "evidence": "Capabilities bullet"
+    },
+    "reasoning": {
+     "section": "docs:developers/models",
+     "evidence": "Capabilities bullet"
+    },
+    "batch": {
+     "section": "docs:developers/models",
+     "evidence": "At a glance: Batch API"
+    },
+    "context_window": {
+     "section": "docs:developers/models",
+     "evidence": "At a glance: Context window"
     }
    },
    "sources": {
     "listing": "https://api.x.ai/v1/models",
-    "documentation": null,
+    "documentation": "https://docs.x.ai/developers/models/grok-4.6.md",
     "language_models": "https://api.x.ai/v1/language-models"
    },
    "raw": {
@@ -788,15 +909,15 @@
      "aliases": []
     }
    },
-   "retrieved_at": "2026-08-24T17:12:28Z",
-   "parser_version": "2026.08.24-1",
+   "retrieved_at": "2026-08-24T17:49:06Z",
+   "parser_version": "2026.08.24-2",
    "warnings": []
   },
   "grok-build-0.1": {
    "provider": "xai",
    "model_id": "grok-build-0.1",
-   "display_name": null,
-   "description": null,
+   "display_name": "Grok Build 0.1",
+   "description": "SpaceXAI's intelligent coding model for agentic software, engineering, and workflow tasks.",
    "family": "grok-build-0.1",
    "aliases": [
     "grok-code-fast-1",
@@ -810,7 +931,7 @@
    "released": "2026-04-16",
    "deprecated": null,
    "shutdown_date": null,
-   "context_window": null,
+   "context_window": 256000,
    "max_input_tokens": null,
    "max_output_tokens": null,
    "knowledge_cutoff": null,
@@ -834,16 +955,16 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": true,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
-    "tool_calling": null,
-    "structured_outputs": null,
+    "tool_calling": true,
+    "structured_outputs": true,
     "streaming": null,
     "prompt_caching": null,
     "fine_tuning": null,
-    "batch": null,
+    "batch": false,
     "citations": null,
     "code_execution": null,
     "pdf_input": null,
@@ -871,11 +992,31 @@
     "endpoints.chat_completions": {
      "section": "api:/v1/language-models",
      "evidence": "listed as a language model"
+    },
+    "tool_calling": {
+     "section": "docs:developers/models",
+     "evidence": "Capabilities bullet"
+    },
+    "structured_outputs": {
+     "section": "docs:developers/models",
+     "evidence": "Capabilities bullet"
+    },
+    "reasoning": {
+     "section": "docs:developers/models",
+     "evidence": "Capabilities bullet"
+    },
+    "batch": {
+     "section": "docs:developers/models",
+     "evidence": "At a glance: Batch API"
+    },
+    "context_window": {
+     "section": "docs:developers/models",
+     "evidence": "At a glance: Context window"
     }
    },
    "sources": {
     "listing": "https://api.x.ai/v1/models",
-    "documentation": null,
+    "documentation": "https://docs.x.ai/developers/models/grok-build-0.1.md",
     "language_models": "https://api.x.ai/v1/language-models"
    },
    "raw": {
@@ -912,21 +1053,23 @@
      ]
     }
    },
-   "retrieved_at": "2026-08-24T17:12:28Z",
-   "parser_version": "2026.08.24-1",
+   "retrieved_at": "2026-08-24T17:49:06Z",
+   "parser_version": "2026.08.24-2",
    "warnings": []
   },
   "grok-imagine-image": {
    "provider": "xai",
    "model_id": "grok-imagine-image",
-   "display_name": null,
+   "display_name": "grok-imagine-image",
    "description": null,
-   "family": null,
-   "aliases": [],
+   "family": "grok-imagine-image",
+   "aliases": [
+    "grok-imagine-image-2026-03-02"
+   ],
    "snapshots": [],
    "default_snapshot": null,
    "routes_to": null,
-   "relationship": "unknown",
+   "relationship": "canonical",
    "released": "2026-01-28",
    "deprecated": null,
    "shutdown_date": null,
@@ -937,20 +1080,20 @@
    "knowledge_cutoff_raw": null,
    "modalities": {
     "text": {
-     "input": null,
-     "output": null
+     "input": true,
+     "output": false
     },
     "image": {
-     "input": null,
-     "output": null
+     "input": true,
+     "output": true
     },
     "audio": {
-     "input": null,
-     "output": null
+     "input": false,
+     "output": false
     },
     "video": {
-     "input": null,
-     "output": null
+     "input": false,
+     "output": false
     }
    },
    "capabilities": {
@@ -963,7 +1106,7 @@
     "streaming": null,
     "prompt_caching": null,
     "fine_tuning": null,
-    "batch": null,
+    "batch": true,
     "citations": null,
     "code_execution": null,
     "pdf_input": null,
@@ -977,25 +1120,41 @@
     "released": {
      "section": "api:/models",
      "evidence": "created timestamp"
+    },
+    "batch": {
+     "section": "docs:developers/models",
+     "evidence": "At a glance: Batch API"
+    },
+    "modalities.input": {
+     "section": "docs:developers/models",
+     "evidence": "At a glance: Modalities"
+    },
+    "modalities.output": {
+     "section": "docs:developers/models",
+     "evidence": "At a glance: Modalities"
+    },
+    "aliases": {
+     "section": "docs:developers/models",
+     "evidence": "At a glance: Aliases"
     }
    },
    "sources": {
     "listing": "https://api.x.ai/v1/models",
-    "documentation": null
+    "documentation": "https://docs.x.ai/developers/models/grok-imagine-image.md"
    },
    "raw": {
     "created": 1769558400,
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-24T17:12:28Z",
-   "parser_version": "2026.08.24-1",
+   "retrieved_at": "2026-08-24T17:49:06Z",
+   "parser_version": "2026.08.24-2",
    "warnings": []
   },
   "grok-imagine-image-2.0": {
    "provider": "xai",
    "model_id": "grok-imagine-image-2.0",
-   "display_name": null,
+   "display_name": "grok-imagine-image-2.0",
    "description": null,
    "family": null,
    "aliases": [],
@@ -1013,20 +1172,20 @@
    "knowledge_cutoff_raw": null,
    "modalities": {
     "text": {
-     "input": null,
-     "output": null
+     "input": true,
+     "output": false
     },
     "image": {
-     "input": null,
-     "output": null
+     "input": true,
+     "output": true
     },
     "audio": {
-     "input": null,
-     "output": null
+     "input": false,
+     "output": false
     },
     "video": {
-     "input": null,
-     "output": null
+     "input": false,
+     "output": false
     }
    },
    "capabilities": {
@@ -1039,7 +1198,7 @@
     "streaming": null,
     "prompt_caching": null,
     "fine_tuning": null,
-    "batch": null,
+    "batch": true,
     "citations": null,
     "code_execution": null,
     "pdf_input": null,
@@ -1053,32 +1212,48 @@
     "released": {
      "section": "api:/models",
      "evidence": "created timestamp"
+    },
+    "batch": {
+     "section": "docs:developers/models",
+     "evidence": "At a glance: Batch API"
+    },
+    "modalities.input": {
+     "section": "docs:developers/models",
+     "evidence": "At a glance: Modalities"
+    },
+    "modalities.output": {
+     "section": "docs:developers/models",
+     "evidence": "At a glance: Modalities"
     }
    },
    "sources": {
     "listing": "https://api.x.ai/v1/models",
-    "documentation": null
+    "documentation": "https://docs.x.ai/developers/models/grok-imagine-image-2.0.md"
    },
    "raw": {
     "created": 1786147200,
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-24T17:12:28Z",
-   "parser_version": "2026.08.24-1",
+   "retrieved_at": "2026-08-24T17:49:06Z",
+   "parser_version": "2026.08.24-2",
    "warnings": []
   },
   "grok-imagine-image-quality": {
    "provider": "xai",
    "model_id": "grok-imagine-image-quality",
-   "display_name": null,
+   "display_name": "grok-imagine-image-quality",
    "description": null,
-   "family": null,
-   "aliases": [],
+   "family": "grok-imagine-image-quality",
+   "aliases": [
+    "grok-imagine-image-quality-20260403",
+    "grok-imagine-image-quality-latest",
+    "grok-imagine-image-pro"
+   ],
    "snapshots": [],
    "default_snapshot": null,
    "routes_to": null,
-   "relationship": "unknown",
+   "relationship": "canonical",
    "released": "2026-04-03",
    "deprecated": null,
    "shutdown_date": null,
@@ -1089,20 +1264,20 @@
    "knowledge_cutoff_raw": null,
    "modalities": {
     "text": {
-     "input": null,
-     "output": null
+     "input": true,
+     "output": false
     },
     "image": {
-     "input": null,
-     "output": null
+     "input": true,
+     "output": true
     },
     "audio": {
-     "input": null,
-     "output": null
+     "input": false,
+     "output": false
     },
     "video": {
-     "input": null,
-     "output": null
+     "input": false,
+     "output": false
     }
    },
    "capabilities": {
@@ -1115,7 +1290,7 @@
     "streaming": null,
     "prompt_caching": null,
     "fine_tuning": null,
-    "batch": null,
+    "batch": false,
     "citations": null,
     "code_execution": null,
     "pdf_input": null,
@@ -1129,25 +1304,41 @@
     "released": {
      "section": "api:/models",
      "evidence": "created timestamp"
+    },
+    "batch": {
+     "section": "docs:developers/models",
+     "evidence": "At a glance: Batch API"
+    },
+    "modalities.input": {
+     "section": "docs:developers/models",
+     "evidence": "At a glance: Modalities"
+    },
+    "modalities.output": {
+     "section": "docs:developers/models",
+     "evidence": "At a glance: Modalities"
+    },
+    "aliases": {
+     "section": "docs:developers/models",
+     "evidence": "At a glance: Aliases"
     }
    },
    "sources": {
     "listing": "https://api.x.ai/v1/models",
-    "documentation": null
+    "documentation": "https://docs.x.ai/developers/models/grok-imagine-image-quality.md"
    },
    "raw": {
     "created": 1775174400,
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-24T17:12:28Z",
-   "parser_version": "2026.08.24-1",
+   "retrieved_at": "2026-08-24T17:49:06Z",
+   "parser_version": "2026.08.24-2",
    "warnings": []
   },
   "grok-imagine-video": {
    "provider": "xai",
    "model_id": "grok-imagine-video",
-   "display_name": null,
+   "display_name": "grok-imagine-video",
    "description": null,
    "family": null,
    "aliases": [],
@@ -1165,20 +1356,20 @@
    "knowledge_cutoff_raw": null,
    "modalities": {
     "text": {
-     "input": null,
-     "output": null
+     "input": true,
+     "output": false
     },
     "image": {
-     "input": null,
-     "output": null
+     "input": true,
+     "output": false
     },
     "audio": {
-     "input": null,
-     "output": null
+     "input": false,
+     "output": false
     },
     "video": {
-     "input": null,
-     "output": null
+     "input": true,
+     "output": true
     }
    },
    "capabilities": {
@@ -1191,7 +1382,7 @@
     "streaming": null,
     "prompt_caching": null,
     "fine_tuning": null,
-    "batch": null,
+    "batch": true,
     "citations": null,
     "code_execution": null,
     "pdf_input": null,
@@ -1205,32 +1396,47 @@
     "released": {
      "section": "api:/models",
      "evidence": "created timestamp"
+    },
+    "batch": {
+     "section": "docs:developers/models",
+     "evidence": "At a glance: Batch API"
+    },
+    "modalities.input": {
+     "section": "docs:developers/models",
+     "evidence": "At a glance: Modalities"
+    },
+    "modalities.output": {
+     "section": "docs:developers/models",
+     "evidence": "At a glance: Modalities"
     }
    },
    "sources": {
     "listing": "https://api.x.ai/v1/models",
-    "documentation": null
+    "documentation": "https://docs.x.ai/developers/models/grok-imagine-video.md"
    },
    "raw": {
     "created": 1769558400,
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-24T17:12:28Z",
-   "parser_version": "2026.08.24-1",
+   "retrieved_at": "2026-08-24T17:49:06Z",
+   "parser_version": "2026.08.24-2",
    "warnings": []
   },
   "grok-imagine-video-1.5": {
    "provider": "xai",
    "model_id": "grok-imagine-video-1.5",
-   "display_name": null,
+   "display_name": "grok-imagine-video-1.5",
    "description": null,
-   "family": null,
-   "aliases": [],
+   "family": "grok-imagine-video-1.5",
+   "aliases": [
+    "grok-imagine-video-1.5-preview",
+    "grok-imagine-video-1.5-2026-05-30"
+   ],
    "snapshots": [],
    "default_snapshot": null,
    "routes_to": null,
-   "relationship": "unknown",
+   "relationship": "canonical",
    "released": "2026-05-27",
    "deprecated": null,
    "shutdown_date": null,
@@ -1241,20 +1447,20 @@
    "knowledge_cutoff_raw": null,
    "modalities": {
     "text": {
-     "input": null,
-     "output": null
+     "input": true,
+     "output": false
     },
     "image": {
-     "input": null,
-     "output": null
+     "input": true,
+     "output": false
     },
     "audio": {
-     "input": null,
-     "output": null
+     "input": false,
+     "output": false
     },
     "video": {
-     "input": null,
-     "output": null
+     "input": false,
+     "output": true
     }
    },
    "capabilities": {
@@ -1267,7 +1473,7 @@
     "streaming": null,
     "prompt_caching": null,
     "fine_tuning": null,
-    "batch": null,
+    "batch": true,
     "citations": null,
     "code_execution": null,
     "pdf_input": null,
@@ -1281,19 +1487,35 @@
     "released": {
      "section": "api:/models",
      "evidence": "created timestamp"
+    },
+    "batch": {
+     "section": "docs:developers/models",
+     "evidence": "At a glance: Batch API"
+    },
+    "modalities.input": {
+     "section": "docs:developers/models",
+     "evidence": "At a glance: Modalities"
+    },
+    "modalities.output": {
+     "section": "docs:developers/models",
+     "evidence": "At a glance: Modalities"
+    },
+    "aliases": {
+     "section": "docs:developers/models",
+     "evidence": "At a glance: Aliases"
     }
    },
    "sources": {
     "listing": "https://api.x.ai/v1/models",
-    "documentation": null
+    "documentation": "https://docs.x.ai/developers/models/grok-imagine-video-1.5.md"
    },
    "raw": {
     "created": 1779840000,
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-24T17:12:28Z",
-   "parser_version": "2026.08.24-1",
+   "retrieved_at": "2026-08-24T17:49:06Z",
+   "parser_version": "2026.08.24-2",
    "warnings": []
   }
  },
@@ -1302,5 +1524,20 @@
   "models": 12
  },
  "warnings": [],
- "extra": {}
+ "extra": {
+  "docs_pages": {
+   "grok-4.20-0309-non-reasoning": "ok",
+   "grok-4.20-0309-reasoning": "ok",
+   "grok-4.20-multi-agent-0309": "ok",
+   "grok-4.3": "ok",
+   "grok-4.5": "ok",
+   "grok-4.6": "ok",
+   "grok-build-0.1": "ok",
+   "grok-imagine-image": "ok_no_capabilities",
+   "grok-imagine-image-2.0": "ok_no_capabilities",
+   "grok-imagine-image-quality": "ok_no_capabilities",
+   "grok-imagine-video": "ok_no_capabilities",
+   "grok-imagine-video-1.5": "ok_no_capabilities"
+  }
+ }
 }
