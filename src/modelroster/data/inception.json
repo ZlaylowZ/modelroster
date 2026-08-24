@@ -2,7 +2,7 @@
  "provider": "inception",
  "schema_version": 2,
  "parser_version": "2026.08.23-1",
- "retrieved_at": "2026-08-23T21:18:52Z",
+ "retrieved_at": "2026-08-24T07:29:30Z",
  "sources": {
   "listing": "https://api.inceptionlabs.ai/v1/models"
  },
@@ -131,7 +131,7 @@
      "stop"
     ]
    },
-   "retrieved_at": "2026-08-23T21:18:52Z",
+   "retrieved_at": "2026-08-24T07:29:30Z",
    "parser_version": "2026.08.23-1",
    "warnings": []
   }

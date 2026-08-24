@@ -1,8 +1,8 @@
 {
  "provider": "nvidia",
  "first_run": false,
- "previous_retrieved_at": "2026-08-23T18:50:01Z",
- "retrieved_at": "2026-08-23T21:18:53Z",
+ "previous_retrieved_at": "2026-08-23T21:18:53Z",
+ "retrieved_at": "2026-08-24T07:29:31Z",
  "parser_version": "2026.08.23-1",
  "previous_parser_version": "2026.08.23-1",
  "counts": {
