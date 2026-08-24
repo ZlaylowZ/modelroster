@@ -41,7 +41,10 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python -m pytest tests/test_live.py -q
       - name: Commit refreshed data and drift reports
-        if: steps.update.outputs.code == '0'
+        # run even when one provider failed: successful providers wrote their
+        # data, and a failed/refused provider wrote nothing (previous data
+        # preserved), so committing is always safe
+        if: always() && steps.update.outcome == 'success'
         run: |
           git config user.name "modelroster-bot"
           git config user.email "modelroster-bot@users.noreply.github.com"
