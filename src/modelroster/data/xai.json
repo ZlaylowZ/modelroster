@@ -1,0 +1,1306 @@
+{
+ "provider": "xai",
+ "schema_version": 2,
+ "parser_version": "2026.08.23-1",
+ "retrieved_at": "2026-08-24T16:59:24Z",
+ "sources": {
+  "listing": "https://api.x.ai/v1/models",
+  "language_models": "https://api.x.ai/v1/language-models"
+ },
+ "model_order": [
+  "grok-4.20-0309-non-reasoning",
+  "grok-4.20-0309-reasoning",
+  "grok-4.20-multi-agent-0309",
+  "grok-4.3",
+  "grok-4.5",
+  "grok-4.6",
+  "grok-build-0.1",
+  "grok-imagine-image",
+  "grok-imagine-image-2.0",
+  "grok-imagine-image-quality",
+  "grok-imagine-video",
+  "grok-imagine-video-1.5"
+ ],
+ "models": {
+  "grok-4.20-0309-non-reasoning": {
+   "provider": "xai",
+   "model_id": "grok-4.20-0309-non-reasoning",
+   "display_name": null,
+   "description": null,
+   "family": "grok-4.20-0309-non-reasoning",
+   "aliases": [
+    "grok-4.20-non-reasoning",
+    "grok-4.20-non-reasoning-latest",
+    "grok-4.20-beta-non-reasoning",
+    "grok-4.20-beta-latest-non-reasoning",
+    "grok-4.20-experimental-beta-0304-non-reasoning",
+    "grok-4.20-experimental-beta-non-reasoning-latest",
+    "grok-4.20-beta-0309-non-reasoning",
+    "grok-4.20-non-reasoning-gv2"
+   ],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": "2026-03-09",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": true,
+     "output": false
+    },
+    "audio": {
+     "input": false,
+     "output": false
+    },
+    "video": {
+     "input": false,
+     "output": false
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {
+    "chat_completions": true
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    },
+    "modalities.input": {
+     "section": "api:/v1/language-models",
+     "evidence": "input_modalities"
+    },
+    "modalities.output": {
+     "section": "api:/v1/language-models",
+     "evidence": "output_modalities"
+    },
+    "endpoints.chat_completions": {
+     "section": "api:/v1/language-models",
+     "evidence": "listed as a language model"
+    }
+   },
+   "sources": {
+    "listing": "https://api.x.ai/v1/models",
+    "documentation": null,
+    "language_models": "https://api.x.ai/v1/language-models"
+   },
+   "raw": {
+    "created": 1773014400,
+    "owned_by": "xai",
+    "object": "model",
+    "language_model": {
+     "id": "grok-4.20-0309-non-reasoning",
+     "fingerprint": "fp_e309ea75b5",
+     "created": 1773014400,
+     "object": "model",
+     "owned_by": "xai",
+     "version": "1.0",
+     "input_modalities": [
+      "text",
+      "image"
+     ],
+     "output_modalities": [
+      "text"
+     ],
+     "prompt_text_token_price": 12500,
+     "cached_prompt_text_token_price": 2000,
+     "prompt_image_token_price": 12500,
+     "completion_text_token_price": 25000,
+     "search_price": 0,
+     "prompt_text_token_price_long_context": 25000,
+     "cached_prompt_text_token_price_long_context": 4000,
+     "completion_text_token_price_long_context": 50000,
+     "long_context_threshold": 200000,
+     "aliases": [
+      "grok-4.20-non-reasoning",
+      "grok-4.20-non-reasoning-latest",
+      "grok-4.20-beta-non-reasoning",
+      "grok-4.20-beta-latest-non-reasoning",
+      "grok-4.20-experimental-beta-0304-non-reasoning",
+      "grok-4.20-experimental-beta-non-reasoning-latest",
+      "grok-4.20-beta-0309-non-reasoning",
+      "grok-4.20-non-reasoning-gv2"
+     ]
+    }
+   },
+   "retrieved_at": "2026-08-24T16:59:24Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "grok-4.20-0309-reasoning": {
+   "provider": "xai",
+   "model_id": "grok-4.20-0309-reasoning",
+   "display_name": null,
+   "description": null,
+   "family": "grok-4.20-0309-reasoning",
+   "aliases": [
+    "grok-4.20-reasoning-latest",
+    "grok-4.20",
+    "grok-4.20-reasoning",
+    "grok-4.20-0309",
+    "grok-4.20-beta-0309-reasoning",
+    "grok-4.20-beta",
+    "grok-4.20-beta-0309",
+    "grok-4.20-beta-latest",
+    "grok-4.20-beta-latest-reasoning",
+    "grok-4.20-beta-reasoning",
+    "grok-4.20-experimental-beta-0304-reasoning",
+    "grok-4.20-experimental-beta-0304",
+    "grok-4.20-experimental-beta-reasoning-latest",
+    "grok-4.20-experimental-beta-latest",
+    "grok-4.20-reasoning-gv2"
+   ],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": "2026-03-09",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": true,
+     "output": false
+    },
+    "audio": {
+     "input": false,
+     "output": false
+    },
+    "video": {
+     "input": false,
+     "output": false
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {
+    "chat_completions": true
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    },
+    "modalities.input": {
+     "section": "api:/v1/language-models",
+     "evidence": "input_modalities"
+    },
+    "modalities.output": {
+     "section": "api:/v1/language-models",
+     "evidence": "output_modalities"
+    },
+    "endpoints.chat_completions": {
+     "section": "api:/v1/language-models",
+     "evidence": "listed as a language model"
+    }
+   },
+   "sources": {
+    "listing": "https://api.x.ai/v1/models",
+    "documentation": null,
+    "language_models": "https://api.x.ai/v1/language-models"
+   },
+   "raw": {
+    "created": 1773014400,
+    "owned_by": "xai",
+    "object": "model",
+    "language_model": {
+     "id": "grok-4.20-0309-reasoning",
+     "fingerprint": "fp_d9f7a361f6",
+     "created": 1773014400,
+     "object": "model",
+     "owned_by": "xai",
+     "version": "1.0",
+     "input_modalities": [
+      "text",
+      "image"
+     ],
+     "output_modalities": [
+      "text"
+     ],
+     "prompt_text_token_price": 12500,
+     "cached_prompt_text_token_price": 2000,
+     "prompt_image_token_price": 12500,
+     "completion_text_token_price": 25000,
+     "search_price": 0,
+     "prompt_text_token_price_long_context": 25000,
+     "cached_prompt_text_token_price_long_context": 4000,
+     "completion_text_token_price_long_context": 50000,
+     "long_context_threshold": 200000,
+     "aliases": [
+      "grok-4.20-reasoning-latest",
+      "grok-4.20",
+      "grok-4.20-reasoning",
+      "grok-4.20-0309",
+      "grok-4.20-beta-0309-reasoning",
+      "grok-4.20-beta",
+      "grok-4.20-beta-0309",
+      "grok-4.20-beta-latest",
+      "grok-4.20-beta-latest-reasoning",
+      "grok-4.20-beta-reasoning",
+      "grok-4.20-experimental-beta-0304-reasoning",
+      "grok-4.20-experimental-beta-0304",
+      "grok-4.20-experimental-beta-reasoning-latest",
+      "grok-4.20-experimental-beta-latest",
+      "grok-4.20-reasoning-gv2"
+     ]
+    }
+   },
+   "retrieved_at": "2026-08-24T16:59:24Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "grok-4.20-multi-agent-0309": {
+   "provider": "xai",
+   "model_id": "grok-4.20-multi-agent-0309",
+   "display_name": null,
+   "description": null,
+   "family": "grok-4.20-multi-agent-0309",
+   "aliases": [
+    "grok-4.20-multi-agent",
+    "grok-4.20-multi-agent-latest",
+    "grok-4.20-multi-agent-beta-latest",
+    "grok-4.20-multi-agent-experimental-beta-0304",
+    "grok-4.20-multi-agent-experimental-beta-latest",
+    "grok-4.20-multi-agent-beta-0309"
+   ],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": "2026-03-09",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": true,
+     "output": false
+    },
+    "audio": {
+     "input": false,
+     "output": false
+    },
+    "video": {
+     "input": false,
+     "output": false
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {
+    "chat_completions": true
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    },
+    "modalities.input": {
+     "section": "api:/v1/language-models",
+     "evidence": "input_modalities"
+    },
+    "modalities.output": {
+     "section": "api:/v1/language-models",
+     "evidence": "output_modalities"
+    },
+    "endpoints.chat_completions": {
+     "section": "api:/v1/language-models",
+     "evidence": "listed as a language model"
+    }
+   },
+   "sources": {
+    "listing": "https://api.x.ai/v1/models",
+    "documentation": null,
+    "language_models": "https://api.x.ai/v1/language-models"
+   },
+   "raw": {
+    "created": 1773014400,
+    "owned_by": "xai",
+    "object": "model",
+    "language_model": {
+     "id": "grok-4.20-multi-agent-0309",
+     "fingerprint": "fp_4e45aede83",
+     "created": 1773014400,
+     "object": "model",
+     "owned_by": "xai",
+     "version": "1.0",
+     "input_modalities": [
+      "text",
+      "image"
+     ],
+     "output_modalities": [
+      "text"
+     ],
+     "prompt_text_token_price": 12500,
+     "cached_prompt_text_token_price": 2000,
+     "prompt_image_token_price": 12500,
+     "completion_text_token_price": 25000,
+     "search_price": 0,
+     "prompt_text_token_price_long_context": 25000,
+     "cached_prompt_text_token_price_long_context": 4000,
+     "completion_text_token_price_long_context": 50000,
+     "long_context_threshold": 200000,
+     "aliases": [
+      "grok-4.20-multi-agent",
+      "grok-4.20-multi-agent-latest",
+      "grok-4.20-multi-agent-beta-latest",
+      "grok-4.20-multi-agent-experimental-beta-0304",
+      "grok-4.20-multi-agent-experimental-beta-latest",
+      "grok-4.20-multi-agent-beta-0309"
+     ]
+    }
+   },
+   "retrieved_at": "2026-08-24T16:59:24Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "grok-4.3": {
+   "provider": "xai",
+   "model_id": "grok-4.3",
+   "display_name": null,
+   "description": null,
+   "family": "grok-4.3",
+   "aliases": [
+    "grok-4.3-latest"
+   ],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": "2026-04-17",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": true,
+     "output": false
+    },
+    "audio": {
+     "input": false,
+     "output": false
+    },
+    "video": {
+     "input": false,
+     "output": false
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {
+    "chat_completions": true
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    },
+    "modalities.input": {
+     "section": "api:/v1/language-models",
+     "evidence": "input_modalities"
+    },
+    "modalities.output": {
+     "section": "api:/v1/language-models",
+     "evidence": "output_modalities"
+    },
+    "endpoints.chat_completions": {
+     "section": "api:/v1/language-models",
+     "evidence": "listed as a language model"
+    }
+   },
+   "sources": {
+    "listing": "https://api.x.ai/v1/models",
+    "documentation": null,
+    "language_models": "https://api.x.ai/v1/language-models"
+   },
+   "raw": {
+    "created": 1776384000,
+    "owned_by": "xai",
+    "object": "model",
+    "language_model": {
+     "id": "grok-4.3",
+     "fingerprint": "fp_7a092cad53",
+     "created": 1776384000,
+     "object": "model",
+     "owned_by": "xai",
+     "version": "1.0",
+     "input_modalities": [
+      "text",
+      "image"
+     ],
+     "output_modalities": [
+      "text"
+     ],
+     "prompt_text_token_price": 12500,
+     "cached_prompt_text_token_price": 2000,
+     "prompt_image_token_price": 12500,
+     "completion_text_token_price": 25000,
+     "search_price": 0,
+     "prompt_text_token_price_long_context": 25000,
+     "cached_prompt_text_token_price_long_context": 4000,
+     "completion_text_token_price_long_context": 50000,
+     "long_context_threshold": 200000,
+     "aliases": [
+      "grok-4.3-latest"
+     ]
+    }
+   },
+   "retrieved_at": "2026-08-24T16:59:24Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "grok-4.5": {
+   "provider": "xai",
+   "model_id": "grok-4.5",
+   "display_name": null,
+   "description": null,
+   "family": "grok-4.5",
+   "aliases": [
+    "grok-4.5-latest",
+    "grok-build-latest"
+   ],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": "2026-06-29",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": true,
+     "output": false
+    },
+    "audio": {
+     "input": false,
+     "output": false
+    },
+    "video": {
+     "input": false,
+     "output": false
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {
+    "chat_completions": true
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    },
+    "modalities.input": {
+     "section": "api:/v1/language-models",
+     "evidence": "input_modalities"
+    },
+    "modalities.output": {
+     "section": "api:/v1/language-models",
+     "evidence": "output_modalities"
+    },
+    "endpoints.chat_completions": {
+     "section": "api:/v1/language-models",
+     "evidence": "listed as a language model"
+    }
+   },
+   "sources": {
+    "listing": "https://api.x.ai/v1/models",
+    "documentation": null,
+    "language_models": "https://api.x.ai/v1/language-models"
+   },
+   "raw": {
+    "created": 1782691200,
+    "owned_by": "xai",
+    "object": "model",
+    "language_model": {
+     "id": "grok-4.5",
+     "fingerprint": "fp_5fb8ae3f6a",
+     "created": 1782691200,
+     "object": "model",
+     "owned_by": "xai",
+     "version": "1.0",
+     "input_modalities": [
+      "text",
+      "image"
+     ],
+     "output_modalities": [
+      "text"
+     ],
+     "prompt_text_token_price": 20000,
+     "cached_prompt_text_token_price": 3000,
+     "prompt_image_token_price": 20000,
+     "completion_text_token_price": 60000,
+     "search_price": 0,
+     "prompt_text_token_price_long_context": 40000,
+     "cached_prompt_text_token_price_long_context": 6000,
+     "completion_text_token_price_long_context": 120000,
+     "long_context_threshold": 200000,
+     "aliases": [
+      "grok-4.5-latest",
+      "grok-build-latest"
+     ]
+    }
+   },
+   "retrieved_at": "2026-08-24T16:59:24Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "grok-4.6": {
+   "provider": "xai",
+   "model_id": "grok-4.6",
+   "display_name": null,
+   "description": null,
+   "family": "grok-4.6",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": "2026-08-06",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": true,
+     "output": false
+    },
+    "audio": {
+     "input": false,
+     "output": false
+    },
+    "video": {
+     "input": false,
+     "output": false
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {
+    "chat_completions": true
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    },
+    "modalities.input": {
+     "section": "api:/v1/language-models",
+     "evidence": "input_modalities"
+    },
+    "modalities.output": {
+     "section": "api:/v1/language-models",
+     "evidence": "output_modalities"
+    },
+    "endpoints.chat_completions": {
+     "section": "api:/v1/language-models",
+     "evidence": "listed as a language model"
+    }
+   },
+   "sources": {
+    "listing": "https://api.x.ai/v1/models",
+    "documentation": null,
+    "language_models": "https://api.x.ai/v1/language-models"
+   },
+   "raw": {
+    "created": 1785974400,
+    "owned_by": "xai",
+    "object": "model",
+    "language_model": {
+     "id": "grok-4.6",
+     "fingerprint": "fp_eb8d166418",
+     "created": 1785974400,
+     "object": "model",
+     "owned_by": "xai",
+     "version": "1.0",
+     "input_modalities": [
+      "text",
+      "image"
+     ],
+     "output_modalities": [
+      "text"
+     ],
+     "prompt_text_token_price": 20000,
+     "cached_prompt_text_token_price": 5000,
+     "prompt_image_token_price": 20000,
+     "completion_text_token_price": 60000,
+     "search_price": 0,
+     "prompt_text_token_price_long_context": 40000,
+     "cached_prompt_text_token_price_long_context": 10000,
+     "completion_text_token_price_long_context": 120000,
+     "long_context_threshold": 200000,
+     "aliases": []
+    }
+   },
+   "retrieved_at": "2026-08-24T16:59:24Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "grok-build-0.1": {
+   "provider": "xai",
+   "model_id": "grok-build-0.1",
+   "display_name": null,
+   "description": null,
+   "family": "grok-build-0.1",
+   "aliases": [
+    "grok-code-fast-1",
+    "grok-code-fast",
+    "grok-code-fast-1-0825"
+   ],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": "2026-04-16",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": true,
+     "output": false
+    },
+    "audio": {
+     "input": false,
+     "output": false
+    },
+    "video": {
+     "input": false,
+     "output": false
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {
+    "chat_completions": true
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    },
+    "modalities.input": {
+     "section": "api:/v1/language-models",
+     "evidence": "input_modalities"
+    },
+    "modalities.output": {
+     "section": "api:/v1/language-models",
+     "evidence": "output_modalities"
+    },
+    "endpoints.chat_completions": {
+     "section": "api:/v1/language-models",
+     "evidence": "listed as a language model"
+    }
+   },
+   "sources": {
+    "listing": "https://api.x.ai/v1/models",
+    "documentation": null,
+    "language_models": "https://api.x.ai/v1/language-models"
+   },
+   "raw": {
+    "created": 1776297600,
+    "owned_by": "xai",
+    "object": "model",
+    "language_model": {
+     "id": "grok-build-0.1",
+     "fingerprint": "fp_4a268824d4",
+     "created": 1776297600,
+     "object": "model",
+     "owned_by": "xai",
+     "version": "1.0",
+     "input_modalities": [
+      "text",
+      "image"
+     ],
+     "output_modalities": [
+      "text"
+     ],
+     "prompt_text_token_price": 10000,
+     "cached_prompt_text_token_price": 2000,
+     "prompt_image_token_price": 10000,
+     "completion_text_token_price": 20000,
+     "search_price": 0,
+     "prompt_text_token_price_long_context": 20000,
+     "cached_prompt_text_token_price_long_context": 4000,
+     "completion_text_token_price_long_context": 40000,
+     "long_context_threshold": 200000,
+     "aliases": [
+      "grok-code-fast-1",
+      "grok-code-fast",
+      "grok-code-fast-1-0825"
+     ]
+    }
+   },
+   "retrieved_at": "2026-08-24T16:59:24Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "grok-imagine-image": {
+   "provider": "xai",
+   "model_id": "grok-imagine-image",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "2026-01-28",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://api.x.ai/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 1769558400,
+    "owned_by": "xai",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-24T16:59:24Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "grok-imagine-image-2.0": {
+   "provider": "xai",
+   "model_id": "grok-imagine-image-2.0",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "2026-08-08",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://api.x.ai/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 1786147200,
+    "owned_by": "xai",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-24T16:59:24Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "grok-imagine-image-quality": {
+   "provider": "xai",
+   "model_id": "grok-imagine-image-quality",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "2026-04-03",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://api.x.ai/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 1775174400,
+    "owned_by": "xai",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-24T16:59:24Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "grok-imagine-video": {
+   "provider": "xai",
+   "model_id": "grok-imagine-video",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "2026-01-28",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://api.x.ai/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 1769558400,
+    "owned_by": "xai",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-24T16:59:24Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  },
+  "grok-imagine-video-1.5": {
+   "provider": "xai",
+   "model_id": "grok-imagine-video-1.5",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "2026-05-27",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://api.x.ai/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 1779840000,
+    "owned_by": "xai",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-24T16:59:24Z",
+   "parser_version": "2026.08.23-1",
+   "warnings": []
+  }
+ },
+ "stats": {
+  "api_models": 12,
+  "models": 12
+ },
+ "warnings": [],
+ "extra": {}
+}
