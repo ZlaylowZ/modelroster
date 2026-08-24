@@ -12,6 +12,22 @@ Two version numbers matter:
 
 ## [Unreleased]
 
+## [0.1.1] — 2026-08-24
+
+### Added
+- Shipped data now covers seven providers: anthropic, openai, xai, mistral,
+  google, nvidia, inception (refreshed live 2026-08-24). Cohere pends an
+  account with billing enabled; ollama remains local-only.
+- Mistral adapter maps the full capability vocabulary observed live
+  (parser 2026.08.24-1): `reasoning` -> `capabilities.reasoning`; `audio` ->
+  audio input modality; `audio_speech`/`audio_transcription`/
+  `audio_transcription_realtime`/`ocr`/`moderation`/`classification` ->
+  stable endpoint keys. Keys remain mirrored in `capabilities.extra`.
+
+### Fixed
+- Daily refresh commits the successful providers' data even when one
+  provider fails, and failure issues are actually created (label existed
+  check).
 ## [0.1.0] — 2026-08-23
 
 Initial release, ported from the `model_registry` prototype.

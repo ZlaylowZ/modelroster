@@ -12,6 +12,11 @@ from modelroster.providers.openai_compat import OpenAICompatProvider
 from modelroster.schema import ModelRecord
 
 
+def _mutate(d):
+    d["data"][0]["capabilities"]["teleportation"] = True
+    return d
+
+
 def records(name):
     p = providers.get(name)
     http = FixtureFetcher(p.fixtures(FIXTURES))
@@ -39,7 +44,32 @@ class TestProviders:
         old = recs["open-mistral-7b"]
         assert old.deprecated is True and old.shutdown_date == "2025-03-30"
         assert recs["mistral-embed"].endpoints["chat_completions"] is False
-        assert m.capabilities.reasoning is None
+        assert m.capabilities.reasoning is False       # explicit false in the capabilities object
+
+    def test_mistral_reasoning_and_audio_vocabulary(self):
+        recs = records("mistral")
+        mag = recs["magistral-medium-latest"]
+        assert mag.capabilities.reasoning is True
+        assert mag.provenance["reasoning"] == {"section": "api:/v1/models", "evidence": "capabilities.reasoning"}
+        vox = recs["voxtral-mini-latest"]
+        assert vox.modalities["audio"]["input"] is True
+        assert vox.endpoints["transcription"] is True and vox.endpoints["realtime_transcription"] is True
+        assert vox.endpoints["speech_generation"] is False
+        assert vox.capabilities.reasoning is False
+        # every known key is mirrored into extra without warnings
+        assert mag.capabilities.extra["mistral.unified_resources"] is False
+        assert not any("unrecognised capability key" in w for w in mag.warnings)
+
+    def test_mistral_unknown_capability_key_kept_with_warning(self):
+        from helpers import FIXTURES
+        import json as _json
+        p = providers.get("mistral")
+        pages = {u: _json.dumps(_mutate(_json.loads(open(f).read()))) for u, f in p.fixtures(FIXTURES).items()}
+        http = FixtureFetcher(pages)
+        recs = {r.model_id: r for r in p.enrich(p.list_models(http), http).records}
+        r = recs["mistral-large-latest"]
+        assert r.capabilities.extra["mistral.teleportation"] is True
+        assert any("teleportation" in w for w in r.warnings)
 
     def test_google_native_enrichment(self):
         recs = records("google")
