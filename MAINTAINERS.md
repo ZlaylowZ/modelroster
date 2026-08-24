@@ -42,6 +42,10 @@ modelroster validate -v             # 3. inspect warnings
 A gate firing (exit 2) means the data on disk is still the last good run. Do
 **not** delete `<provider>.json` or `.previous.json` to "fix" it.
 
+* `XAI DOCS REGRESSION suspected` — fetch one page
+  (`curl https://docs.x.ai/developers/models/grok-4.6.md`) and compare with
+  `tests/fixtures/xai_docs/`; adjust `parse_model_page` in
+  `providers/xai.py`, refresh the fixture, bump `PARSER_VERSION`.
 * `PARSER REGRESSION suspected` / `HEADER PARSE REGRESSION suspected` —
   fetch one affected page (`curl https://developers.openai.com/api/docs/models/<slug>.md`)
   and compare with `tests/fixtures/openai_docs/<slug>.md`. If a heading was
@@ -104,7 +108,9 @@ whose fixture is reference-shaped, run `modelroster capture --provider <name>`
 (writes under `tests/fixtures/listings/`) and commit the result. OpenAI
 documentation pages are refreshed by copying `<data-dir>/cache/openai/*.body`
 files to `tests/fixtures/openai_docs/<slug>.md` (the `.meta.json` beside each
-body records its URL).
+body records its URL); xAI pages likewise live in `tests/fixtures/xai_docs/`
+(one `<model id>.md` per id in the xai listing fixture — refresh with
+`curl https://docs.x.ai/developers/models/<id>.md`).
 
 ## Adding a provider
 

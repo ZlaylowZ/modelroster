@@ -19,6 +19,8 @@ so an offline `modelroster update --provider openai --fixtures tests/fixtures
 Captured 2026-08-23 (verbatim responses):
 
 * `anthropic_models.json` — `GET https://api.anthropic.com/v1/models?limit=100`
+* `xai_models.json`, `xai_language_models.json` — reconstructed field-for-field
+  from the live CI capture of 2026-08-24 (`GET /v1/models`, `GET /v1/language-models`)
 * `openai_models.json` — `GET https://api.openai.com/v1/models`
 * `nvidia_models.json` — `GET https://integrate.api.nvidia.com/v1/models`
 * `inception_models.json` — `GET https://api.inceptionlabs.ai/v1/models`
@@ -28,12 +30,17 @@ each provider's public API reference, same field names and types, a handful
 of representative models). **Replace with captured responses when a key is
 available** — `modelroster capture --provider <name>` writes them:
 
-* `xai_models.json`, `xai_language_models.json` — `GET /v1/models`, `GET /v1/language-models`
 * `mistral_models.json` — `GET https://api.mistral.ai/v1/models`
 * `google_models.json`, `google_native_models.json` — OpenAI-compat shim and native `/v1beta/models`
 * `cohere_models.json` — `GET https://api.cohere.com/v1/models?page_size=1000`
 * `ollama_tags.json`, `ollama_show/<name>.json` — local daemon `GET /api/tags`, `POST /api/show`
   (file name: `:` -> `--`, `/` -> `__`)
+
+## xai_docs/
+
+Verbatim copies of xAI's official per-model documentation pages
+(`https://docs.x.ai/developers/models/<model id>.md`), captured 2026-08-24 —
+one page per id in the xai listing fixture.
 
 ## discovery/
 

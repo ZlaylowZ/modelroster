@@ -20,7 +20,7 @@ from datetime import date, datetime, timezone
 from typing import Any
 
 # Bump when any parser's output for the same input could change.
-PARSER_VERSION = "2026.08.24-1"
+PARSER_VERSION = "2026.08.24-2"
 SCHEMA_VERSION = 2
 
 MODALITIES = ("text", "image", "audio", "video")

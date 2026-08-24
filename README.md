@@ -1,7 +1,8 @@
 # modelroster
 
-**Accurate, current LLM model identifiers and capabilities for every provider —
-shipped as data, refreshed from official sources, never guessed.**
+**Delete your hand-maintained model list.** One `pip install` gives you every
+provider's current model ids and capabilities — refreshed daily from official
+sources, shipped as data, queryable in one line.
 
 ```bash
 pip install modelroster
@@ -10,49 +11,143 @@ pip install modelroster
 ```python
 import modelroster
 
-r = modelroster.load()                                   # works offline, no keys
-r.models()                                               # every model, every provider
-r.models(provider="xai")                                 # one provider's full list
+r = modelroster.load()        # current data for every provider — no keys, no network
 
-# capability filters match DOCUMENTED support only — providers whose official
-# sources do not state a capability (None) drop out; add unknown_ok=True to
-# treat "not documented" as acceptable:
+r.models(provider="anthropic")                        # every Claude model, newest first
+modelroster.context_window("grok-4.6")                # 500000
+modelroster.supported_reasoning_efforts("gpt-5.4")    # ['none', 'low', 'medium', 'high', 'xhigh']
+
+# choose models by what your code needs, not by memorised names:
 for m in r.models(tool_calling=True, reasoning=True):
-    print(m.ref, m.context_window, m.capabilities.reasoning_efforts)
+    print(m.ref, m.context_window)
+# anthropic/claude-opus-5 1000000
+# openai/gpt-5.4 1050000
+# xai/grok-4.6 500000
+# mistral/magistral-medium-latest 40960 ...
 
-ref = modelroster.ModelRef.parse("openai/gpt-5.4").validate()   # raises on unknown/retired ids
-modelroster.context_window("claude-opus-5")              # 1000000
-modelroster.supports_tool_calling("text-embedding-3-small")     # None  (not documented — NOT False)
+# and never ship a typo'd or retired model id again:
+modelroster.ModelRef.parse("openai/gpt-5.4").validate()   # raises on unknown/retired ids
 ```
 
-## Why
+## The problem it deletes
 
-Providers add, rename, alias, snapshot and retire models constantly, and each
-publishes its list differently. Every project that calls an LLM ends up with a
-hand-maintained model table that silently rots. `modelroster` is one package
-that any project — or any agent — installs to get the exact id strings a
-provider accepts today and what each model supports, with enough validation
-that an upstream format change fails loudly instead of shipping a broken
-catalog.
+Every project that calls an LLM grows a hand-maintained table: model ids,
+context windows, "supports tools?" comments. Providers rename, alias,
+snapshot, and retire models constantly, so that table silently rots — the
+stale id fails in production, the context window is from two releases ago,
+and switching providers means researching a new set of names.
 
-## Principles
+`modelroster` makes that someone else's job:
 
-1. **Tri-state capabilities.** Every capability is `True` / `False` / `None`.
-   `None` means *the source does not say* and is never collapsed into `False`.
-   `False` only arises from an explicit "not supported" statement, or from
-   absence in a positively enumerated list whose section is present.
-2. **No generation probes.** Availability comes from listing endpoints;
-   capabilities come from official documentation or official API metadata.
-   The registry never sends a completion request to find out what a model does.
-3. **Provenance on every fact.** Each field carries `{section, evidence, ...}`
-   naming the document section or API field it came from
-   (`modelroster show gpt-5.4 --provenance`).
-4. **Exact ids only.** Aliases, snapshots and fine-tune bases resolve through an
-   explicit index built from provider statements; there is no fuzzy matching and
-   no inference from date suffixes.
-5. **Refuse rather than rot.** Validation gates refuse to overwrite good data
-   when a parser stops understanding a page; the previous data survives
-   byte-for-byte and a drift report says what changed.
+* **Install and go.** The wheel ships current data for seven providers
+  (anthropic, openai, xai, mistral, google, nvidia, inception). No API keys,
+  no network, no setup. `modelroster providers` shows what you have and when
+  it was retrieved.
+* **Stays current without you.** A daily pipeline refreshes the data from
+  each provider's own listing APIs and official documentation, with
+  validation gates that refuse to publish a broken parse. Release versions
+  snapshot that data; `modelroster update` refreshes your local copy any time.
+* **One structure for every provider.** Every model is the same
+  `ModelRecord` — id, family, aliases, context window, modalities,
+  capabilities, endpoints, pricing — so swapping `anthropic/claude-opus-5`
+  for `openai/gpt-5.4` or `mistral/magistral-medium-latest` is a value
+  change, not a research project.
+* **Answers you can trust.** No generation probes, no fuzzy matching, no
+  guessing from model names. Every fact is traceable to the API field or
+  documentation section that stated it (`modelroster show gpt-5.4
+  --provenance`), and every capability is honestly tri-state: `True`,
+  `False`, or `None` for "the source does not say" — unknown is never
+  dressed up as an answer.
+
+## Querying
+
+```python
+r = modelroster.load()
+
+r.models()                                   # every model, every provider
+r.models(provider="mistral")                 # one provider's full list
+r.models(tool_calling=True, reasoning=True)  # documented support for both
+r.models(reasoning=True, include_retired=False)
+r.models(provider="openai", image_input=True, endpoint="responses")
+r.get("gpt-5.4")                             # one record (also "openai/gpt-5.4", ModelRef)
+r.resolve("gpt-4o-2024-08-06")               # snapshot/alias -> the family's canonical record
+```
+
+Capability filters match **documented** values only: a provider whose source
+doesn't state a capability (`None`) won't match `capability=True` — that's the
+honesty guarantee, not a gap. Add `unknown_ok=True` to also accept
+undocumented models. Filters accept every capability (`reasoning`,
+`tool_calling`, `structured_outputs`, `streaming`, `prompt_caching`,
+`fine_tuning`, `batch`, `citations`, `code_execution`, `pdf_input`, …),
+modality flags (`image_input`, `audio_output`, …), any provider-specific
+`capabilities.extra` key, plus `endpoint=` and `builtin_tool=`.
+
+One-line predicates for the common questions (provider-agnostic — they find
+the model wherever it lives):
+
+```python
+modelroster.context_window("claude-opus-5")           # 1000000
+modelroster.max_output_tokens("gpt-5.4")              # 128000
+modelroster.supports_tool_calling("gpt-3.5-turbo")    # False (documented)
+modelroster.supports_tool_calling("some-embedding")   # None  (undocumented — NOT False)
+modelroster.models_supporting("reasoning", "google")  # 34 Gemini ids
+```
+
+### What each provider's sources document
+
+Coverage differs because providers publish different amounts of metadata.
+This table is what determines which providers appear under a given capability
+filter (counts from the 0.1.2 data):
+
+| Provider | Models | tool_calling | reasoning | structured_outputs | context window | Source |
+|---|---:|---:|---:|---:|---:|---|
+| anthropic | 10 | 10 | 10 | 10 | 10 | `/v1/models` capabilities object (+ provider-wide tool/streaming docs) |
+| openai | 126 | 103 | 120 | 103 | 97 | official Markdown docs, 96 pages |
+| mistral | 56 | 56 | 56 | — | 56 | `/v1/models` capabilities object |
+| xai | 12 | 7 | 7 | 7 | 7 | docs.x.ai per-model pages + `/v1/language-models` |
+| google | 51 | — | 34 | — | 50 | native `/v1beta/models` (no per-model tool field) |
+| inception | 1 | 1 | — | 1 | 1 | `/v1/models` supported_features |
+| nvidia | 102 | — | — | — | — | ids-only public listing |
+
+"—" means the provider's official source simply doesn't state it; those
+models are reachable via `r.models()`, provider listings, or `unknown_ok=True`.
+
+### `ModelRef` — a type for model names
+
+```python
+from modelroster import ModelRef, UnknownModelError, RetiredModelError
+
+ref = ModelRef.parse("openai/gpt-5.4")     # or bare "gpt-5.4" — provider found by exact lookup
+ref.validate()                             # raises UnknownModelError / RetiredModelError
+ref.resolve()                              # aliases, snapshots, ft: ids -> the canonical record
+```
+
+Aliases, snapshots, and fine-tune bases resolve through an index built from
+provider statements — including documented aliases the listing API doesn't
+carry (`gpt-5.6`, `grok-4.3-latest`). Never fuzzy, never guessed from
+date-looking suffixes.
+
+## Keeping data fresh yourself
+
+The shipped data is refreshed at every release. For fresher data between
+releases:
+
+```bash
+modelroster update                    # refresh every provider you have keys for
+modelroster update --provider ollama  # your local Ollama daemon (no key needed)
+modelroster diff                      # what changed since last time
+```
+
+Keys are read from `<PROVIDER>_API_KEY` environment variables (or a `.env`
+with the `dotenv` extra); a missing key skips that provider — never an error.
+Long-running agents can call `modelroster.refresh()` on a schedule and act on
+the returned drift report. The data directory is overridable
+(`--data-dir` / `$MODELROSTER_DATA_DIR`), so refreshed data can live outside
+the installed package.
+
+Two providers need something from you: **cohere**'s listing endpoint requires
+an account with billing enabled, and **ollama** is inherently local to your
+machine.
 
 ## What is in the box
 
@@ -60,95 +155,29 @@ catalog.
 |---|---|---|---|
 | `anthropic` | `GET /v1/models` (paginated) | the same call's `capabilities` object | `ANTHROPIC_API_KEY` |
 | `openai` | `GET /v1/models` | official Markdown docs (`developers.openai.com/api/docs/models/*.md`), 96 pages | `OPENAI_API_KEY` |
-| `xai` | `GET /v1/models` | `GET /v1/language-models` (modalities, aliases) | `XAI_API_KEY` |
+| `xai` | `GET /v1/models` | docs.x.ai per-model pages (function calling, structured outputs, reasoning, batch, context) + `GET /v1/language-models` (modalities, aliases) | `XAI_API_KEY` |
 | `mistral` | `GET /v1/models` | the listing's `capabilities` object | `MISTRAL_API_KEY` |
-| `google` | OpenAI-compat shim `/v1beta/openai/models` | native `/v1beta/models` (limits, methods) | `GOOGLE_API_KEY` / `GEMINI_API_KEY` |
-| `cohere` | `GET /v1/models` | the same call (endpoints, features, context) | `COHERE_API_KEY` |
+| `google` | OpenAI-compat shim `/v1beta/openai/models` | native `/v1beta/models` (limits, methods, thinking) | `GOOGLE_API_KEY` / `GEMINI_API_KEY` |
+| `cohere` | `GET /v1/models` | the same call (endpoints, features, context) | `COHERE_API_KEY` (account with billing) |
 | `nvidia` | `GET integrate.api.nvidia.com/v1/models` (public) | — (ids only) | optional |
 | `inception` | `GET api.inceptionlabs.ai/v1/models` (public) | the same call (modalities, limits, features, pricing) | optional |
 | `ollama` | local `GET /api/tags` | local `POST /api/show` (capabilities, context) | none (`OLLAMA_HOST`) |
-
-**Data coverage.** The wheel ships *live* data for seven providers —
-**anthropic, openai, xai, mistral, google, nvidia, and inception** — refreshed
-daily from their official sources (`modelroster providers` shows what is
-loaded and when it was retrieved). **cohere** ships no data yet (its listing
-endpoint requires an account with billing enabled) and **ollama** is inherently
-local: run `modelroster update --provider ollama` against your own daemon.
-Run `modelroster update` with your own keys any time for fresher data; a
-missing key skips that provider, it is never an error, and the daily refresh
-workflow behaves the same way. Note that the xai/mistral/google/cohere test
-fixtures are still reference-shaped (see `tests/fixtures/README.md`); the
-shipped *data* for those providers is captured live in CI.
 
 A separate **discovery tier** (`modelroster discover huggingface|ollama_library|nvidia_nim`)
 lists candidate models from broad registries with mostly-unknown capabilities.
 They are labelled `tier="discovered"` and never enter the verified catalog.
 
-## Consumer API
+## Principles
 
-```python
-r = modelroster.load()                       # every provider with data
-r = modelroster.load("openai")               # one provider
-r = modelroster.load(data_dir="~/my/data")   # a refreshed copy (also $MODELROSTER_DATA_DIR)
-
-r.providers(); r.info()                      # retrieved_at, parser_version, counts
-r.get("gpt-5.4"); r.get("openai/gpt-5.4"); r.get(ModelRef("openai", "gpt-5.4"))
-r.resolve("gpt-4o-2024-08-06")               # -> the gpt-4o family record
-r.models(provider="openai", tool_calling=True, image_input=True, endpoint="responses")
-r.models(reasoning=True, unknown_ok=True)    # let None pass too
-r.models(relationship="canonical", include_retired=False, strict=True)
-r.ids(...); r.refs(...)                      # plain ids / ModelRefs
-```
-
-Filters accept every capability name (`reasoning`, `reasoning_efforts`,
-`extended_thinking`, `tool_calling`, `structured_outputs`, `streaming`,
-`prompt_caching`, `fine_tuning`, `batch`, `citations`, `code_execution`,
-`pdf_input`), modality flags (`image_input`, `audio_output`, …), any
-`capabilities.extra` key, and `endpoint=` / `builtin_tool=`. A `True`/`False`
-filter matches only a *documented* value; pass `unknown_ok=True` to let `None`
-through.
-
-Because of that rule, capability filters naturally return fewer providers than
-`r.models()`: a provider whose listing reports no capability metadata at all
-(e.g. NVIDIA's ids-only listing) can never match `tool_calling=True`, and
-Google's API documents reasoning (`thinking`) but not tool support, so Gemini
-models match `reasoning=True` but not `tool_calling=True`. This is deliberate —
-"unknown" is never presented as "yes" (or "no"). Use `unknown_ok=True` when
-your application is willing to try undocumented models.
-
-Module-level predicates mirror the record fields and are provider-agnostic:
-`supports(model, cap)`, `supports_tool_calling`, `supports_reasoning`,
-`supported_reasoning_efforts`, `supports_endpoint`, `supports_builtin_tool`,
-`supports_modality`, `context_window`, `max_input_tokens`, `max_output_tokens`,
-`models_supporting(cap, provider)`, `available_models(provider)`.
-
-### `ModelRef` — a type for model names
-
-```python
-from modelroster import ModelRef, UnknownModelError, RetiredModelError
-
-ModelRef.parse("openai/gpt-5.4")        # explicit
-ModelRef.parse("gpt-5.4")               # provider found by exact lookup in the registry
-ModelRef.parse("gpt-99").inferred       # True: only the documented prefix heuristic matched
-ModelRef("openai", "gpt-5.4").validate()            # raises UnknownModelError / RetiredModelError
-ModelRef("openai", "gpt-4o-2024-08-06").resolve()   # canonical family record
-```
-
-### Dependency-free snapshot
-
-```bash
-modelroster emit --out my_models.py --provider openai --provider anthropic -c tool_calling
-```
-
-writes a compiled-checked module with `MODELS`, `OPENAI_MODELS`,
-`OPENAI_MODEL_IDS`, … for projects that vendor a file instead of depending on
-`modelroster`.
-
-### Scheduled refresh from an agent
-
-```python
-report = modelroster.refresh(["openai", "anthropic"])   # {provider: {code, drift, errors, ...}}
-```
+1. **Tri-state capabilities.** `True` / `False` / `None`, where `None` means
+   *the source does not say* and is never collapsed into `False`.
+2. **No generation probes.** Availability from listing endpoints;
+   capabilities from official documentation or official API metadata only.
+3. **Provenance on every fact** — the exact section or field that stated it.
+4. **Exact ids only.** No fuzzy matching, no inference from date suffixes.
+5. **Refuse rather than rot.** Validation gates refuse to overwrite good
+   data when an upstream format changes; the previous data survives
+   byte-for-byte and a drift report says what changed.
 
 ## CLI
 
@@ -158,24 +187,16 @@ modelroster list [--provider X] [-c reasoning -c tool_calling[=true|false|unknow
 modelroster show <id | provider/id> [--provenance] [--json]
 modelroster diff [--provider X]          # last drift report
 modelroster validate [--provider X] [-v] # re-run the gates on stored data
-modelroster emit --out FILE [--provider X] [-c ...]
+modelroster emit --out FILE [--provider X] [-c ...]   # dependency-free vendorable snapshot module
 modelroster discover <huggingface|ollama_library|nvidia_nim> [--limit N] [--write]
 modelroster providers [-v]
 modelroster capture --provider X         # save live listing responses as test fixtures
 ```
 
-Exit status: `0` ok · `2` validation refused the write (previous data preserved)
-· `3` fetch failure · `4` usage. Providers run independently; the exit status
-is the worst stage.
-
-`--offline` serves *every* request — documentation pages and listing calls —
-from the on-disk cache (`<data-dir>/cache/<provider>/`) and never opens a
-socket. `--fixtures tests/fixtures` replays the captured fixtures instead.
-
-Keys are read from the environment (`<PROVIDER>_API_KEY`), optionally from a
-`.env` in the working directory when `python-dotenv` is installed
-(`pip install modelroster[dotenv]`); existing environment variables are never
-overridden. No key is ever written anywhere.
+Exit status: `0` ok · `2` validation refused the write (previous data
+preserved) · `3` fetch failure · `4` usage. Providers run independently; the
+exit status is the worst stage. `--offline` serves every request from the
+on-disk cache and never opens a socket.
 
 ## Record shape
 
@@ -195,43 +216,28 @@ ModelRecord
   tier (verified|discovered), provenance, sources, raw, retrieved_at, parser_version, warnings
 ```
 
-**Provider-wide facts.** An adapter may set a capability from provider-wide
-official documentation (rather than a per-model source) only when the statement
-covers every model the listing returns; such values carry
-`provenance = {"section": "provider_docs", "evidence": "provider-wide statement", "url": ...}`.
-Anthropic uses this for `tool_calling` and `streaming`. Nothing else is inferred.
-
-## Validation gates
-
-Generic: empty listing; model count shrinks by more than half when the previous
-run had at least 5 models. OpenAI: more than 10 % of documentation pages fail
-to fetch/parse; parser regression (more than 25 % or at least 10
-previously-understood pages now parse to nothing); documentation catalog shrinks
-by more than half; loss of header-region facts (reasoning-effort sentence, prose
-alias) on at least 25 % of the pages that previously carried them. The emitted
-snapshot module must compile. On refusal the previous file is untouched and the
-CLI exits 2.
-
-Every successful update writes `<provider>.drift.json` beside the data: added /
-removed models and families, new / removed snapshots, per-model capability
-deltas (`None` printed as `unknown`), and warnings.
+Records are dataclasses with `to_dict()` / `from_dict()`, and the package
+ships a `py.typed` marker. **Provider-wide facts** policy: an adapter may set
+a capability from provider-wide official documentation only when the
+statement covers every model the listing returns, and marks it
+`provenance.section = "provider_docs"` (Anthropic: `tool_calling`,
+`streaming`). Nothing else is inferred.
 
 ## Adding a provider
 
 Subclass `OpenAICompatProvider` (or `BaseProvider`), set `name`, `base_url`,
-`auth`, override `enrich_record` if the provider publishes per-model metadata,
-and point `fixtures()` at a captured response. Register it with
-`modelroster.providers.register(MyProvider())` or via the entry-point group
-`modelroster.providers`. No core file changes are needed (see
-`tests/test_compat_providers.py::test_plugin_provider_needs_no_core_edits`).
+`auth`, override `enrich_record` if the provider publishes per-model
+metadata, and point `fixtures()` at a captured response. Register with
+`modelroster.providers.register(...)` or the `modelroster.providers`
+entry-point group — no core changes needed.
 
 ## Development
 
 ```bash
 pip install -e ".[dev]"
-pytest -q                                   # offline, ~1 s
+pytest -q                                          # offline, ~1 s
 MODELROSTER_LIVE=1 pytest tests/test_live.py -q    # hits the real endpoints
-modelroster update --fixtures tests/fixtures --dry-run   # full pipeline on fixtures
+modelroster update --fixtures tests/fixtures --dry-run   # full pipeline on captured fixtures
 ```
 
 See [MAINTAINERS.md](MAINTAINERS.md) for the refresh loop, `docs/DESIGN.md`

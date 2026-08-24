@@ -12,6 +12,22 @@ Two version numbers matter:
 
 ## [Unreleased]
 
+## [0.1.2] — 2026-08-24
+
+### Added
+- xAI capabilities are now documented, not unknown: the adapter parses each
+  model's official docs.x.ai page (`/developers/models/<id>.md`) — function
+  calling, structured outputs, reasoning, Batch API, context window,
+  modalities, aliases — joined by exact id, with a docs-regression gate.
+  `r.models(tool_calling=True, reasoning=True)` now spans anthropic, openai,
+  mistral, and xai. Parser 2026.08.24-2.
+- xAI test fixtures upgraded to real captures (listing reconstructed from the
+  2026-08-24 live data; docs pages verbatim).
+
+### Changed
+- README rewritten around the core value proposition, with a per-provider
+  documented-capability coverage table explaining exactly which providers a
+  capability filter can return.
 ## [0.1.1] — 2026-08-24
 
 ### Added

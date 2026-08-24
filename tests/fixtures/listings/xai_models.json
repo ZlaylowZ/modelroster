@@ -1,6 +1,77 @@
-{"object": "list", "data": [
- {"id": "grok-4", "created": 1752537600, "object": "model", "owned_by": "xai"},
- {"id": "grok-4-latest", "created": 1752537600, "object": "model", "owned_by": "xai"},
- {"id": "grok-3-mini", "created": 1743724800, "object": "model", "owned_by": "xai"},
- {"id": "grok-2-image-1212", "created": 1733961600, "object": "model", "owned_by": "xai"}
-]}
+{
+ "object": "list",
+ "data": [
+  {
+   "id": "grok-4.20-0309-non-reasoning",
+   "created": 1773014400,
+   "object": "model",
+   "owned_by": "xai"
+  },
+  {
+   "id": "grok-4.20-0309-reasoning",
+   "created": 1773014400,
+   "object": "model",
+   "owned_by": "xai"
+  },
+  {
+   "id": "grok-4.20-multi-agent-0309",
+   "created": 1773014400,
+   "object": "model",
+   "owned_by": "xai"
+  },
+  {
+   "id": "grok-4.3",
+   "created": 1776384000,
+   "object": "model",
+   "owned_by": "xai"
+  },
+  {
+   "id": "grok-4.5",
+   "created": 1782691200,
+   "object": "model",
+   "owned_by": "xai"
+  },
+  {
+   "id": "grok-4.6",
+   "created": 1785974400,
+   "object": "model",
+   "owned_by": "xai"
+  },
+  {
+   "id": "grok-build-0.1",
+   "created": 1776297600,
+   "object": "model",
+   "owned_by": "xai"
+  },
+  {
+   "id": "grok-imagine-image",
+   "created": 1769558400,
+   "object": "model",
+   "owned_by": "xai"
+  },
+  {
+   "id": "grok-imagine-image-2.0",
+   "created": 1786147200,
+   "object": "model",
+   "owned_by": "xai"
+  },
+  {
+   "id": "grok-imagine-image-quality",
+   "created": 1775174400,
+   "object": "model",
+   "owned_by": "xai"
+  },
+  {
+   "id": "grok-imagine-video",
+   "created": 1769558400,
+   "object": "model",
+   "owned_by": "xai"
+  },
+  {
+   "id": "grok-imagine-video-1.5",
+   "created": 1779840000,
+   "object": "model",
+   "owned_by": "xai"
+  }
+ ]
+}

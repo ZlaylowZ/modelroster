@@ -71,7 +71,7 @@ def test_extra_capability_filter(registry):
 
 def test_resolve_follows_snapshots_and_aliases(registry):
     assert registry.resolve("gpt-4o-2024-08-06").model_id == "gpt-4o"
-    assert registry.resolve("grok-4-latest").model_id == "grok-4"
+    assert registry.resolve("grok-4.3-latest").model_id == "grok-4.3"
     assert registry.resolve("claude-opus-5").model_id == "claude-opus-5"
 
 

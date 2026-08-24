@@ -27,12 +27,24 @@ def records(name):
 class TestProviders:
     def test_xai_aliases_and_modalities(self):
         recs = records("xai")
-        g4 = recs["grok-4"]
-        assert g4.relationship == "canonical" and g4.aliases == ["grok-4-latest"]
-        assert recs["grok-4-latest"].relationship == "alias" and recs["grok-4-latest"].family == "grok-4"
-        assert g4.modalities["image"]["input"] is True and g4.modalities["audio"]["input"] is False
-        assert g4.capabilities.tool_calling is None                 # listing does not say
-        assert recs["grok-2-image-1212"].modalities["image"]["input"] is None   # not a language model
+        g = recs["grok-4.3"]
+        assert g.relationship == "canonical" and g.aliases == ["grok-4.3-latest"]
+        assert g.modalities["image"]["input"] is True and g.modalities["audio"]["input"] is False
+
+    def test_xai_docs_capabilities(self):
+        recs = records("xai")
+        g = recs["grok-4.6"]
+        assert g.capabilities.tool_calling is True and g.capabilities.structured_outputs is True
+        assert g.capabilities.reasoning is True and g.capabilities.batch is False
+        assert g.provenance["tool_calling"] == {"section": "docs:developers/models", "evidence": "Capabilities bullet"}
+        assert g.context_window == 500_000            # docs fill what the API omits
+        nr = recs["grok-4.20-0309-non-reasoning"]
+        assert nr.capabilities.reasoning is False and nr.capabilities.tool_calling is True
+        img = recs["grok-imagine-image"]
+        assert img.capabilities.tool_calling is None  # no Capabilities section -> unknown, not False
+        assert img.capabilities.batch is True
+        assert img.relationship == "canonical" and img.aliases == ["grok-imagine-image-2026-03-02"]
+        assert img.modalities["image"]["output"] is True and img.modalities["text"]["output"] is False
 
     def test_mistral_capabilities_object(self):
         recs = records("mistral")

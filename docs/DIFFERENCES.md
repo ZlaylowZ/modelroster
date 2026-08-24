@@ -73,6 +73,13 @@ filter on provenance. Nothing else is inferred (Anthropic `prompt_caching`,
     ollama; **discovery tier**: huggingface, ollama_library, nvidia_nim,
     written to `<data-dir>/discovered/` and excluded from `Registry.models()`
     by default.
+16b. **xAI documentation stage** (0.1.2): per-model pages on docs.x.ai are
+    official Markdown with explicit Yes/No capability bullets; the adapter
+    fetches `/developers/models/<listing id>.md` (exact-id URL, no guessing),
+    parses them with the same heading-driven approach as the OpenAI parser,
+    prefers API facts over docs on conflict (warned), and gates on docs
+    regression (≥50 % of previously-parsed pages failing, or ≥50 % losing
+    their Capabilities section, refuses the write).
 17. **OpenAI listing via REST** (`GET /v1/models` with `httpx`) rather than
     `client.models.list()`; ids, `created`, `owned_by`, `shutdown_date` are
     taken verbatim.
