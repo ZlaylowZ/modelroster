@@ -1,9 +1,9 @@
 {
  "provider": "nvidia",
  "first_run": false,
- "previous_retrieved_at": "2026-08-24T07:29:31Z",
- "retrieved_at": "2026-08-24T16:59:09Z",
- "parser_version": "2026.08.23-1",
+ "previous_retrieved_at": "2026-08-24T16:59:09Z",
+ "retrieved_at": "2026-08-24T17:12:12Z",
+ "parser_version": "2026.08.24-1",
  "previous_parser_version": "2026.08.23-1",
  "counts": {
   "previous": 102,

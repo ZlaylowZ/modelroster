@@ -1,8 +1,8 @@
 {
  "provider": "mistral",
  "schema_version": 2,
- "parser_version": "2026.08.23-1",
- "retrieved_at": "2026-08-24T16:59:09Z",
+ "parser_version": "2026.08.24-1",
+ "retrieved_at": "2026-08-24T17:12:12Z",
  "sources": {
   "listing": "https://api.mistral.ai/v1/models"
  },
@@ -98,7 +98,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -107,7 +107,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -139,7 +139,13 @@
    },
    "endpoints": {
     "chat_completions": true,
-    "fim_completions": true
+    "fim_completions": true,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -157,13 +163,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -175,20 +217,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "codestral-embed": {
    "provider": "mistral",
@@ -221,7 +257,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -230,7 +266,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -262,7 +298,13 @@
    },
    "endpoints": {
     "chat_completions": false,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -280,13 +322,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -298,20 +376,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "codestral-embed-2505": {
    "provider": "mistral",
@@ -344,7 +416,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -353,7 +425,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -385,7 +457,13 @@
    },
    "endpoints": {
     "chat_completions": false,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -403,13 +481,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -421,20 +535,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "codestral-latest": {
    "provider": "mistral",
@@ -469,7 +577,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -478,7 +586,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -510,7 +618,13 @@
    },
    "endpoints": {
     "chat_completions": true,
-    "fim_completions": true
+    "fim_completions": true,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -528,13 +642,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -546,20 +696,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "devstral-2512": {
    "provider": "mistral",
@@ -594,7 +738,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -603,7 +747,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -635,7 +779,13 @@
    },
    "endpoints": {
     "chat_completions": true,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -653,13 +803,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -675,20 +861,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "devstral-latest": {
    "provider": "mistral",
@@ -723,7 +903,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -732,7 +912,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -764,7 +944,13 @@
    },
    "endpoints": {
     "chat_completions": true,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -782,13 +968,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -804,20 +1026,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "devstral-medium-latest": {
    "provider": "mistral",
@@ -852,7 +1068,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -861,7 +1077,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -893,7 +1109,13 @@
    },
    "endpoints": {
     "chat_completions": true,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -911,13 +1133,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -933,20 +1191,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "glm-5-2": {
    "provider": "mistral",
@@ -979,7 +1231,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -988,7 +1240,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": true,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -1020,7 +1272,13 @@
    },
    "endpoints": {
     "chat_completions": true,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -1038,13 +1296,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -1056,20 +1350,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "labs-leanstral-1-5": {
    "provider": "mistral",
@@ -1102,7 +1390,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -1111,7 +1399,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": true,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -1143,7 +1431,13 @@
    },
    "endpoints": {
     "chat_completions": true,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -1161,13 +1455,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -1179,20 +1509,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "labs-leanstral-1-5-1": {
    "provider": "mistral",
@@ -1225,7 +1549,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -1234,7 +1558,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": true,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -1266,7 +1590,13 @@
    },
    "endpoints": {
     "chat_completions": true,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -1284,13 +1614,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -1302,20 +1668,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "magistral-medium-latest": {
    "provider": "mistral",
@@ -1355,7 +1715,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -1364,7 +1724,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": true,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -1396,7 +1756,13 @@
    },
    "endpoints": {
     "chat_completions": true,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -1414,13 +1780,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -1432,20 +1834,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "magistral-small-latest": {
    "provider": "mistral",
@@ -1480,7 +1876,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -1489,7 +1885,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": true,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -1521,7 +1917,13 @@
    },
    "endpoints": {
     "chat_completions": true,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -1539,13 +1941,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -1557,20 +1995,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "ministral-14b-2512": {
    "provider": "mistral",
@@ -1603,7 +2035,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -1612,7 +2044,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -1644,7 +2076,13 @@
    },
    "endpoints": {
     "chat_completions": true,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -1662,13 +2100,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -1680,20 +2154,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "ministral-14b-latest": {
    "provider": "mistral",
@@ -1726,7 +2194,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -1735,7 +2203,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -1767,7 +2235,13 @@
    },
    "endpoints": {
     "chat_completions": true,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -1785,13 +2259,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -1803,20 +2313,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "ministral-3b-2512": {
    "provider": "mistral",
@@ -1849,7 +2353,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -1858,7 +2362,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -1890,7 +2394,13 @@
    },
    "endpoints": {
     "chat_completions": true,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -1908,13 +2418,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -1926,20 +2472,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "ministral-3b-latest": {
    "provider": "mistral",
@@ -1972,7 +2512,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -1981,7 +2521,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -2013,7 +2553,13 @@
    },
    "endpoints": {
     "chat_completions": true,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -2031,13 +2577,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -2049,20 +2631,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "ministral-8b-2512": {
    "provider": "mistral",
@@ -2095,7 +2671,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -2104,7 +2680,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -2136,7 +2712,13 @@
    },
    "endpoints": {
     "chat_completions": true,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -2154,13 +2736,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -2172,20 +2790,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "ministral-8b-latest": {
    "provider": "mistral",
@@ -2218,7 +2830,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -2227,7 +2839,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -2259,7 +2871,13 @@
    },
    "endpoints": {
     "chat_completions": true,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -2277,13 +2895,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -2295,20 +2949,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "mistral-code-agent-latest": {
    "provider": "mistral",
@@ -2343,7 +2991,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -2352,7 +3000,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -2384,7 +3032,13 @@
    },
    "endpoints": {
     "chat_completions": true,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -2402,13 +3056,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -2424,20 +3114,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "mistral-code-fim-latest": {
    "provider": "mistral",
@@ -2472,7 +3156,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -2481,7 +3165,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -2513,7 +3197,13 @@
    },
    "endpoints": {
     "chat_completions": true,
-    "fim_completions": true
+    "fim_completions": true,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -2531,13 +3221,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -2549,20 +3275,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "mistral-code-latest": {
    "provider": "mistral",
@@ -2597,7 +3317,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -2606,7 +3326,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -2638,7 +3358,13 @@
    },
    "endpoints": {
     "chat_completions": true,
-    "fim_completions": true
+    "fim_completions": true,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -2656,13 +3382,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -2674,20 +3436,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "mistral-embed": {
    "provider": "mistral",
@@ -2720,7 +3476,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -2729,7 +3485,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -2761,7 +3517,13 @@
    },
    "endpoints": {
     "chat_completions": false,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -2779,13 +3541,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -2797,20 +3595,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "mistral-embed-2312": {
    "provider": "mistral",
@@ -2843,7 +3635,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -2852,7 +3644,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -2884,7 +3676,13 @@
    },
    "endpoints": {
     "chat_completions": false,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -2902,13 +3700,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -2920,20 +3754,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "mistral-large-2512": {
    "provider": "mistral",
@@ -2966,7 +3794,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -2975,7 +3803,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -3007,7 +3835,13 @@
    },
    "endpoints": {
     "chat_completions": true,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -3025,13 +3859,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -3043,20 +3913,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "mistral-large-latest": {
    "provider": "mistral",
@@ -3089,7 +3953,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -3098,7 +3962,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -3130,7 +3994,13 @@
    },
    "endpoints": {
     "chat_completions": true,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -3148,13 +4018,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -3166,20 +4072,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "mistral-medium": {
    "provider": "mistral",
@@ -3219,7 +4119,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -3228,7 +4128,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": true,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -3260,7 +4160,13 @@
    },
    "endpoints": {
     "chat_completions": true,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -3278,13 +4184,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -3296,20 +4238,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "mistral-medium-2505": {
    "provider": "mistral",
@@ -3340,7 +4276,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -3349,7 +4285,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -3381,7 +4317,13 @@
    },
    "endpoints": {
     "chat_completions": true,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -3399,13 +4341,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -3421,20 +4399,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "mistral-medium-2508": {
    "provider": "mistral",
@@ -3465,7 +4437,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -3474,7 +4446,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -3506,7 +4478,13 @@
    },
    "endpoints": {
     "chat_completions": true,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -3524,13 +4502,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -3546,20 +4560,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "mistral-medium-2604": {
    "provider": "mistral",
@@ -3599,7 +4607,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -3608,7 +4616,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": true,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -3640,7 +4648,13 @@
    },
    "endpoints": {
     "chat_completions": true,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -3658,13 +4672,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -3676,20 +4726,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "mistral-medium-3": {
    "provider": "mistral",
@@ -3729,7 +4773,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -3738,7 +4782,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": true,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -3770,7 +4814,13 @@
    },
    "endpoints": {
     "chat_completions": true,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -3788,13 +4838,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -3806,20 +4892,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "mistral-medium-3-5": {
    "provider": "mistral",
@@ -3859,7 +4939,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -3868,7 +4948,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": true,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -3900,7 +4980,13 @@
    },
    "endpoints": {
     "chat_completions": true,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -3918,13 +5004,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -3936,20 +5058,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "mistral-medium-3.5": {
    "provider": "mistral",
@@ -3989,7 +5105,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -3998,7 +5114,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": true,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -4030,7 +5146,13 @@
    },
    "endpoints": {
     "chat_completions": true,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -4048,13 +5170,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -4066,20 +5224,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "mistral-medium-latest": {
    "provider": "mistral",
@@ -4119,7 +5271,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -4128,7 +5280,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": true,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -4160,7 +5312,13 @@
    },
    "endpoints": {
     "chat_completions": true,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -4178,13 +5336,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -4196,20 +5390,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "mistral-moderation-2603": {
    "provider": "mistral",
@@ -4240,7 +5428,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -4249,7 +5437,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -4281,7 +5469,13 @@
    },
    "endpoints": {
     "chat_completions": false,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": true,
+    "classification": true
    },
    "builtin_tools": null,
    "pricing": null,
@@ -4299,13 +5493,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -4317,20 +5547,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "mistral-ocr-2512": {
    "provider": "mistral",
@@ -4364,7 +5588,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -4373,7 +5597,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -4405,7 +5629,13 @@
    },
    "endpoints": {
     "chat_completions": false,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": true,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -4423,13 +5653,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -4441,20 +5707,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "mistral-ocr-3": {
    "provider": "mistral",
@@ -4488,7 +5748,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -4497,7 +5757,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -4529,7 +5789,13 @@
    },
    "endpoints": {
     "chat_completions": false,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": true,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -4547,13 +5813,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -4565,20 +5867,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "mistral-ocr-3-0": {
    "provider": "mistral",
@@ -4612,7 +5908,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -4621,7 +5917,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -4653,7 +5949,13 @@
    },
    "endpoints": {
     "chat_completions": false,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": true,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -4671,13 +5973,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -4689,20 +6027,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "mistral-ocr-4": {
    "provider": "mistral",
@@ -4736,7 +6068,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -4745,7 +6077,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -4777,7 +6109,13 @@
    },
    "endpoints": {
     "chat_completions": false,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": true,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -4795,13 +6133,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -4813,20 +6187,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "mistral-ocr-4-0": {
    "provider": "mistral",
@@ -4857,7 +6225,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -4866,7 +6234,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -4898,7 +6266,13 @@
    },
    "endpoints": {
     "chat_completions": false,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": true,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -4916,13 +6290,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -4934,20 +6344,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "mistral-ocr-4-1": {
    "provider": "mistral",
@@ -4981,7 +6385,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -4990,7 +6394,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -5022,7 +6426,13 @@
    },
    "endpoints": {
     "chat_completions": false,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": true,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -5040,13 +6450,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -5058,20 +6504,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "mistral-ocr-latest": {
    "provider": "mistral",
@@ -5105,7 +6545,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -5114,7 +6554,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -5146,7 +6586,13 @@
    },
    "endpoints": {
     "chat_completions": false,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": true,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -5164,13 +6610,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -5182,20 +6664,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "mistral-small-2603": {
    "provider": "mistral",
@@ -5230,7 +6706,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -5239,7 +6715,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": true,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -5271,7 +6747,13 @@
    },
    "endpoints": {
     "chat_completions": true,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -5289,13 +6771,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -5307,20 +6825,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "mistral-small-latest": {
    "provider": "mistral",
@@ -5355,7 +6867,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -5364,7 +6876,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": true,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -5396,7 +6908,13 @@
    },
    "endpoints": {
     "chat_completions": true,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -5414,13 +6932,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -5432,20 +6986,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "mistral-vibe-cli-fast": {
    "provider": "mistral",
@@ -5480,7 +7028,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -5489,7 +7037,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": true,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -5521,7 +7069,13 @@
    },
    "endpoints": {
     "chat_completions": true,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -5539,13 +7093,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -5557,20 +7147,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "mistral-vibe-cli-latest": {
    "provider": "mistral",
@@ -5610,7 +7194,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -5619,7 +7203,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": true,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -5651,7 +7235,13 @@
    },
    "endpoints": {
     "chat_completions": true,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -5669,13 +7259,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -5687,20 +7313,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "mistral-vibe-cli-with-tools": {
    "provider": "mistral",
@@ -5740,7 +7360,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -5749,7 +7369,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": true,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -5781,7 +7401,13 @@
    },
    "endpoints": {
     "chat_completions": true,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -5799,13 +7425,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -5817,20 +7479,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "voxtral-mini-2602": {
    "provider": "mistral",
@@ -5863,7 +7519,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -5872,7 +7528,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -5904,7 +7560,13 @@
    },
    "endpoints": {
     "chat_completions": false,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": true,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -5922,13 +7584,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -5940,20 +7638,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "voxtral-mini-latest": {
    "provider": "mistral",
@@ -5986,7 +7678,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -5995,7 +7687,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -6027,7 +7719,13 @@
    },
    "endpoints": {
     "chat_completions": false,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": true,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -6045,13 +7743,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -6063,20 +7797,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "voxtral-mini-realtime-2602": {
    "provider": "mistral",
@@ -6110,7 +7838,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -6119,7 +7847,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -6151,7 +7879,13 @@
    },
    "endpoints": {
     "chat_completions": false,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": true,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -6169,13 +7903,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -6187,20 +7957,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "voxtral-mini-realtime-latest": {
    "provider": "mistral",
@@ -6234,7 +7998,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -6243,7 +8007,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -6275,7 +8039,13 @@
    },
    "endpoints": {
     "chat_completions": false,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": true,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -6293,13 +8063,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -6311,20 +8117,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "voxtral-mini-transcribe-realtime-2602": {
    "provider": "mistral",
@@ -6358,7 +8158,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -6367,7 +8167,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -6399,7 +8199,13 @@
    },
    "endpoints": {
     "chat_completions": false,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": true,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -6417,13 +8223,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -6435,20 +8277,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "voxtral-mini-tts-2603": {
    "provider": "mistral",
@@ -6481,7 +8317,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -6490,7 +8326,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -6522,7 +8358,13 @@
    },
    "endpoints": {
     "chat_completions": false,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": true,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -6540,13 +8382,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -6558,20 +8436,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "voxtral-mini-tts-latest": {
    "provider": "mistral",
@@ -6604,7 +8476,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -6613,7 +8485,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -6645,7 +8517,13 @@
    },
    "endpoints": {
     "chat_completions": false,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": true,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -6663,13 +8541,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -6681,20 +8595,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "voxtral-small-2507": {
    "provider": "mistral",
@@ -6727,7 +8635,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": true,
      "output": null
     },
     "video": {
@@ -6736,7 +8644,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -6768,7 +8676,13 @@
    },
    "endpoints": {
     "chat_completions": true,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -6786,13 +8700,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -6804,20 +8754,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "voxtral-small-latest": {
    "provider": "mistral",
@@ -6850,7 +8794,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": true,
      "output": null
     },
     "video": {
@@ -6859,7 +8803,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": false,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -6891,7 +8835,13 @@
    },
    "endpoints": {
     "chat_completions": true,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -6909,13 +8859,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -6927,20 +8913,14 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   },
   "zai-glm-5-2": {
    "provider": "mistral",
@@ -6973,7 +8953,7 @@
      "output": null
     },
     "audio": {
-     "input": null,
+     "input": false,
      "output": null
     },
     "video": {
@@ -6982,7 +8962,7 @@
     }
    },
    "capabilities": {
-    "reasoning": null,
+    "reasoning": true,
     "reasoning_efforts": null,
     "default_effort": null,
     "extended_thinking": null,
@@ -7014,7 +8994,13 @@
    },
    "endpoints": {
     "chat_completions": true,
-    "fim_completions": false
+    "fim_completions": false,
+    "speech_generation": false,
+    "transcription": false,
+    "realtime_transcription": false,
+    "ocr": false,
+    "moderation": false,
+    "classification": false
    },
    "builtin_tools": null,
    "pricing": null,
@@ -7032,13 +9018,49 @@
      "section": "api:/v1/models",
      "evidence": "capabilities.fine_tuning"
     },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.reasoning"
+    },
     "endpoints.chat_completions": {
      "section": "api:/v1/models",
      "evidence": "capabilities.completion_chat"
     },
+    "endpoints.fim_completions": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.completion_fim"
+    },
+    "endpoints.speech_generation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_speech"
+    },
+    "endpoints.transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio_transcription_realtime"
+    },
+    "endpoints.ocr": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.ocr"
+    },
+    "endpoints.moderation": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.moderation"
+    },
+    "endpoints.classification": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.classification"
+    },
     "modalities.image.input": {
      "section": "api:/v1/models",
      "evidence": "capabilities.vision"
+    },
+    "modalities.audio.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.audio"
     },
     "context_window": {
      "section": "api:/v1/models",
@@ -7050,307 +9072,20 @@
     "documentation": null
    },
    "raw": {
-    "created": 1787590749,
+    "created": 1787591531,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-24T16:59:09Z",
-   "parser_version": "2026.08.23-1",
-   "warnings": [
-    "unrecognised capability key 'reasoning' (kept in extra)",
-    "unrecognised capability key 'audio_transcription' (kept in extra)",
-    "unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-    "unrecognised capability key 'audio_speech' (kept in extra)",
-    "unrecognised capability key 'unified_resources' (kept in extra)"
-   ]
+   "retrieved_at": "2026-08-24T17:12:12Z",
+   "parser_version": "2026.08.24-1",
+   "warnings": []
   }
  },
  "stats": {
   "api_models": 56,
   "models": 56
  },
- "warnings": [
-  "codestral-2508: unrecognised capability key 'reasoning' (kept in extra)",
-  "codestral-2508: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "codestral-2508: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "codestral-2508: unrecognised capability key 'audio_speech' (kept in extra)",
-  "codestral-2508: unrecognised capability key 'unified_resources' (kept in extra)",
-  "codestral-embed: unrecognised capability key 'reasoning' (kept in extra)",
-  "codestral-embed: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "codestral-embed: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "codestral-embed: unrecognised capability key 'audio_speech' (kept in extra)",
-  "codestral-embed: unrecognised capability key 'unified_resources' (kept in extra)",
-  "codestral-embed-2505: unrecognised capability key 'reasoning' (kept in extra)",
-  "codestral-embed-2505: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "codestral-embed-2505: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "codestral-embed-2505: unrecognised capability key 'audio_speech' (kept in extra)",
-  "codestral-embed-2505: unrecognised capability key 'unified_resources' (kept in extra)",
-  "codestral-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "codestral-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "codestral-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "codestral-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "codestral-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "devstral-2512: unrecognised capability key 'reasoning' (kept in extra)",
-  "devstral-2512: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "devstral-2512: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "devstral-2512: unrecognised capability key 'audio_speech' (kept in extra)",
-  "devstral-2512: unrecognised capability key 'unified_resources' (kept in extra)",
-  "devstral-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "devstral-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "devstral-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "devstral-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "devstral-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "devstral-medium-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "devstral-medium-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "devstral-medium-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "devstral-medium-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "devstral-medium-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "glm-5-2: unrecognised capability key 'reasoning' (kept in extra)",
-  "glm-5-2: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "glm-5-2: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "glm-5-2: unrecognised capability key 'audio_speech' (kept in extra)",
-  "glm-5-2: unrecognised capability key 'unified_resources' (kept in extra)",
-  "labs-leanstral-1-5: unrecognised capability key 'reasoning' (kept in extra)",
-  "labs-leanstral-1-5: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "labs-leanstral-1-5: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "labs-leanstral-1-5: unrecognised capability key 'audio_speech' (kept in extra)",
-  "labs-leanstral-1-5: unrecognised capability key 'unified_resources' (kept in extra)",
-  "labs-leanstral-1-5-1: unrecognised capability key 'reasoning' (kept in extra)",
-  "labs-leanstral-1-5-1: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "labs-leanstral-1-5-1: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "labs-leanstral-1-5-1: unrecognised capability key 'audio_speech' (kept in extra)",
-  "labs-leanstral-1-5-1: unrecognised capability key 'unified_resources' (kept in extra)",
-  "magistral-medium-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "magistral-medium-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "magistral-medium-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "magistral-medium-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "magistral-medium-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "magistral-small-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "magistral-small-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "magistral-small-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "magistral-small-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "magistral-small-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "ministral-14b-2512: unrecognised capability key 'reasoning' (kept in extra)",
-  "ministral-14b-2512: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "ministral-14b-2512: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "ministral-14b-2512: unrecognised capability key 'audio_speech' (kept in extra)",
-  "ministral-14b-2512: unrecognised capability key 'unified_resources' (kept in extra)",
-  "ministral-14b-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "ministral-14b-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "ministral-14b-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "ministral-14b-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "ministral-14b-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "ministral-3b-2512: unrecognised capability key 'reasoning' (kept in extra)",
-  "ministral-3b-2512: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "ministral-3b-2512: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "ministral-3b-2512: unrecognised capability key 'audio_speech' (kept in extra)",
-  "ministral-3b-2512: unrecognised capability key 'unified_resources' (kept in extra)",
-  "ministral-3b-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "ministral-3b-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "ministral-3b-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "ministral-3b-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "ministral-3b-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "ministral-8b-2512: unrecognised capability key 'reasoning' (kept in extra)",
-  "ministral-8b-2512: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "ministral-8b-2512: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "ministral-8b-2512: unrecognised capability key 'audio_speech' (kept in extra)",
-  "ministral-8b-2512: unrecognised capability key 'unified_resources' (kept in extra)",
-  "ministral-8b-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "ministral-8b-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "ministral-8b-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "ministral-8b-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "ministral-8b-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-code-agent-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-code-agent-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-code-agent-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-code-agent-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-code-agent-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-code-fim-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-code-fim-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-code-fim-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-code-fim-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-code-fim-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-code-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-code-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-code-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-code-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-code-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-embed: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-embed: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-embed: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-embed: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-embed: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-embed-2312: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-embed-2312: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-embed-2312: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-embed-2312: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-embed-2312: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-large-2512: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-large-2512: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-large-2512: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-large-2512: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-large-2512: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-large-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-large-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-large-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-large-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-large-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-medium: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-medium: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-medium: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-medium: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-medium: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-medium-2505: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-medium-2505: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-medium-2505: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-medium-2505: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-medium-2505: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-medium-2508: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-medium-2508: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-medium-2508: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-medium-2508: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-medium-2508: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-medium-2604: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-medium-2604: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-medium-2604: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-medium-2604: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-medium-2604: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-medium-3: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-medium-3: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-medium-3: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-medium-3: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-medium-3: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-medium-3-5: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-medium-3-5: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-medium-3-5: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-medium-3-5: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-medium-3-5: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-medium-3.5: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-medium-3.5: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-medium-3.5: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-medium-3.5: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-medium-3.5: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-medium-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-medium-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-medium-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-medium-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-medium-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-moderation-2603: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-moderation-2603: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-moderation-2603: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-moderation-2603: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-moderation-2603: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-ocr-2512: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-ocr-2512: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-ocr-2512: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-ocr-2512: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-ocr-2512: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-ocr-3: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-ocr-3: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-ocr-3: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-ocr-3: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-ocr-3: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-ocr-3-0: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-ocr-3-0: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-ocr-3-0: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-ocr-3-0: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-ocr-3-0: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-ocr-4: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-ocr-4: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-ocr-4: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-ocr-4: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-ocr-4: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-ocr-4-0: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-ocr-4-0: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-ocr-4-0: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-ocr-4-0: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-ocr-4-0: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-ocr-4-1: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-ocr-4-1: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-ocr-4-1: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-ocr-4-1: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-ocr-4-1: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-ocr-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-ocr-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-ocr-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-ocr-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-ocr-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-small-2603: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-small-2603: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-small-2603: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-small-2603: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-small-2603: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-small-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-small-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-small-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-small-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-small-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-vibe-cli-fast: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-vibe-cli-fast: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-vibe-cli-fast: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-vibe-cli-fast: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-vibe-cli-fast: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-vibe-cli-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-vibe-cli-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-vibe-cli-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-vibe-cli-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-vibe-cli-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-vibe-cli-with-tools: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-vibe-cli-with-tools: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-vibe-cli-with-tools: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-vibe-cli-with-tools: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-vibe-cli-with-tools: unrecognised capability key 'unified_resources' (kept in extra)",
-  "voxtral-mini-2602: unrecognised capability key 'reasoning' (kept in extra)",
-  "voxtral-mini-2602: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "voxtral-mini-2602: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "voxtral-mini-2602: unrecognised capability key 'audio_speech' (kept in extra)",
-  "voxtral-mini-2602: unrecognised capability key 'unified_resources' (kept in extra)",
-  "voxtral-mini-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "voxtral-mini-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "voxtral-mini-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "voxtral-mini-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "voxtral-mini-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "voxtral-mini-realtime-2602: unrecognised capability key 'reasoning' (kept in extra)",
-  "voxtral-mini-realtime-2602: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "voxtral-mini-realtime-2602: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "voxtral-mini-realtime-2602: unrecognised capability key 'audio_speech' (kept in extra)",
-  "voxtral-mini-realtime-2602: unrecognised capability key 'unified_resources' (kept in extra)",
-  "voxtral-mini-realtime-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "voxtral-mini-realtime-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "voxtral-mini-realtime-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "voxtral-mini-realtime-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "voxtral-mini-realtime-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "voxtral-mini-transcribe-realtime-2602: unrecognised capability key 'reasoning' (kept in extra)",
-  "voxtral-mini-transcribe-realtime-2602: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "voxtral-mini-transcribe-realtime-2602: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "voxtral-mini-transcribe-realtime-2602: unrecognised capability key 'audio_speech' (kept in extra)",
-  "voxtral-mini-transcribe-realtime-2602: unrecognised capability key 'unified_resources' (kept in extra)",
-  "voxtral-mini-tts-2603: unrecognised capability key 'reasoning' (kept in extra)",
-  "voxtral-mini-tts-2603: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "voxtral-mini-tts-2603: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "voxtral-mini-tts-2603: unrecognised capability key 'audio_speech' (kept in extra)",
-  "voxtral-mini-tts-2603: unrecognised capability key 'unified_resources' (kept in extra)",
-  "voxtral-mini-tts-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "voxtral-mini-tts-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "voxtral-mini-tts-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "voxtral-mini-tts-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "voxtral-mini-tts-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "voxtral-small-2507: unrecognised capability key 'reasoning' (kept in extra)",
-  "voxtral-small-2507: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "voxtral-small-2507: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "voxtral-small-2507: unrecognised capability key 'audio_speech' (kept in extra)",
-  "voxtral-small-2507: unrecognised capability key 'unified_resources' (kept in extra)",
-  "voxtral-small-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "voxtral-small-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "voxtral-small-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "voxtral-small-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "voxtral-small-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "zai-glm-5-2: unrecognised capability key 'reasoning' (kept in extra)",
-  "zai-glm-5-2: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "zai-glm-5-2: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "zai-glm-5-2: unrecognised capability key 'audio_speech' (kept in extra)",
-  "zai-glm-5-2: unrecognised capability key 'unified_resources' (kept in extra)"
- ],
+ "warnings": [],
  "extra": {}
 }

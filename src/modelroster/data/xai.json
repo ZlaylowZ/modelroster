@@ -1,8 +1,8 @@
 {
  "provider": "xai",
  "schema_version": 2,
- "parser_version": "2026.08.23-1",
- "retrieved_at": "2026-08-24T16:59:24Z",
+ "parser_version": "2026.08.24-1",
+ "retrieved_at": "2026-08-24T17:12:28Z",
  "sources": {
   "listing": "https://api.x.ai/v1/models",
   "language_models": "https://api.x.ai/v1/language-models"
@@ -152,8 +152,8 @@
      ]
     }
    },
-   "retrieved_at": "2026-08-24T16:59:24Z",
-   "parser_version": "2026.08.23-1",
+   "retrieved_at": "2026-08-24T17:12:28Z",
+   "parser_version": "2026.08.24-1",
    "warnings": []
   },
   "grok-4.20-0309-reasoning": {
@@ -300,8 +300,8 @@
      ]
     }
    },
-   "retrieved_at": "2026-08-24T16:59:24Z",
-   "parser_version": "2026.08.23-1",
+   "retrieved_at": "2026-08-24T17:12:28Z",
+   "parser_version": "2026.08.24-1",
    "warnings": []
   },
   "grok-4.20-multi-agent-0309": {
@@ -430,8 +430,8 @@
      ]
     }
    },
-   "retrieved_at": "2026-08-24T16:59:24Z",
-   "parser_version": "2026.08.23-1",
+   "retrieved_at": "2026-08-24T17:12:28Z",
+   "parser_version": "2026.08.24-1",
    "warnings": []
   },
   "grok-4.3": {
@@ -550,8 +550,8 @@
      ]
     }
    },
-   "retrieved_at": "2026-08-24T16:59:24Z",
-   "parser_version": "2026.08.23-1",
+   "retrieved_at": "2026-08-24T17:12:28Z",
+   "parser_version": "2026.08.24-1",
    "warnings": []
   },
   "grok-4.5": {
@@ -672,8 +672,8 @@
      ]
     }
    },
-   "retrieved_at": "2026-08-24T16:59:24Z",
-   "parser_version": "2026.08.23-1",
+   "retrieved_at": "2026-08-24T17:12:28Z",
+   "parser_version": "2026.08.24-1",
    "warnings": []
   },
   "grok-4.6": {
@@ -788,8 +788,8 @@
      "aliases": []
     }
    },
-   "retrieved_at": "2026-08-24T16:59:24Z",
-   "parser_version": "2026.08.23-1",
+   "retrieved_at": "2026-08-24T17:12:28Z",
+   "parser_version": "2026.08.24-1",
    "warnings": []
   },
   "grok-build-0.1": {
@@ -912,8 +912,8 @@
      ]
     }
    },
-   "retrieved_at": "2026-08-24T16:59:24Z",
-   "parser_version": "2026.08.23-1",
+   "retrieved_at": "2026-08-24T17:12:28Z",
+   "parser_version": "2026.08.24-1",
    "warnings": []
   },
   "grok-imagine-image": {
@@ -988,8 +988,8 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-24T16:59:24Z",
-   "parser_version": "2026.08.23-1",
+   "retrieved_at": "2026-08-24T17:12:28Z",
+   "parser_version": "2026.08.24-1",
    "warnings": []
   },
   "grok-imagine-image-2.0": {
@@ -1064,8 +1064,8 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-24T16:59:24Z",
-   "parser_version": "2026.08.23-1",
+   "retrieved_at": "2026-08-24T17:12:28Z",
+   "parser_version": "2026.08.24-1",
    "warnings": []
   },
   "grok-imagine-image-quality": {
@@ -1140,8 +1140,8 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-24T16:59:24Z",
-   "parser_version": "2026.08.23-1",
+   "retrieved_at": "2026-08-24T17:12:28Z",
+   "parser_version": "2026.08.24-1",
    "warnings": []
   },
   "grok-imagine-video": {
@@ -1216,8 +1216,8 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-24T16:59:24Z",
-   "parser_version": "2026.08.23-1",
+   "retrieved_at": "2026-08-24T17:12:28Z",
+   "parser_version": "2026.08.24-1",
    "warnings": []
   },
   "grok-imagine-video-1.5": {
@@ -1292,8 +1292,8 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-24T16:59:24Z",
-   "parser_version": "2026.08.23-1",
+   "retrieved_at": "2026-08-24T17:12:28Z",
+   "parser_version": "2026.08.24-1",
    "warnings": []
   }
  },

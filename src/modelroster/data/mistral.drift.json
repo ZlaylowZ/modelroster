@@ -1,415 +1,2373 @@
 {
  "provider": "mistral",
- "first_run": true,
- "previous_retrieved_at": null,
- "retrieved_at": "2026-08-24T16:59:09Z",
- "parser_version": "2026.08.23-1",
- "previous_parser_version": null,
+ "first_run": false,
+ "previous_retrieved_at": "2026-08-24T16:59:09Z",
+ "retrieved_at": "2026-08-24T17:12:12Z",
+ "parser_version": "2026.08.24-1",
+ "previous_parser_version": "2026.08.23-1",
  "counts": {
-  "previous": 0,
+  "previous": 56,
   "current": 56
  },
- "added_models": [
-  "codestral-2508",
-  "codestral-embed",
-  "codestral-embed-2505",
-  "codestral-latest",
-  "devstral-2512",
-  "devstral-latest",
-  "devstral-medium-latest",
-  "glm-5-2",
-  "labs-leanstral-1-5",
-  "labs-leanstral-1-5-1",
-  "magistral-medium-latest",
-  "magistral-small-latest",
-  "ministral-14b-2512",
-  "ministral-14b-latest",
-  "ministral-3b-2512",
-  "ministral-3b-latest",
-  "ministral-8b-2512",
-  "ministral-8b-latest",
-  "mistral-code-agent-latest",
-  "mistral-code-fim-latest",
-  "mistral-code-latest",
-  "mistral-embed",
-  "mistral-embed-2312",
-  "mistral-large-2512",
-  "mistral-large-latest",
-  "mistral-medium",
-  "mistral-medium-2505",
-  "mistral-medium-2508",
-  "mistral-medium-2604",
-  "mistral-medium-3",
-  "mistral-medium-3-5",
-  "mistral-medium-3.5",
-  "mistral-medium-latest",
-  "mistral-moderation-2603",
-  "mistral-ocr-2512",
-  "mistral-ocr-3",
-  "mistral-ocr-3-0",
-  "mistral-ocr-4",
-  "mistral-ocr-4-0",
-  "mistral-ocr-4-1",
-  "mistral-ocr-latest",
-  "mistral-small-2603",
-  "mistral-small-latest",
-  "mistral-vibe-cli-fast",
-  "mistral-vibe-cli-latest",
-  "mistral-vibe-cli-with-tools",
-  "voxtral-mini-2602",
-  "voxtral-mini-latest",
-  "voxtral-mini-realtime-2602",
-  "voxtral-mini-realtime-latest",
-  "voxtral-mini-transcribe-realtime-2602",
-  "voxtral-mini-tts-2603",
-  "voxtral-mini-tts-latest",
-  "voxtral-small-2507",
-  "voxtral-small-latest",
-  "zai-glm-5-2"
- ],
+ "added_models": [],
  "removed_models": [],
- "added_families": [
-  "codestral-2508",
-  "codestral-embed",
-  "codestral-embed-2505",
-  "codestral-latest",
-  "devstral-2512",
-  "devstral-latest",
-  "devstral-medium-latest",
-  "glm-5-2",
-  "labs-leanstral-1-5",
-  "labs-leanstral-1-5-1",
-  "magistral-medium-latest",
-  "magistral-small-latest",
-  "ministral-14b-2512",
-  "ministral-14b-latest",
-  "ministral-3b-2512",
-  "ministral-3b-latest",
-  "ministral-8b-2512",
-  "ministral-8b-latest",
-  "mistral-code-agent-latest",
-  "mistral-code-fim-latest",
-  "mistral-code-latest",
-  "mistral-embed",
-  "mistral-embed-2312",
-  "mistral-large-2512",
-  "mistral-large-latest",
-  "mistral-medium",
-  "mistral-medium-2505",
-  "mistral-medium-2508",
-  "mistral-medium-2604",
-  "mistral-medium-3",
-  "mistral-medium-3-5",
-  "mistral-medium-3.5",
-  "mistral-medium-latest",
-  "mistral-moderation-2603",
-  "mistral-ocr-2512",
-  "mistral-ocr-3",
-  "mistral-ocr-3-0",
-  "mistral-ocr-4",
-  "mistral-ocr-4-0",
-  "mistral-ocr-4-1",
-  "mistral-ocr-latest",
-  "mistral-small-2603",
-  "mistral-small-latest",
-  "mistral-vibe-cli-fast",
-  "mistral-vibe-cli-latest",
-  "mistral-vibe-cli-with-tools",
-  "voxtral-mini-2602",
-  "voxtral-mini-latest",
-  "voxtral-mini-realtime-2602",
-  "voxtral-mini-realtime-latest",
-  "voxtral-mini-transcribe-realtime-2602",
-  "voxtral-mini-tts-2603",
-  "voxtral-mini-tts-latest",
-  "voxtral-small-2507",
-  "voxtral-small-latest",
-  "zai-glm-5-2"
- ],
+ "added_families": [],
  "removed_families": [],
  "new_snapshots": [],
  "removed_snapshots": [],
- "changed_capabilities": {},
- "warnings": [
-  "codestral-2508: unrecognised capability key 'reasoning' (kept in extra)",
-  "codestral-2508: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "codestral-2508: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "codestral-2508: unrecognised capability key 'audio_speech' (kept in extra)",
-  "codestral-2508: unrecognised capability key 'unified_resources' (kept in extra)",
-  "codestral-embed: unrecognised capability key 'reasoning' (kept in extra)",
-  "codestral-embed: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "codestral-embed: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "codestral-embed: unrecognised capability key 'audio_speech' (kept in extra)",
-  "codestral-embed: unrecognised capability key 'unified_resources' (kept in extra)",
-  "codestral-embed-2505: unrecognised capability key 'reasoning' (kept in extra)",
-  "codestral-embed-2505: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "codestral-embed-2505: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "codestral-embed-2505: unrecognised capability key 'audio_speech' (kept in extra)",
-  "codestral-embed-2505: unrecognised capability key 'unified_resources' (kept in extra)",
-  "codestral-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "codestral-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "codestral-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "codestral-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "codestral-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "devstral-2512: unrecognised capability key 'reasoning' (kept in extra)",
-  "devstral-2512: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "devstral-2512: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "devstral-2512: unrecognised capability key 'audio_speech' (kept in extra)",
-  "devstral-2512: unrecognised capability key 'unified_resources' (kept in extra)",
-  "devstral-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "devstral-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "devstral-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "devstral-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "devstral-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "devstral-medium-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "devstral-medium-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "devstral-medium-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "devstral-medium-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "devstral-medium-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "glm-5-2: unrecognised capability key 'reasoning' (kept in extra)",
-  "glm-5-2: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "glm-5-2: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "glm-5-2: unrecognised capability key 'audio_speech' (kept in extra)",
-  "glm-5-2: unrecognised capability key 'unified_resources' (kept in extra)",
-  "labs-leanstral-1-5: unrecognised capability key 'reasoning' (kept in extra)",
-  "labs-leanstral-1-5: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "labs-leanstral-1-5: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "labs-leanstral-1-5: unrecognised capability key 'audio_speech' (kept in extra)",
-  "labs-leanstral-1-5: unrecognised capability key 'unified_resources' (kept in extra)",
-  "labs-leanstral-1-5-1: unrecognised capability key 'reasoning' (kept in extra)",
-  "labs-leanstral-1-5-1: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "labs-leanstral-1-5-1: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "labs-leanstral-1-5-1: unrecognised capability key 'audio_speech' (kept in extra)",
-  "labs-leanstral-1-5-1: unrecognised capability key 'unified_resources' (kept in extra)",
-  "magistral-medium-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "magistral-medium-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "magistral-medium-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "magistral-medium-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "magistral-medium-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "magistral-small-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "magistral-small-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "magistral-small-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "magistral-small-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "magistral-small-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "ministral-14b-2512: unrecognised capability key 'reasoning' (kept in extra)",
-  "ministral-14b-2512: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "ministral-14b-2512: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "ministral-14b-2512: unrecognised capability key 'audio_speech' (kept in extra)",
-  "ministral-14b-2512: unrecognised capability key 'unified_resources' (kept in extra)",
-  "ministral-14b-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "ministral-14b-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "ministral-14b-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "ministral-14b-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "ministral-14b-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "ministral-3b-2512: unrecognised capability key 'reasoning' (kept in extra)",
-  "ministral-3b-2512: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "ministral-3b-2512: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "ministral-3b-2512: unrecognised capability key 'audio_speech' (kept in extra)",
-  "ministral-3b-2512: unrecognised capability key 'unified_resources' (kept in extra)",
-  "ministral-3b-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "ministral-3b-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "ministral-3b-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "ministral-3b-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "ministral-3b-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "ministral-8b-2512: unrecognised capability key 'reasoning' (kept in extra)",
-  "ministral-8b-2512: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "ministral-8b-2512: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "ministral-8b-2512: unrecognised capability key 'audio_speech' (kept in extra)",
-  "ministral-8b-2512: unrecognised capability key 'unified_resources' (kept in extra)",
-  "ministral-8b-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "ministral-8b-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "ministral-8b-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "ministral-8b-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "ministral-8b-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-code-agent-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-code-agent-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-code-agent-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-code-agent-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-code-agent-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-code-fim-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-code-fim-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-code-fim-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-code-fim-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-code-fim-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-code-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-code-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-code-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-code-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-code-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-embed: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-embed: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-embed: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-embed: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-embed: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-embed-2312: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-embed-2312: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-embed-2312: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-embed-2312: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-embed-2312: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-large-2512: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-large-2512: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-large-2512: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-large-2512: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-large-2512: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-large-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-large-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-large-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-large-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-large-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-medium: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-medium: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-medium: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-medium: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-medium: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-medium-2505: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-medium-2505: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-medium-2505: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-medium-2505: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-medium-2505: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-medium-2508: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-medium-2508: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-medium-2508: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-medium-2508: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-medium-2508: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-medium-2604: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-medium-2604: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-medium-2604: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-medium-2604: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-medium-2604: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-medium-3: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-medium-3: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-medium-3: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-medium-3: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-medium-3: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-medium-3-5: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-medium-3-5: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-medium-3-5: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-medium-3-5: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-medium-3-5: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-medium-3.5: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-medium-3.5: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-medium-3.5: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-medium-3.5: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-medium-3.5: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-medium-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-medium-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-medium-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-medium-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-medium-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-moderation-2603: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-moderation-2603: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-moderation-2603: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-moderation-2603: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-moderation-2603: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-ocr-2512: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-ocr-2512: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-ocr-2512: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-ocr-2512: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-ocr-2512: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-ocr-3: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-ocr-3: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-ocr-3: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-ocr-3: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-ocr-3: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-ocr-3-0: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-ocr-3-0: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-ocr-3-0: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-ocr-3-0: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-ocr-3-0: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-ocr-4: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-ocr-4: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-ocr-4: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-ocr-4: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-ocr-4: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-ocr-4-0: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-ocr-4-0: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-ocr-4-0: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-ocr-4-0: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-ocr-4-0: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-ocr-4-1: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-ocr-4-1: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-ocr-4-1: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-ocr-4-1: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-ocr-4-1: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-ocr-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-ocr-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-ocr-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-ocr-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-ocr-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-small-2603: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-small-2603: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-small-2603: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-small-2603: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-small-2603: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-small-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-small-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-small-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-small-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-small-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-vibe-cli-fast: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-vibe-cli-fast: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-vibe-cli-fast: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-vibe-cli-fast: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-vibe-cli-fast: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-vibe-cli-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-vibe-cli-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-vibe-cli-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-vibe-cli-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-vibe-cli-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "mistral-vibe-cli-with-tools: unrecognised capability key 'reasoning' (kept in extra)",
-  "mistral-vibe-cli-with-tools: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "mistral-vibe-cli-with-tools: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "mistral-vibe-cli-with-tools: unrecognised capability key 'audio_speech' (kept in extra)",
-  "mistral-vibe-cli-with-tools: unrecognised capability key 'unified_resources' (kept in extra)",
-  "voxtral-mini-2602: unrecognised capability key 'reasoning' (kept in extra)",
-  "voxtral-mini-2602: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "voxtral-mini-2602: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "voxtral-mini-2602: unrecognised capability key 'audio_speech' (kept in extra)",
-  "voxtral-mini-2602: unrecognised capability key 'unified_resources' (kept in extra)",
-  "voxtral-mini-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "voxtral-mini-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "voxtral-mini-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "voxtral-mini-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "voxtral-mini-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "voxtral-mini-realtime-2602: unrecognised capability key 'reasoning' (kept in extra)",
-  "voxtral-mini-realtime-2602: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "voxtral-mini-realtime-2602: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "voxtral-mini-realtime-2602: unrecognised capability key 'audio_speech' (kept in extra)",
-  "voxtral-mini-realtime-2602: unrecognised capability key 'unified_resources' (kept in extra)",
-  "voxtral-mini-realtime-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "voxtral-mini-realtime-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "voxtral-mini-realtime-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "voxtral-mini-realtime-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "voxtral-mini-realtime-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "voxtral-mini-transcribe-realtime-2602: unrecognised capability key 'reasoning' (kept in extra)",
-  "voxtral-mini-transcribe-realtime-2602: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "voxtral-mini-transcribe-realtime-2602: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "voxtral-mini-transcribe-realtime-2602: unrecognised capability key 'audio_speech' (kept in extra)",
-  "voxtral-mini-transcribe-realtime-2602: unrecognised capability key 'unified_resources' (kept in extra)",
-  "voxtral-mini-tts-2603: unrecognised capability key 'reasoning' (kept in extra)",
-  "voxtral-mini-tts-2603: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "voxtral-mini-tts-2603: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "voxtral-mini-tts-2603: unrecognised capability key 'audio_speech' (kept in extra)",
-  "voxtral-mini-tts-2603: unrecognised capability key 'unified_resources' (kept in extra)",
-  "voxtral-mini-tts-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "voxtral-mini-tts-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "voxtral-mini-tts-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "voxtral-mini-tts-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "voxtral-mini-tts-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "voxtral-small-2507: unrecognised capability key 'reasoning' (kept in extra)",
-  "voxtral-small-2507: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "voxtral-small-2507: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "voxtral-small-2507: unrecognised capability key 'audio_speech' (kept in extra)",
-  "voxtral-small-2507: unrecognised capability key 'unified_resources' (kept in extra)",
-  "voxtral-small-latest: unrecognised capability key 'reasoning' (kept in extra)",
-  "voxtral-small-latest: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "voxtral-small-latest: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "voxtral-small-latest: unrecognised capability key 'audio_speech' (kept in extra)",
-  "voxtral-small-latest: unrecognised capability key 'unified_resources' (kept in extra)",
-  "zai-glm-5-2: unrecognised capability key 'reasoning' (kept in extra)",
-  "zai-glm-5-2: unrecognised capability key 'audio_transcription' (kept in extra)",
-  "zai-glm-5-2: unrecognised capability key 'audio_transcription_realtime' (kept in extra)",
-  "zai-glm-5-2: unrecognised capability key 'audio_speech' (kept in extra)",
-  "zai-glm-5-2: unrecognised capability key 'unified_resources' (kept in extra)"
- ]
+ "changed_capabilities": {
+  "codestral-2508": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "codestral-embed": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "codestral-embed-2505": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "codestral-latest": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "devstral-2512": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "devstral-latest": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "devstral-medium-latest": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "glm-5-2": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "true"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "labs-leanstral-1-5": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "true"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "labs-leanstral-1-5-1": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "true"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "magistral-medium-latest": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "true"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "magistral-small-latest": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "true"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "ministral-14b-2512": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "ministral-14b-latest": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "ministral-3b-2512": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "ministral-3b-latest": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "ministral-8b-2512": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "ministral-8b-latest": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "mistral-code-agent-latest": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "mistral-code-fim-latest": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "mistral-code-latest": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "mistral-embed": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "mistral-embed-2312": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "mistral-large-2512": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "mistral-large-latest": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "mistral-medium": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "true"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "mistral-medium-2505": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "mistral-medium-2508": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "mistral-medium-2604": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "true"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "mistral-medium-3": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "true"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "mistral-medium-3-5": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "true"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "mistral-medium-3.5": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "true"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "mistral-medium-latest": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "true"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "mistral-moderation-2603": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "true"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "true"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "mistral-ocr-2512": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "true"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "mistral-ocr-3": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "true"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "mistral-ocr-3-0": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "true"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "mistral-ocr-4": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "true"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "mistral-ocr-4-0": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "true"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "mistral-ocr-4-1": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "true"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "mistral-ocr-latest": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "true"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "mistral-small-2603": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "true"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "mistral-small-latest": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "true"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "mistral-vibe-cli-fast": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "true"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "mistral-vibe-cli-latest": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "true"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "mistral-vibe-cli-with-tools": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "true"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "voxtral-mini-2602": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "true"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "voxtral-mini-latest": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "true"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "voxtral-mini-realtime-2602": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "true"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "voxtral-mini-realtime-latest": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "true"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "voxtral-mini-transcribe-realtime-2602": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "true"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "voxtral-mini-tts-2603": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "true"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "voxtral-mini-tts-latest": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "true"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ],
+  "voxtral-small-2507": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "true"
+   ]
+  ],
+  "voxtral-small-latest": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "true"
+   ]
+  ],
+  "zai-glm-5-2": [
+   [
+    "capabilities.reasoning",
+    "unknown",
+    "true"
+   ],
+   [
+    "endpoints.classification",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.moderation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.ocr",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.speech_generation",
+    "unknown",
+    "false"
+   ],
+   [
+    "endpoints.transcription",
+    "unknown",
+    "false"
+   ],
+   [
+    "modalities.audio.input",
+    "unknown",
+    "false"
+   ]
+  ]
+ },
+ "warnings": []
 }
