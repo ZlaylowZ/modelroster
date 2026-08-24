@@ -11,6 +11,12 @@ pip install modelroster
 import modelroster
 
 r = modelroster.load()                                   # works offline, no keys
+r.models()                                               # every model, every provider
+r.models(provider="xai")                                 # one provider's full list
+
+# capability filters match DOCUMENTED support only — providers whose official
+# sources do not state a capability (None) drop out; add unknown_ok=True to
+# treat "not documented" as acceptable:
 for m in r.models(tool_calling=True, reasoning=True):
     print(m.ref, m.context_window, m.capabilities.reasoning_efforts)
 
@@ -101,6 +107,14 @@ Filters accept every capability name (`reasoning`, `reasoning_efforts`,
 `capabilities.extra` key, and `endpoint=` / `builtin_tool=`. A `True`/`False`
 filter matches only a *documented* value; pass `unknown_ok=True` to let `None`
 through.
+
+Because of that rule, capability filters naturally return fewer providers than
+`r.models()`: a provider whose listing reports no capability metadata at all
+(e.g. NVIDIA's ids-only listing) can never match `tool_calling=True`, and
+Google's API documents reasoning (`thinking`) but not tool support, so Gemini
+models match `reasoning=True` but not `tool_calling=True`. This is deliberate —
+"unknown" is never presented as "yes" (or "no"). Use `unknown_ok=True` when
+your application is willing to try undocumented models.
 
 Module-level predicates mirror the record fields and are provider-agnostic:
 `supports(model, cap)`, `supports_tool_calling`, `supports_reasoning`,
