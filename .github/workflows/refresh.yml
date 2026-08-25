@@ -60,7 +60,12 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           CODE: ${{ steps.update.outputs.code }}
         run: |
-          title="Refresh failed with exit $CODE on $(date -u +%F)"
-          body="$(printf 'Exit code %s (2 = validation refused, 3 = fetch failure, 4 = usage).\n\nSee MAINTAINERS.md.\n\n```\n%s\n```' "$CODE" "$(tail -c 6000 refresh.log)")"
-          gh issue create --title "$title" --body "$body" --label refresh-failure || true
+          existing=$(gh issue list --label refresh-failure --state open --json number --jq '.[0].number // empty')
+          if [ -n "$existing" ]; then
+            echo "failure already tracked in open issue #$existing; not opening a duplicate"
+          else
+            title="Refresh failed with exit $CODE on $(date -u +%F)"
+            body="$(printf 'Exit code %s (2 = validation refused, 3 = fetch failure, 4 = usage).\n\nSee MAINTAINERS.md. This issue stays the single tracker: while it is open, later failing runs will not open duplicates.\n\n```\n%s\n```' "$CODE" "$(tail -c 6000 refresh.log)")"
+            gh issue create --title "$title" --body "$body" --label refresh-failure || true
+          fi
           exit 1
