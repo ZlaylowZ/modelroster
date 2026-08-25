@@ -12,6 +12,20 @@ Two version numbers matter:
 
 ## [Unreleased]
 
+## [0.1.3] — 2026-08-25
+
+### Added
+- Cohere is live: shipped data now covers eight providers (382 models). The
+  first real listing brought 31 models with documented tool calling (15),
+  structured outputs (15), reasoning (3), context windows, and endpoints —
+  `r.models(tool_calling=True, reasoning=True)` now spans five providers,
+  84 models.
+- Cohere feature vocabulary extended (`logprobs`, `tool_choice`,
+  `tool_images`, `vision`); parser 2026.08.25-1.
+
+### Fixed
+- A persistent nightly failure no longer opens a duplicate GitHub issue per
+  day; one open refresh-failure issue is the single tracker.
 ## [0.1.2] — 2026-08-24
 
 ### Added

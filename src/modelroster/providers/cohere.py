@@ -13,7 +13,8 @@ from ..schema import ModelRecord, prov, utc_now_iso
 from .base import BaseProvider, ProviderResult
 
 MODELS_URL = "https://api.cohere.com/v1/models"
-KNOWN_FEATURES = ("tools", "strict_tools", "json_mode", "json_schema", "safety_modes", "citations", "reasoning")
+KNOWN_FEATURES = ("tools", "strict_tools", "json_mode", "json_schema", "safety_modes", "citations",
+                  "reasoning", "logprobs", "tool_choice", "tool_images", "vision")
 
 
 class CohereProvider(BaseProvider):

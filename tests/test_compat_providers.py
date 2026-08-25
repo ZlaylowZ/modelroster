@@ -101,6 +101,8 @@ class TestProviders:
         assert c.context_window == 256000
         assert recs["embed-v4.0"].capabilities.tool_calling is None        # no features list
         assert recs["command-a-vision-07-2025"].modalities["image"]["input"] is True
+        assert c.capabilities.extra["cohere.logprobs"] is True and c.capabilities.extra["cohere.tool_choice"] is True
+        assert not any("unrecognised feature" in w for w in c.warnings)
 
     def test_nvidia_listing_only(self):
         recs = records("nvidia")

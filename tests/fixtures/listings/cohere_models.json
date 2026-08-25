@@ -1,20 +1,87 @@
-{"models": [
- {"name": "command-a-03-2025", "endpoints": ["chat"], "finetuned": false, "context_length": 256000,
-  "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/command-a-03-2025.json",
-  "default_endpoints": ["chat"], "supports_vision": false,
-  "features": ["json_mode", "json_schema", "safety_modes", "strict_tools", "tools"]},
- {"name": "command-r-08-2024", "endpoints": ["chat", "generate"], "finetuned": false, "context_length": 128000,
-  "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/command-r-08-2024.json",
-  "default_endpoints": [], "supports_vision": false,
-  "features": ["json_mode", "json_schema", "safety_modes", "strict_tools", "tools"]},
- {"name": "command-a-vision-07-2025", "endpoints": ["chat"], "finetuned": false, "context_length": 128000,
-  "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/command-a-vision-07-2025.json",
-  "default_endpoints": [], "supports_vision": true,
-  "features": ["json_mode", "json_schema", "tools"]},
- {"name": "embed-v4.0", "endpoints": ["embed"], "finetuned": false, "context_length": 128000,
-  "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/embed-v4.0.json",
-  "default_endpoints": ["embed"], "supports_vision": true},
- {"name": "rerank-v3.5", "endpoints": ["rerank"], "finetuned": false, "context_length": 4096,
-  "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/rerank-v3.5.json",
-  "default_endpoints": ["rerank"], "supports_vision": false}
-]}
+{
+ "models": [
+  {
+   "name": "command-a-03-2025",
+   "endpoints": [
+    "chat"
+   ],
+   "finetuned": false,
+   "context_length": 256000,
+   "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/command-a-03-2025.json",
+   "default_endpoints": [
+    "chat"
+   ],
+   "supports_vision": false,
+   "features": [
+    "json_mode",
+    "json_schema",
+    "safety_modes",
+    "strict_tools",
+    "tools",
+    "logprobs",
+    "tool_choice"
+   ]
+  },
+  {
+   "name": "command-r-08-2024",
+   "endpoints": [
+    "chat",
+    "generate"
+   ],
+   "finetuned": false,
+   "context_length": 128000,
+   "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/command-r-08-2024.json",
+   "default_endpoints": [],
+   "supports_vision": false,
+   "features": [
+    "json_mode",
+    "json_schema",
+    "safety_modes",
+    "strict_tools",
+    "tools"
+   ]
+  },
+  {
+   "name": "command-a-vision-07-2025",
+   "endpoints": [
+    "chat"
+   ],
+   "finetuned": false,
+   "context_length": 128000,
+   "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/command-a-vision-07-2025.json",
+   "default_endpoints": [],
+   "supports_vision": true,
+   "features": [
+    "json_mode",
+    "json_schema",
+    "tools"
+   ]
+  },
+  {
+   "name": "embed-v4.0",
+   "endpoints": [
+    "embed"
+   ],
+   "finetuned": false,
+   "context_length": 128000,
+   "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/embed-v4.0.json",
+   "default_endpoints": [
+    "embed"
+   ],
+   "supports_vision": true
+  },
+  {
+   "name": "rerank-v3.5",
+   "endpoints": [
+    "rerank"
+   ],
+   "finetuned": false,
+   "context_length": 4096,
+   "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/rerank-v3.5.json",
+   "default_endpoints": [
+    "rerank"
+   ],
+   "supports_vision": false
+  }
+ ]
+}

@@ -23,7 +23,8 @@ for m in r.models(tool_calling=True, reasoning=True):
 # anthropic/claude-opus-5 1000000
 # openai/gpt-5.4 1050000
 # xai/grok-4.6 500000
-# mistral/magistral-medium-latest 40960 ...
+# mistral/magistral-medium-latest 40960
+# cohere/command-a-reasoning-08-2025 256000 ...
 
 # and never ship a typo'd or retired model id again:
 modelroster.ModelRef.parse("openai/gpt-5.4").validate()   # raises on unknown/retired ids
@@ -39,9 +40,9 @@ and switching providers means researching a new set of names.
 
 `modelroster` makes that someone else's job:
 
-* **Install and go.** The wheel ships current data for seven providers
-  (anthropic, openai, xai, mistral, google, nvidia, inception). No API keys,
-  no network, no setup. `modelroster providers` shows what you have and when
+* **Install and go.** The wheel ships current data for eight providers
+  (anthropic, openai, xai, mistral, google, cohere, nvidia, inception —
+  382 models). No API keys, no network, no setup. `modelroster providers` shows what you have and when
   it was retrieved.
 * **Stays current without you.** A daily pipeline refreshes the data from
   each provider's own listing APIs and official documentation, with
@@ -97,17 +98,18 @@ modelroster.models_supporting("reasoning", "google")  # 34 Gemini ids
 
 Coverage differs because providers publish different amounts of metadata.
 This table is what determines which providers appear under a given capability
-filter (counts from the 0.1.2 data):
+filter (counts from the 0.1.3 data):
 
 | Provider | Models | tool_calling | reasoning | structured_outputs | context window | Source |
 |---|---:|---:|---:|---:|---:|---|
 | anthropic | 10 | 10 | 10 | 10 | 10 | `/v1/models` capabilities object (+ provider-wide tool/streaming docs) |
 | openai | 126 | 103 | 120 | 103 | 97 | official Markdown docs, 96 pages |
 | mistral | 56 | 56 | 56 | — | 56 | `/v1/models` capabilities object |
+| cohere | 31 | 15 | 3 | 15 | 31 | `/v1/models` endpoints + features lists |
 | xai | 12 | 7 | 7 | 7 | 7 | docs.x.ai per-model pages + `/v1/language-models` |
 | google | 51 | — | 34 | — | 50 | native `/v1beta/models` (no per-model tool field) |
 | inception | 1 | 1 | — | 1 | 1 | `/v1/models` supported_features |
-| nvidia | 102 | — | — | — | — | ids-only public listing |
+| nvidia | 95 | — | — | — | — | ids-only public listing |
 
 "—" means the provider's official source simply doesn't state it; those
 models are reachable via `r.models()`, provider listings, or `unknown_ok=True`.
@@ -145,9 +147,9 @@ the returned drift report. The data directory is overridable
 (`--data-dir` / `$MODELROSTER_DATA_DIR`), so refreshed data can live outside
 the installed package.
 
-Two providers need something from you: **cohere**'s listing endpoint requires
-an account with billing enabled, and **ollama** is inherently local to your
-machine.
+One provider needs something from you: **ollama** is inherently local — run
+`modelroster update --provider ollama` against your own daemon. (Cohere's
+listing requires an account with billing enabled; the shipped data covers it.)
 
 ## What is in the box
 
