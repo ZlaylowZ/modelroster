@@ -1,0 +1,3173 @@
+{
+ "provider": "cohere",
+ "schema_version": 2,
+ "parser_version": "2026.08.24-2",
+ "retrieved_at": "2026-08-25T16:46:49Z",
+ "sources": {
+  "listing": "https://api.cohere.com/v1/models"
+ },
+ "model_order": [
+  "c4ai-aya-expanse-32b",
+  "c4ai-aya-vision-32b",
+  "cohere-transcribe-03-2026",
+  "command-a-03-2025",
+  "command-a-plus-05-2026",
+  "command-a-reasoning-08-2025",
+  "command-a-translate-08-2025",
+  "command-a-vision-07-2025",
+  "command-r-08-2024",
+  "command-r-plus-08-2024",
+  "command-r7b-12-2024",
+  "command-r7b-arabic-02-2025",
+  "embed-english-light-v3.0",
+  "embed-english-light-v3.0-image",
+  "embed-english-v3.0",
+  "embed-english-v3.0-image",
+  "embed-multilingual-light-v3.0",
+  "embed-multilingual-light-v3.0-image",
+  "embed-multilingual-v3.0",
+  "embed-multilingual-v3.0-image",
+  "embed-v4.0",
+  "north-mini-code-1-0",
+  "rerank-english-v3.0",
+  "rerank-multilingual-v3.0",
+  "rerank-v3.5",
+  "rerank-v4.0-fast",
+  "rerank-v4.0-pro",
+  "tiny-aya-earth",
+  "tiny-aya-fire",
+  "tiny-aya-global",
+  "tiny-aya-water"
+ ],
+ "models": {
+  "c4ai-aya-expanse-32b": {
+   "provider": "cohere",
+   "model_id": "c4ai-aya-expanse-32b",
+   "display_name": null,
+   "description": null,
+   "family": "c4ai-aya-expanse-32b",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": null,
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 128000,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {
+    "chat": true,
+    "generate": true,
+    "embed": false,
+    "rerank": false,
+    "classify": false,
+    "summarize": false
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "endpoints": {
+     "section": "api:/v1/models",
+     "evidence": "endpoints list"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "context_length"
+    }
+   },
+   "sources": {
+    "listing": "https://api.cohere.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "finetuned": false,
+    "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/c4ai-aya-expanse-32b.json",
+    "default_endpoints": []
+   },
+   "retrieved_at": "2026-08-25T16:46:49Z",
+   "parser_version": "2026.08.24-2",
+   "warnings": []
+  },
+  "c4ai-aya-vision-32b": {
+   "provider": "cohere",
+   "model_id": "c4ai-aya-vision-32b",
+   "display_name": null,
+   "description": null,
+   "family": "c4ai-aya-vision-32b",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": null,
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 16384,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": false,
+    "structured_outputs": false,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": true,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {
+     "cohere.logprobs": true,
+     "cohere.vision": true,
+     "cohere.citations": true,
+     "cohere.tools": false,
+     "cohere.strict_tools": false,
+     "cohere.json_mode": false,
+     "cohere.json_schema": false,
+     "cohere.safety_modes": false,
+     "cohere.reasoning": false
+    }
+   },
+   "endpoints": {
+    "chat": true,
+    "generate": false,
+    "embed": false,
+    "rerank": false,
+    "classify": false,
+    "summarize": false
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "endpoints": {
+     "section": "api:/v1/models",
+     "evidence": "endpoints list"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "context_length"
+    },
+    "tool_calling": {
+     "section": "api:/v1/models",
+     "evidence": "features list",
+     "evidence_detail": "absent_from_list"
+    },
+    "structured_outputs": {
+     "section": "api:/v1/models",
+     "evidence": "features list"
+    },
+    "citations": {
+     "section": "api:/v1/models",
+     "evidence": "features list"
+    }
+   },
+   "sources": {
+    "listing": "https://api.cohere.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "finetuned": false,
+    "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/c4ai-aya-vision-32b.json",
+    "default_endpoints": []
+   },
+   "retrieved_at": "2026-08-25T16:46:49Z",
+   "parser_version": "2026.08.24-2",
+   "warnings": [
+    "unrecognised feature 'logprobs' (kept)",
+    "unrecognised feature 'vision' (kept)"
+   ]
+  },
+  "cohere-transcribe-03-2026": {
+   "provider": "cohere",
+   "model_id": "cohere-transcribe-03-2026",
+   "display_name": null,
+   "description": null,
+   "family": "cohere-transcribe-03-2026",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": null,
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 32768,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {
+    "chat": false,
+    "generate": false,
+    "embed": false,
+    "rerank": false,
+    "classify": false,
+    "summarize": false,
+    "transcriptions": true
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "endpoints": {
+     "section": "api:/v1/models",
+     "evidence": "endpoints list"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "context_length"
+    }
+   },
+   "sources": {
+    "listing": "https://api.cohere.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "finetuned": false,
+    "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/cohere-transcribe-03-2026.json",
+    "default_endpoints": []
+   },
+   "retrieved_at": "2026-08-25T16:46:49Z",
+   "parser_version": "2026.08.24-2",
+   "warnings": []
+  },
+  "command-a-03-2025": {
+   "provider": "cohere",
+   "model_id": "command-a-03-2025",
+   "display_name": null,
+   "description": null,
+   "family": "command-a-03-2025",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": null,
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 288000,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": true,
+    "structured_outputs": true,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": true,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {
+     "cohere.json_mode": true,
+     "cohere.json_schema": true,
+     "cohere.strict_tools": true,
+     "cohere.safety_modes": true,
+     "cohere.tools": true,
+     "cohere.tool_choice": true,
+     "cohere.citations": true,
+     "cohere.reasoning": false
+    }
+   },
+   "endpoints": {
+    "chat": true,
+    "generate": false,
+    "embed": false,
+    "rerank": false,
+    "classify": false,
+    "summarize": false
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "endpoints": {
+     "section": "api:/v1/models",
+     "evidence": "endpoints list"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "context_length"
+    },
+    "tool_calling": {
+     "section": "api:/v1/models",
+     "evidence": "features list",
+     "evidence_detail": "listed"
+    },
+    "structured_outputs": {
+     "section": "api:/v1/models",
+     "evidence": "features list"
+    },
+    "citations": {
+     "section": "api:/v1/models",
+     "evidence": "features list"
+    }
+   },
+   "sources": {
+    "listing": "https://api.cohere.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "finetuned": false,
+    "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/command-a-03-2025.json",
+    "default_endpoints": [
+     "chat",
+     "generate"
+    ]
+   },
+   "retrieved_at": "2026-08-25T16:46:49Z",
+   "parser_version": "2026.08.24-2",
+   "warnings": [
+    "unrecognised feature 'tool_choice' (kept)"
+   ]
+  },
+  "command-a-plus-05-2026": {
+   "provider": "cohere",
+   "model_id": "command-a-plus-05-2026",
+   "display_name": null,
+   "description": null,
+   "family": "command-a-plus-05-2026",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": null,
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 436000,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": true,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": true,
+    "structured_outputs": true,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": true,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {
+     "cohere.logprobs": true,
+     "cohere.json_mode": true,
+     "cohere.json_schema": true,
+     "cohere.strict_tools": true,
+     "cohere.safety_modes": true,
+     "cohere.tools": true,
+     "cohere.reasoning": true,
+     "cohere.vision": true,
+     "cohere.tool_images": true,
+     "cohere.citations": true
+    }
+   },
+   "endpoints": {
+    "chat": true,
+    "generate": true,
+    "embed": false,
+    "rerank": false,
+    "classify": false,
+    "summarize": false
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "endpoints": {
+     "section": "api:/v1/models",
+     "evidence": "endpoints list"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "context_length"
+    },
+    "tool_calling": {
+     "section": "api:/v1/models",
+     "evidence": "features list",
+     "evidence_detail": "listed"
+    },
+    "structured_outputs": {
+     "section": "api:/v1/models",
+     "evidence": "features list"
+    },
+    "citations": {
+     "section": "api:/v1/models",
+     "evidence": "features list"
+    },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "features list"
+    }
+   },
+   "sources": {
+    "listing": "https://api.cohere.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "finetuned": false,
+    "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/command-a-plus-05-2026.json",
+    "default_endpoints": []
+   },
+   "retrieved_at": "2026-08-25T16:46:49Z",
+   "parser_version": "2026.08.24-2",
+   "warnings": [
+    "unrecognised feature 'logprobs' (kept)",
+    "unrecognised feature 'vision' (kept)",
+    "unrecognised feature 'tool_images' (kept)"
+   ]
+  },
+  "command-a-reasoning-08-2025": {
+   "provider": "cohere",
+   "model_id": "command-a-reasoning-08-2025",
+   "display_name": null,
+   "description": null,
+   "family": "command-a-reasoning-08-2025",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": null,
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 288768,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": true,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": true,
+    "structured_outputs": true,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": true,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {
+     "cohere.json_mode": true,
+     "cohere.json_schema": true,
+     "cohere.strict_tools": true,
+     "cohere.safety_modes": true,
+     "cohere.tools": true,
+     "cohere.reasoning": true,
+     "cohere.citations": true
+    }
+   },
+   "endpoints": {
+    "chat": true,
+    "generate": false,
+    "embed": false,
+    "rerank": false,
+    "classify": false,
+    "summarize": false
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "endpoints": {
+     "section": "api:/v1/models",
+     "evidence": "endpoints list"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "context_length"
+    },
+    "tool_calling": {
+     "section": "api:/v1/models",
+     "evidence": "features list",
+     "evidence_detail": "listed"
+    },
+    "structured_outputs": {
+     "section": "api:/v1/models",
+     "evidence": "features list"
+    },
+    "citations": {
+     "section": "api:/v1/models",
+     "evidence": "features list"
+    },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "features list"
+    }
+   },
+   "sources": {
+    "listing": "https://api.cohere.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "finetuned": false,
+    "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/command-a-reasoning-08-2025.json",
+    "default_endpoints": []
+   },
+   "retrieved_at": "2026-08-25T16:46:49Z",
+   "parser_version": "2026.08.24-2",
+   "warnings": []
+  },
+  "command-a-translate-08-2025": {
+   "provider": "cohere",
+   "model_id": "command-a-translate-08-2025",
+   "display_name": null,
+   "description": null,
+   "family": "command-a-translate-08-2025",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": null,
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 8992,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": true,
+    "structured_outputs": true,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": true,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {
+     "cohere.json_mode": true,
+     "cohere.json_schema": true,
+     "cohere.safety_modes": true,
+     "cohere.tools": true,
+     "cohere.tool_choice": true,
+     "cohere.citations": true,
+     "cohere.strict_tools": false,
+     "cohere.reasoning": false
+    }
+   },
+   "endpoints": {
+    "chat": true,
+    "generate": false,
+    "embed": false,
+    "rerank": false,
+    "classify": false,
+    "summarize": false
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "endpoints": {
+     "section": "api:/v1/models",
+     "evidence": "endpoints list"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "context_length"
+    },
+    "tool_calling": {
+     "section": "api:/v1/models",
+     "evidence": "features list",
+     "evidence_detail": "listed"
+    },
+    "structured_outputs": {
+     "section": "api:/v1/models",
+     "evidence": "features list"
+    },
+    "citations": {
+     "section": "api:/v1/models",
+     "evidence": "features list"
+    }
+   },
+   "sources": {
+    "listing": "https://api.cohere.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "finetuned": false,
+    "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/command-a-translate-08-2025.json",
+    "default_endpoints": []
+   },
+   "retrieved_at": "2026-08-25T16:46:49Z",
+   "parser_version": "2026.08.24-2",
+   "warnings": [
+    "unrecognised feature 'tool_choice' (kept)"
+   ]
+  },
+  "command-a-vision-07-2025": {
+   "provider": "cohere",
+   "model_id": "command-a-vision-07-2025",
+   "display_name": null,
+   "description": null,
+   "family": "command-a-vision-07-2025",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": null,
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 128000,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": false,
+    "structured_outputs": true,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": true,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {
+     "cohere.vision": true,
+     "cohere.logprobs": true,
+     "cohere.json_mode": true,
+     "cohere.json_schema": true,
+     "cohere.strict_tools": true,
+     "cohere.safety_modes": true,
+     "cohere.citations": true,
+     "cohere.tools": false,
+     "cohere.reasoning": false
+    }
+   },
+   "endpoints": {
+    "chat": true,
+    "generate": false,
+    "embed": false,
+    "rerank": false,
+    "classify": false,
+    "summarize": false
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "endpoints": {
+     "section": "api:/v1/models",
+     "evidence": "endpoints list"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "context_length"
+    },
+    "tool_calling": {
+     "section": "api:/v1/models",
+     "evidence": "features list",
+     "evidence_detail": "absent_from_list"
+    },
+    "structured_outputs": {
+     "section": "api:/v1/models",
+     "evidence": "features list"
+    },
+    "citations": {
+     "section": "api:/v1/models",
+     "evidence": "features list"
+    }
+   },
+   "sources": {
+    "listing": "https://api.cohere.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "finetuned": false,
+    "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/command-a-vision-07-2025.json",
+    "default_endpoints": []
+   },
+   "retrieved_at": "2026-08-25T16:46:49Z",
+   "parser_version": "2026.08.24-2",
+   "warnings": [
+    "unrecognised feature 'vision' (kept)",
+    "unrecognised feature 'logprobs' (kept)"
+   ]
+  },
+  "command-r-08-2024": {
+   "provider": "cohere",
+   "model_id": "command-r-08-2024",
+   "display_name": null,
+   "description": null,
+   "family": "command-r-08-2024",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": null,
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 128000,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": true,
+    "structured_outputs": true,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": true,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {
+     "cohere.logprobs": true,
+     "cohere.json_mode": true,
+     "cohere.json_schema": true,
+     "cohere.strict_tools": true,
+     "cohere.safety_modes": true,
+     "cohere.tools": true,
+     "cohere.tool_choice": true,
+     "cohere.citations": true,
+     "cohere.reasoning": false
+    }
+   },
+   "endpoints": {
+    "chat": true,
+    "generate": true,
+    "embed": false,
+    "rerank": false,
+    "classify": false,
+    "summarize": true
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "endpoints": {
+     "section": "api:/v1/models",
+     "evidence": "endpoints list"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "context_length"
+    },
+    "tool_calling": {
+     "section": "api:/v1/models",
+     "evidence": "features list",
+     "evidence_detail": "listed"
+    },
+    "structured_outputs": {
+     "section": "api:/v1/models",
+     "evidence": "features list"
+    },
+    "citations": {
+     "section": "api:/v1/models",
+     "evidence": "features list"
+    }
+   },
+   "sources": {
+    "listing": "https://api.cohere.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "finetuned": false,
+    "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/command-r-08-2024.json",
+    "default_endpoints": []
+   },
+   "retrieved_at": "2026-08-25T16:46:49Z",
+   "parser_version": "2026.08.24-2",
+   "warnings": [
+    "unrecognised feature 'logprobs' (kept)",
+    "unrecognised feature 'tool_choice' (kept)"
+   ]
+  },
+  "command-r-plus-08-2024": {
+   "provider": "cohere",
+   "model_id": "command-r-plus-08-2024",
+   "display_name": null,
+   "description": null,
+   "family": "command-r-plus-08-2024",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": null,
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 128000,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": true,
+    "structured_outputs": true,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": true,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {
+     "cohere.logprobs": true,
+     "cohere.json_mode": true,
+     "cohere.json_schema": true,
+     "cohere.strict_tools": true,
+     "cohere.safety_modes": true,
+     "cohere.tools": true,
+     "cohere.tool_choice": true,
+     "cohere.citations": true,
+     "cohere.reasoning": false
+    }
+   },
+   "endpoints": {
+    "chat": true,
+    "generate": true,
+    "embed": false,
+    "rerank": false,
+    "classify": false,
+    "summarize": true
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "endpoints": {
+     "section": "api:/v1/models",
+     "evidence": "endpoints list"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "context_length"
+    },
+    "tool_calling": {
+     "section": "api:/v1/models",
+     "evidence": "features list",
+     "evidence_detail": "listed"
+    },
+    "structured_outputs": {
+     "section": "api:/v1/models",
+     "evidence": "features list"
+    },
+    "citations": {
+     "section": "api:/v1/models",
+     "evidence": "features list"
+    }
+   },
+   "sources": {
+    "listing": "https://api.cohere.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "finetuned": false,
+    "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/command-r-plus-08-2024.json",
+    "default_endpoints": []
+   },
+   "retrieved_at": "2026-08-25T16:46:49Z",
+   "parser_version": "2026.08.24-2",
+   "warnings": [
+    "unrecognised feature 'logprobs' (kept)",
+    "unrecognised feature 'tool_choice' (kept)"
+   ]
+  },
+  "command-r7b-12-2024": {
+   "provider": "cohere",
+   "model_id": "command-r7b-12-2024",
+   "display_name": null,
+   "description": null,
+   "family": "command-r7b-12-2024",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": null,
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 132000,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": true,
+    "structured_outputs": true,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": true,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {
+     "cohere.logprobs": true,
+     "cohere.json_mode": true,
+     "cohere.json_schema": true,
+     "cohere.strict_tools": true,
+     "cohere.safety_modes": true,
+     "cohere.tools": true,
+     "cohere.tool_choice": true,
+     "cohere.citations": true,
+     "cohere.reasoning": false
+    }
+   },
+   "endpoints": {
+    "chat": true,
+    "generate": true,
+    "embed": false,
+    "rerank": false,
+    "classify": false,
+    "summarize": false
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "endpoints": {
+     "section": "api:/v1/models",
+     "evidence": "endpoints list"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "context_length"
+    },
+    "tool_calling": {
+     "section": "api:/v1/models",
+     "evidence": "features list",
+     "evidence_detail": "listed"
+    },
+    "structured_outputs": {
+     "section": "api:/v1/models",
+     "evidence": "features list"
+    },
+    "citations": {
+     "section": "api:/v1/models",
+     "evidence": "features list"
+    }
+   },
+   "sources": {
+    "listing": "https://api.cohere.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "finetuned": false,
+    "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/command-r7b-12-2024.json",
+    "default_endpoints": []
+   },
+   "retrieved_at": "2026-08-25T16:46:49Z",
+   "parser_version": "2026.08.24-2",
+   "warnings": [
+    "unrecognised feature 'logprobs' (kept)",
+    "unrecognised feature 'tool_choice' (kept)"
+   ]
+  },
+  "command-r7b-arabic-02-2025": {
+   "provider": "cohere",
+   "model_id": "command-r7b-arabic-02-2025",
+   "display_name": null,
+   "description": null,
+   "family": "command-r7b-arabic-02-2025",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": null,
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 128000,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": true,
+    "structured_outputs": true,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": true,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {
+     "cohere.logprobs": true,
+     "cohere.json_mode": true,
+     "cohere.json_schema": true,
+     "cohere.strict_tools": true,
+     "cohere.safety_modes": true,
+     "cohere.tools": true,
+     "cohere.tool_choice": true,
+     "cohere.citations": true,
+     "cohere.reasoning": false
+    }
+   },
+   "endpoints": {
+    "chat": true,
+    "generate": true,
+    "embed": false,
+    "rerank": false,
+    "classify": false,
+    "summarize": false
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "endpoints": {
+     "section": "api:/v1/models",
+     "evidence": "endpoints list"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "context_length"
+    },
+    "tool_calling": {
+     "section": "api:/v1/models",
+     "evidence": "features list",
+     "evidence_detail": "listed"
+    },
+    "structured_outputs": {
+     "section": "api:/v1/models",
+     "evidence": "features list"
+    },
+    "citations": {
+     "section": "api:/v1/models",
+     "evidence": "features list"
+    }
+   },
+   "sources": {
+    "listing": "https://api.cohere.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "finetuned": false,
+    "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/command-r7b-arabic-02-2025.json",
+    "default_endpoints": []
+   },
+   "retrieved_at": "2026-08-25T16:46:49Z",
+   "parser_version": "2026.08.24-2",
+   "warnings": [
+    "unrecognised feature 'logprobs' (kept)",
+    "unrecognised feature 'tool_choice' (kept)"
+   ]
+  },
+  "embed-english-light-v3.0": {
+   "provider": "cohere",
+   "model_id": "embed-english-light-v3.0",
+   "display_name": null,
+   "description": null,
+   "family": "embed-english-light-v3.0",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": null,
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 512,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {
+    "chat": false,
+    "generate": false,
+    "embed": true,
+    "rerank": false,
+    "classify": false,
+    "summarize": false
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "endpoints": {
+     "section": "api:/v1/models",
+     "evidence": "endpoints list"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "context_length"
+    }
+   },
+   "sources": {
+    "listing": "https://api.cohere.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "finetuned": false,
+    "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/embed-english-light-v3.0.json",
+    "default_endpoints": []
+   },
+   "retrieved_at": "2026-08-25T16:46:49Z",
+   "parser_version": "2026.08.24-2",
+   "warnings": []
+  },
+  "embed-english-light-v3.0-image": {
+   "provider": "cohere",
+   "model_id": "embed-english-light-v3.0-image",
+   "display_name": null,
+   "description": null,
+   "family": "embed-english-light-v3.0-image",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": null,
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 0,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {
+    "chat": false,
+    "generate": false,
+    "embed": false,
+    "rerank": false,
+    "classify": false,
+    "summarize": false,
+    "embed_image": true
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "endpoints": {
+     "section": "api:/v1/models",
+     "evidence": "endpoints list"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "context_length"
+    }
+   },
+   "sources": {
+    "listing": "https://api.cohere.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "finetuned": false,
+    "tokenizer_url": null,
+    "default_endpoints": []
+   },
+   "retrieved_at": "2026-08-25T16:46:49Z",
+   "parser_version": "2026.08.24-2",
+   "warnings": []
+  },
+  "embed-english-v3.0": {
+   "provider": "cohere",
+   "model_id": "embed-english-v3.0",
+   "display_name": null,
+   "description": null,
+   "family": "embed-english-v3.0",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": null,
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 512,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {
+    "chat": false,
+    "generate": false,
+    "embed": true,
+    "rerank": false,
+    "classify": false,
+    "summarize": false
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "endpoints": {
+     "section": "api:/v1/models",
+     "evidence": "endpoints list"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "context_length"
+    }
+   },
+   "sources": {
+    "listing": "https://api.cohere.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "finetuned": false,
+    "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/embed-english-v3.0.json",
+    "default_endpoints": []
+   },
+   "retrieved_at": "2026-08-25T16:46:49Z",
+   "parser_version": "2026.08.24-2",
+   "warnings": []
+  },
+  "embed-english-v3.0-image": {
+   "provider": "cohere",
+   "model_id": "embed-english-v3.0-image",
+   "display_name": null,
+   "description": null,
+   "family": "embed-english-v3.0-image",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": null,
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 0,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {
+    "chat": false,
+    "generate": false,
+    "embed": false,
+    "rerank": false,
+    "classify": false,
+    "summarize": false,
+    "embed_image": true
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "endpoints": {
+     "section": "api:/v1/models",
+     "evidence": "endpoints list"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "context_length"
+    }
+   },
+   "sources": {
+    "listing": "https://api.cohere.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "finetuned": false,
+    "tokenizer_url": null,
+    "default_endpoints": []
+   },
+   "retrieved_at": "2026-08-25T16:46:49Z",
+   "parser_version": "2026.08.24-2",
+   "warnings": []
+  },
+  "embed-multilingual-light-v3.0": {
+   "provider": "cohere",
+   "model_id": "embed-multilingual-light-v3.0",
+   "display_name": null,
+   "description": null,
+   "family": "embed-multilingual-light-v3.0",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": null,
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 512,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {
+    "chat": false,
+    "generate": false,
+    "embed": true,
+    "rerank": false,
+    "classify": false,
+    "summarize": false
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "endpoints": {
+     "section": "api:/v1/models",
+     "evidence": "endpoints list"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "context_length"
+    }
+   },
+   "sources": {
+    "listing": "https://api.cohere.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "finetuned": false,
+    "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/embed-multilingual-light-v3.0.json",
+    "default_endpoints": []
+   },
+   "retrieved_at": "2026-08-25T16:46:49Z",
+   "parser_version": "2026.08.24-2",
+   "warnings": []
+  },
+  "embed-multilingual-light-v3.0-image": {
+   "provider": "cohere",
+   "model_id": "embed-multilingual-light-v3.0-image",
+   "display_name": null,
+   "description": null,
+   "family": "embed-multilingual-light-v3.0-image",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": null,
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 0,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {
+    "chat": false,
+    "generate": false,
+    "embed": false,
+    "rerank": false,
+    "classify": false,
+    "summarize": false,
+    "embed_image": true
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "endpoints": {
+     "section": "api:/v1/models",
+     "evidence": "endpoints list"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "context_length"
+    }
+   },
+   "sources": {
+    "listing": "https://api.cohere.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "finetuned": false,
+    "tokenizer_url": null,
+    "default_endpoints": []
+   },
+   "retrieved_at": "2026-08-25T16:46:49Z",
+   "parser_version": "2026.08.24-2",
+   "warnings": []
+  },
+  "embed-multilingual-v3.0": {
+   "provider": "cohere",
+   "model_id": "embed-multilingual-v3.0",
+   "display_name": null,
+   "description": null,
+   "family": "embed-multilingual-v3.0",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": null,
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 512,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {
+    "chat": false,
+    "generate": false,
+    "embed": true,
+    "rerank": false,
+    "classify": false,
+    "summarize": false
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "endpoints": {
+     "section": "api:/v1/models",
+     "evidence": "endpoints list"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "context_length"
+    }
+   },
+   "sources": {
+    "listing": "https://api.cohere.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "finetuned": false,
+    "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/embed-multilingual-v3.0.json",
+    "default_endpoints": []
+   },
+   "retrieved_at": "2026-08-25T16:46:49Z",
+   "parser_version": "2026.08.24-2",
+   "warnings": []
+  },
+  "embed-multilingual-v3.0-image": {
+   "provider": "cohere",
+   "model_id": "embed-multilingual-v3.0-image",
+   "display_name": null,
+   "description": null,
+   "family": "embed-multilingual-v3.0-image",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": null,
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 0,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {
+    "chat": false,
+    "generate": false,
+    "embed": false,
+    "rerank": false,
+    "classify": false,
+    "summarize": false,
+    "embed_image": true
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "endpoints": {
+     "section": "api:/v1/models",
+     "evidence": "endpoints list"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "context_length"
+    }
+   },
+   "sources": {
+    "listing": "https://api.cohere.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "finetuned": false,
+    "tokenizer_url": null,
+    "default_endpoints": []
+   },
+   "retrieved_at": "2026-08-25T16:46:49Z",
+   "parser_version": "2026.08.24-2",
+   "warnings": []
+  },
+  "embed-v4.0": {
+   "provider": "cohere",
+   "model_id": "embed-v4.0",
+   "display_name": null,
+   "description": null,
+   "family": "embed-v4.0",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": null,
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 8192,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {
+    "chat": false,
+    "generate": false,
+    "embed": true,
+    "rerank": false,
+    "classify": false,
+    "summarize": false
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "endpoints": {
+     "section": "api:/v1/models",
+     "evidence": "endpoints list"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "context_length"
+    }
+   },
+   "sources": {
+    "listing": "https://api.cohere.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "finetuned": false,
+    "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/embed-v4.0.json",
+    "default_endpoints": []
+   },
+   "retrieved_at": "2026-08-25T16:46:49Z",
+   "parser_version": "2026.08.24-2",
+   "warnings": []
+  },
+  "north-mini-code-1-0": {
+   "provider": "cohere",
+   "model_id": "north-mini-code-1-0",
+   "display_name": null,
+   "description": null,
+   "family": "north-mini-code-1-0",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": null,
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 436000,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": true,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": true,
+    "structured_outputs": false,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {
+     "cohere.logprobs": true,
+     "cohere.strict_tools": true,
+     "cohere.safety_modes": true,
+     "cohere.tools": true,
+     "cohere.reasoning": true,
+     "cohere.json_mode": false,
+     "cohere.json_schema": false,
+     "cohere.citations": false
+    }
+   },
+   "endpoints": {
+    "chat": true,
+    "generate": true,
+    "embed": false,
+    "rerank": false,
+    "classify": false,
+    "summarize": false
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "endpoints": {
+     "section": "api:/v1/models",
+     "evidence": "endpoints list"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "context_length"
+    },
+    "tool_calling": {
+     "section": "api:/v1/models",
+     "evidence": "features list",
+     "evidence_detail": "listed"
+    },
+    "structured_outputs": {
+     "section": "api:/v1/models",
+     "evidence": "features list"
+    },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "features list"
+    }
+   },
+   "sources": {
+    "listing": "https://api.cohere.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "finetuned": false,
+    "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/north-mini-code-1-0.json",
+    "default_endpoints": []
+   },
+   "retrieved_at": "2026-08-25T16:46:49Z",
+   "parser_version": "2026.08.24-2",
+   "warnings": [
+    "unrecognised feature 'logprobs' (kept)"
+   ]
+  },
+  "rerank-english-v3.0": {
+   "provider": "cohere",
+   "model_id": "rerank-english-v3.0",
+   "display_name": null,
+   "description": null,
+   "family": "rerank-english-v3.0",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": null,
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 4096,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {
+    "chat": false,
+    "generate": false,
+    "embed": false,
+    "rerank": true,
+    "classify": false,
+    "summarize": false
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "endpoints": {
+     "section": "api:/v1/models",
+     "evidence": "endpoints list"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "context_length"
+    }
+   },
+   "sources": {
+    "listing": "https://api.cohere.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "finetuned": false,
+    "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/rerank-english-v3.0.json",
+    "default_endpoints": []
+   },
+   "retrieved_at": "2026-08-25T16:46:49Z",
+   "parser_version": "2026.08.24-2",
+   "warnings": []
+  },
+  "rerank-multilingual-v3.0": {
+   "provider": "cohere",
+   "model_id": "rerank-multilingual-v3.0",
+   "display_name": null,
+   "description": null,
+   "family": "rerank-multilingual-v3.0",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": null,
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 4096,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {
+    "chat": false,
+    "generate": false,
+    "embed": false,
+    "rerank": true,
+    "classify": false,
+    "summarize": false
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "endpoints": {
+     "section": "api:/v1/models",
+     "evidence": "endpoints list"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "context_length"
+    }
+   },
+   "sources": {
+    "listing": "https://api.cohere.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "finetuned": false,
+    "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/rerank-multilingual-v3.0.json",
+    "default_endpoints": []
+   },
+   "retrieved_at": "2026-08-25T16:46:49Z",
+   "parser_version": "2026.08.24-2",
+   "warnings": []
+  },
+  "rerank-v3.5": {
+   "provider": "cohere",
+   "model_id": "rerank-v3.5",
+   "display_name": null,
+   "description": null,
+   "family": "rerank-v3.5",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": null,
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 4096,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {
+    "chat": false,
+    "generate": false,
+    "embed": false,
+    "rerank": true,
+    "classify": false,
+    "summarize": false
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "endpoints": {
+     "section": "api:/v1/models",
+     "evidence": "endpoints list"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "context_length"
+    }
+   },
+   "sources": {
+    "listing": "https://api.cohere.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "finetuned": false,
+    "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/rerank-v3.5.json",
+    "default_endpoints": [
+     "rerank"
+    ]
+   },
+   "retrieved_at": "2026-08-25T16:46:49Z",
+   "parser_version": "2026.08.24-2",
+   "warnings": []
+  },
+  "rerank-v4.0-fast": {
+   "provider": "cohere",
+   "model_id": "rerank-v4.0-fast",
+   "display_name": null,
+   "description": null,
+   "family": "rerank-v4.0-fast",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": null,
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 32768,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {
+    "chat": false,
+    "generate": false,
+    "embed": false,
+    "rerank": true,
+    "classify": false,
+    "summarize": false
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "endpoints": {
+     "section": "api:/v1/models",
+     "evidence": "endpoints list"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "context_length"
+    }
+   },
+   "sources": {
+    "listing": "https://api.cohere.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "finetuned": false,
+    "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/rerank-v4.0-fast.json",
+    "default_endpoints": []
+   },
+   "retrieved_at": "2026-08-25T16:46:49Z",
+   "parser_version": "2026.08.24-2",
+   "warnings": []
+  },
+  "rerank-v4.0-pro": {
+   "provider": "cohere",
+   "model_id": "rerank-v4.0-pro",
+   "display_name": null,
+   "description": null,
+   "family": "rerank-v4.0-pro",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": null,
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 32768,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {
+    "chat": false,
+    "generate": false,
+    "embed": false,
+    "rerank": true,
+    "classify": false,
+    "summarize": false
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "endpoints": {
+     "section": "api:/v1/models",
+     "evidence": "endpoints list"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "context_length"
+    }
+   },
+   "sources": {
+    "listing": "https://api.cohere.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "finetuned": false,
+    "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/rerank-v4.0-pro.json",
+    "default_endpoints": []
+   },
+   "retrieved_at": "2026-08-25T16:46:49Z",
+   "parser_version": "2026.08.24-2",
+   "warnings": []
+  },
+  "tiny-aya-earth": {
+   "provider": "cohere",
+   "model_id": "tiny-aya-earth",
+   "display_name": null,
+   "description": null,
+   "family": "tiny-aya-earth",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": null,
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 8192,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": true,
+    "structured_outputs": false,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": true,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {
+     "cohere.logprobs": true,
+     "cohere.safety_modes": true,
+     "cohere.tools": true,
+     "cohere.tool_choice": true,
+     "cohere.citations": true,
+     "cohere.strict_tools": false,
+     "cohere.json_mode": false,
+     "cohere.json_schema": false,
+     "cohere.reasoning": false
+    }
+   },
+   "endpoints": {
+    "chat": true,
+    "generate": true,
+    "embed": false,
+    "rerank": false,
+    "classify": false,
+    "summarize": false
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "endpoints": {
+     "section": "api:/v1/models",
+     "evidence": "endpoints list"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "context_length"
+    },
+    "tool_calling": {
+     "section": "api:/v1/models",
+     "evidence": "features list",
+     "evidence_detail": "listed"
+    },
+    "structured_outputs": {
+     "section": "api:/v1/models",
+     "evidence": "features list"
+    },
+    "citations": {
+     "section": "api:/v1/models",
+     "evidence": "features list"
+    }
+   },
+   "sources": {
+    "listing": "https://api.cohere.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "finetuned": false,
+    "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/tiny-aya-earth.json",
+    "default_endpoints": []
+   },
+   "retrieved_at": "2026-08-25T16:46:49Z",
+   "parser_version": "2026.08.24-2",
+   "warnings": [
+    "unrecognised feature 'logprobs' (kept)",
+    "unrecognised feature 'tool_choice' (kept)"
+   ]
+  },
+  "tiny-aya-fire": {
+   "provider": "cohere",
+   "model_id": "tiny-aya-fire",
+   "display_name": null,
+   "description": null,
+   "family": "tiny-aya-fire",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": null,
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 8192,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": true,
+    "structured_outputs": false,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": true,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {
+     "cohere.logprobs": true,
+     "cohere.safety_modes": true,
+     "cohere.tools": true,
+     "cohere.tool_choice": true,
+     "cohere.citations": true,
+     "cohere.strict_tools": false,
+     "cohere.json_mode": false,
+     "cohere.json_schema": false,
+     "cohere.reasoning": false
+    }
+   },
+   "endpoints": {
+    "chat": true,
+    "generate": true,
+    "embed": false,
+    "rerank": false,
+    "classify": false,
+    "summarize": false
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "endpoints": {
+     "section": "api:/v1/models",
+     "evidence": "endpoints list"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "context_length"
+    },
+    "tool_calling": {
+     "section": "api:/v1/models",
+     "evidence": "features list",
+     "evidence_detail": "listed"
+    },
+    "structured_outputs": {
+     "section": "api:/v1/models",
+     "evidence": "features list"
+    },
+    "citations": {
+     "section": "api:/v1/models",
+     "evidence": "features list"
+    }
+   },
+   "sources": {
+    "listing": "https://api.cohere.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "finetuned": false,
+    "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/tiny-aya-fire.json",
+    "default_endpoints": []
+   },
+   "retrieved_at": "2026-08-25T16:46:49Z",
+   "parser_version": "2026.08.24-2",
+   "warnings": [
+    "unrecognised feature 'logprobs' (kept)",
+    "unrecognised feature 'tool_choice' (kept)"
+   ]
+  },
+  "tiny-aya-global": {
+   "provider": "cohere",
+   "model_id": "tiny-aya-global",
+   "display_name": null,
+   "description": null,
+   "family": "tiny-aya-global",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": null,
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 8192,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": true,
+    "structured_outputs": false,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": true,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {
+     "cohere.logprobs": true,
+     "cohere.safety_modes": true,
+     "cohere.tools": true,
+     "cohere.tool_choice": true,
+     "cohere.citations": true,
+     "cohere.strict_tools": false,
+     "cohere.json_mode": false,
+     "cohere.json_schema": false,
+     "cohere.reasoning": false
+    }
+   },
+   "endpoints": {
+    "chat": true,
+    "generate": true,
+    "embed": false,
+    "rerank": false,
+    "classify": false,
+    "summarize": false
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "endpoints": {
+     "section": "api:/v1/models",
+     "evidence": "endpoints list"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "context_length"
+    },
+    "tool_calling": {
+     "section": "api:/v1/models",
+     "evidence": "features list",
+     "evidence_detail": "listed"
+    },
+    "structured_outputs": {
+     "section": "api:/v1/models",
+     "evidence": "features list"
+    },
+    "citations": {
+     "section": "api:/v1/models",
+     "evidence": "features list"
+    }
+   },
+   "sources": {
+    "listing": "https://api.cohere.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "finetuned": false,
+    "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/tiny-aya-global.json",
+    "default_endpoints": []
+   },
+   "retrieved_at": "2026-08-25T16:46:49Z",
+   "parser_version": "2026.08.24-2",
+   "warnings": [
+    "unrecognised feature 'logprobs' (kept)",
+    "unrecognised feature 'tool_choice' (kept)"
+   ]
+  },
+  "tiny-aya-water": {
+   "provider": "cohere",
+   "model_id": "tiny-aya-water",
+   "display_name": null,
+   "description": null,
+   "family": "tiny-aya-water",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": null,
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 8192,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": true,
+    "structured_outputs": false,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": true,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {
+     "cohere.logprobs": true,
+     "cohere.safety_modes": true,
+     "cohere.tools": true,
+     "cohere.tool_choice": true,
+     "cohere.citations": true,
+     "cohere.strict_tools": false,
+     "cohere.json_mode": false,
+     "cohere.json_schema": false,
+     "cohere.reasoning": false
+    }
+   },
+   "endpoints": {
+    "chat": true,
+    "generate": true,
+    "embed": false,
+    "rerank": false,
+    "classify": false,
+    "summarize": false
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "endpoints": {
+     "section": "api:/v1/models",
+     "evidence": "endpoints list"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "context_length"
+    },
+    "tool_calling": {
+     "section": "api:/v1/models",
+     "evidence": "features list",
+     "evidence_detail": "listed"
+    },
+    "structured_outputs": {
+     "section": "api:/v1/models",
+     "evidence": "features list"
+    },
+    "citations": {
+     "section": "api:/v1/models",
+     "evidence": "features list"
+    }
+   },
+   "sources": {
+    "listing": "https://api.cohere.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "finetuned": false,
+    "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/tiny-aya-water.json",
+    "default_endpoints": []
+   },
+   "retrieved_at": "2026-08-25T16:46:49Z",
+   "parser_version": "2026.08.24-2",
+   "warnings": [
+    "unrecognised feature 'logprobs' (kept)",
+    "unrecognised feature 'tool_choice' (kept)"
+   ]
+  }
+ },
+ "stats": {
+  "api_models": 31,
+  "models": 31
+ },
+ "warnings": [
+  "c4ai-aya-vision-32b: unrecognised feature 'logprobs' (kept)",
+  "c4ai-aya-vision-32b: unrecognised feature 'vision' (kept)",
+  "command-a-03-2025: unrecognised feature 'tool_choice' (kept)",
+  "command-a-plus-05-2026: unrecognised feature 'logprobs' (kept)",
+  "command-a-plus-05-2026: unrecognised feature 'vision' (kept)",
+  "command-a-plus-05-2026: unrecognised feature 'tool_images' (kept)",
+  "command-a-translate-08-2025: unrecognised feature 'tool_choice' (kept)",
+  "command-a-vision-07-2025: unrecognised feature 'vision' (kept)",
+  "command-a-vision-07-2025: unrecognised feature 'logprobs' (kept)",
+  "command-r-08-2024: unrecognised feature 'logprobs' (kept)",
+  "command-r-08-2024: unrecognised feature 'tool_choice' (kept)",
+  "command-r-plus-08-2024: unrecognised feature 'logprobs' (kept)",
+  "command-r-plus-08-2024: unrecognised feature 'tool_choice' (kept)",
+  "command-r7b-12-2024: unrecognised feature 'logprobs' (kept)",
+  "command-r7b-12-2024: unrecognised feature 'tool_choice' (kept)",
+  "command-r7b-arabic-02-2025: unrecognised feature 'logprobs' (kept)",
+  "command-r7b-arabic-02-2025: unrecognised feature 'tool_choice' (kept)",
+  "north-mini-code-1-0: unrecognised feature 'logprobs' (kept)",
+  "tiny-aya-earth: unrecognised feature 'logprobs' (kept)",
+  "tiny-aya-earth: unrecognised feature 'tool_choice' (kept)",
+  "tiny-aya-fire: unrecognised feature 'logprobs' (kept)",
+  "tiny-aya-fire: unrecognised feature 'tool_choice' (kept)",
+  "tiny-aya-global: unrecognised feature 'logprobs' (kept)",
+  "tiny-aya-global: unrecognised feature 'tool_choice' (kept)",
+  "tiny-aya-water: unrecognised feature 'logprobs' (kept)",
+  "tiny-aya-water: unrecognised feature 'tool_choice' (kept)"
+ ],
+ "extra": {}
+}
