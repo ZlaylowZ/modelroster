@@ -1,10 +1,10 @@
 {
  "provider": "google",
  "first_run": false,
- "previous_retrieved_at": "2026-08-24T17:12:11Z",
- "retrieved_at": "2026-08-24T17:48:50Z",
+ "previous_retrieved_at": "2026-08-24T17:48:50Z",
+ "retrieved_at": "2026-08-25T07:09:07Z",
  "parser_version": "2026.08.24-2",
- "previous_parser_version": "2026.08.24-1",
+ "previous_parser_version": "2026.08.24-2",
  "counts": {
   "previous": 51,
   "current": 51

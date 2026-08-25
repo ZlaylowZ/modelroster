@@ -2,7 +2,7 @@
  "provider": "openai",
  "schema_version": 2,
  "parser_version": "2026.08.24-2",
- "retrieved_at": "2026-08-24T17:49:06Z",
+ "retrieved_at": "2026-08-25T07:09:24Z",
  "sources": {
   "listing": "https://api.openai.com/v1/models",
   "documentation_catalog": "https://developers.openai.com/api/docs/models.md"
@@ -431,7 +431,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-09-28"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": [
     "contradiction: 'fine_tuning' listed under Supported features but v1/fine-tuning is Not supported"
@@ -748,7 +748,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -1039,7 +1039,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-12-01"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -1338,7 +1338,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-09-28"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": [
     "contradiction: 'fine_tuning' listed under Supported features but v1/fine-tuning is Not supported"
@@ -1645,7 +1645,7 @@
     "owned_by": "openai",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -1950,7 +1950,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -2255,7 +2255,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-09-28"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -2326,7 +2326,7 @@
     "owned_by": "openai-internal",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -2633,7 +2633,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-09-28"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -2704,7 +2704,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -3010,7 +3010,7 @@
     "owned_by": "openai",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -3314,7 +3314,7 @@
     "owned_by": "openai",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -3617,7 +3617,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -3920,7 +3920,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -4231,7 +4231,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -4542,14 +4542,14 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
   "gpt-4.1-mini": {
    "provider": "openai",
    "model_id": "gpt-4.1-mini",
-   "display_name": "GPT-4.1 mini",
+   "display_name": "GPT-4.1 Mini",
    "description": "Smaller, faster version of GPT-4.1",
    "family": "gpt-4.1-mini",
    "aliases": [],
@@ -4853,14 +4853,14 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
   "gpt-4.1-mini-2025-04-14": {
    "provider": "openai",
    "model_id": "gpt-4.1-mini-2025-04-14",
-   "display_name": "GPT-4.1 mini",
+   "display_name": "GPT-4.1 Mini",
    "description": "Smaller, faster version of GPT-4.1",
    "family": "gpt-4.1-mini",
    "aliases": [],
@@ -5164,7 +5164,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -5479,7 +5479,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -5794,7 +5794,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -6107,7 +6107,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -6424,7 +6424,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -6737,7 +6737,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -7050,14 +7050,14 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
   "gpt-4o-mini": {
    "provider": "openai",
    "model_id": "gpt-4o-mini",
-   "display_name": "GPT-4o mini",
+   "display_name": "GPT-4o Mini",
    "description": "Fast, affordable small model for focused tasks",
    "family": "gpt-4o-mini",
    "aliases": [],
@@ -7361,14 +7361,14 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
   "gpt-4o-mini-2024-07-18": {
    "provider": "openai",
    "model_id": "gpt-4o-mini-2024-07-18",
-   "display_name": "GPT-4o mini",
+   "display_name": "GPT-4o Mini",
    "description": "Fast, affordable small model for focused tasks",
    "family": "gpt-4o-mini",
    "aliases": [],
@@ -7672,14 +7672,14 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
   "gpt-4o-mini-search-preview": {
    "provider": "openai",
    "model_id": "gpt-4o-mini-search-preview",
-   "display_name": "GPT-4o mini Search Preview",
+   "display_name": "GPT-4o Mini Search Preview",
    "description": "Fast, affordable small model for web search",
    "family": "gpt-4o-mini-search-preview",
    "aliases": [],
@@ -7971,14 +7971,14 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
   "gpt-4o-mini-search-preview-2025-03-11": {
    "provider": "openai",
    "model_id": "gpt-4o-mini-search-preview-2025-03-11",
-   "display_name": "GPT-4o mini Search Preview",
+   "display_name": "GPT-4o Mini Search Preview",
    "description": "Fast, affordable small model for web search",
    "family": "gpt-4o-mini-search-preview",
    "aliases": [],
@@ -8274,15 +8274,15 @@
     "owned_by": "system",
     "shutdown_date": "2026-07-23"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
   "gpt-4o-mini-transcribe": {
    "provider": "openai",
    "model_id": "gpt-4o-mini-transcribe",
-   "display_name": "GPT-4o mini Transcribe",
-   "description": "Speech-to-text model powered by GPT-4o mini",
+   "display_name": "GPT-4o Mini Transcribe",
+   "description": "Speech-to-text model powered by GPT-4o Mini",
    "family": "gpt-4o-mini-transcribe",
    "aliases": [],
    "snapshots": [
@@ -8544,15 +8544,15 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
   "gpt-4o-mini-transcribe-2025-03-20": {
    "provider": "openai",
    "model_id": "gpt-4o-mini-transcribe-2025-03-20",
-   "display_name": "GPT-4o mini Transcribe",
-   "description": "Speech-to-text model powered by GPT-4o mini",
+   "display_name": "GPT-4o Mini Transcribe",
+   "description": "Speech-to-text model powered by GPT-4o Mini",
    "family": "gpt-4o-mini-transcribe",
    "aliases": [],
    "snapshots": [
@@ -8818,15 +8818,15 @@
     "owned_by": "system",
     "shutdown_date": "2027-01-20"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
   "gpt-4o-mini-transcribe-2025-12-15": {
    "provider": "openai",
    "model_id": "gpt-4o-mini-transcribe-2025-12-15",
-   "display_name": "GPT-4o mini Transcribe",
-   "description": "Speech-to-text model powered by GPT-4o mini",
+   "display_name": "GPT-4o Mini Transcribe",
+   "description": "Speech-to-text model powered by GPT-4o Mini",
    "family": "gpt-4o-mini-transcribe",
    "aliases": [],
    "snapshots": [
@@ -9088,15 +9088,15 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
   "gpt-4o-mini-tts": {
    "provider": "openai",
    "model_id": "gpt-4o-mini-tts",
-   "display_name": "GPT-4o mini TTS",
-   "description": "Text-to-speech model powered by GPT-4o mini",
+   "display_name": "GPT-4o Mini TTS",
+   "description": "Text-to-speech model powered by GPT-4o Mini",
    "family": "gpt-4o-mini-tts",
    "aliases": [],
    "snapshots": [
@@ -9356,15 +9356,15 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
   "gpt-4o-mini-tts-2025-03-20": {
    "provider": "openai",
    "model_id": "gpt-4o-mini-tts-2025-03-20",
-   "display_name": "GPT-4o mini TTS",
-   "description": "Text-to-speech model powered by GPT-4o mini",
+   "display_name": "GPT-4o Mini TTS",
+   "description": "Text-to-speech model powered by GPT-4o Mini",
    "family": "gpt-4o-mini-tts",
    "aliases": [],
    "snapshots": [
@@ -9628,15 +9628,15 @@
     "owned_by": "system",
     "shutdown_date": "2026-07-23"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
   "gpt-4o-mini-tts-2025-12-15": {
    "provider": "openai",
    "model_id": "gpt-4o-mini-tts-2025-12-15",
-   "display_name": "GPT-4o mini TTS",
-   "description": "Text-to-speech model powered by GPT-4o mini",
+   "display_name": "GPT-4o Mini TTS",
+   "description": "Text-to-speech model powered by GPT-4o Mini",
    "family": "gpt-4o-mini-tts",
    "aliases": [],
    "snapshots": [
@@ -9896,7 +9896,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -10195,7 +10195,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -10498,7 +10498,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-07-23"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -10767,7 +10767,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -11036,7 +11036,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -11362,7 +11362,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -11692,7 +11692,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-12-11"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -12011,7 +12011,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-07-23"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -12328,14 +12328,14 @@
     "owned_by": "system",
     "shutdown_date": "2026-07-23"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
   "gpt-5-mini": {
    "provider": "openai",
    "model_id": "gpt-5-mini",
-   "display_name": "GPT-5 mini",
+   "display_name": "GPT-5 Mini",
    "description": "Near-frontier intelligence for cost sensitive, low latency, high volume workloads",
    "family": "gpt-5-mini",
    "aliases": [],
@@ -12641,14 +12641,14 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
   "gpt-5-mini-2025-08-07": {
    "provider": "openai",
    "model_id": "gpt-5-mini-2025-08-07",
-   "display_name": "GPT-5 mini",
+   "display_name": "GPT-5 Mini",
    "description": "Near-frontier intelligence for cost sensitive, low latency, high volume workloads",
    "family": "gpt-5-mini",
    "aliases": [],
@@ -12958,7 +12958,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-12-11"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -13271,7 +13271,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -13588,7 +13588,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-12-11"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -13897,7 +13897,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -14210,7 +14210,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-12-11"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -14281,7 +14281,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -14354,7 +14354,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -14678,7 +14678,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -15000,7 +15000,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -15319,7 +15319,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-07-23"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -15632,7 +15632,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-07-23"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -15945,14 +15945,14 @@
     "owned_by": "system",
     "shutdown_date": "2026-07-23"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
   "gpt-5.1-codex-mini": {
    "provider": "openai",
    "model_id": "gpt-5.1-codex-mini",
-   "display_name": "GPT-5.1-Codex mini",
+   "display_name": "GPT-5.1-Codex Mini",
    "description": "Smaller, more cost-effective, less-capable version of GPT-5.1-Codex",
    "family": "gpt-5.1-codex-mini",
    "aliases": [],
@@ -16258,7 +16258,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-07-23"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -16581,7 +16581,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -16904,7 +16904,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -17223,7 +17223,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-08-10"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -17540,7 +17540,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-07-23"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -17849,7 +17849,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -18158,7 +18158,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -18477,7 +18477,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-08-10"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -18790,7 +18790,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -19113,7 +19113,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -19436,14 +19436,14 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
   "gpt-5.4-mini": {
    "provider": "openai",
    "model_id": "gpt-5.4-mini",
-   "display_name": "GPT-5.4 mini",
+   "display_name": "GPT-5.4 Mini",
    "description": "Our strongest mini model yet for coding, computer use, and subagents",
    "family": "gpt-5.4-mini",
    "aliases": [],
@@ -19763,14 +19763,14 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
   "gpt-5.4-mini-2026-03-17": {
    "provider": "openai",
    "model_id": "gpt-5.4-mini-2026-03-17",
-   "display_name": "GPT-5.4 mini",
+   "display_name": "GPT-5.4 Mini",
    "description": "Our strongest mini model yet for coding, computer use, and subagents",
    "family": "gpt-5.4-mini",
    "aliases": [],
@@ -20090,7 +20090,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -20417,7 +20417,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -20744,7 +20744,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -21065,7 +21065,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -21386,7 +21386,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -21709,7 +21709,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -22032,7 +22032,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -22353,7 +22353,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -22674,7 +22674,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -23002,7 +23002,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -23339,7 +23339,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -23667,7 +23667,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -23970,7 +23970,7 @@
     "owned_by": "system",
     "shutdown_date": "2027-01-20"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -24269,7 +24269,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -24568,14 +24568,14 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
   "gpt-audio-mini": {
    "provider": "openai",
    "model_id": "gpt-audio-mini",
-   "display_name": "GPT-Audio mini",
+   "display_name": "GPT-Audio Mini",
    "description": "A cost-efficient version of GPT Audio",
    "family": "gpt-audio-mini",
    "aliases": [],
@@ -24884,14 +24884,14 @@
     "owned_by": "system",
     "shutdown_date": "2027-01-20"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
   "gpt-audio-mini-2025-10-06": {
    "provider": "openai",
    "model_id": "gpt-audio-mini-2025-10-06",
-   "display_name": "GPT-Audio mini",
+   "display_name": "GPT-Audio Mini",
    "description": "A cost-efficient version of GPT Audio",
    "family": "gpt-audio-mini",
    "aliases": [],
@@ -25200,14 +25200,14 @@
     "owned_by": "system",
     "shutdown_date": "2026-07-23"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
   "gpt-audio-mini-2025-12-15": {
    "provider": "openai",
    "model_id": "gpt-audio-mini-2025-12-15",
-   "display_name": "GPT-Audio mini",
+   "display_name": "GPT-Audio Mini",
    "description": "A cost-efficient version of GPT Audio",
    "family": "gpt-audio-mini",
    "aliases": [],
@@ -25512,7 +25512,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -25803,14 +25803,14 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
   "gpt-image-1-mini": {
    "provider": "openai",
    "model_id": "gpt-image-1-mini",
-   "display_name": "GPT-Image-1 mini",
+   "display_name": "GPT-Image-1 Mini",
    "description": "A cost-efficient version of GPT Image 1",
    "family": "gpt-image-1-mini",
    "aliases": [],
@@ -26074,7 +26074,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-12-01"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -26365,7 +26365,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-12-01"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -26642,7 +26642,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -26919,7 +26919,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -27196,7 +27196,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -27499,7 +27499,7 @@
     "owned_by": "system",
     "shutdown_date": "2027-01-20"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -27798,7 +27798,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -28095,7 +28095,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -28392,14 +28392,14 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
   "gpt-realtime-2.1-mini": {
    "provider": "openai",
    "model_id": "gpt-realtime-2.1-mini",
-   "display_name": "GPT-Realtime-2.1 mini",
+   "display_name": "GPT-Realtime-2.1 Mini",
    "description": "Reasoning model with tool use",
    "family": "gpt-realtime-2.1-mini",
    "aliases": [],
@@ -28689,7 +28689,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -28988,14 +28988,14 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
   "gpt-realtime-mini": {
    "provider": "openai",
    "model_id": "gpt-realtime-mini",
-   "display_name": "GPT-Realtime mini",
+   "display_name": "GPT-Realtime Mini",
    "description": "A cost-efficient version of GPT-Realtime",
    "family": "gpt-realtime-mini",
    "aliases": [],
@@ -29292,14 +29292,14 @@
     "owned_by": "system",
     "shutdown_date": "2027-01-20"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
   "gpt-realtime-mini-2025-12-15": {
    "provider": "openai",
    "model_id": "gpt-realtime-mini-2025-12-15",
-   "display_name": "GPT-Realtime mini",
+   "display_name": "GPT-Realtime Mini",
    "description": "A cost-efficient version of GPT-Realtime",
    "family": "gpt-realtime-mini",
    "aliases": [],
@@ -29592,7 +29592,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -29881,7 +29881,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -30170,7 +30170,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -30447,7 +30447,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -30760,7 +30760,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -31073,7 +31073,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -31386,7 +31386,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -31699,7 +31699,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -32008,7 +32008,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -32321,7 +32321,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-12-11"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -32634,7 +32634,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -32947,7 +32947,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -32955,7 +32955,7 @@
    "provider": "openai",
    "model_id": "o4-mini",
    "display_name": "o4-mini",
-   "description": "Fast, cost-efficient reasoning model, succeeded by GPT-5 mini",
+   "description": "Fast, cost-efficient reasoning model, succeeded by GPT-5 Mini",
    "family": "o4-mini",
    "aliases": [],
    "snapshots": [
@@ -33260,7 +33260,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -33268,7 +33268,7 @@
    "provider": "openai",
    "model_id": "o4-mini-2025-04-16",
    "display_name": "o4-mini",
-   "description": "Fast, cost-efficient reasoning model, succeeded by GPT-5 mini",
+   "description": "Fast, cost-efficient reasoning model, succeeded by GPT-5 Mini",
    "family": "o4-mini",
    "aliases": [],
    "snapshots": [
@@ -33573,7 +33573,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -33886,7 +33886,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-07-23"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -34199,7 +34199,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-07-23"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -34476,7 +34476,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -34753,7 +34753,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -35016,7 +35016,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-09-24"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -35278,7 +35278,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-09-24"
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -35535,7 +35535,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -35792,7 +35792,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -36049,7 +36049,7 @@
     "owned_by": "openai-internal",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -36306,7 +36306,7 @@
     "owned_by": "openai-internal",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -36377,7 +36377,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -36636,7 +36636,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   },
@@ -36707,7 +36707,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -36966,7 +36966,7 @@
     "owned_by": "openai-internal",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-08-24T17:49:04Z",
+   "retrieved_at": "2026-08-25T07:09:21Z",
    "parser_version": "2026.08.24-2",
    "warnings": []
   }
@@ -41522,7 +41522,7 @@
    },
    "gpt-4.1-mini": {
     "canonical_model_id": "gpt-4.1-mini",
-    "display_name": "GPT-4.1 mini",
+    "display_name": "GPT-4.1 Mini",
     "description": "Smaller, faster version of GPT-4.1",
     "documentation_url": "https://developers.openai.com/api/docs/models/gpt-4.1-mini.md",
     "aliases": [],
@@ -42857,7 +42857,7 @@
    },
    "gpt-4o-mini": {
     "canonical_model_id": "gpt-4o-mini",
-    "display_name": "GPT-4o mini",
+    "display_name": "GPT-4o Mini",
     "description": "Fast, affordable small model for focused tasks",
     "documentation_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini.md",
     "aliases": [],
@@ -43128,7 +43128,7 @@
    },
    "gpt-4o-mini-audio-preview": {
     "canonical_model_id": "gpt-4o-mini-audio-preview",
-    "display_name": "GPT-4o mini Audio",
+    "display_name": "GPT-4o Mini Audio",
     "description": "Smaller model capable of audio inputs and outputs",
     "documentation_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini-audio-preview.md",
     "aliases": [],
@@ -43399,7 +43399,7 @@
    },
    "gpt-4o-mini-realtime-preview": {
     "canonical_model_id": "gpt-4o-mini-realtime-preview",
-    "display_name": "GPT-4o mini Realtime",
+    "display_name": "GPT-4o Mini Realtime",
     "description": "Smaller realtime model for text and audio inputs and outputs",
     "documentation_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini-realtime-preview.md",
     "aliases": [],
@@ -43658,7 +43658,7 @@
    },
    "gpt-4o-mini-search-preview": {
     "canonical_model_id": "gpt-4o-mini-search-preview",
-    "display_name": "GPT-4o mini Search Preview",
+    "display_name": "GPT-4o Mini Search Preview",
     "description": "Fast, affordable small model for web search",
     "documentation_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini-search-preview.md",
     "aliases": [],
@@ -43917,8 +43917,8 @@
    },
    "gpt-4o-mini-transcribe": {
     "canonical_model_id": "gpt-4o-mini-transcribe",
-    "display_name": "GPT-4o mini Transcribe",
-    "description": "Speech-to-text model powered by GPT-4o mini",
+    "display_name": "GPT-4o Mini Transcribe",
+    "description": "Speech-to-text model powered by GPT-4o Mini",
     "documentation_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini-transcribe.md",
     "aliases": [],
     "snapshots": [
@@ -44151,8 +44151,8 @@
    },
    "gpt-4o-mini-tts": {
     "canonical_model_id": "gpt-4o-mini-tts",
-    "display_name": "GPT-4o mini TTS",
-    "description": "Text-to-speech model powered by GPT-4o mini",
+    "display_name": "GPT-4o Mini TTS",
+    "description": "Text-to-speech model powered by GPT-4o Mini",
     "documentation_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini-tts.md",
     "aliases": [],
     "snapshots": [
@@ -45927,7 +45927,7 @@
    },
    "gpt-5-mini": {
     "canonical_model_id": "gpt-5-mini",
-    "display_name": "GPT-5 mini",
+    "display_name": "GPT-5 Mini",
     "description": "Near-frontier intelligence for cost sensitive, low latency, high volume workloads",
     "documentation_url": "https://developers.openai.com/api/docs/models/gpt-5-mini.md",
     "aliases": [],
@@ -47843,7 +47843,7 @@
    },
    "gpt-5.1-codex-mini": {
     "canonical_model_id": "gpt-5.1-codex-mini",
-    "display_name": "GPT-5.1-Codex mini",
+    "display_name": "GPT-5.1-Codex Mini",
     "description": "Smaller, more cost-effective, less-capable version of GPT-5.1-Codex",
     "documentation_url": "https://developers.openai.com/api/docs/models/gpt-5.1-codex-mini.md",
     "aliases": [],
@@ -50311,7 +50311,7 @@
    },
    "gpt-5.4-mini": {
     "canonical_model_id": "gpt-5.4-mini",
-    "display_name": "GPT-5.4 mini",
+    "display_name": "GPT-5.4 Mini",
     "description": "Our strongest mini model yet for coding, computer use, and subagents",
     "documentation_url": "https://developers.openai.com/api/docs/models/gpt-5.4-mini.md",
     "aliases": [],
@@ -52248,7 +52248,7 @@
    },
    "gpt-audio-mini": {
     "canonical_model_id": "gpt-audio-mini",
-    "display_name": "GPT-Audio mini",
+    "display_name": "GPT-Audio Mini",
     "description": "A cost-efficient version of GPT Audio",
     "documentation_url": "https://developers.openai.com/api/docs/models/gpt-audio-mini.md",
     "aliases": [],
@@ -53026,7 +53026,7 @@
    },
    "gpt-image-1-mini": {
     "canonical_model_id": "gpt-image-1-mini",
-    "display_name": "GPT-Image-1 mini",
+    "display_name": "GPT-Image-1 Mini",
     "description": "A cost-efficient version of GPT Image 1",
     "documentation_url": "https://developers.openai.com/api/docs/models/gpt-image-1-mini.md",
     "aliases": [],
@@ -54757,7 +54757,7 @@
    },
    "gpt-realtime-mini": {
     "canonical_model_id": "gpt-realtime-mini",
-    "display_name": "GPT-Realtime mini",
+    "display_name": "GPT-Realtime Mini",
     "description": "A cost-efficient version of GPT-Realtime",
     "documentation_url": "https://developers.openai.com/api/docs/models/gpt-realtime-mini.md",
     "aliases": [],
@@ -55792,7 +55792,7 @@
    },
    "gpt-realtime-2.1-mini": {
     "canonical_model_id": "gpt-realtime-2.1-mini",
-    "display_name": "GPT-Realtime-2.1 mini",
+    "display_name": "GPT-Realtime-2.1 Mini",
     "description": "Reasoning model with tool use",
     "documentation_url": "https://developers.openai.com/api/docs/models/gpt-realtime-2.1-mini.md",
     "aliases": [],
@@ -58934,7 +58934,7 @@
    "o4-mini": {
     "canonical_model_id": "o4-mini",
     "display_name": "o4-mini",
-    "description": "Fast, cost-efficient reasoning model, succeeded by GPT-5 mini",
+    "description": "Fast, cost-efficient reasoning model, succeeded by GPT-5 Mini",
     "documentation_url": "https://developers.openai.com/api/docs/models/o4-mini.md",
     "aliases": [],
     "snapshots": [
