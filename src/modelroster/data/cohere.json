@@ -1,8 +1,8 @@
 {
  "provider": "cohere",
  "schema_version": 2,
- "parser_version": "2026.08.24-2",
- "retrieved_at": "2026-08-25T16:46:49Z",
+ "parser_version": "2026.08.25-1",
+ "retrieved_at": "2026-08-25T16:49:45Z",
  "sources": {
   "listing": "https://api.cohere.com/v1/models"
  },
@@ -123,8 +123,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/c4ai-aya-expanse-32b.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "c4ai-aya-vision-32b": {
@@ -187,7 +187,9 @@
      "cohere.json_mode": false,
      "cohere.json_schema": false,
      "cohere.safety_modes": false,
-     "cohere.reasoning": false
+     "cohere.reasoning": false,
+     "cohere.tool_choice": false,
+     "cohere.tool_images": false
     }
    },
    "endpoints": {
@@ -233,12 +235,9 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/c4ai-aya-vision-32b.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
-   "warnings": [
-    "unrecognised feature 'logprobs' (kept)",
-    "unrecognised feature 'vision' (kept)"
-   ]
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
+   "warnings": []
   },
   "cohere-transcribe-03-2026": {
    "provider": "cohere",
@@ -324,8 +323,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/cohere-transcribe-03-2026.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "command-a-03-2025": {
@@ -387,7 +386,10 @@
      "cohere.tools": true,
      "cohere.tool_choice": true,
      "cohere.citations": true,
-     "cohere.reasoning": false
+     "cohere.reasoning": false,
+     "cohere.logprobs": false,
+     "cohere.tool_images": false,
+     "cohere.vision": false
     }
    },
    "endpoints": {
@@ -436,11 +438,9 @@
      "generate"
     ]
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
-   "warnings": [
-    "unrecognised feature 'tool_choice' (kept)"
-   ]
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
+   "warnings": []
   },
   "command-a-plus-05-2026": {
    "provider": "cohere",
@@ -503,7 +503,8 @@
      "cohere.reasoning": true,
      "cohere.vision": true,
      "cohere.tool_images": true,
-     "cohere.citations": true
+     "cohere.citations": true,
+     "cohere.tool_choice": false
     }
    },
    "endpoints": {
@@ -553,13 +554,9 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/command-a-plus-05-2026.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
-   "warnings": [
-    "unrecognised feature 'logprobs' (kept)",
-    "unrecognised feature 'vision' (kept)",
-    "unrecognised feature 'tool_images' (kept)"
-   ]
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
+   "warnings": []
   },
   "command-a-reasoning-08-2025": {
    "provider": "cohere",
@@ -619,7 +616,11 @@
      "cohere.safety_modes": true,
      "cohere.tools": true,
      "cohere.reasoning": true,
-     "cohere.citations": true
+     "cohere.citations": true,
+     "cohere.logprobs": false,
+     "cohere.tool_choice": false,
+     "cohere.tool_images": false,
+     "cohere.vision": false
     }
    },
    "endpoints": {
@@ -669,8 +670,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/command-a-reasoning-08-2025.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "command-a-translate-08-2025": {
@@ -732,7 +733,10 @@
      "cohere.tool_choice": true,
      "cohere.citations": true,
      "cohere.strict_tools": false,
-     "cohere.reasoning": false
+     "cohere.reasoning": false,
+     "cohere.logprobs": false,
+     "cohere.tool_images": false,
+     "cohere.vision": false
     }
    },
    "endpoints": {
@@ -778,11 +782,9 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/command-a-translate-08-2025.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
-   "warnings": [
-    "unrecognised feature 'tool_choice' (kept)"
-   ]
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
+   "warnings": []
   },
   "command-a-vision-07-2025": {
    "provider": "cohere",
@@ -844,7 +846,9 @@
      "cohere.safety_modes": true,
      "cohere.citations": true,
      "cohere.tools": false,
-     "cohere.reasoning": false
+     "cohere.reasoning": false,
+     "cohere.tool_choice": false,
+     "cohere.tool_images": false
     }
    },
    "endpoints": {
@@ -890,12 +894,9 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/command-a-vision-07-2025.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
-   "warnings": [
-    "unrecognised feature 'vision' (kept)",
-    "unrecognised feature 'logprobs' (kept)"
-   ]
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
+   "warnings": []
   },
   "command-r-08-2024": {
    "provider": "cohere",
@@ -957,7 +958,9 @@
      "cohere.tools": true,
      "cohere.tool_choice": true,
      "cohere.citations": true,
-     "cohere.reasoning": false
+     "cohere.reasoning": false,
+     "cohere.tool_images": false,
+     "cohere.vision": false
     }
    },
    "endpoints": {
@@ -1003,12 +1006,9 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/command-r-08-2024.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
-   "warnings": [
-    "unrecognised feature 'logprobs' (kept)",
-    "unrecognised feature 'tool_choice' (kept)"
-   ]
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
+   "warnings": []
   },
   "command-r-plus-08-2024": {
    "provider": "cohere",
@@ -1070,7 +1070,9 @@
      "cohere.tools": true,
      "cohere.tool_choice": true,
      "cohere.citations": true,
-     "cohere.reasoning": false
+     "cohere.reasoning": false,
+     "cohere.tool_images": false,
+     "cohere.vision": false
     }
    },
    "endpoints": {
@@ -1116,12 +1118,9 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/command-r-plus-08-2024.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
-   "warnings": [
-    "unrecognised feature 'logprobs' (kept)",
-    "unrecognised feature 'tool_choice' (kept)"
-   ]
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
+   "warnings": []
   },
   "command-r7b-12-2024": {
    "provider": "cohere",
@@ -1183,7 +1182,9 @@
      "cohere.tools": true,
      "cohere.tool_choice": true,
      "cohere.citations": true,
-     "cohere.reasoning": false
+     "cohere.reasoning": false,
+     "cohere.tool_images": false,
+     "cohere.vision": false
     }
    },
    "endpoints": {
@@ -1229,12 +1230,9 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/command-r7b-12-2024.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
-   "warnings": [
-    "unrecognised feature 'logprobs' (kept)",
-    "unrecognised feature 'tool_choice' (kept)"
-   ]
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
+   "warnings": []
   },
   "command-r7b-arabic-02-2025": {
    "provider": "cohere",
@@ -1296,7 +1294,9 @@
      "cohere.tools": true,
      "cohere.tool_choice": true,
      "cohere.citations": true,
-     "cohere.reasoning": false
+     "cohere.reasoning": false,
+     "cohere.tool_images": false,
+     "cohere.vision": false
     }
    },
    "endpoints": {
@@ -1342,12 +1342,9 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/command-r7b-arabic-02-2025.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
-   "warnings": [
-    "unrecognised feature 'logprobs' (kept)",
-    "unrecognised feature 'tool_choice' (kept)"
-   ]
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
+   "warnings": []
   },
   "embed-english-light-v3.0": {
    "provider": "cohere",
@@ -1432,8 +1429,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/embed-english-light-v3.0.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "embed-english-light-v3.0-image": {
@@ -1520,8 +1517,8 @@
     "tokenizer_url": null,
     "default_endpoints": []
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "embed-english-v3.0": {
@@ -1607,8 +1604,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/embed-english-v3.0.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "embed-english-v3.0-image": {
@@ -1695,8 +1692,8 @@
     "tokenizer_url": null,
     "default_endpoints": []
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "embed-multilingual-light-v3.0": {
@@ -1782,8 +1779,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/embed-multilingual-light-v3.0.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "embed-multilingual-light-v3.0-image": {
@@ -1870,8 +1867,8 @@
     "tokenizer_url": null,
     "default_endpoints": []
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "embed-multilingual-v3.0": {
@@ -1957,8 +1954,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/embed-multilingual-v3.0.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "embed-multilingual-v3.0-image": {
@@ -2045,8 +2042,8 @@
     "tokenizer_url": null,
     "default_endpoints": []
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "embed-v4.0": {
@@ -2132,8 +2129,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/embed-v4.0.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "north-mini-code-1-0": {
@@ -2195,7 +2192,10 @@
      "cohere.reasoning": true,
      "cohere.json_mode": false,
      "cohere.json_schema": false,
-     "cohere.citations": false
+     "cohere.citations": false,
+     "cohere.tool_choice": false,
+     "cohere.tool_images": false,
+     "cohere.vision": false
     }
    },
    "endpoints": {
@@ -2241,11 +2241,9 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/north-mini-code-1-0.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
-   "warnings": [
-    "unrecognised feature 'logprobs' (kept)"
-   ]
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
+   "warnings": []
   },
   "rerank-english-v3.0": {
    "provider": "cohere",
@@ -2330,8 +2328,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/rerank-english-v3.0.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "rerank-multilingual-v3.0": {
@@ -2417,8 +2415,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/rerank-multilingual-v3.0.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "rerank-v3.5": {
@@ -2506,8 +2504,8 @@
      "rerank"
     ]
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "rerank-v4.0-fast": {
@@ -2593,8 +2591,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/rerank-v4.0-fast.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "rerank-v4.0-pro": {
@@ -2680,8 +2678,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/rerank-v4.0-pro.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "tiny-aya-earth": {
@@ -2744,7 +2742,9 @@
      "cohere.strict_tools": false,
      "cohere.json_mode": false,
      "cohere.json_schema": false,
-     "cohere.reasoning": false
+     "cohere.reasoning": false,
+     "cohere.tool_images": false,
+     "cohere.vision": false
     }
    },
    "endpoints": {
@@ -2790,12 +2790,9 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/tiny-aya-earth.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
-   "warnings": [
-    "unrecognised feature 'logprobs' (kept)",
-    "unrecognised feature 'tool_choice' (kept)"
-   ]
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
+   "warnings": []
   },
   "tiny-aya-fire": {
    "provider": "cohere",
@@ -2857,7 +2854,9 @@
      "cohere.strict_tools": false,
      "cohere.json_mode": false,
      "cohere.json_schema": false,
-     "cohere.reasoning": false
+     "cohere.reasoning": false,
+     "cohere.tool_images": false,
+     "cohere.vision": false
     }
    },
    "endpoints": {
@@ -2903,12 +2902,9 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/tiny-aya-fire.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
-   "warnings": [
-    "unrecognised feature 'logprobs' (kept)",
-    "unrecognised feature 'tool_choice' (kept)"
-   ]
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
+   "warnings": []
   },
   "tiny-aya-global": {
    "provider": "cohere",
@@ -2970,7 +2966,9 @@
      "cohere.strict_tools": false,
      "cohere.json_mode": false,
      "cohere.json_schema": false,
-     "cohere.reasoning": false
+     "cohere.reasoning": false,
+     "cohere.tool_images": false,
+     "cohere.vision": false
     }
    },
    "endpoints": {
@@ -3016,12 +3014,9 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/tiny-aya-global.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
-   "warnings": [
-    "unrecognised feature 'logprobs' (kept)",
-    "unrecognised feature 'tool_choice' (kept)"
-   ]
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
+   "warnings": []
   },
   "tiny-aya-water": {
    "provider": "cohere",
@@ -3083,7 +3078,9 @@
      "cohere.strict_tools": false,
      "cohere.json_mode": false,
      "cohere.json_schema": false,
-     "cohere.reasoning": false
+     "cohere.reasoning": false,
+     "cohere.tool_images": false,
+     "cohere.vision": false
     }
    },
    "endpoints": {
@@ -3129,45 +3126,15 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/tiny-aya-water.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
-   "warnings": [
-    "unrecognised feature 'logprobs' (kept)",
-    "unrecognised feature 'tool_choice' (kept)"
-   ]
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
+   "warnings": []
   }
  },
  "stats": {
   "api_models": 31,
   "models": 31
  },
- "warnings": [
-  "c4ai-aya-vision-32b: unrecognised feature 'logprobs' (kept)",
-  "c4ai-aya-vision-32b: unrecognised feature 'vision' (kept)",
-  "command-a-03-2025: unrecognised feature 'tool_choice' (kept)",
-  "command-a-plus-05-2026: unrecognised feature 'logprobs' (kept)",
-  "command-a-plus-05-2026: unrecognised feature 'vision' (kept)",
-  "command-a-plus-05-2026: unrecognised feature 'tool_images' (kept)",
-  "command-a-translate-08-2025: unrecognised feature 'tool_choice' (kept)",
-  "command-a-vision-07-2025: unrecognised feature 'vision' (kept)",
-  "command-a-vision-07-2025: unrecognised feature 'logprobs' (kept)",
-  "command-r-08-2024: unrecognised feature 'logprobs' (kept)",
-  "command-r-08-2024: unrecognised feature 'tool_choice' (kept)",
-  "command-r-plus-08-2024: unrecognised feature 'logprobs' (kept)",
-  "command-r-plus-08-2024: unrecognised feature 'tool_choice' (kept)",
-  "command-r7b-12-2024: unrecognised feature 'logprobs' (kept)",
-  "command-r7b-12-2024: unrecognised feature 'tool_choice' (kept)",
-  "command-r7b-arabic-02-2025: unrecognised feature 'logprobs' (kept)",
-  "command-r7b-arabic-02-2025: unrecognised feature 'tool_choice' (kept)",
-  "north-mini-code-1-0: unrecognised feature 'logprobs' (kept)",
-  "tiny-aya-earth: unrecognised feature 'logprobs' (kept)",
-  "tiny-aya-earth: unrecognised feature 'tool_choice' (kept)",
-  "tiny-aya-fire: unrecognised feature 'logprobs' (kept)",
-  "tiny-aya-fire: unrecognised feature 'tool_choice' (kept)",
-  "tiny-aya-global: unrecognised feature 'logprobs' (kept)",
-  "tiny-aya-global: unrecognised feature 'tool_choice' (kept)",
-  "tiny-aya-water: unrecognised feature 'logprobs' (kept)",
-  "tiny-aya-water: unrecognised feature 'tool_choice' (kept)"
- ],
+ "warnings": [],
  "extra": {}
 }

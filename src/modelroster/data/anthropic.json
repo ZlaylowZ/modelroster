@@ -1,8 +1,8 @@
 {
  "provider": "anthropic",
  "schema_version": 2,
- "parser_version": "2026.08.24-2",
- "retrieved_at": "2026-08-25T16:46:49Z",
+ "parser_version": "2026.08.25-1",
+ "retrieved_at": "2026-08-25T16:49:45Z",
  "sources": {
   "listing": "https://api.anthropic.com/v1/models"
  },
@@ -231,8 +231,8 @@
      }
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "claude-sonnet-5": {
@@ -447,8 +447,8 @@
      }
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "claude-fable-5": {
@@ -663,8 +663,8 @@
      }
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "claude-opus-4-8": {
@@ -879,8 +879,8 @@
      }
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "claude-opus-4-7": {
@@ -1095,8 +1095,8 @@
      }
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "claude-sonnet-4-6": {
@@ -1311,8 +1311,8 @@
      }
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "claude-opus-4-6": {
@@ -1527,8 +1527,8 @@
      }
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "claude-opus-4-5-20251101": {
@@ -1741,8 +1741,8 @@
      }
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "claude-haiku-4-5-20251001": {
@@ -1951,8 +1951,8 @@
      }
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "claude-sonnet-4-5-20250929": {
@@ -2161,8 +2161,8 @@
      }
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   }
  },

@@ -1,8 +1,8 @@
 {
  "provider": "nvidia",
  "schema_version": 2,
- "parser_version": "2026.08.24-2",
- "retrieved_at": "2026-08-25T16:46:50Z",
+ "parser_version": "2026.08.25-1",
+ "retrieved_at": "2026-08-25T16:49:46Z",
  "sources": {
   "listing": "https://integrate.api.nvidia.com/v1/models"
  },
@@ -176,8 +176,8 @@
     "owned_by": "01-ai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "adept/fuyu-8b": {
@@ -252,8 +252,8 @@
     "owned_by": "adept",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "ai21labs/jamba-1.5-large-instruct": {
@@ -328,8 +328,8 @@
     "owned_by": "ai21labs",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "aisingapore/sea-lion-7b-instruct": {
@@ -404,8 +404,8 @@
     "owned_by": "aisingapore",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "bigcode/starcoder2-15b": {
@@ -480,8 +480,8 @@
     "owned_by": "bigcode",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "databricks/dbrx-instruct": {
@@ -556,8 +556,8 @@
     "owned_by": "databricks",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "deepseek-ai/deepseek-coder-6.7b-instruct": {
@@ -632,8 +632,8 @@
     "owned_by": "deepseek-ai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "deepseek-ai/deepseek-v4-flash-0731": {
@@ -708,8 +708,8 @@
     "owned_by": "deepseek-ai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "google/codegemma-1.1-7b": {
@@ -784,8 +784,8 @@
     "owned_by": "google",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "google/codegemma-7b": {
@@ -860,8 +860,8 @@
     "owned_by": "google",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "google/deplot": {
@@ -936,8 +936,8 @@
     "owned_by": "google",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "google/diffusiongemma-26b-a4b-it": {
@@ -1012,8 +1012,8 @@
     "owned_by": "google",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "google/gemma-2b": {
@@ -1088,8 +1088,8 @@
     "owned_by": "google",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "google/gemma-3-12b-it": {
@@ -1164,8 +1164,8 @@
     "owned_by": "google",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "google/gemma-3-4b-it": {
@@ -1240,8 +1240,8 @@
     "owned_by": "google",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "google/gemma-4-31b-it": {
@@ -1316,8 +1316,8 @@
     "owned_by": "google",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "google/recurrentgemma-2b": {
@@ -1392,8 +1392,8 @@
     "owned_by": "google",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "ibm/granite-3.0-3b-a800m-instruct": {
@@ -1468,8 +1468,8 @@
     "owned_by": "ibm",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "ibm/granite-3.0-8b-instruct": {
@@ -1544,8 +1544,8 @@
     "owned_by": "ibm",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "ibm/granite-34b-code-instruct": {
@@ -1620,8 +1620,8 @@
     "owned_by": "ibm",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "ibm/granite-8b-code-instruct": {
@@ -1696,8 +1696,8 @@
     "owned_by": "ibm",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "meta/codellama-70b": {
@@ -1772,8 +1772,8 @@
     "owned_by": "meta",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "meta/llama-3.1-70b-instruct": {
@@ -1848,8 +1848,8 @@
     "owned_by": "meta",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "meta/llama-3.1-8b-instruct": {
@@ -1924,8 +1924,8 @@
     "owned_by": "meta",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "meta/llama-3.2-11b-vision-instruct": {
@@ -2000,8 +2000,8 @@
     "owned_by": "meta",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "meta/llama-3.2-1b-instruct": {
@@ -2076,8 +2076,8 @@
     "owned_by": "meta",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "meta/llama-3.2-3b-instruct": {
@@ -2152,8 +2152,8 @@
     "owned_by": "meta",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "meta/llama-3.2-90b-vision-instruct": {
@@ -2228,8 +2228,8 @@
     "owned_by": "meta",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "meta/llama-3.3-70b-instruct": {
@@ -2304,8 +2304,8 @@
     "owned_by": "meta",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "meta/llama-guard-4-12b": {
@@ -2380,8 +2380,8 @@
     "owned_by": "meta",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "meta/llama2-70b": {
@@ -2456,8 +2456,8 @@
     "owned_by": "meta",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "meta/muse-glimmer-30b": {
@@ -2532,8 +2532,8 @@
     "owned_by": "meta",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "microsoft/kosmos-2": {
@@ -2608,8 +2608,8 @@
     "owned_by": "microsoft",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "microsoft/phi-3-vision-128k-instruct": {
@@ -2684,8 +2684,8 @@
     "owned_by": "microsoft",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "microsoft/phi-3.5-moe-instruct": {
@@ -2760,8 +2760,8 @@
     "owned_by": "microsoft",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "minimaxai/minimax-m3": {
@@ -2836,8 +2836,8 @@
     "owned_by": "minimaxai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "mistralai/codestral-22b-instruct-v0.1": {
@@ -2912,8 +2912,8 @@
     "owned_by": "mistralai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "mistralai/mistral-7b-instruct-v0.3": {
@@ -2988,8 +2988,8 @@
     "owned_by": "mistralai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "mistralai/mistral-large": {
@@ -3064,8 +3064,8 @@
     "owned_by": "mistralai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "mistralai/mistral-large-2-instruct": {
@@ -3140,8 +3140,8 @@
     "owned_by": "mistralai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "mistralai/mistral-nemotron": {
@@ -3216,8 +3216,8 @@
     "owned_by": "mistralai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "mistralai/mixtral-8x22b-v0.1": {
@@ -3292,8 +3292,8 @@
     "owned_by": "mistralai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "moonshotai/kimi-k2.6": {
@@ -3368,8 +3368,8 @@
     "owned_by": "moonshotai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "moonshotai/kimi-k3": {
@@ -3444,8 +3444,8 @@
     "owned_by": "moonshotai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nv-mistralai/mistral-nemo-12b-instruct": {
@@ -3520,8 +3520,8 @@
     "owned_by": "nv-mistralai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/ai-synthetic-video-detector": {
@@ -3596,8 +3596,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/cosmos-reason2-8b": {
@@ -3672,8 +3672,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/embed-qa-4": {
@@ -3748,8 +3748,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/ising-calibration-1.5-31b": {
@@ -3824,8 +3824,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/llama-3.1-nemoguard-8b-content-safety": {
@@ -3900,8 +3900,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/llama-3.1-nemoguard-8b-topic-control": {
@@ -3976,8 +3976,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/llama-3.1-nemotron-51b-instruct": {
@@ -4052,8 +4052,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/llama-3.1-nemotron-70b-instruct": {
@@ -4128,8 +4128,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/llama-3.1-nemotron-nano-8b-v1": {
@@ -4204,8 +4204,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/llama-3.1-nemotron-nano-vl-8b-v1": {
@@ -4280,8 +4280,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/llama-3.1-nemotron-safety-guard-8b-v3": {
@@ -4356,8 +4356,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/llama-3.1-nemotron-ultra-253b-v1": {
@@ -4432,8 +4432,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/llama-3.2-nemoretriever-1b-vlm-embed-v1": {
@@ -4508,8 +4508,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/llama-3.2-nv-embedqa-1b-v1": {
@@ -4584,8 +4584,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/llama-3.3-nemotron-super-49b-v1": {
@@ -4660,8 +4660,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/llama-3.3-nemotron-super-49b-v1.5": {
@@ -4736,8 +4736,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/llama-nemotron-embed-vl-1b-v2": {
@@ -4812,8 +4812,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/llama3-chatqa-1.5-70b": {
@@ -4888,8 +4888,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/mistral-nemo-minitron-8b-8k-instruct": {
@@ -4964,8 +4964,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/nemotron-3-embed-1b": {
@@ -5040,8 +5040,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/nemotron-3-nano-30b-a3b": {
@@ -5116,8 +5116,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning": {
@@ -5192,8 +5192,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/nemotron-3-super-120b-a12b": {
@@ -5268,8 +5268,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/nemotron-3-ultra-550b-a55b": {
@@ -5344,8 +5344,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/nemotron-3.5-content-safety": {
@@ -5420,8 +5420,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/nemotron-3.5-lightning-30b-a3b": {
@@ -5496,8 +5496,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/nemotron-4-340b-instruct": {
@@ -5572,8 +5572,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/nemotron-4-340b-reward": {
@@ -5648,8 +5648,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/nemotron-mini-4b-instruct": {
@@ -5724,8 +5724,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/nemotron-nano-12b-v2-vl": {
@@ -5800,8 +5800,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/nemotron-nano-3-30b-a3b": {
@@ -5876,8 +5876,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/nemotron-parse": {
@@ -5952,8 +5952,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/neva-22b": {
@@ -6028,8 +6028,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/nv-embedqa-mistral-7b-v2": {
@@ -6104,8 +6104,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/nvclip": {
@@ -6180,8 +6180,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/nvidia-nemotron-nano-9b-v2": {
@@ -6256,8 +6256,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/riva-translate-4b-instruct": {
@@ -6332,8 +6332,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/riva-translate-4b-instruct-v1.1": {
@@ -6408,8 +6408,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/riva-translate-4b-instruct-v2": {
@@ -6484,8 +6484,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "nvidia/vila": {
@@ -6560,8 +6560,8 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "openai/gpt-oss-120b": {
@@ -6636,8 +6636,8 @@
     "owned_by": "openai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "openai/gpt-oss-20b": {
@@ -6712,8 +6712,8 @@
     "owned_by": "openai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "poolside/laguna-xs-2.1": {
@@ -6788,8 +6788,8 @@
     "owned_by": "poolside",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "snowflake/arctic-embed-l": {
@@ -6864,8 +6864,8 @@
     "owned_by": "snowflake",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "stepfun-ai/step-3.7-flash": {
@@ -6940,8 +6940,8 @@
     "owned_by": "stepfun-ai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "writer/palmyra-creative-122b": {
@@ -7016,8 +7016,8 @@
     "owned_by": "writer",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "writer/palmyra-fin-70b-32k": {
@@ -7092,8 +7092,8 @@
     "owned_by": "writer",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "writer/palmyra-med-70b": {
@@ -7168,8 +7168,8 @@
     "owned_by": "writer",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "writer/palmyra-med-70b-32k": {
@@ -7244,8 +7244,8 @@
     "owned_by": "writer",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "zyphra/zamba2-7b-instruct": {
@@ -7320,8 +7320,8 @@
     "owned_by": "zyphra",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:50Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:46Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   }
  },

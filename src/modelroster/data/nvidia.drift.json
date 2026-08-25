@@ -1,24 +1,16 @@
 {
  "provider": "nvidia",
  "first_run": false,
- "previous_retrieved_at": "2026-08-25T07:09:08Z",
- "retrieved_at": "2026-08-25T16:46:50Z",
- "parser_version": "2026.08.24-2",
+ "previous_retrieved_at": "2026-08-25T16:46:50Z",
+ "retrieved_at": "2026-08-25T16:49:46Z",
+ "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.24-2",
  "counts": {
-  "previous": 102,
+  "previous": 95,
   "current": 95
  },
  "added_models": [],
- "removed_models": [
-  "baai/bge-m3",
-  "nvidia/llama-nemotron-embed-1b-v2",
-  "nvidia/nemoretriever-parse",
-  "nvidia/nv-embed-v1",
-  "nvidia/nv-embedcode-7b-v1",
-  "nvidia/nv-embedqa-e5-v5",
-  "thinkingmachines/inkling"
- ],
+ "removed_models": [],
  "added_families": [],
  "removed_families": [],
  "new_snapshots": [],

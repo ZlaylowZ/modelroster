@@ -1,8 +1,8 @@
 {
  "provider": "google",
  "schema_version": 2,
- "parser_version": "2026.08.24-2",
- "retrieved_at": "2026-08-25T16:46:50Z",
+ "parser_version": "2026.08.25-1",
+ "retrieved_at": "2026-08-25T16:49:45Z",
  "sources": {
   "listing": "https://generativelanguage.googleapis.com/v1beta/openai/models",
   "native": "https://generativelanguage.googleapis.com/v1beta/models"
@@ -181,8 +181,8 @@
      ]
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/aqa": {
@@ -303,8 +303,8 @@
      "topK": 40
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/deep-research-max-preview-04-2026": {
@@ -440,8 +440,8 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/deep-research-preview-04-2026": {
@@ -577,8 +577,8 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/deep-research-pro-preview-12-2025": {
@@ -714,8 +714,8 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/gemini-2.5-computer-use-preview-10-2025": {
@@ -851,8 +851,8 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/gemini-2.5-flash": {
@@ -990,8 +990,8 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/gemini-2.5-flash-image": {
@@ -1119,8 +1119,8 @@
      "maxTemperature": 1
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/gemini-2.5-flash-lite": {
@@ -1258,8 +1258,8 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/gemini-2.5-flash-native-audio-latest": {
@@ -1391,8 +1391,8 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/gemini-2.5-flash-native-audio-preview-09-2025": {
@@ -1524,8 +1524,8 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/gemini-2.5-flash-native-audio-preview-12-2025": {
@@ -1657,8 +1657,8 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/gemini-2.5-flash-preview-tts": {
@@ -1785,8 +1785,8 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/gemini-2.5-pro": {
@@ -1924,8 +1924,8 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/gemini-2.5-pro-preview-tts": {
@@ -2053,8 +2053,8 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/gemini-3-flash-preview": {
@@ -2192,8 +2192,8 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/gemini-3-pro-image": {
@@ -2330,8 +2330,8 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/gemini-3-pro-image-preview": {
@@ -2468,8 +2468,8 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/gemini-3.1-flash-image": {
@@ -2606,8 +2606,8 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/gemini-3.1-flash-image-preview": {
@@ -2744,8 +2744,8 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/gemini-3.1-flash-lite": {
@@ -2883,8 +2883,8 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/gemini-3.1-flash-lite-image": {
@@ -3021,8 +3021,8 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/gemini-3.1-flash-lite-preview": {
@@ -3160,8 +3160,8 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/gemini-3.1-flash-live-preview": {
@@ -3283,8 +3283,8 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/gemini-3.1-flash-tts-preview": {
@@ -3421,8 +3421,8 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/gemini-3.1-pro-preview": {
@@ -3560,8 +3560,8 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/gemini-3.1-pro-preview-customtools": {
@@ -3699,8 +3699,8 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/gemini-3.5-flash": {
@@ -3838,8 +3838,8 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/gemini-3.5-flash-lite": {
@@ -3977,8 +3977,8 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/gemini-3.5-live-translate-preview": {
@@ -4100,8 +4100,8 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/gemini-3.6-flash": {
@@ -4239,8 +4239,8 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/gemini-3.7-flash": {
@@ -4378,8 +4378,8 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/gemini-embedding-001": {
@@ -4501,8 +4501,8 @@
      ]
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised generation method 'asyncBatchEmbedContent' (stored as endpoint 'async_batch_embed_content')"
    ]
@@ -4626,8 +4626,8 @@
      ]
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised generation method 'asyncBatchEmbedContent' (stored as endpoint 'async_batch_embed_content')"
    ]
@@ -4751,8 +4751,8 @@
      ]
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised generation method 'asyncBatchEmbedContent' (stored as endpoint 'async_batch_embed_content')"
    ]
@@ -4892,8 +4892,8 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/gemini-flash-lite-latest": {
@@ -5031,8 +5031,8 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/gemini-omni-flash-preview": {
@@ -5168,8 +5168,8 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/gemini-pro-latest": {
@@ -5307,8 +5307,8 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/gemini-robotics-er-1.6-preview": {
@@ -5446,8 +5446,8 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/gemini-robotics-er-2-preview": {
@@ -5585,8 +5585,8 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/gemini-robotics-er-2-streaming-preview": {
@@ -5708,8 +5708,8 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/gemma-4-26b-a4b-it": {
@@ -5845,8 +5845,8 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/gemma-4-31b-it": {
@@ -5982,8 +5982,8 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/lyria-3-clip-preview": {
@@ -6110,8 +6110,8 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/lyria-3-pro-preview": {
@@ -6238,8 +6238,8 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/lyria-realtime-exp": {
@@ -6315,8 +6315,8 @@
     "owned_by": "google",
     "object": "model"
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": [
     "not present in the native /v1beta/models listing; no capability metadata"
    ]
@@ -6455,8 +6455,8 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/veo-3.1-fast-generate-preview": {
@@ -6574,8 +6574,8 @@
      ]
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/veo-3.1-generate-preview": {
@@ -6693,8 +6693,8 @@
      ]
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   },
   "models/veo-3.1-lite-generate-preview": {
@@ -6812,8 +6812,8 @@
      ]
     }
    },
-   "retrieved_at": "2026-08-25T16:46:49Z",
-   "parser_version": "2026.08.24-2",
+   "retrieved_at": "2026-08-25T16:49:45Z",
+   "parser_version": "2026.08.25-1",
    "warnings": []
   }
  },
