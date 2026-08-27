@@ -1,16 +1,31 @@
 {
  "provider": "nvidia",
  "first_run": false,
- "previous_retrieved_at": "2026-08-25T16:49:46Z",
- "retrieved_at": "2026-08-26T07:09:48Z",
+ "previous_retrieved_at": "2026-08-26T07:09:48Z",
+ "retrieved_at": "2026-08-27T17:38:34Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
   "previous": 95,
-  "current": 95
+  "current": 84
  },
- "added_models": [],
- "removed_models": [],
+ "added_models": [
+  "deepseek-ai/deepseek-v4-pro-0813"
+ ],
+ "removed_models": [
+  "meta/llama-3.1-70b-instruct",
+  "meta/llama-3.1-8b-instruct",
+  "meta/llama-3.2-1b-instruct",
+  "meta/llama-3.2-3b-instruct",
+  "meta/llama-3.3-70b-instruct",
+  "nvidia/llama-3.1-nemotron-nano-8b-v1",
+  "nvidia/llama-3.1-nemotron-nano-vl-8b-v1",
+  "nvidia/llama-3.3-nemotron-super-49b-v1",
+  "nvidia/llama-3.3-nemotron-super-49b-v1.5",
+  "nvidia/nemotron-mini-4b-instruct",
+  "nvidia/nemotron-nano-12b-v2-vl",
+  "nvidia/nvidia-nemotron-nano-9b-v2"
+ ],
  "added_families": [],
  "removed_families": [],
  "new_snapshots": [],

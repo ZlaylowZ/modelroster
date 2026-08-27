@@ -2,7 +2,7 @@
  "provider": "nvidia",
  "schema_version": 2,
  "parser_version": "2026.08.25-1",
- "retrieved_at": "2026-08-26T07:09:48Z",
+ "retrieved_at": "2026-08-27T17:38:34Z",
  "sources": {
   "listing": "https://integrate.api.nvidia.com/v1/models"
  },
@@ -15,6 +15,7 @@
   "databricks/dbrx-instruct",
   "deepseek-ai/deepseek-coder-6.7b-instruct",
   "deepseek-ai/deepseek-v4-flash-0731",
+  "deepseek-ai/deepseek-v4-pro-0813",
   "google/codegemma-1.1-7b",
   "google/codegemma-7b",
   "google/deplot",
@@ -29,13 +30,8 @@
   "ibm/granite-34b-code-instruct",
   "ibm/granite-8b-code-instruct",
   "meta/codellama-70b",
-  "meta/llama-3.1-70b-instruct",
-  "meta/llama-3.1-8b-instruct",
   "meta/llama-3.2-11b-vision-instruct",
-  "meta/llama-3.2-1b-instruct",
-  "meta/llama-3.2-3b-instruct",
   "meta/llama-3.2-90b-vision-instruct",
-  "meta/llama-3.3-70b-instruct",
   "meta/llama-guard-4-12b",
   "meta/llama2-70b",
   "meta/muse-glimmer-30b",
@@ -60,14 +56,10 @@
   "nvidia/llama-3.1-nemoguard-8b-topic-control",
   "nvidia/llama-3.1-nemotron-51b-instruct",
   "nvidia/llama-3.1-nemotron-70b-instruct",
-  "nvidia/llama-3.1-nemotron-nano-8b-v1",
-  "nvidia/llama-3.1-nemotron-nano-vl-8b-v1",
   "nvidia/llama-3.1-nemotron-safety-guard-8b-v3",
   "nvidia/llama-3.1-nemotron-ultra-253b-v1",
   "nvidia/llama-3.2-nemoretriever-1b-vlm-embed-v1",
   "nvidia/llama-3.2-nv-embedqa-1b-v1",
-  "nvidia/llama-3.3-nemotron-super-49b-v1",
-  "nvidia/llama-3.3-nemotron-super-49b-v1.5",
   "nvidia/llama-nemotron-embed-vl-1b-v2",
   "nvidia/llama3-chatqa-1.5-70b",
   "nvidia/mistral-nemo-minitron-8b-8k-instruct",
@@ -80,14 +72,11 @@
   "nvidia/nemotron-3.5-lightning-30b-a3b",
   "nvidia/nemotron-4-340b-instruct",
   "nvidia/nemotron-4-340b-reward",
-  "nvidia/nemotron-mini-4b-instruct",
-  "nvidia/nemotron-nano-12b-v2-vl",
   "nvidia/nemotron-nano-3-30b-a3b",
   "nvidia/nemotron-parse",
   "nvidia/neva-22b",
   "nvidia/nv-embedqa-mistral-7b-v2",
   "nvidia/nvclip",
-  "nvidia/nvidia-nemotron-nano-9b-v2",
   "nvidia/riva-translate-4b-instruct",
   "nvidia/riva-translate-4b-instruct-v1.1",
   "nvidia/riva-translate-4b-instruct-v2",
@@ -176,7 +165,7 @@
     "owned_by": "01-ai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -252,7 +241,7 @@
     "owned_by": "adept",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -328,7 +317,7 @@
     "owned_by": "ai21labs",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -404,7 +393,7 @@
     "owned_by": "aisingapore",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -480,7 +469,7 @@
     "owned_by": "bigcode",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -556,7 +545,7 @@
     "owned_by": "databricks",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -632,7 +621,7 @@
     "owned_by": "deepseek-ai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -708,7 +697,83 @@
     "owned_by": "deepseek-ai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
+   "parser_version": "2026.08.25-1",
+   "warnings": []
+  },
+  "deepseek-ai/deepseek-v4-pro-0813": {
+   "provider": "nvidia",
+   "model_id": "deepseek-ai/deepseek-v4-pro-0813",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "deepseek-ai",
+    "object": "model"
+   },
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -784,7 +849,7 @@
     "owned_by": "google",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -860,7 +925,7 @@
     "owned_by": "google",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -936,7 +1001,7 @@
     "owned_by": "google",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1012,7 +1077,7 @@
     "owned_by": "google",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1088,7 +1153,7 @@
     "owned_by": "google",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1164,7 +1229,7 @@
     "owned_by": "google",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1240,7 +1305,7 @@
     "owned_by": "google",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1316,7 +1381,7 @@
     "owned_by": "google",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1392,7 +1457,7 @@
     "owned_by": "google",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1468,7 +1533,7 @@
     "owned_by": "ibm",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1544,7 +1609,7 @@
     "owned_by": "ibm",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1620,7 +1685,7 @@
     "owned_by": "ibm",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1696,7 +1761,7 @@
     "owned_by": "ibm",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1772,159 +1837,7 @@
     "owned_by": "meta",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
-   "parser_version": "2026.08.25-1",
-   "warnings": []
-  },
-  "meta/llama-3.1-70b-instruct": {
-   "provider": "nvidia",
-   "model_id": "meta/llama-3.1-70b-instruct",
-   "display_name": null,
-   "description": null,
-   "family": null,
-   "aliases": [],
-   "snapshots": [],
-   "default_snapshot": null,
-   "routes_to": null,
-   "relationship": "unknown",
-   "released": "1993-04-26",
-   "deprecated": null,
-   "shutdown_date": null,
-   "context_window": null,
-   "max_input_tokens": null,
-   "max_output_tokens": null,
-   "knowledge_cutoff": null,
-   "knowledge_cutoff_raw": null,
-   "modalities": {
-    "text": {
-     "input": null,
-     "output": null
-    },
-    "image": {
-     "input": null,
-     "output": null
-    },
-    "audio": {
-     "input": null,
-     "output": null
-    },
-    "video": {
-     "input": null,
-     "output": null
-    }
-   },
-   "capabilities": {
-    "reasoning": null,
-    "reasoning_efforts": null,
-    "default_effort": null,
-    "extended_thinking": null,
-    "tool_calling": null,
-    "structured_outputs": null,
-    "streaming": null,
-    "prompt_caching": null,
-    "fine_tuning": null,
-    "batch": null,
-    "citations": null,
-    "code_execution": null,
-    "pdf_input": null,
-    "extra": {}
-   },
-   "endpoints": {},
-   "builtin_tools": null,
-   "pricing": null,
-   "tier": "verified",
-   "provenance": {
-    "released": {
-     "section": "api:/models",
-     "evidence": "created timestamp"
-    }
-   },
-   "sources": {
-    "listing": "https://integrate.api.nvidia.com/v1/models",
-    "documentation": null
-   },
-   "raw": {
-    "created": 735790403,
-    "owned_by": "meta",
-    "object": "model"
-   },
-   "retrieved_at": "2026-08-26T07:09:48Z",
-   "parser_version": "2026.08.25-1",
-   "warnings": []
-  },
-  "meta/llama-3.1-8b-instruct": {
-   "provider": "nvidia",
-   "model_id": "meta/llama-3.1-8b-instruct",
-   "display_name": null,
-   "description": null,
-   "family": null,
-   "aliases": [],
-   "snapshots": [],
-   "default_snapshot": null,
-   "routes_to": null,
-   "relationship": "unknown",
-   "released": "1993-04-26",
-   "deprecated": null,
-   "shutdown_date": null,
-   "context_window": null,
-   "max_input_tokens": null,
-   "max_output_tokens": null,
-   "knowledge_cutoff": null,
-   "knowledge_cutoff_raw": null,
-   "modalities": {
-    "text": {
-     "input": null,
-     "output": null
-    },
-    "image": {
-     "input": null,
-     "output": null
-    },
-    "audio": {
-     "input": null,
-     "output": null
-    },
-    "video": {
-     "input": null,
-     "output": null
-    }
-   },
-   "capabilities": {
-    "reasoning": null,
-    "reasoning_efforts": null,
-    "default_effort": null,
-    "extended_thinking": null,
-    "tool_calling": null,
-    "structured_outputs": null,
-    "streaming": null,
-    "prompt_caching": null,
-    "fine_tuning": null,
-    "batch": null,
-    "citations": null,
-    "code_execution": null,
-    "pdf_input": null,
-    "extra": {}
-   },
-   "endpoints": {},
-   "builtin_tools": null,
-   "pricing": null,
-   "tier": "verified",
-   "provenance": {
-    "released": {
-     "section": "api:/models",
-     "evidence": "created timestamp"
-    }
-   },
-   "sources": {
-    "listing": "https://integrate.api.nvidia.com/v1/models",
-    "documentation": null
-   },
-   "raw": {
-    "created": 735790403,
-    "owned_by": "meta",
-    "object": "model"
-   },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2000,159 +1913,7 @@
     "owned_by": "meta",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
-   "parser_version": "2026.08.25-1",
-   "warnings": []
-  },
-  "meta/llama-3.2-1b-instruct": {
-   "provider": "nvidia",
-   "model_id": "meta/llama-3.2-1b-instruct",
-   "display_name": null,
-   "description": null,
-   "family": null,
-   "aliases": [],
-   "snapshots": [],
-   "default_snapshot": null,
-   "routes_to": null,
-   "relationship": "unknown",
-   "released": "1993-04-26",
-   "deprecated": null,
-   "shutdown_date": null,
-   "context_window": null,
-   "max_input_tokens": null,
-   "max_output_tokens": null,
-   "knowledge_cutoff": null,
-   "knowledge_cutoff_raw": null,
-   "modalities": {
-    "text": {
-     "input": null,
-     "output": null
-    },
-    "image": {
-     "input": null,
-     "output": null
-    },
-    "audio": {
-     "input": null,
-     "output": null
-    },
-    "video": {
-     "input": null,
-     "output": null
-    }
-   },
-   "capabilities": {
-    "reasoning": null,
-    "reasoning_efforts": null,
-    "default_effort": null,
-    "extended_thinking": null,
-    "tool_calling": null,
-    "structured_outputs": null,
-    "streaming": null,
-    "prompt_caching": null,
-    "fine_tuning": null,
-    "batch": null,
-    "citations": null,
-    "code_execution": null,
-    "pdf_input": null,
-    "extra": {}
-   },
-   "endpoints": {},
-   "builtin_tools": null,
-   "pricing": null,
-   "tier": "verified",
-   "provenance": {
-    "released": {
-     "section": "api:/models",
-     "evidence": "created timestamp"
-    }
-   },
-   "sources": {
-    "listing": "https://integrate.api.nvidia.com/v1/models",
-    "documentation": null
-   },
-   "raw": {
-    "created": 735790403,
-    "owned_by": "meta",
-    "object": "model"
-   },
-   "retrieved_at": "2026-08-26T07:09:48Z",
-   "parser_version": "2026.08.25-1",
-   "warnings": []
-  },
-  "meta/llama-3.2-3b-instruct": {
-   "provider": "nvidia",
-   "model_id": "meta/llama-3.2-3b-instruct",
-   "display_name": null,
-   "description": null,
-   "family": null,
-   "aliases": [],
-   "snapshots": [],
-   "default_snapshot": null,
-   "routes_to": null,
-   "relationship": "unknown",
-   "released": "1993-04-26",
-   "deprecated": null,
-   "shutdown_date": null,
-   "context_window": null,
-   "max_input_tokens": null,
-   "max_output_tokens": null,
-   "knowledge_cutoff": null,
-   "knowledge_cutoff_raw": null,
-   "modalities": {
-    "text": {
-     "input": null,
-     "output": null
-    },
-    "image": {
-     "input": null,
-     "output": null
-    },
-    "audio": {
-     "input": null,
-     "output": null
-    },
-    "video": {
-     "input": null,
-     "output": null
-    }
-   },
-   "capabilities": {
-    "reasoning": null,
-    "reasoning_efforts": null,
-    "default_effort": null,
-    "extended_thinking": null,
-    "tool_calling": null,
-    "structured_outputs": null,
-    "streaming": null,
-    "prompt_caching": null,
-    "fine_tuning": null,
-    "batch": null,
-    "citations": null,
-    "code_execution": null,
-    "pdf_input": null,
-    "extra": {}
-   },
-   "endpoints": {},
-   "builtin_tools": null,
-   "pricing": null,
-   "tier": "verified",
-   "provenance": {
-    "released": {
-     "section": "api:/models",
-     "evidence": "created timestamp"
-    }
-   },
-   "sources": {
-    "listing": "https://integrate.api.nvidia.com/v1/models",
-    "documentation": null
-   },
-   "raw": {
-    "created": 735790403,
-    "owned_by": "meta",
-    "object": "model"
-   },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2228,83 +1989,7 @@
     "owned_by": "meta",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
-   "parser_version": "2026.08.25-1",
-   "warnings": []
-  },
-  "meta/llama-3.3-70b-instruct": {
-   "provider": "nvidia",
-   "model_id": "meta/llama-3.3-70b-instruct",
-   "display_name": null,
-   "description": null,
-   "family": null,
-   "aliases": [],
-   "snapshots": [],
-   "default_snapshot": null,
-   "routes_to": null,
-   "relationship": "unknown",
-   "released": "1993-04-26",
-   "deprecated": null,
-   "shutdown_date": null,
-   "context_window": null,
-   "max_input_tokens": null,
-   "max_output_tokens": null,
-   "knowledge_cutoff": null,
-   "knowledge_cutoff_raw": null,
-   "modalities": {
-    "text": {
-     "input": null,
-     "output": null
-    },
-    "image": {
-     "input": null,
-     "output": null
-    },
-    "audio": {
-     "input": null,
-     "output": null
-    },
-    "video": {
-     "input": null,
-     "output": null
-    }
-   },
-   "capabilities": {
-    "reasoning": null,
-    "reasoning_efforts": null,
-    "default_effort": null,
-    "extended_thinking": null,
-    "tool_calling": null,
-    "structured_outputs": null,
-    "streaming": null,
-    "prompt_caching": null,
-    "fine_tuning": null,
-    "batch": null,
-    "citations": null,
-    "code_execution": null,
-    "pdf_input": null,
-    "extra": {}
-   },
-   "endpoints": {},
-   "builtin_tools": null,
-   "pricing": null,
-   "tier": "verified",
-   "provenance": {
-    "released": {
-     "section": "api:/models",
-     "evidence": "created timestamp"
-    }
-   },
-   "sources": {
-    "listing": "https://integrate.api.nvidia.com/v1/models",
-    "documentation": null
-   },
-   "raw": {
-    "created": 735790403,
-    "owned_by": "meta",
-    "object": "model"
-   },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2380,7 +2065,7 @@
     "owned_by": "meta",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2456,7 +2141,7 @@
     "owned_by": "meta",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2532,7 +2217,7 @@
     "owned_by": "meta",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2608,7 +2293,7 @@
     "owned_by": "microsoft",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2684,7 +2369,7 @@
     "owned_by": "microsoft",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2760,7 +2445,7 @@
     "owned_by": "microsoft",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2836,7 +2521,7 @@
     "owned_by": "minimaxai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2912,7 +2597,7 @@
     "owned_by": "mistralai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2988,7 +2673,7 @@
     "owned_by": "mistralai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3064,7 +2749,7 @@
     "owned_by": "mistralai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3140,7 +2825,7 @@
     "owned_by": "mistralai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3216,7 +2901,7 @@
     "owned_by": "mistralai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3292,7 +2977,7 @@
     "owned_by": "mistralai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3368,7 +3053,7 @@
     "owned_by": "moonshotai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3444,7 +3129,7 @@
     "owned_by": "moonshotai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3520,7 +3205,7 @@
     "owned_by": "nv-mistralai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3596,7 +3281,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3672,7 +3357,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3748,7 +3433,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3824,7 +3509,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3900,7 +3585,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3976,7 +3661,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4052,7 +3737,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4128,159 +3813,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
-   "parser_version": "2026.08.25-1",
-   "warnings": []
-  },
-  "nvidia/llama-3.1-nemotron-nano-8b-v1": {
-   "provider": "nvidia",
-   "model_id": "nvidia/llama-3.1-nemotron-nano-8b-v1",
-   "display_name": null,
-   "description": null,
-   "family": null,
-   "aliases": [],
-   "snapshots": [],
-   "default_snapshot": null,
-   "routes_to": null,
-   "relationship": "unknown",
-   "released": "1993-04-26",
-   "deprecated": null,
-   "shutdown_date": null,
-   "context_window": null,
-   "max_input_tokens": null,
-   "max_output_tokens": null,
-   "knowledge_cutoff": null,
-   "knowledge_cutoff_raw": null,
-   "modalities": {
-    "text": {
-     "input": null,
-     "output": null
-    },
-    "image": {
-     "input": null,
-     "output": null
-    },
-    "audio": {
-     "input": null,
-     "output": null
-    },
-    "video": {
-     "input": null,
-     "output": null
-    }
-   },
-   "capabilities": {
-    "reasoning": null,
-    "reasoning_efforts": null,
-    "default_effort": null,
-    "extended_thinking": null,
-    "tool_calling": null,
-    "structured_outputs": null,
-    "streaming": null,
-    "prompt_caching": null,
-    "fine_tuning": null,
-    "batch": null,
-    "citations": null,
-    "code_execution": null,
-    "pdf_input": null,
-    "extra": {}
-   },
-   "endpoints": {},
-   "builtin_tools": null,
-   "pricing": null,
-   "tier": "verified",
-   "provenance": {
-    "released": {
-     "section": "api:/models",
-     "evidence": "created timestamp"
-    }
-   },
-   "sources": {
-    "listing": "https://integrate.api.nvidia.com/v1/models",
-    "documentation": null
-   },
-   "raw": {
-    "created": 735790403,
-    "owned_by": "nvidia",
-    "object": "model"
-   },
-   "retrieved_at": "2026-08-26T07:09:48Z",
-   "parser_version": "2026.08.25-1",
-   "warnings": []
-  },
-  "nvidia/llama-3.1-nemotron-nano-vl-8b-v1": {
-   "provider": "nvidia",
-   "model_id": "nvidia/llama-3.1-nemotron-nano-vl-8b-v1",
-   "display_name": null,
-   "description": null,
-   "family": null,
-   "aliases": [],
-   "snapshots": [],
-   "default_snapshot": null,
-   "routes_to": null,
-   "relationship": "unknown",
-   "released": "1993-04-26",
-   "deprecated": null,
-   "shutdown_date": null,
-   "context_window": null,
-   "max_input_tokens": null,
-   "max_output_tokens": null,
-   "knowledge_cutoff": null,
-   "knowledge_cutoff_raw": null,
-   "modalities": {
-    "text": {
-     "input": null,
-     "output": null
-    },
-    "image": {
-     "input": null,
-     "output": null
-    },
-    "audio": {
-     "input": null,
-     "output": null
-    },
-    "video": {
-     "input": null,
-     "output": null
-    }
-   },
-   "capabilities": {
-    "reasoning": null,
-    "reasoning_efforts": null,
-    "default_effort": null,
-    "extended_thinking": null,
-    "tool_calling": null,
-    "structured_outputs": null,
-    "streaming": null,
-    "prompt_caching": null,
-    "fine_tuning": null,
-    "batch": null,
-    "citations": null,
-    "code_execution": null,
-    "pdf_input": null,
-    "extra": {}
-   },
-   "endpoints": {},
-   "builtin_tools": null,
-   "pricing": null,
-   "tier": "verified",
-   "provenance": {
-    "released": {
-     "section": "api:/models",
-     "evidence": "created timestamp"
-    }
-   },
-   "sources": {
-    "listing": "https://integrate.api.nvidia.com/v1/models",
-    "documentation": null
-   },
-   "raw": {
-    "created": 735790403,
-    "owned_by": "nvidia",
-    "object": "model"
-   },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4356,7 +3889,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4432,7 +3965,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4508,7 +4041,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4584,159 +4117,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
-   "parser_version": "2026.08.25-1",
-   "warnings": []
-  },
-  "nvidia/llama-3.3-nemotron-super-49b-v1": {
-   "provider": "nvidia",
-   "model_id": "nvidia/llama-3.3-nemotron-super-49b-v1",
-   "display_name": null,
-   "description": null,
-   "family": null,
-   "aliases": [],
-   "snapshots": [],
-   "default_snapshot": null,
-   "routes_to": null,
-   "relationship": "unknown",
-   "released": "1993-04-26",
-   "deprecated": null,
-   "shutdown_date": null,
-   "context_window": null,
-   "max_input_tokens": null,
-   "max_output_tokens": null,
-   "knowledge_cutoff": null,
-   "knowledge_cutoff_raw": null,
-   "modalities": {
-    "text": {
-     "input": null,
-     "output": null
-    },
-    "image": {
-     "input": null,
-     "output": null
-    },
-    "audio": {
-     "input": null,
-     "output": null
-    },
-    "video": {
-     "input": null,
-     "output": null
-    }
-   },
-   "capabilities": {
-    "reasoning": null,
-    "reasoning_efforts": null,
-    "default_effort": null,
-    "extended_thinking": null,
-    "tool_calling": null,
-    "structured_outputs": null,
-    "streaming": null,
-    "prompt_caching": null,
-    "fine_tuning": null,
-    "batch": null,
-    "citations": null,
-    "code_execution": null,
-    "pdf_input": null,
-    "extra": {}
-   },
-   "endpoints": {},
-   "builtin_tools": null,
-   "pricing": null,
-   "tier": "verified",
-   "provenance": {
-    "released": {
-     "section": "api:/models",
-     "evidence": "created timestamp"
-    }
-   },
-   "sources": {
-    "listing": "https://integrate.api.nvidia.com/v1/models",
-    "documentation": null
-   },
-   "raw": {
-    "created": 735790403,
-    "owned_by": "nvidia",
-    "object": "model"
-   },
-   "retrieved_at": "2026-08-26T07:09:48Z",
-   "parser_version": "2026.08.25-1",
-   "warnings": []
-  },
-  "nvidia/llama-3.3-nemotron-super-49b-v1.5": {
-   "provider": "nvidia",
-   "model_id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
-   "display_name": null,
-   "description": null,
-   "family": null,
-   "aliases": [],
-   "snapshots": [],
-   "default_snapshot": null,
-   "routes_to": null,
-   "relationship": "unknown",
-   "released": "1993-04-26",
-   "deprecated": null,
-   "shutdown_date": null,
-   "context_window": null,
-   "max_input_tokens": null,
-   "max_output_tokens": null,
-   "knowledge_cutoff": null,
-   "knowledge_cutoff_raw": null,
-   "modalities": {
-    "text": {
-     "input": null,
-     "output": null
-    },
-    "image": {
-     "input": null,
-     "output": null
-    },
-    "audio": {
-     "input": null,
-     "output": null
-    },
-    "video": {
-     "input": null,
-     "output": null
-    }
-   },
-   "capabilities": {
-    "reasoning": null,
-    "reasoning_efforts": null,
-    "default_effort": null,
-    "extended_thinking": null,
-    "tool_calling": null,
-    "structured_outputs": null,
-    "streaming": null,
-    "prompt_caching": null,
-    "fine_tuning": null,
-    "batch": null,
-    "citations": null,
-    "code_execution": null,
-    "pdf_input": null,
-    "extra": {}
-   },
-   "endpoints": {},
-   "builtin_tools": null,
-   "pricing": null,
-   "tier": "verified",
-   "provenance": {
-    "released": {
-     "section": "api:/models",
-     "evidence": "created timestamp"
-    }
-   },
-   "sources": {
-    "listing": "https://integrate.api.nvidia.com/v1/models",
-    "documentation": null
-   },
-   "raw": {
-    "created": 735790403,
-    "owned_by": "nvidia",
-    "object": "model"
-   },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4812,7 +4193,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4888,7 +4269,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4964,7 +4345,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5040,7 +4421,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5116,7 +4497,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5192,7 +4573,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5268,7 +4649,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5344,7 +4725,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5420,7 +4801,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5496,7 +4877,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5572,7 +4953,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5648,159 +5029,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
-   "parser_version": "2026.08.25-1",
-   "warnings": []
-  },
-  "nvidia/nemotron-mini-4b-instruct": {
-   "provider": "nvidia",
-   "model_id": "nvidia/nemotron-mini-4b-instruct",
-   "display_name": null,
-   "description": null,
-   "family": null,
-   "aliases": [],
-   "snapshots": [],
-   "default_snapshot": null,
-   "routes_to": null,
-   "relationship": "unknown",
-   "released": "1993-04-26",
-   "deprecated": null,
-   "shutdown_date": null,
-   "context_window": null,
-   "max_input_tokens": null,
-   "max_output_tokens": null,
-   "knowledge_cutoff": null,
-   "knowledge_cutoff_raw": null,
-   "modalities": {
-    "text": {
-     "input": null,
-     "output": null
-    },
-    "image": {
-     "input": null,
-     "output": null
-    },
-    "audio": {
-     "input": null,
-     "output": null
-    },
-    "video": {
-     "input": null,
-     "output": null
-    }
-   },
-   "capabilities": {
-    "reasoning": null,
-    "reasoning_efforts": null,
-    "default_effort": null,
-    "extended_thinking": null,
-    "tool_calling": null,
-    "structured_outputs": null,
-    "streaming": null,
-    "prompt_caching": null,
-    "fine_tuning": null,
-    "batch": null,
-    "citations": null,
-    "code_execution": null,
-    "pdf_input": null,
-    "extra": {}
-   },
-   "endpoints": {},
-   "builtin_tools": null,
-   "pricing": null,
-   "tier": "verified",
-   "provenance": {
-    "released": {
-     "section": "api:/models",
-     "evidence": "created timestamp"
-    }
-   },
-   "sources": {
-    "listing": "https://integrate.api.nvidia.com/v1/models",
-    "documentation": null
-   },
-   "raw": {
-    "created": 735790403,
-    "owned_by": "nvidia",
-    "object": "model"
-   },
-   "retrieved_at": "2026-08-26T07:09:48Z",
-   "parser_version": "2026.08.25-1",
-   "warnings": []
-  },
-  "nvidia/nemotron-nano-12b-v2-vl": {
-   "provider": "nvidia",
-   "model_id": "nvidia/nemotron-nano-12b-v2-vl",
-   "display_name": null,
-   "description": null,
-   "family": null,
-   "aliases": [],
-   "snapshots": [],
-   "default_snapshot": null,
-   "routes_to": null,
-   "relationship": "unknown",
-   "released": "1993-04-26",
-   "deprecated": null,
-   "shutdown_date": null,
-   "context_window": null,
-   "max_input_tokens": null,
-   "max_output_tokens": null,
-   "knowledge_cutoff": null,
-   "knowledge_cutoff_raw": null,
-   "modalities": {
-    "text": {
-     "input": null,
-     "output": null
-    },
-    "image": {
-     "input": null,
-     "output": null
-    },
-    "audio": {
-     "input": null,
-     "output": null
-    },
-    "video": {
-     "input": null,
-     "output": null
-    }
-   },
-   "capabilities": {
-    "reasoning": null,
-    "reasoning_efforts": null,
-    "default_effort": null,
-    "extended_thinking": null,
-    "tool_calling": null,
-    "structured_outputs": null,
-    "streaming": null,
-    "prompt_caching": null,
-    "fine_tuning": null,
-    "batch": null,
-    "citations": null,
-    "code_execution": null,
-    "pdf_input": null,
-    "extra": {}
-   },
-   "endpoints": {},
-   "builtin_tools": null,
-   "pricing": null,
-   "tier": "verified",
-   "provenance": {
-    "released": {
-     "section": "api:/models",
-     "evidence": "created timestamp"
-    }
-   },
-   "sources": {
-    "listing": "https://integrate.api.nvidia.com/v1/models",
-    "documentation": null
-   },
-   "raw": {
-    "created": 735790403,
-    "owned_by": "nvidia",
-    "object": "model"
-   },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5876,7 +5105,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5952,7 +5181,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6028,7 +5257,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6104,7 +5333,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6180,83 +5409,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
-   "parser_version": "2026.08.25-1",
-   "warnings": []
-  },
-  "nvidia/nvidia-nemotron-nano-9b-v2": {
-   "provider": "nvidia",
-   "model_id": "nvidia/nvidia-nemotron-nano-9b-v2",
-   "display_name": null,
-   "description": null,
-   "family": null,
-   "aliases": [],
-   "snapshots": [],
-   "default_snapshot": null,
-   "routes_to": null,
-   "relationship": "unknown",
-   "released": "1993-04-26",
-   "deprecated": null,
-   "shutdown_date": null,
-   "context_window": null,
-   "max_input_tokens": null,
-   "max_output_tokens": null,
-   "knowledge_cutoff": null,
-   "knowledge_cutoff_raw": null,
-   "modalities": {
-    "text": {
-     "input": null,
-     "output": null
-    },
-    "image": {
-     "input": null,
-     "output": null
-    },
-    "audio": {
-     "input": null,
-     "output": null
-    },
-    "video": {
-     "input": null,
-     "output": null
-    }
-   },
-   "capabilities": {
-    "reasoning": null,
-    "reasoning_efforts": null,
-    "default_effort": null,
-    "extended_thinking": null,
-    "tool_calling": null,
-    "structured_outputs": null,
-    "streaming": null,
-    "prompt_caching": null,
-    "fine_tuning": null,
-    "batch": null,
-    "citations": null,
-    "code_execution": null,
-    "pdf_input": null,
-    "extra": {}
-   },
-   "endpoints": {},
-   "builtin_tools": null,
-   "pricing": null,
-   "tier": "verified",
-   "provenance": {
-    "released": {
-     "section": "api:/models",
-     "evidence": "created timestamp"
-    }
-   },
-   "sources": {
-    "listing": "https://integrate.api.nvidia.com/v1/models",
-    "documentation": null
-   },
-   "raw": {
-    "created": 735790403,
-    "owned_by": "nvidia",
-    "object": "model"
-   },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6332,7 +5485,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6408,7 +5561,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6484,7 +5637,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6560,7 +5713,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6636,7 +5789,7 @@
     "owned_by": "openai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6712,7 +5865,7 @@
     "owned_by": "openai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6788,7 +5941,7 @@
     "owned_by": "poolside",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6864,7 +6017,7 @@
     "owned_by": "snowflake",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6940,7 +6093,7 @@
     "owned_by": "stepfun-ai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7016,7 +6169,7 @@
     "owned_by": "writer",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7092,7 +6245,7 @@
     "owned_by": "writer",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7168,7 +6321,7 @@
     "owned_by": "writer",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7244,7 +6397,7 @@
     "owned_by": "writer",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7320,14 +6473,14 @@
     "owned_by": "zyphra",
     "object": "model"
    },
-   "retrieved_at": "2026-08-26T07:09:48Z",
+   "retrieved_at": "2026-08-27T17:38:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   }
  },
  "stats": {
-  "api_models": 95,
-  "models": 95
+  "api_models": 84,
+  "models": 84
  },
  "warnings": [],
  "extra": {}
