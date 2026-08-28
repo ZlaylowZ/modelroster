@@ -1,8 +1,8 @@
 {
  "provider": "openai",
  "first_run": false,
- "previous_retrieved_at": "2026-08-26T07:10:03Z",
- "retrieved_at": "2026-08-27T17:38:49Z",
+ "previous_retrieved_at": "2026-08-27T17:38:49Z",
+ "retrieved_at": "2026-08-28T18:43:26Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
@@ -25,12 +25,12 @@
   "gpt-5-search-api-2025-10-14: No official model documentation record matched this API model ID.",
   "tts-1-1106: No official model documentation record matched this API model ID.",
   "tts-1-hd-1106: No official model documentation record matched this API model ID.",
-  "id 'gpt-5.6-sol' claimed by daybreak-blue-latest, gpt-5.6-sol; resolved to 'gpt-5.6-sol'",
-  "id 'gpt-5.6-cyber' claimed by daybreak-red-latest, gpt-5.6-cyber; resolved to 'gpt-5.6-cyber'",
+  "id 'gpt-5.6-sol' claimed by gpt-5.6-sol, gpt-daybreak-blue-latest; resolved to 'gpt-5.6-sol'",
+  "id 'gpt-5.6-cyber' claimed by gpt-5.6-cyber, gpt-daybreak-red-latest; resolved to 'gpt-5.6-cyber'",
   "id 'text-moderation-007' claimed by text-moderation-latest, text-moderation-stable; resolved to 'text-moderation-latest'",
   "6 API model id(s) have no documentation record: gpt-3.5-turbo-16k, gpt-3.5-turbo-instruct-0914, gpt-5-search-api, gpt-5-search-api-2025-10-14, tts-1-1106, tts-1-hd-1106",
-  "daybreak-blue-latest: claims an id owned by 'gpt-5.6-sol'; recorded as routes_to",
-  "daybreak-red-latest: claims an id owned by 'gpt-5.6-cyber'; recorded as routes_to",
+  "gpt-daybreak-blue-latest: claims an id owned by 'gpt-5.6-sol'; recorded as routes_to",
+  "gpt-daybreak-red-latest: claims an id owned by 'gpt-5.6-cyber'; recorded as routes_to",
   "gpt-4-turbo-preview: contradiction: 'fine_tuning' listed under Supported features but v1/fine-tuning is Not supported",
   "text-moderation-stable: claims an id owned by 'text-moderation-latest'; recorded as routes_to"
  ]

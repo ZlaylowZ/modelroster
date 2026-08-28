@@ -2,7 +2,7 @@
  "provider": "xai",
  "schema_version": 2,
  "parser_version": "2026.08.25-1",
- "retrieved_at": "2026-08-27T17:38:50Z",
+ "retrieved_at": "2026-08-28T18:43:27Z",
  "sources": {
   "listing": "https://api.x.ai/v1/models",
   "language_models": "https://api.x.ai/v1/language-models",
@@ -173,7 +173,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-08-27T17:38:49Z",
+   "retrieved_at": "2026-08-28T18:43:26Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -301,7 +301,7 @@
     "object": "model",
     "language_model": {
      "id": "grok-4.20-0309-reasoning",
-     "fingerprint": "fp_d9f7a361f6",
+     "fingerprint": "fp_defb34291a",
      "created": 1773014400,
      "object": "model",
      "owned_by": "xai",
@@ -341,7 +341,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-08-27T17:38:49Z",
+   "retrieved_at": "2026-08-28T18:43:26Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -491,7 +491,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-08-27T17:38:49Z",
+   "retrieved_at": "2026-08-28T18:43:26Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -631,7 +631,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-08-27T17:38:49Z",
+   "retrieved_at": "2026-08-28T18:43:26Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -773,7 +773,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-08-27T17:38:49Z",
+   "retrieved_at": "2026-08-28T18:43:26Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -909,7 +909,7 @@
      "aliases": []
     }
    },
-   "retrieved_at": "2026-08-27T17:38:49Z",
+   "retrieved_at": "2026-08-28T18:43:26Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1025,7 +1025,7 @@
     "object": "model",
     "language_model": {
      "id": "grok-build-0.1",
-     "fingerprint": "fp_4a268824d4",
+     "fingerprint": "fp_600a93323c",
      "created": 1776297600,
      "object": "model",
      "owned_by": "xai",
@@ -1053,7 +1053,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-08-27T17:38:49Z",
+   "retrieved_at": "2026-08-28T18:43:26Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1147,7 +1147,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-27T17:38:49Z",
+   "retrieved_at": "2026-08-28T18:43:26Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1235,7 +1235,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-27T17:38:49Z",
+   "retrieved_at": "2026-08-28T18:43:26Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1331,7 +1331,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-27T17:38:49Z",
+   "retrieved_at": "2026-08-28T18:43:26Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1419,7 +1419,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-27T17:38:49Z",
+   "retrieved_at": "2026-08-28T18:43:26Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1514,7 +1514,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-08-27T17:38:49Z",
+   "retrieved_at": "2026-08-28T18:43:26Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   }
