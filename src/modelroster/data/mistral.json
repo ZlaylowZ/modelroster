@@ -2,7 +2,7 @@
  "provider": "mistral",
  "schema_version": 2,
  "parser_version": "2026.08.25-1",
- "retrieved_at": "2026-08-30T11:55:25Z",
+ "retrieved_at": "2026-08-31T13:52:00Z",
  "sources": {
   "listing": "https://api.mistral.ai/v1/models"
  },
@@ -11,9 +11,6 @@
   "codestral-embed",
   "codestral-embed-2505",
   "codestral-latest",
-  "devstral-2512",
-  "devstral-latest",
-  "devstral-medium-latest",
   "glm-5-2",
   "labs-leanstral-1-5",
   "labs-leanstral-1-5-1",
@@ -25,7 +22,6 @@
   "ministral-3b-latest",
   "ministral-8b-2512",
   "ministral-8b-latest",
-  "mistral-code-agent-latest",
   "mistral-code-fim-latest",
   "mistral-code-latest",
   "mistral-embed",
@@ -33,8 +29,6 @@
   "mistral-large-2512",
   "mistral-large-latest",
   "mistral-medium",
-  "mistral-medium-2505",
-  "mistral-medium-2508",
   "mistral-medium-2604",
   "mistral-medium-3",
   "mistral-medium-3-5",
@@ -80,7 +74,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 256000,
@@ -217,12 +211,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -239,7 +233,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 8192,
@@ -376,12 +370,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -398,7 +392,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 8192,
@@ -535,12 +529,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -559,7 +553,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 256000,
@@ -696,507 +690,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
-   "parser_version": "2026.08.25-1",
-   "warnings": []
-  },
-  "devstral-2512": {
-   "provider": "mistral",
-   "model_id": "devstral-2512",
-   "display_name": "devstral-2512",
-   "description": "Official devstral-2512 Mistral AI model",
-   "family": "devstral-2512",
-   "aliases": [
-    "devstral-medium-latest",
-    "devstral-latest",
-    "mistral-code-agent-latest"
-   ],
-   "snapshots": [],
-   "default_snapshot": null,
-   "routes_to": null,
-   "relationship": "canonical",
-   "released": "2026-08-30",
-   "deprecated": true,
-   "shutdown_date": "2026-08-31",
-   "context_window": 262144,
-   "max_input_tokens": null,
-   "max_output_tokens": null,
-   "knowledge_cutoff": null,
-   "knowledge_cutoff_raw": null,
-   "modalities": {
-    "text": {
-     "input": true,
-     "output": true
-    },
-    "image": {
-     "input": false,
-     "output": null
-    },
-    "audio": {
-     "input": false,
-     "output": null
-    },
-    "video": {
-     "input": null,
-     "output": null
-    }
-   },
-   "capabilities": {
-    "reasoning": false,
-    "reasoning_efforts": null,
-    "default_effort": null,
-    "extended_thinking": null,
-    "tool_calling": true,
-    "structured_outputs": null,
-    "streaming": null,
-    "prompt_caching": null,
-    "fine_tuning": false,
-    "batch": null,
-    "citations": null,
-    "code_execution": null,
-    "pdf_input": null,
-    "extra": {
-     "mistral.completion_chat": true,
-     "mistral.function_calling": true,
-     "mistral.reasoning": false,
-     "mistral.completion_fim": false,
-     "mistral.fine_tuning": false,
-     "mistral.vision": false,
-     "mistral.ocr": false,
-     "mistral.classification": false,
-     "mistral.moderation": false,
-     "mistral.audio": false,
-     "mistral.audio_transcription": false,
-     "mistral.audio_transcription_realtime": false,
-     "mistral.audio_speech": false,
-     "mistral.unified_resources": false
-    }
-   },
-   "endpoints": {
-    "chat_completions": true,
-    "fim_completions": false,
-    "speech_generation": false,
-    "transcription": false,
-    "realtime_transcription": false,
-    "ocr": false,
-    "moderation": false,
-    "classification": false
-   },
-   "builtin_tools": null,
-   "pricing": null,
-   "tier": "verified",
-   "provenance": {
-    "released": {
-     "section": "api:/models",
-     "evidence": "created timestamp"
-    },
-    "tool_calling": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.function_calling"
-    },
-    "fine_tuning": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.fine_tuning"
-    },
-    "reasoning": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.reasoning"
-    },
-    "endpoints.chat_completions": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.completion_chat"
-    },
-    "endpoints.fim_completions": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.completion_fim"
-    },
-    "endpoints.speech_generation": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.audio_speech"
-    },
-    "endpoints.transcription": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.audio_transcription"
-    },
-    "endpoints.realtime_transcription": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.audio_transcription_realtime"
-    },
-    "endpoints.ocr": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.ocr"
-    },
-    "endpoints.moderation": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.moderation"
-    },
-    "endpoints.classification": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.classification"
-    },
-    "modalities.image.input": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.vision"
-    },
-    "modalities.audio.input": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.audio"
-    },
-    "context_window": {
-     "section": "api:/v1/models",
-     "evidence": "max_context_length"
-    },
-    "shutdown_date": {
-     "section": "api:/v1/models",
-     "evidence": "deprecation"
-    }
-   },
-   "sources": {
-    "listing": "https://api.mistral.ai/v1/models",
-    "documentation": null
-   },
-   "raw": {
-    "created": 1788090925,
-    "owned_by": "mistralai",
-    "object": "model",
-    "type": "base"
-   },
-   "retrieved_at": "2026-08-30T11:55:25Z",
-   "parser_version": "2026.08.25-1",
-   "warnings": []
-  },
-  "devstral-latest": {
-   "provider": "mistral",
-   "model_id": "devstral-latest",
-   "display_name": "devstral-2512",
-   "description": "Official devstral-2512 Mistral AI model",
-   "family": "devstral-latest",
-   "aliases": [
-    "devstral-2512",
-    "devstral-medium-latest",
-    "mistral-code-agent-latest"
-   ],
-   "snapshots": [],
-   "default_snapshot": null,
-   "routes_to": null,
-   "relationship": "canonical",
-   "released": "2026-08-30",
-   "deprecated": true,
-   "shutdown_date": "2026-08-31",
-   "context_window": 262144,
-   "max_input_tokens": null,
-   "max_output_tokens": null,
-   "knowledge_cutoff": null,
-   "knowledge_cutoff_raw": null,
-   "modalities": {
-    "text": {
-     "input": true,
-     "output": true
-    },
-    "image": {
-     "input": false,
-     "output": null
-    },
-    "audio": {
-     "input": false,
-     "output": null
-    },
-    "video": {
-     "input": null,
-     "output": null
-    }
-   },
-   "capabilities": {
-    "reasoning": false,
-    "reasoning_efforts": null,
-    "default_effort": null,
-    "extended_thinking": null,
-    "tool_calling": true,
-    "structured_outputs": null,
-    "streaming": null,
-    "prompt_caching": null,
-    "fine_tuning": false,
-    "batch": null,
-    "citations": null,
-    "code_execution": null,
-    "pdf_input": null,
-    "extra": {
-     "mistral.completion_chat": true,
-     "mistral.function_calling": true,
-     "mistral.reasoning": false,
-     "mistral.completion_fim": false,
-     "mistral.fine_tuning": false,
-     "mistral.vision": false,
-     "mistral.ocr": false,
-     "mistral.classification": false,
-     "mistral.moderation": false,
-     "mistral.audio": false,
-     "mistral.audio_transcription": false,
-     "mistral.audio_transcription_realtime": false,
-     "mistral.audio_speech": false,
-     "mistral.unified_resources": false
-    }
-   },
-   "endpoints": {
-    "chat_completions": true,
-    "fim_completions": false,
-    "speech_generation": false,
-    "transcription": false,
-    "realtime_transcription": false,
-    "ocr": false,
-    "moderation": false,
-    "classification": false
-   },
-   "builtin_tools": null,
-   "pricing": null,
-   "tier": "verified",
-   "provenance": {
-    "released": {
-     "section": "api:/models",
-     "evidence": "created timestamp"
-    },
-    "tool_calling": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.function_calling"
-    },
-    "fine_tuning": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.fine_tuning"
-    },
-    "reasoning": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.reasoning"
-    },
-    "endpoints.chat_completions": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.completion_chat"
-    },
-    "endpoints.fim_completions": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.completion_fim"
-    },
-    "endpoints.speech_generation": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.audio_speech"
-    },
-    "endpoints.transcription": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.audio_transcription"
-    },
-    "endpoints.realtime_transcription": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.audio_transcription_realtime"
-    },
-    "endpoints.ocr": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.ocr"
-    },
-    "endpoints.moderation": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.moderation"
-    },
-    "endpoints.classification": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.classification"
-    },
-    "modalities.image.input": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.vision"
-    },
-    "modalities.audio.input": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.audio"
-    },
-    "context_window": {
-     "section": "api:/v1/models",
-     "evidence": "max_context_length"
-    },
-    "shutdown_date": {
-     "section": "api:/v1/models",
-     "evidence": "deprecation"
-    }
-   },
-   "sources": {
-    "listing": "https://api.mistral.ai/v1/models",
-    "documentation": null
-   },
-   "raw": {
-    "created": 1788090925,
-    "owned_by": "mistralai",
-    "object": "model",
-    "type": "base"
-   },
-   "retrieved_at": "2026-08-30T11:55:25Z",
-   "parser_version": "2026.08.25-1",
-   "warnings": []
-  },
-  "devstral-medium-latest": {
-   "provider": "mistral",
-   "model_id": "devstral-medium-latest",
-   "display_name": "devstral-2512",
-   "description": "Official devstral-2512 Mistral AI model",
-   "family": "devstral-medium-latest",
-   "aliases": [
-    "devstral-2512",
-    "devstral-latest",
-    "mistral-code-agent-latest"
-   ],
-   "snapshots": [],
-   "default_snapshot": null,
-   "routes_to": null,
-   "relationship": "canonical",
-   "released": "2026-08-30",
-   "deprecated": true,
-   "shutdown_date": "2026-08-31",
-   "context_window": 262144,
-   "max_input_tokens": null,
-   "max_output_tokens": null,
-   "knowledge_cutoff": null,
-   "knowledge_cutoff_raw": null,
-   "modalities": {
-    "text": {
-     "input": true,
-     "output": true
-    },
-    "image": {
-     "input": false,
-     "output": null
-    },
-    "audio": {
-     "input": false,
-     "output": null
-    },
-    "video": {
-     "input": null,
-     "output": null
-    }
-   },
-   "capabilities": {
-    "reasoning": false,
-    "reasoning_efforts": null,
-    "default_effort": null,
-    "extended_thinking": null,
-    "tool_calling": true,
-    "structured_outputs": null,
-    "streaming": null,
-    "prompt_caching": null,
-    "fine_tuning": false,
-    "batch": null,
-    "citations": null,
-    "code_execution": null,
-    "pdf_input": null,
-    "extra": {
-     "mistral.completion_chat": true,
-     "mistral.function_calling": true,
-     "mistral.reasoning": false,
-     "mistral.completion_fim": false,
-     "mistral.fine_tuning": false,
-     "mistral.vision": false,
-     "mistral.ocr": false,
-     "mistral.classification": false,
-     "mistral.moderation": false,
-     "mistral.audio": false,
-     "mistral.audio_transcription": false,
-     "mistral.audio_transcription_realtime": false,
-     "mistral.audio_speech": false,
-     "mistral.unified_resources": false
-    }
-   },
-   "endpoints": {
-    "chat_completions": true,
-    "fim_completions": false,
-    "speech_generation": false,
-    "transcription": false,
-    "realtime_transcription": false,
-    "ocr": false,
-    "moderation": false,
-    "classification": false
-   },
-   "builtin_tools": null,
-   "pricing": null,
-   "tier": "verified",
-   "provenance": {
-    "released": {
-     "section": "api:/models",
-     "evidence": "created timestamp"
-    },
-    "tool_calling": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.function_calling"
-    },
-    "fine_tuning": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.fine_tuning"
-    },
-    "reasoning": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.reasoning"
-    },
-    "endpoints.chat_completions": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.completion_chat"
-    },
-    "endpoints.fim_completions": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.completion_fim"
-    },
-    "endpoints.speech_generation": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.audio_speech"
-    },
-    "endpoints.transcription": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.audio_transcription"
-    },
-    "endpoints.realtime_transcription": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.audio_transcription_realtime"
-    },
-    "endpoints.ocr": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.ocr"
-    },
-    "endpoints.moderation": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.moderation"
-    },
-    "endpoints.classification": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.classification"
-    },
-    "modalities.image.input": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.vision"
-    },
-    "modalities.audio.input": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.audio"
-    },
-    "context_window": {
-     "section": "api:/v1/models",
-     "evidence": "max_context_length"
-    },
-    "shutdown_date": {
-     "section": "api:/v1/models",
-     "evidence": "deprecation"
-    }
-   },
-   "sources": {
-    "listing": "https://api.mistral.ai/v1/models",
-    "documentation": null
-   },
-   "raw": {
-    "created": 1788090925,
-    "owned_by": "mistralai",
-    "object": "model",
-    "type": "base"
-   },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1213,7 +712,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 1048576,
@@ -1350,12 +849,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1372,7 +871,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -1509,12 +1008,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1531,7 +1030,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -1668,12 +1167,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1697,7 +1196,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -1834,12 +1333,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1858,7 +1357,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -1995,12 +1494,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2017,7 +1516,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -2154,12 +1653,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2176,7 +1675,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -2313,12 +1812,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2335,7 +1834,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 131072,
@@ -2472,12 +1971,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2494,7 +1993,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 131072,
@@ -2631,12 +2130,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2653,7 +2152,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -2790,12 +2289,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2812,7 +2311,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -2949,177 +2448,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
-   "parser_version": "2026.08.25-1",
-   "warnings": []
-  },
-  "mistral-code-agent-latest": {
-   "provider": "mistral",
-   "model_id": "mistral-code-agent-latest",
-   "display_name": "devstral-2512",
-   "description": "Official devstral-2512 Mistral AI model",
-   "family": "mistral-code-agent-latest",
-   "aliases": [
-    "devstral-2512",
-    "devstral-medium-latest",
-    "devstral-latest"
-   ],
-   "snapshots": [],
-   "default_snapshot": null,
-   "routes_to": null,
-   "relationship": "canonical",
-   "released": "2026-08-30",
-   "deprecated": true,
-   "shutdown_date": "2026-08-31",
-   "context_window": 262144,
-   "max_input_tokens": null,
-   "max_output_tokens": null,
-   "knowledge_cutoff": null,
-   "knowledge_cutoff_raw": null,
-   "modalities": {
-    "text": {
-     "input": true,
-     "output": true
-    },
-    "image": {
-     "input": false,
-     "output": null
-    },
-    "audio": {
-     "input": false,
-     "output": null
-    },
-    "video": {
-     "input": null,
-     "output": null
-    }
-   },
-   "capabilities": {
-    "reasoning": false,
-    "reasoning_efforts": null,
-    "default_effort": null,
-    "extended_thinking": null,
-    "tool_calling": true,
-    "structured_outputs": null,
-    "streaming": null,
-    "prompt_caching": null,
-    "fine_tuning": false,
-    "batch": null,
-    "citations": null,
-    "code_execution": null,
-    "pdf_input": null,
-    "extra": {
-     "mistral.completion_chat": true,
-     "mistral.function_calling": true,
-     "mistral.reasoning": false,
-     "mistral.completion_fim": false,
-     "mistral.fine_tuning": false,
-     "mistral.vision": false,
-     "mistral.ocr": false,
-     "mistral.classification": false,
-     "mistral.moderation": false,
-     "mistral.audio": false,
-     "mistral.audio_transcription": false,
-     "mistral.audio_transcription_realtime": false,
-     "mistral.audio_speech": false,
-     "mistral.unified_resources": false
-    }
-   },
-   "endpoints": {
-    "chat_completions": true,
-    "fim_completions": false,
-    "speech_generation": false,
-    "transcription": false,
-    "realtime_transcription": false,
-    "ocr": false,
-    "moderation": false,
-    "classification": false
-   },
-   "builtin_tools": null,
-   "pricing": null,
-   "tier": "verified",
-   "provenance": {
-    "released": {
-     "section": "api:/models",
-     "evidence": "created timestamp"
-    },
-    "tool_calling": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.function_calling"
-    },
-    "fine_tuning": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.fine_tuning"
-    },
-    "reasoning": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.reasoning"
-    },
-    "endpoints.chat_completions": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.completion_chat"
-    },
-    "endpoints.fim_completions": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.completion_fim"
-    },
-    "endpoints.speech_generation": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.audio_speech"
-    },
-    "endpoints.transcription": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.audio_transcription"
-    },
-    "endpoints.realtime_transcription": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.audio_transcription_realtime"
-    },
-    "endpoints.ocr": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.ocr"
-    },
-    "endpoints.moderation": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.moderation"
-    },
-    "endpoints.classification": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.classification"
-    },
-    "modalities.image.input": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.vision"
-    },
-    "modalities.audio.input": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.audio"
-    },
-    "context_window": {
-     "section": "api:/v1/models",
-     "evidence": "max_context_length"
-    },
-    "shutdown_date": {
-     "section": "api:/v1/models",
-     "evidence": "deprecation"
-    }
-   },
-   "sources": {
-    "listing": "https://api.mistral.ai/v1/models",
-    "documentation": null
-   },
-   "raw": {
-    "created": 1788090925,
-    "owned_by": "mistralai",
-    "object": "model",
-    "type": "base"
-   },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3138,7 +2472,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 256000,
@@ -3275,12 +2609,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3299,7 +2633,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 256000,
@@ -3436,12 +2770,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3458,7 +2792,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 8192,
@@ -3595,12 +2929,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3617,7 +2951,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 8192,
@@ -3754,12 +3088,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3776,7 +3110,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -3913,12 +3247,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3935,7 +3269,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -4072,12 +3406,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4101,7 +3435,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -4238,334 +3572,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
-   "parser_version": "2026.08.25-1",
-   "warnings": []
-  },
-  "mistral-medium-2505": {
-   "provider": "mistral",
-   "model_id": "mistral-medium-2505",
-   "display_name": "mistral-medium-2505",
-   "description": "Our frontier-class multimodal model released May 2025.",
-   "family": "mistral-medium-2505",
-   "aliases": [],
-   "snapshots": [],
-   "default_snapshot": null,
-   "routes_to": null,
-   "relationship": "canonical",
-   "released": "2026-08-30",
-   "deprecated": true,
-   "shutdown_date": "2026-08-31",
-   "context_window": 131072,
-   "max_input_tokens": null,
-   "max_output_tokens": null,
-   "knowledge_cutoff": null,
-   "knowledge_cutoff_raw": null,
-   "modalities": {
-    "text": {
-     "input": true,
-     "output": true
-    },
-    "image": {
-     "input": true,
-     "output": null
-    },
-    "audio": {
-     "input": false,
-     "output": null
-    },
-    "video": {
-     "input": null,
-     "output": null
-    }
-   },
-   "capabilities": {
-    "reasoning": false,
-    "reasoning_efforts": null,
-    "default_effort": null,
-    "extended_thinking": null,
-    "tool_calling": true,
-    "structured_outputs": null,
-    "streaming": null,
-    "prompt_caching": null,
-    "fine_tuning": true,
-    "batch": null,
-    "citations": null,
-    "code_execution": null,
-    "pdf_input": null,
-    "extra": {
-     "mistral.completion_chat": true,
-     "mistral.function_calling": true,
-     "mistral.reasoning": false,
-     "mistral.completion_fim": false,
-     "mistral.fine_tuning": true,
-     "mistral.vision": true,
-     "mistral.ocr": false,
-     "mistral.classification": false,
-     "mistral.moderation": false,
-     "mistral.audio": false,
-     "mistral.audio_transcription": false,
-     "mistral.audio_transcription_realtime": false,
-     "mistral.audio_speech": false,
-     "mistral.unified_resources": false
-    }
-   },
-   "endpoints": {
-    "chat_completions": true,
-    "fim_completions": false,
-    "speech_generation": false,
-    "transcription": false,
-    "realtime_transcription": false,
-    "ocr": false,
-    "moderation": false,
-    "classification": false
-   },
-   "builtin_tools": null,
-   "pricing": null,
-   "tier": "verified",
-   "provenance": {
-    "released": {
-     "section": "api:/models",
-     "evidence": "created timestamp"
-    },
-    "tool_calling": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.function_calling"
-    },
-    "fine_tuning": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.fine_tuning"
-    },
-    "reasoning": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.reasoning"
-    },
-    "endpoints.chat_completions": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.completion_chat"
-    },
-    "endpoints.fim_completions": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.completion_fim"
-    },
-    "endpoints.speech_generation": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.audio_speech"
-    },
-    "endpoints.transcription": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.audio_transcription"
-    },
-    "endpoints.realtime_transcription": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.audio_transcription_realtime"
-    },
-    "endpoints.ocr": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.ocr"
-    },
-    "endpoints.moderation": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.moderation"
-    },
-    "endpoints.classification": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.classification"
-    },
-    "modalities.image.input": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.vision"
-    },
-    "modalities.audio.input": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.audio"
-    },
-    "context_window": {
-     "section": "api:/v1/models",
-     "evidence": "max_context_length"
-    },
-    "shutdown_date": {
-     "section": "api:/v1/models",
-     "evidence": "deprecation"
-    }
-   },
-   "sources": {
-    "listing": "https://api.mistral.ai/v1/models",
-    "documentation": null
-   },
-   "raw": {
-    "created": 1788090925,
-    "owned_by": "mistralai",
-    "object": "model",
-    "type": "base"
-   },
-   "retrieved_at": "2026-08-30T11:55:25Z",
-   "parser_version": "2026.08.25-1",
-   "warnings": []
-  },
-  "mistral-medium-2508": {
-   "provider": "mistral",
-   "model_id": "mistral-medium-2508",
-   "display_name": "mistral-medium-2508",
-   "description": "Update on Mistral Medium 3 with improved capabilities.",
-   "family": "mistral-medium-2508",
-   "aliases": [],
-   "snapshots": [],
-   "default_snapshot": null,
-   "routes_to": null,
-   "relationship": "canonical",
-   "released": "2026-08-30",
-   "deprecated": true,
-   "shutdown_date": "2026-08-31",
-   "context_window": 131072,
-   "max_input_tokens": null,
-   "max_output_tokens": null,
-   "knowledge_cutoff": null,
-   "knowledge_cutoff_raw": null,
-   "modalities": {
-    "text": {
-     "input": true,
-     "output": true
-    },
-    "image": {
-     "input": true,
-     "output": null
-    },
-    "audio": {
-     "input": false,
-     "output": null
-    },
-    "video": {
-     "input": null,
-     "output": null
-    }
-   },
-   "capabilities": {
-    "reasoning": false,
-    "reasoning_efforts": null,
-    "default_effort": null,
-    "extended_thinking": null,
-    "tool_calling": true,
-    "structured_outputs": null,
-    "streaming": null,
-    "prompt_caching": null,
-    "fine_tuning": true,
-    "batch": null,
-    "citations": null,
-    "code_execution": null,
-    "pdf_input": null,
-    "extra": {
-     "mistral.completion_chat": true,
-     "mistral.function_calling": true,
-     "mistral.reasoning": false,
-     "mistral.completion_fim": false,
-     "mistral.fine_tuning": true,
-     "mistral.vision": true,
-     "mistral.ocr": false,
-     "mistral.classification": false,
-     "mistral.moderation": false,
-     "mistral.audio": false,
-     "mistral.audio_transcription": false,
-     "mistral.audio_transcription_realtime": false,
-     "mistral.audio_speech": false,
-     "mistral.unified_resources": false
-    }
-   },
-   "endpoints": {
-    "chat_completions": true,
-    "fim_completions": false,
-    "speech_generation": false,
-    "transcription": false,
-    "realtime_transcription": false,
-    "ocr": false,
-    "moderation": false,
-    "classification": false
-   },
-   "builtin_tools": null,
-   "pricing": null,
-   "tier": "verified",
-   "provenance": {
-    "released": {
-     "section": "api:/models",
-     "evidence": "created timestamp"
-    },
-    "tool_calling": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.function_calling"
-    },
-    "fine_tuning": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.fine_tuning"
-    },
-    "reasoning": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.reasoning"
-    },
-    "endpoints.chat_completions": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.completion_chat"
-    },
-    "endpoints.fim_completions": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.completion_fim"
-    },
-    "endpoints.speech_generation": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.audio_speech"
-    },
-    "endpoints.transcription": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.audio_transcription"
-    },
-    "endpoints.realtime_transcription": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.audio_transcription_realtime"
-    },
-    "endpoints.ocr": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.ocr"
-    },
-    "endpoints.moderation": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.moderation"
-    },
-    "endpoints.classification": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.classification"
-    },
-    "modalities.image.input": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.vision"
-    },
-    "modalities.audio.input": {
-     "section": "api:/v1/models",
-     "evidence": "capabilities.audio"
-    },
-    "context_window": {
-     "section": "api:/v1/models",
-     "evidence": "max_context_length"
-    },
-    "shutdown_date": {
-     "section": "api:/v1/models",
-     "evidence": "deprecation"
-    }
-   },
-   "sources": {
-    "listing": "https://api.mistral.ai/v1/models",
-    "documentation": null
-   },
-   "raw": {
-    "created": 1788090925,
-    "owned_by": "mistralai",
-    "object": "model",
-    "type": "base"
-   },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4589,7 +3601,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -4726,12 +3738,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4755,7 +3767,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -4892,12 +3904,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4921,7 +3933,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -5058,12 +4070,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5087,7 +4099,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -5224,12 +4236,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5253,7 +4265,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -5390,12 +4402,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5410,7 +4422,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 131072,
@@ -5547,12 +4559,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5570,7 +4582,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 16384,
@@ -5707,12 +4719,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5730,7 +4742,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 16384,
@@ -5867,12 +4879,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5890,7 +4902,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 16384,
@@ -6027,12 +5039,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6050,7 +5062,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 16384,
@@ -6187,12 +5199,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6207,7 +5219,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 16384,
@@ -6344,12 +5356,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6367,7 +5379,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 16384,
@@ -6504,12 +5516,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6527,7 +5539,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 16384,
@@ -6664,12 +5676,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6688,7 +5700,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -6825,12 +5837,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6849,7 +5861,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -6986,12 +5998,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7010,7 +6022,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -7147,12 +6159,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7176,7 +6188,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -7313,12 +6325,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7342,7 +6354,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -7479,12 +6491,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7501,7 +6513,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 16384,
@@ -7638,12 +6650,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7660,7 +6672,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 16384,
@@ -7797,12 +6809,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7820,7 +6832,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 32768,
@@ -7957,12 +6969,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7980,7 +6992,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 32768,
@@ -8117,12 +7129,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -8140,7 +7152,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 32768,
@@ -8277,12 +7289,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -8299,7 +7311,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 4096,
@@ -8436,12 +7448,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -8458,7 +7470,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 4096,
@@ -8595,12 +7607,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -8617,7 +7629,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 32768,
@@ -8754,12 +7766,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -8776,7 +7788,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 32768,
@@ -8913,12 +7925,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -8935,7 +7947,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-08-30",
+   "released": "2026-08-31",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 1048576,
@@ -9072,19 +8084,19 @@
     "documentation": null
    },
    "raw": {
-    "created": 1788090925,
+    "created": 1788184320,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-08-30T11:55:25Z",
+   "retrieved_at": "2026-08-31T13:52:00Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   }
  },
  "stats": {
-  "api_models": 56,
-  "models": 56
+  "api_models": 50,
+  "models": 50
  },
  "warnings": [],
  "extra": {}

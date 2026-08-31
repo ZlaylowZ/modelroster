@@ -1,18 +1,32 @@
 {
  "provider": "mistral",
  "first_run": false,
- "previous_retrieved_at": "2026-08-29T12:41:59Z",
- "retrieved_at": "2026-08-30T11:55:25Z",
+ "previous_retrieved_at": "2026-08-30T11:55:25Z",
+ "retrieved_at": "2026-08-31T13:52:00Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
   "previous": 56,
-  "current": 56
+  "current": 50
  },
  "added_models": [],
- "removed_models": [],
+ "removed_models": [
+  "devstral-2512",
+  "devstral-latest",
+  "devstral-medium-latest",
+  "mistral-code-agent-latest",
+  "mistral-medium-2505",
+  "mistral-medium-2508"
+ ],
  "added_families": [],
- "removed_families": [],
+ "removed_families": [
+  "devstral-2512",
+  "devstral-latest",
+  "devstral-medium-latest",
+  "mistral-code-agent-latest",
+  "mistral-medium-2505",
+  "mistral-medium-2508"
+ ],
  "new_snapshots": [],
  "removed_snapshots": [],
  "changed_capabilities": {},
