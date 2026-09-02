@@ -2,11 +2,12 @@
  "provider": "anthropic",
  "schema_version": 2,
  "parser_version": "2026.08.25-1",
- "retrieved_at": "2026-09-01T11:40:18Z",
+ "retrieved_at": "2026-09-02T11:19:27Z",
  "sources": {
   "listing": "https://api.anthropic.com/v1/models"
  },
  "model_order": [
+  "claude-fable-5-1",
   "claude-opus-5",
   "claude-sonnet-5",
   "claude-fable-5",
@@ -19,6 +20,222 @@
   "claude-sonnet-4-5-20250929"
  ],
  "models": {
+  "claude-fable-5-1": {
+   "provider": "anthropic",
+   "model_id": "claude-fable-5-1",
+   "display_name": "Claude Fable 5.1",
+   "description": null,
+   "family": "claude-fable-5-1",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": "2026-08-28",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 1000000,
+   "max_input_tokens": 1000000,
+   "max_output_tokens": 128000,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": true,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": true,
+    "reasoning_efforts": [
+     "low",
+     "medium",
+     "high",
+     "xhigh",
+     "max"
+    ],
+    "default_effort": null,
+    "extended_thinking": true,
+    "tool_calling": true,
+    "structured_outputs": true,
+    "streaming": true,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": true,
+    "citations": true,
+    "code_execution": true,
+    "pdf_input": true,
+    "extra": {
+     "effort_supported": true,
+     "thinking_types": [
+      "adaptive"
+     ],
+     "context_management": true,
+     "context_management.clear_tool_uses_20250919": true,
+     "context_management.clear_thinking_20251015": true,
+     "context_management.compact_20260112": true
+    }
+   },
+   "endpoints": {
+    "messages": true
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "max_input_tokens": {
+     "section": "api:/v1/models",
+     "evidence": "model object field"
+    },
+    "max_output_tokens": {
+     "section": "api:/v1/models",
+     "evidence": "model object field"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "model object field",
+     "note": "max_input_tokens reported as context window"
+    },
+    "reasoning_efforts": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities object"
+    },
+    "reasoning": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.thinking.supported"
+    },
+    "extended_thinking": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.thinking.supported"
+    },
+    "batch": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.batch.supported"
+    },
+    "citations": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.citations.supported"
+    },
+    "code_execution": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.code_execution.supported"
+    },
+    "pdf_input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.pdf_input.supported"
+    },
+    "structured_outputs": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.structured_outputs.supported"
+    },
+    "modalities.image.input": {
+     "section": "api:/v1/models",
+     "evidence": "capabilities.image_input.supported"
+    },
+    "modalities.text": {
+     "section": "api:/v1/models",
+     "evidence": "Messages API model (text in/out)"
+    },
+    "tool_calling": {
+     "section": "provider_docs",
+     "evidence": "provider-wide statement",
+     "url": "https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/overview"
+    },
+    "streaming": {
+     "section": "provider_docs",
+     "evidence": "provider-wide statement",
+     "url": "https://docs.anthropic.com/en/docs/build-with-claude/streaming"
+    },
+    "endpoints.messages": {
+     "section": "api:/v1/models",
+     "evidence": "listed by the Messages API models endpoint"
+    }
+   },
+   "sources": {
+    "listing": "https://api.anthropic.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created_at": "2026-08-28T00:00:00Z",
+    "type": "model",
+    "capabilities": {
+     "batch": {
+      "supported": true
+     },
+     "citations": {
+      "supported": true
+     },
+     "code_execution": {
+      "supported": true
+     },
+     "context_management": {
+      "supported": true,
+      "clear_tool_uses_20250919": {
+       "supported": true
+      },
+      "clear_thinking_20251015": {
+       "supported": true
+      },
+      "compact_20260112": {
+       "supported": true
+      }
+     },
+     "effort": {
+      "supported": true,
+      "low": {
+       "supported": true
+      },
+      "medium": {
+       "supported": true
+      },
+      "high": {
+       "supported": true
+      },
+      "xhigh": {
+       "supported": true
+      },
+      "max": {
+       "supported": true
+      }
+     },
+     "image_input": {
+      "supported": true
+     },
+     "pdf_input": {
+      "supported": true
+     },
+     "structured_outputs": {
+      "supported": true
+     },
+     "thinking": {
+      "supported": true,
+      "types": {
+       "enabled": {
+        "supported": false
+       },
+       "adaptive": {
+        "supported": true
+       }
+      }
+     }
+    }
+   },
+   "retrieved_at": "2026-09-02T11:19:27Z",
+   "parser_version": "2026.08.25-1",
+   "warnings": []
+  },
   "claude-opus-5": {
    "provider": "anthropic",
    "model_id": "claude-opus-5",
@@ -231,7 +448,7 @@
      }
     }
    },
-   "retrieved_at": "2026-09-01T11:40:18Z",
+   "retrieved_at": "2026-09-02T11:19:27Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -447,7 +664,7 @@
      }
     }
    },
-   "retrieved_at": "2026-09-01T11:40:18Z",
+   "retrieved_at": "2026-09-02T11:19:27Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -663,7 +880,7 @@
      }
     }
    },
-   "retrieved_at": "2026-09-01T11:40:18Z",
+   "retrieved_at": "2026-09-02T11:19:27Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -879,7 +1096,7 @@
      }
     }
    },
-   "retrieved_at": "2026-09-01T11:40:18Z",
+   "retrieved_at": "2026-09-02T11:19:27Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1095,7 +1312,7 @@
      }
     }
    },
-   "retrieved_at": "2026-09-01T11:40:18Z",
+   "retrieved_at": "2026-09-02T11:19:27Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1311,7 +1528,7 @@
      }
     }
    },
-   "retrieved_at": "2026-09-01T11:40:18Z",
+   "retrieved_at": "2026-09-02T11:19:27Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1527,7 +1744,7 @@
      }
     }
    },
-   "retrieved_at": "2026-09-01T11:40:18Z",
+   "retrieved_at": "2026-09-02T11:19:27Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1741,7 +1958,7 @@
      }
     }
    },
-   "retrieved_at": "2026-09-01T11:40:18Z",
+   "retrieved_at": "2026-09-02T11:19:27Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1951,7 +2168,7 @@
      }
     }
    },
-   "retrieved_at": "2026-09-01T11:40:18Z",
+   "retrieved_at": "2026-09-02T11:19:27Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2161,14 +2378,14 @@
      }
     }
    },
-   "retrieved_at": "2026-09-01T11:40:18Z",
+   "retrieved_at": "2026-09-02T11:19:27Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   }
  },
  "stats": {
-  "api_models": 10,
-  "models": 10
+  "api_models": 11,
+  "models": 11
  },
  "warnings": [],
  "extra": {}

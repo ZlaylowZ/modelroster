@@ -1,18 +1,16 @@
 {
  "provider": "nvidia",
  "first_run": false,
- "previous_retrieved_at": "2026-08-31T13:52:00Z",
- "retrieved_at": "2026-09-01T11:40:19Z",
+ "previous_retrieved_at": "2026-09-01T11:40:19Z",
+ "retrieved_at": "2026-09-02T11:19:28Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
-  "previous": 83,
+  "previous": 82,
   "current": 82
  },
  "added_models": [],
- "removed_models": [
-  "nvidia/nemotron-3-nano-30b-a3b"
- ],
+ "removed_models": [],
  "added_families": [],
  "removed_families": [],
  "new_snapshots": [],

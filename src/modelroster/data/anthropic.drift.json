@@ -1,17 +1,21 @@
 {
  "provider": "anthropic",
  "first_run": false,
- "previous_retrieved_at": "2026-08-31T13:51:59Z",
- "retrieved_at": "2026-09-01T11:40:18Z",
+ "previous_retrieved_at": "2026-09-01T11:40:18Z",
+ "retrieved_at": "2026-09-02T11:19:27Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
   "previous": 10,
-  "current": 10
+  "current": 11
  },
- "added_models": [],
+ "added_models": [
+  "claude-fable-5-1"
+ ],
  "removed_models": [],
- "added_families": [],
+ "added_families": [
+  "claude-fable-5-1"
+ ],
  "removed_families": [],
  "new_snapshots": [],
  "removed_snapshots": [],
