@@ -1,18 +1,16 @@
 {
  "provider": "nvidia",
  "first_run": false,
- "previous_retrieved_at": "2026-09-02T11:19:28Z",
- "retrieved_at": "2026-09-03T11:15:21Z",
+ "previous_retrieved_at": "2026-09-03T11:15:21Z",
+ "retrieved_at": "2026-09-04T11:18:56Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
-  "previous": 82,
+  "previous": 81,
   "current": 81
  },
  "added_models": [],
- "removed_models": [
-  "openai/gpt-oss-120b"
- ],
+ "removed_models": [],
  "added_families": [],
  "removed_families": [],
  "new_snapshots": [],

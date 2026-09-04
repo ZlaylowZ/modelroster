@@ -2,7 +2,7 @@
  "provider": "google",
  "schema_version": 2,
  "parser_version": "2026.08.25-1",
- "retrieved_at": "2026-09-03T11:15:20Z",
+ "retrieved_at": "2026-09-04T11:18:55Z",
  "sources": {
   "listing": "https://generativelanguage.googleapis.com/v1beta/openai/models",
   "native": "https://generativelanguage.googleapis.com/v1beta/models"
@@ -47,7 +47,6 @@
   "models/gemini-embedding-2",
   "models/gemini-embedding-2-preview",
   "models/gemini-flash-latest",
-  "models/gemini-flash-latest-high-res-exp",
   "models/gemini-flash-lite-latest",
   "models/gemini-omni-1.1-flash",
   "models/gemini-omni-flash-preview",
@@ -58,6 +57,7 @@
   "models/gemma-4-31b-it",
   "models/lyria-3-clip-preview",
   "models/lyria-3-pro-preview",
+  "models/lyria-3.5",
   "models/lyria-realtime-exp",
   "models/nano-banana-pro-preview",
   "models/veo-3.1-fast-generate-preview",
@@ -185,7 +185,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -307,7 +307,7 @@
      "topK": 40
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -444,7 +444,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -581,7 +581,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -718,7 +718,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -855,7 +855,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -994,7 +994,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1123,7 +1123,7 @@
      "maxTemperature": 1
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1262,7 +1262,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1395,7 +1395,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1528,7 +1528,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1661,7 +1661,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1789,7 +1789,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1928,7 +1928,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2057,7 +2057,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2196,7 +2196,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2334,7 +2334,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2472,7 +2472,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2610,7 +2610,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2748,7 +2748,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2887,7 +2887,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3025,7 +3025,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3164,7 +3164,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3287,7 +3287,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3425,7 +3425,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3564,7 +3564,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3703,7 +3703,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3842,7 +3842,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3981,7 +3981,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4104,7 +4104,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4241,7 +4241,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4364,7 +4364,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4503,7 +4503,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4642,7 +4642,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4781,7 +4781,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4904,7 +4904,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised generation method 'asyncBatchEmbedContent' (stored as endpoint 'async_batch_embed_content')"
@@ -5029,7 +5029,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised generation method 'asyncBatchEmbedContent' (stored as endpoint 'async_batch_embed_content')"
@@ -5154,7 +5154,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised generation method 'asyncBatchEmbedContent' (stored as endpoint 'async_batch_embed_content')"
@@ -5295,146 +5295,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
-   "parser_version": "2026.08.25-1",
-   "warnings": []
-  },
-  "models/gemini-flash-latest-high-res-exp": {
-   "provider": "google",
-   "model_id": "models/gemini-flash-latest-high-res-exp",
-   "display_name": "Gemini Flash Latest",
-   "description": "Latest release of Gemini Flash",
-   "family": "models/gemini-flash-latest-high-res-exp",
-   "aliases": [],
-   "snapshots": [],
-   "default_snapshot": null,
-   "routes_to": null,
-   "relationship": "canonical",
-   "released": null,
-   "deprecated": null,
-   "shutdown_date": null,
-   "context_window": 1048576,
-   "max_input_tokens": 1048576,
-   "max_output_tokens": 65536,
-   "knowledge_cutoff": null,
-   "knowledge_cutoff_raw": null,
-   "modalities": {
-    "text": {
-     "input": true,
-     "output": true
-    },
-    "image": {
-     "input": null,
-     "output": null
-    },
-    "audio": {
-     "input": null,
-     "output": null
-    },
-    "video": {
-     "input": null,
-     "output": null
-    }
-   },
-   "capabilities": {
-    "reasoning": true,
-    "reasoning_efforts": null,
-    "default_effort": null,
-    "extended_thinking": true,
-    "tool_calling": null,
-    "structured_outputs": null,
-    "streaming": false,
-    "prompt_caching": null,
-    "fine_tuning": null,
-    "batch": null,
-    "citations": null,
-    "code_execution": null,
-    "pdf_input": null,
-    "extra": {}
-   },
-   "endpoints": {
-    "chat_completions": true,
-    "generate_content": true,
-    "stream_generate_content": false,
-    "count_tokens": true,
-    "embed_content": false,
-    "batch_embed_contents": false,
-    "generate_answer": false,
-    "predict": false,
-    "predict_long_running": false,
-    "bidi_generate_content": false,
-    "create_cached_content": true,
-    "batch_generate_content": true,
-    "count_text_tokens": false,
-    "generate_text": false,
-    "embed_text": false,
-    "create_tuned_model": false
-   },
-   "builtin_tools": null,
-   "pricing": null,
-   "tier": "verified",
-   "provenance": {
-    "endpoints.chat_completions": {
-     "section": "api:/v1beta/openai/models",
-     "evidence": "listed by the OpenAI-compatibility shim"
-    },
-    "context_window": {
-     "section": "api:/v1beta/models",
-     "evidence": "inputTokenLimit"
-    },
-    "max_input_tokens": {
-     "section": "api:/v1beta/models",
-     "evidence": "inputTokenLimit"
-    },
-    "max_output_tokens": {
-     "section": "api:/v1beta/models",
-     "evidence": "outputTokenLimit"
-    },
-    "endpoints": {
-     "section": "api:/v1beta/models",
-     "evidence": "supportedGenerationMethods"
-    },
-    "streaming": {
-     "section": "api:/v1beta/models",
-     "evidence": "supportedGenerationMethods contains streamGenerateContent"
-    },
-    "reasoning": {
-     "section": "api:/v1beta/models",
-     "evidence": "thinking"
-    },
-    "extended_thinking": {
-     "section": "api:/v1beta/models",
-     "evidence": "thinking"
-    }
-   },
-   "sources": {
-    "listing": "https://generativelanguage.googleapis.com/v1beta/openai/models",
-    "documentation": null,
-    "native": "https://generativelanguage.googleapis.com/v1beta/models"
-   },
-   "raw": {
-    "owned_by": "google",
-    "object": "model",
-    "native": {
-     "name": "models/gemini-flash-latest-high-res-exp",
-     "version": "Gemini Flash Latest",
-     "displayName": "Gemini Flash Latest",
-     "inputTokenLimit": 1048576,
-     "outputTokenLimit": 65536,
-     "supportedGenerationMethods": [
-      "generateContent",
-      "countTokens",
-      "createCachedContent",
-      "batchGenerateContent"
-     ],
-     "temperature": 1,
-     "topP": 0.95,
-     "topK": 64,
-     "maxTemperature": 2,
-     "thinking": true
-    }
-   },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5573,7 +5434,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5710,7 +5571,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5847,7 +5708,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5986,7 +5847,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6125,7 +5986,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6248,7 +6109,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6385,7 +6246,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6522,7 +6383,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6650,7 +6511,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6778,7 +6639,135 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
+   "parser_version": "2026.08.25-1",
+   "warnings": []
+  },
+  "models/lyria-3.5": {
+   "provider": "google",
+   "model_id": "models/lyria-3.5",
+   "display_name": "Lyria 3.5",
+   "description": "Music Generation model",
+   "family": "models/lyria-3.5",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": null,
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 1048576,
+   "max_input_tokens": 1048576,
+   "max_output_tokens": 65536,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": false,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {
+    "chat_completions": true,
+    "generate_content": true,
+    "stream_generate_content": false,
+    "count_tokens": true,
+    "embed_content": false,
+    "batch_embed_contents": false,
+    "generate_answer": false,
+    "predict": false,
+    "predict_long_running": false,
+    "bidi_generate_content": false,
+    "create_cached_content": false,
+    "batch_generate_content": false,
+    "count_text_tokens": false,
+    "generate_text": false,
+    "embed_text": false,
+    "create_tuned_model": false
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "endpoints.chat_completions": {
+     "section": "api:/v1beta/openai/models",
+     "evidence": "listed by the OpenAI-compatibility shim"
+    },
+    "context_window": {
+     "section": "api:/v1beta/models",
+     "evidence": "inputTokenLimit"
+    },
+    "max_input_tokens": {
+     "section": "api:/v1beta/models",
+     "evidence": "inputTokenLimit"
+    },
+    "max_output_tokens": {
+     "section": "api:/v1beta/models",
+     "evidence": "outputTokenLimit"
+    },
+    "endpoints": {
+     "section": "api:/v1beta/models",
+     "evidence": "supportedGenerationMethods"
+    },
+    "streaming": {
+     "section": "api:/v1beta/models",
+     "evidence": "supportedGenerationMethods contains streamGenerateContent"
+    }
+   },
+   "sources": {
+    "listing": "https://generativelanguage.googleapis.com/v1beta/openai/models",
+    "documentation": null,
+    "native": "https://generativelanguage.googleapis.com/v1beta/models"
+   },
+   "raw": {
+    "owned_by": "google",
+    "object": "model",
+    "native": {
+     "name": "models/lyria-3.5",
+     "version": "3.5",
+     "displayName": "Lyria 3.5",
+     "inputTokenLimit": 1048576,
+     "outputTokenLimit": 65536,
+     "supportedGenerationMethods": [
+      "generateContent",
+      "countTokens"
+     ],
+     "temperature": 1,
+     "topP": 0.95,
+     "topK": 64,
+     "maxTemperature": 2
+    }
+   },
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6855,7 +6844,7 @@
     "owned_by": "google",
     "object": "model"
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "not present in the native /v1beta/models listing; no capability metadata"
@@ -6995,7 +6984,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7114,7 +7103,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7233,7 +7222,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7352,7 +7341,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-03T11:15:20Z",
+   "retrieved_at": "2026-09-04T11:18:55Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   }
