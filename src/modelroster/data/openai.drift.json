@@ -1,19 +1,25 @@
 {
  "provider": "openai",
  "first_run": false,
- "previous_retrieved_at": "2026-09-03T11:15:35Z",
- "retrieved_at": "2026-09-04T11:19:11Z",
+ "previous_retrieved_at": "2026-09-04T11:19:11Z",
+ "retrieved_at": "2026-09-05T10:36:34Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
   "previous": 126,
-  "current": 126
+  "current": 127
  },
- "added_models": [],
+ "added_models": [
+  "gpt-6-astra"
+ ],
  "removed_models": [],
- "added_families": [],
+ "added_families": [
+  "gpt-6-astra"
+ ],
  "removed_families": [],
- "new_snapshots": [],
+ "new_snapshots": [
+  "gpt-6-astra"
+ ],
  "removed_snapshots": [],
  "changed_capabilities": {},
  "warnings": [

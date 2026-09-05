@@ -2,7 +2,7 @@
  "provider": "xai",
  "schema_version": 2,
  "parser_version": "2026.08.25-1",
- "retrieved_at": "2026-09-04T11:19:11Z",
+ "retrieved_at": "2026-09-05T10:36:34Z",
  "sources": {
   "listing": "https://api.x.ai/v1/models",
   "language_models": "https://api.x.ai/v1/language-models",
@@ -173,7 +173,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-04T11:19:11Z",
+   "retrieved_at": "2026-09-05T10:36:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -341,7 +341,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-04T11:19:11Z",
+   "retrieved_at": "2026-09-05T10:36:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -491,7 +491,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-04T11:19:11Z",
+   "retrieved_at": "2026-09-05T10:36:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -631,7 +631,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-04T11:19:11Z",
+   "retrieved_at": "2026-09-05T10:36:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -773,7 +773,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-04T11:19:11Z",
+   "retrieved_at": "2026-09-05T10:36:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -909,7 +909,7 @@
      "aliases": []
     }
    },
-   "retrieved_at": "2026-09-04T11:19:11Z",
+   "retrieved_at": "2026-09-05T10:36:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1053,7 +1053,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-04T11:19:11Z",
+   "retrieved_at": "2026-09-05T10:36:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1147,7 +1147,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-09-04T11:19:11Z",
+   "retrieved_at": "2026-09-05T10:36:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1235,7 +1235,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-09-04T11:19:11Z",
+   "retrieved_at": "2026-09-05T10:36:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1331,7 +1331,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-09-04T11:19:11Z",
+   "retrieved_at": "2026-09-05T10:36:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1419,7 +1419,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-09-04T11:19:11Z",
+   "retrieved_at": "2026-09-05T10:36:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1514,7 +1514,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-09-04T11:19:11Z",
+   "retrieved_at": "2026-09-05T10:36:34Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   }
