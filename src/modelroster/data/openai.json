@@ -2,7 +2,7 @@
  "provider": "openai",
  "schema_version": 2,
  "parser_version": "2026.08.25-1",
- "retrieved_at": "2026-09-08T11:20:32Z",
+ "retrieved_at": "2026-09-09T11:24:47Z",
  "sources": {
   "listing": "https://api.openai.com/v1/models",
   "documentation_catalog": "https://developers.openai.com/api/docs/models.md"
@@ -432,7 +432,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-09-28"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "contradiction: 'fine_tuning' listed under Supported features but v1/fine-tuning is Not supported"
@@ -749,7 +749,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1040,7 +1040,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-12-01"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1339,7 +1339,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-09-28"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "contradiction: 'fine_tuning' listed under Supported features but v1/fine-tuning is Not supported"
@@ -1646,7 +1646,7 @@
     "owned_by": "openai",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1951,7 +1951,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2256,7 +2256,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-09-28"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2327,7 +2327,7 @@
     "owned_by": "openai-internal",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -2634,7 +2634,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-09-28"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2705,7 +2705,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -3011,7 +3011,7 @@
     "owned_by": "openai",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3315,7 +3315,7 @@
     "owned_by": "openai",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3618,7 +3618,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3921,7 +3921,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4232,7 +4232,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4543,7 +4543,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4854,7 +4854,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5165,7 +5165,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5480,7 +5480,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5795,7 +5795,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6108,7 +6108,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6425,7 +6425,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6738,7 +6738,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7051,7 +7051,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7362,7 +7362,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7673,7 +7673,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7972,7 +7972,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -8275,7 +8275,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-07-23"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -8545,7 +8545,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -8819,7 +8819,7 @@
     "owned_by": "system",
     "shutdown_date": "2027-01-20"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -9089,7 +9089,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -9357,7 +9357,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -9629,7 +9629,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-07-23"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -9897,7 +9897,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -10196,7 +10196,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -10499,7 +10499,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-07-23"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -10768,7 +10768,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -11037,7 +11037,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -11363,7 +11363,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -11693,7 +11693,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-12-11"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -12012,7 +12012,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-07-23"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -12329,7 +12329,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-07-23"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -12642,7 +12642,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -12959,7 +12959,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-12-11"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -13272,7 +13272,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -13589,7 +13589,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-12-11"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -13898,7 +13898,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -14211,7 +14211,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-12-11"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -14282,7 +14282,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -14355,7 +14355,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -14679,7 +14679,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -15001,7 +15001,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -15320,7 +15320,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-07-23"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -15633,7 +15633,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-07-23"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -15946,7 +15946,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-07-23"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -16259,7 +16259,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-07-23"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -16582,7 +16582,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -16905,7 +16905,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -17224,7 +17224,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-08-10"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -17541,7 +17541,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-07-23"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -17850,7 +17850,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -18159,7 +18159,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -18478,7 +18478,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-08-10"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -18791,7 +18791,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -19114,7 +19114,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -19437,7 +19437,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -19764,7 +19764,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -20091,7 +20091,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -20418,7 +20418,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -20745,7 +20745,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -21066,7 +21066,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -21387,7 +21387,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -21710,7 +21710,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -22033,7 +22033,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -22354,7 +22354,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -22675,7 +22675,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -23003,7 +23003,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -23340,7 +23340,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -23668,7 +23668,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -23981,7 +23981,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -24284,7 +24284,7 @@
     "owned_by": "system",
     "shutdown_date": "2027-01-20"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -24583,7 +24583,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -24882,7 +24882,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -25198,7 +25198,7 @@
     "owned_by": "system",
     "shutdown_date": "2027-01-20"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -25514,7 +25514,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-07-23"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -25826,7 +25826,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -26117,7 +26117,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -26388,7 +26388,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-12-01"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -26679,7 +26679,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-12-01"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -26956,7 +26956,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -27233,7 +27233,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -27510,7 +27510,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -27813,7 +27813,7 @@
     "owned_by": "system",
     "shutdown_date": "2027-01-20"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -28112,7 +28112,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -28409,7 +28409,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -28706,7 +28706,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -29003,7 +29003,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -29302,7 +29302,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -29606,7 +29606,7 @@
     "owned_by": "system",
     "shutdown_date": "2027-01-20"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -29906,7 +29906,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -30195,7 +30195,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -30484,7 +30484,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -30761,7 +30761,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -31074,7 +31074,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -31387,7 +31387,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -31700,7 +31700,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -32013,7 +32013,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -32322,7 +32322,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -32635,7 +32635,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-12-11"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -32948,7 +32948,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -33261,7 +33261,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -33574,7 +33574,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -33887,7 +33887,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -34200,7 +34200,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-07-23"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -34513,7 +34513,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-07-23"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -34790,7 +34790,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -35067,7 +35067,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -35330,7 +35330,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-09-24"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -35592,7 +35592,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-09-24"
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -35849,7 +35849,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -36106,7 +36106,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -36363,7 +36363,7 @@
     "owned_by": "openai-internal",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -36620,7 +36620,7 @@
     "owned_by": "openai-internal",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -36691,7 +36691,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -36950,7 +36950,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -37021,7 +37021,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -37280,17 +37280,17 @@
     "owned_by": "openai-internal",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-09-08T11:20:29Z",
+   "retrieved_at": "2026-09-09T11:24:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   }
  },
  "stats": {
   "api_models": 127,
-  "documented_model_families": 97,
+  "documented_model_families": 99,
   "matched_api_models": 121,
   "unmatched_api_models": 6,
-  "pages_discovered": 97,
+  "pages_discovered": 99,
   "page_failures": 0,
   "models": 127
  },
@@ -54327,6 +54327,502 @@
     },
     "warnings": []
    },
+   "gpt-image-2.5-flare": {
+    "canonical_model_id": "gpt-image-2.5-flare",
+    "display_name": "GPT-Image-2.5 Flare",
+    "description": "Fast, high-quality everyday image generation",
+    "documentation_url": "https://developers.openai.com/api/docs/models/gpt-image-2.5-flare.md",
+    "aliases": [],
+    "snapshots": [
+     "gpt-image-2.5-flare",
+     "gpt-image-2.5-flare-2026-09-08"
+    ],
+    "default_snapshot": "gpt-image-2.5-flare-2026-09-08",
+    "routes_to": null,
+    "reasoning": {
+     "supported": false,
+     "efforts": null,
+     "default_effort": null
+    },
+    "function_calling": false,
+    "structured_outputs": false,
+    "streaming": false,
+    "fine_tuning": false,
+    "prompt_caching": false,
+    "features": {
+     "function_calling": false,
+     "streaming": false,
+     "image_input": false,
+     "structured_outputs": false,
+     "prompt_caching": false,
+     "file_search": false,
+     "web_search": false,
+     "file_uploads": false,
+     "fine_tuning": false,
+     "evals": false,
+     "stored_completions": false,
+     "predicted_outputs": false,
+     "inpainting": true,
+     "mcp": false,
+     "image_generation": false,
+     "system_messages": false
+    },
+    "modalities": {
+     "text": {
+      "input": true,
+      "output": false
+     },
+     "image": {
+      "input": true,
+      "output": true
+     },
+     "audio": {
+      "input": false,
+      "output": false
+     },
+     "video": {
+      "input": false,
+      "output": false
+     }
+    },
+    "endpoints": {
+     "chat_completions": false,
+     "responses": false,
+     "realtime": false,
+     "realtime_translation": false,
+     "realtime_transcription": false,
+     "assistants": false,
+     "batch": false,
+     "fine_tuning": false,
+     "embeddings": false,
+     "image_generation": true,
+     "videos": false,
+     "image_edit": true,
+     "speech_generation": false,
+     "transcription": false,
+     "translation": false,
+     "moderation": false,
+     "completions_legacy": false
+    },
+    "endpoints_raw": {
+     "v1/chat/completions": "Not supported",
+     "v1/responses": "Not supported",
+     "v1/realtime": "Not supported",
+     "v1/realtime/translations": "Not supported",
+     "v1/realtime/transcription_sessions": "Not supported",
+     "v1/assistants": "Not supported",
+     "v1/batch": "Not supported",
+     "v1/fine-tuning": "Not supported",
+     "v1/embeddings": "Not supported",
+     "v1/images/generations": "Supported",
+     "v1/videos": "Not supported",
+     "v1/images/edits": "Supported",
+     "v1/audio/speech": "Not supported",
+     "v1/audio/transcriptions": "Not supported",
+     "v1/audio/translations": "Not supported",
+     "v1/moderations": "Not supported",
+     "v1/completions": "Not supported"
+    },
+    "tools": null,
+    "context_window": null,
+    "max_input_tokens": null,
+    "max_output_tokens": null,
+    "knowledge_cutoff": null,
+    "knowledge_cutoff_raw": null,
+    "pricing": {
+     "input": 5.0,
+     "output": null,
+     "cached_input": 1.25,
+     "currency": "USD",
+     "per": "1M tokens"
+    },
+    "provenance": {
+     "endpoints.chat_completions": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/chat/completions"
+     },
+     "endpoints.responses": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/responses"
+     },
+     "endpoints.realtime": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/realtime"
+     },
+     "endpoints.realtime_translation": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/realtime/translations"
+     },
+     "endpoints.realtime_transcription": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/realtime/transcription_sessions"
+     },
+     "endpoints.assistants": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/assistants"
+     },
+     "endpoints.batch": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/batch"
+     },
+     "endpoints.fine_tuning": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/fine-tuning"
+     },
+     "endpoints.embeddings": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/embeddings"
+     },
+     "endpoints.image_generation": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/images/generations"
+     },
+     "endpoints.videos": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/videos"
+     },
+     "endpoints.image_edit": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/images/edits"
+     },
+     "endpoints.speech_generation": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/audio/speech"
+     },
+     "endpoints.transcription": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/audio/transcriptions"
+     },
+     "endpoints.translation": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/audio/translations"
+     },
+     "endpoints.moderation": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/moderations"
+     },
+     "endpoints.completions_legacy": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/completions"
+     },
+     "modalities.input": {
+      "section": "Model details",
+      "evidence": "Input modalities bullet"
+     },
+     "modalities.output": {
+      "section": "Model details",
+      "evidence": "Output modalities bullet"
+     },
+     "reasoning.supported": {
+      "section": "Model details",
+      "evidence": "absent_from_list",
+      "note": "no 'Reasoning token support' bullet"
+     },
+     "function_calling": {
+      "section": "Supported features",
+      "evidence": "absent_from_list"
+     },
+     "structured_outputs": {
+      "section": "Supported features",
+      "evidence": "absent_from_list"
+     },
+     "streaming": {
+      "section": "Supported features",
+      "evidence": "absent_from_list"
+     },
+     "prompt_caching": {
+      "section": "Supported features",
+      "evidence": "absent_from_list"
+     },
+     "features": {
+      "section": "Supported features",
+      "evidence": "positive list"
+     },
+     "fine_tuning": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/fine-tuning"
+     },
+     "tools": {
+      "section": null,
+      "evidence": "section absent"
+     },
+     "pricing": {
+      "section": "Pricing",
+      "evidence": "Text tokens table"
+     },
+     "snapshots": {
+      "section": "Snapshots",
+      "evidence": "bullet list"
+     }
+    },
+    "warnings": []
+   },
+   "gpt-image-2.5-sunburst": {
+    "canonical_model_id": "gpt-image-2.5-sunburst",
+    "display_name": "GPT-Image-2.5 Sunburst",
+    "description": "Our most capable model for image generation and editing",
+    "documentation_url": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst.md",
+    "aliases": [],
+    "snapshots": [
+     "gpt-image-2.5-sunburst",
+     "gpt-image-2.5-sunburst-2026-09-08"
+    ],
+    "default_snapshot": "gpt-image-2.5-sunburst-2026-09-08",
+    "routes_to": null,
+    "reasoning": {
+     "supported": false,
+     "efforts": null,
+     "default_effort": null
+    },
+    "function_calling": false,
+    "structured_outputs": false,
+    "streaming": false,
+    "fine_tuning": false,
+    "prompt_caching": false,
+    "features": {
+     "function_calling": false,
+     "streaming": false,
+     "image_input": false,
+     "structured_outputs": false,
+     "prompt_caching": false,
+     "file_search": false,
+     "web_search": false,
+     "file_uploads": false,
+     "fine_tuning": false,
+     "evals": false,
+     "stored_completions": false,
+     "predicted_outputs": false,
+     "inpainting": true,
+     "mcp": false,
+     "image_generation": false,
+     "system_messages": false
+    },
+    "modalities": {
+     "text": {
+      "input": true,
+      "output": false
+     },
+     "image": {
+      "input": true,
+      "output": true
+     },
+     "audio": {
+      "input": false,
+      "output": false
+     },
+     "video": {
+      "input": false,
+      "output": false
+     }
+    },
+    "endpoints": {
+     "chat_completions": false,
+     "responses": false,
+     "realtime": false,
+     "realtime_translation": false,
+     "realtime_transcription": false,
+     "assistants": false,
+     "batch": false,
+     "fine_tuning": false,
+     "embeddings": false,
+     "image_generation": true,
+     "videos": false,
+     "image_edit": true,
+     "speech_generation": false,
+     "transcription": false,
+     "translation": false,
+     "moderation": false,
+     "completions_legacy": false
+    },
+    "endpoints_raw": {
+     "v1/chat/completions": "Not supported",
+     "v1/responses": "Not supported",
+     "v1/realtime": "Not supported",
+     "v1/realtime/translations": "Not supported",
+     "v1/realtime/transcription_sessions": "Not supported",
+     "v1/assistants": "Not supported",
+     "v1/batch": "Not supported",
+     "v1/fine-tuning": "Not supported",
+     "v1/embeddings": "Not supported",
+     "v1/images/generations": "Supported",
+     "v1/videos": "Not supported",
+     "v1/images/edits": "Supported",
+     "v1/audio/speech": "Not supported",
+     "v1/audio/transcriptions": "Not supported",
+     "v1/audio/translations": "Not supported",
+     "v1/moderations": "Not supported",
+     "v1/completions": "Not supported"
+    },
+    "tools": null,
+    "context_window": null,
+    "max_input_tokens": null,
+    "max_output_tokens": null,
+    "knowledge_cutoff": null,
+    "knowledge_cutoff_raw": null,
+    "pricing": {
+     "input": 5.0,
+     "output": null,
+     "cached_input": 1.25,
+     "currency": "USD",
+     "per": "1M tokens"
+    },
+    "provenance": {
+     "endpoints.chat_completions": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/chat/completions"
+     },
+     "endpoints.responses": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/responses"
+     },
+     "endpoints.realtime": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/realtime"
+     },
+     "endpoints.realtime_translation": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/realtime/translations"
+     },
+     "endpoints.realtime_transcription": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/realtime/transcription_sessions"
+     },
+     "endpoints.assistants": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/assistants"
+     },
+     "endpoints.batch": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/batch"
+     },
+     "endpoints.fine_tuning": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/fine-tuning"
+     },
+     "endpoints.embeddings": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/embeddings"
+     },
+     "endpoints.image_generation": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/images/generations"
+     },
+     "endpoints.videos": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/videos"
+     },
+     "endpoints.image_edit": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/images/edits"
+     },
+     "endpoints.speech_generation": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/audio/speech"
+     },
+     "endpoints.transcription": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/audio/transcriptions"
+     },
+     "endpoints.translation": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/audio/translations"
+     },
+     "endpoints.moderation": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/moderations"
+     },
+     "endpoints.completions_legacy": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/completions"
+     },
+     "modalities.input": {
+      "section": "Model details",
+      "evidence": "Input modalities bullet"
+     },
+     "modalities.output": {
+      "section": "Model details",
+      "evidence": "Output modalities bullet"
+     },
+     "reasoning.supported": {
+      "section": "Model details",
+      "evidence": "absent_from_list",
+      "note": "no 'Reasoning token support' bullet"
+     },
+     "function_calling": {
+      "section": "Supported features",
+      "evidence": "absent_from_list"
+     },
+     "structured_outputs": {
+      "section": "Supported features",
+      "evidence": "absent_from_list"
+     },
+     "streaming": {
+      "section": "Supported features",
+      "evidence": "absent_from_list"
+     },
+     "prompt_caching": {
+      "section": "Supported features",
+      "evidence": "absent_from_list"
+     },
+     "features": {
+      "section": "Supported features",
+      "evidence": "positive list"
+     },
+     "fine_tuning": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/fine-tuning"
+     },
+     "tools": {
+      "section": null,
+      "evidence": "section absent"
+     },
+     "pricing": {
+      "section": "Pricing",
+      "evidence": "Text tokens table"
+     },
+     "snapshots": {
+      "section": "Snapshots",
+      "evidence": "bullet list"
+     }
+    },
+    "warnings": []
+   },
    "gpt-live-transcribe": {
     "canonical_model_id": "gpt-live-transcribe",
     "display_name": "GPT-Live-Transcribe",
@@ -62985,6 +63481,22 @@
     "canonical_model_id": "gpt-image-2",
     "relationship": "snapshot"
    },
+   "gpt-image-2.5-flare": {
+    "canonical_model_id": "gpt-image-2.5-flare",
+    "relationship": "canonical"
+   },
+   "gpt-image-2.5-flare-2026-09-08": {
+    "canonical_model_id": "gpt-image-2.5-flare",
+    "relationship": "snapshot"
+   },
+   "gpt-image-2.5-sunburst": {
+    "canonical_model_id": "gpt-image-2.5-sunburst",
+    "relationship": "canonical"
+   },
+   "gpt-image-2.5-sunburst-2026-09-08": {
+    "canonical_model_id": "gpt-image-2.5-sunburst",
+    "relationship": "snapshot"
+   },
    "gpt-live-transcribe": {
     "canonical_model_id": "gpt-live-transcribe",
     "relationship": "canonical"
@@ -63217,7 +63729,7 @@
    }
   ],
   "page_failures": [],
-  "pages_discovered": 97,
+  "pages_discovered": 99,
   "unmatched_api_models": [
    "gpt-3.5-turbo-16k",
    "gpt-3.5-turbo-instruct-0914",
@@ -63240,6 +63752,8 @@
    "gpt-5.6-cyber",
    "gpt-daybreak-blue-latest",
    "gpt-daybreak-red-latest",
+   "gpt-image-2.5-flare",
+   "gpt-image-2.5-sunburst",
    "gpt-oss-120b",
    "gpt-oss-20b",
    "o1-mini",
@@ -63503,6 +64017,14 @@
     "prose_alias": false
    },
    "gpt-image-2": {
+    "effort_sentence": false,
+    "prose_alias": false
+   },
+   "gpt-image-2.5-flare": {
+    "effort_sentence": false,
+    "prose_alias": false
+   },
+   "gpt-image-2.5-sunburst": {
     "effort_sentence": false,
     "prose_alias": false
    },
