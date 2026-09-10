@@ -1,19 +1,32 @@
 {
  "provider": "openai",
  "first_run": false,
- "previous_retrieved_at": "2026-09-08T11:20:32Z",
- "retrieved_at": "2026-09-09T11:24:47Z",
+ "previous_retrieved_at": "2026-09-09T11:24:47Z",
+ "retrieved_at": "2026-09-10T11:21:15Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
   "previous": 127,
-  "current": 127
+  "current": 131
  },
- "added_models": [],
+ "added_models": [
+  "gpt-image-2.5-flare",
+  "gpt-image-2.5-flare-2026-09-08",
+  "gpt-image-2.5-sunburst",
+  "gpt-image-2.5-sunburst-2026-09-08"
+ ],
  "removed_models": [],
- "added_families": [],
+ "added_families": [
+  "gpt-image-2.5-flare",
+  "gpt-image-2.5-sunburst"
+ ],
  "removed_families": [],
- "new_snapshots": [],
+ "new_snapshots": [
+  "gpt-image-2.5-flare",
+  "gpt-image-2.5-flare-2026-09-08",
+  "gpt-image-2.5-sunburst",
+  "gpt-image-2.5-sunburst-2026-09-08"
+ ],
  "removed_snapshots": [],
  "changed_capabilities": {},
  "warnings": [
