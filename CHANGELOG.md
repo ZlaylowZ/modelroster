@@ -12,6 +12,18 @@ Two version numbers matter:
 
 ## [Unreleased]
 
+## [0.1.4] — 2026-09-11
+
+Data-only automatic release. Drift since v0.1.3:
+
+- anthropic: +1 model(s)
+- cohere: +2 model(s)
+- google: +5 model(s), -1 model(s), 1 record(s) changed
+- inception: +1 model(s)
+- mistral: -6 model(s)
+- nvidia: +1 model(s), -16 model(s)
+- openai: +6 model(s), 120 record(s) changed, snapshots +6
+
 ### Added
 - Automatic data-only releases: a fully-green nightly refresh whose data has
   really drifted since the last tag (models added/removed, records changed)
