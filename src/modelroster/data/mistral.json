@@ -2,7 +2,7 @@
  "provider": "mistral",
  "schema_version": 2,
  "parser_version": "2026.08.25-1",
- "retrieved_at": "2026-09-11T11:22:13Z",
+ "retrieved_at": "2026-09-11T14:37:52Z",
  "sources": {
   "listing": "https://api.mistral.ai/v1/models"
  },
@@ -211,12 +211,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -370,12 +370,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -529,12 +529,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -690,12 +690,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -849,12 +849,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1008,12 +1008,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1167,12 +1167,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1333,12 +1333,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1494,12 +1494,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1653,12 +1653,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1812,12 +1812,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1971,12 +1971,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2130,12 +2130,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2289,12 +2289,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2448,12 +2448,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2609,12 +2609,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2770,12 +2770,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2929,12 +2929,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3088,12 +3088,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3247,12 +3247,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3406,12 +3406,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3572,12 +3572,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3738,12 +3738,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3904,12 +3904,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4070,12 +4070,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4236,12 +4236,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4402,12 +4402,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4559,12 +4559,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4719,12 +4719,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4879,12 +4879,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5039,12 +5039,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5199,12 +5199,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5356,12 +5356,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5516,12 +5516,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5676,12 +5676,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5837,12 +5837,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5998,12 +5998,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6159,12 +6159,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6325,12 +6325,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6491,12 +6491,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6650,12 +6650,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6809,12 +6809,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6969,12 +6969,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7129,12 +7129,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7289,12 +7289,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7448,12 +7448,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7607,12 +7607,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7766,12 +7766,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7925,12 +7925,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -8084,12 +8084,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1789125732,
+    "created": 1789137472,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-09-11T11:22:13Z",
+   "retrieved_at": "2026-09-11T14:37:52Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   }
