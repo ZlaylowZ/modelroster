@@ -3,6 +3,7 @@ name: Publish to PyPI
 on:
   push:
     tags: ["v*"]
+  workflow_dispatch: {}    # dispatched on a tag ref by the auto-release step of refresh.yml
 
 jobs:
   build-and-publish:

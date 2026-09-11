@@ -69,7 +69,18 @@ an adapter's output for the same input could change: new vocabulary, a new
 regex, a changed mapping, a new provider-wide fact. The date-based format is
 `YYYY.MM.DD-N`.
 
-Release when data or code changed in a way consumers should pick up:
+**Data-only releases are automatic.** After every fully-green nightly
+refresh, `.github/scripts/auto_release.py` compares the committed data with
+the last release tag; on real drift (models added/removed, records changed —
+never timestamp churn) it patch-bumps `_version.py`, writes the CHANGELOG
+entry, tags, and dispatches `publish.yml`, which still runs the full test
+suite and `modelroster validate` before uploading. It refuses to auto-release
+while anything under `src/modelroster` (outside `data/`) or `pyproject.toml`
+has changed since the last tag — merging code to main therefore *pauses*
+auto-releases until a human tags. That means: keep main releasable, and tag
+promptly after merging code changes.
+
+Release **manually** when code, schema, or parser behaviour changed:
 
 1. `CHANGELOG.md`: move items from Unreleased under a new version heading.
 2. Bump `src/modelroster/_version.py` (semver: data-only refresh = patch;
@@ -93,7 +104,10 @@ Before the **first** publish, confirm the name is still free:
   `src/modelroster/data/*.json` (data + drift reports) on success. On exit ≠ 0
   it opens a GitHub issue labelled `refresh-failure` with the log tail and
   fails the run.
-* `publish.yml` — on tags.
+* `publish.yml` — on tags, and dispatched by the auto-release step.
+* Auto-release — the final step of `refresh.yml` (see above): tags and
+  publishes a patch release automatically when the data has drifted since
+  the last tag and no code changes are pending.
 
 Secrets to configure for the refresh: `ANTHROPIC_API_KEY`, `OPENAI_API_KEY`,
 and optionally `XAI_API_KEY`, `MISTRAL_API_KEY`, `GOOGLE_API_KEY`,

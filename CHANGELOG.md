@@ -12,6 +12,12 @@ Two version numbers matter:
 
 ## [Unreleased]
 
+### Added
+- Automatic data-only releases: a fully-green nightly refresh whose data has
+  really drifted since the last tag (models added/removed, records changed)
+  now patch-bumps, tags, and publishes on its own. Auto-release pauses
+  whenever code or packaging changes are pending a deliberate release.
+
 ## [0.1.3] — 2026-08-25
 
 ### Added
