@@ -1,50 +1,1106 @@
 {
  "provider": "openai",
  "first_run": false,
- "previous_retrieved_at": "2026-09-09T11:24:47Z",
- "retrieved_at": "2026-09-10T11:21:15Z",
+ "previous_retrieved_at": "2026-09-10T11:21:15Z",
+ "retrieved_at": "2026-09-11T11:22:27Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
-  "previous": 127,
-  "current": 131
+  "previous": 131,
+  "current": 132
  },
  "added_models": [
-  "gpt-image-2.5-flare",
-  "gpt-image-2.5-flare-2026-09-08",
-  "gpt-image-2.5-sunburst",
-  "gpt-image-2.5-sunburst-2026-09-08"
+  "gpt-live-1"
  ],
  "removed_models": [],
  "added_families": [
-  "gpt-image-2.5-flare",
-  "gpt-image-2.5-sunburst"
+  "gpt-live-1"
  ],
  "removed_families": [],
  "new_snapshots": [
-  "gpt-image-2.5-flare",
-  "gpt-image-2.5-flare-2026-09-08",
-  "gpt-image-2.5-sunburst",
-  "gpt-image-2.5-sunburst-2026-09-08"
+  "gpt-live-1"
  ],
  "removed_snapshots": [],
- "changed_capabilities": {},
+ "changed_capabilities": {
+  "babbage-002": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "chat-latest": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "chatgpt-image-latest": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "davinci-002": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-3.5-turbo": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-3.5-turbo-0125": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-3.5-turbo-1106": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-3.5-turbo-instruct": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-4": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-4-0613": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-4-turbo": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-4-turbo-2024-04-09": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-4.1": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-4.1-2025-04-14": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-4.1-mini": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-4.1-mini-2025-04-14": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-4.1-nano": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-4.1-nano-2025-04-14": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-4o": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-4o-2024-05-13": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-4o-2024-08-06": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-4o-2024-11-20": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-4o-mini": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-4o-mini-2024-07-18": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-4o-mini-search-preview": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-4o-mini-search-preview-2025-03-11": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-4o-mini-transcribe": [
+   [
+    "deprecated",
+    "unknown",
+    "true"
+   ],
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ],
+   [
+    "shutdown_date",
+    "unknown",
+    "2027-02-26"
+   ]
+  ],
+  "gpt-4o-mini-transcribe-2025-03-20": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-4o-mini-transcribe-2025-12-15": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-4o-mini-tts": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-4o-mini-tts-2025-03-20": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-4o-mini-tts-2025-12-15": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-4o-search-preview": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-4o-search-preview-2025-03-11": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-4o-transcribe": [
+   [
+    "deprecated",
+    "unknown",
+    "true"
+   ],
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ],
+   [
+    "shutdown_date",
+    "unknown",
+    "2027-02-26"
+   ]
+  ],
+  "gpt-4o-transcribe-diarize": [
+   [
+    "deprecated",
+    "unknown",
+    "true"
+   ],
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ],
+   [
+    "shutdown_date",
+    "unknown",
+    "2027-02-26"
+   ]
+  ],
+  "gpt-5": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-5-2025-08-07": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-5-chat-latest": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-5-codex": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-5-mini": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-5-mini-2025-08-07": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-5-nano": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-5-nano-2025-08-07": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-5-pro": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-5-pro-2025-10-06": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-5.1": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-5.1-2025-11-13": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-5.1-chat-latest": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-5.1-codex": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-5.1-codex-max": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-5.1-codex-mini": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-5.2": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-5.2-2025-12-11": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-5.2-chat-latest": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-5.2-codex": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-5.2-pro": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-5.2-pro-2025-12-11": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-5.3-chat-latest": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-5.3-codex": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-5.4": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-5.4-2026-03-05": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-5.4-mini": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-5.4-mini-2026-03-17": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-5.4-nano": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-5.4-nano-2026-03-17": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-5.4-pro": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-5.4-pro-2026-03-05": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-5.5": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-5.5-2026-04-23": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-5.5-pro": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-5.5-pro-2026-04-23": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-5.6-luna": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-5.6-sol": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-5.6-terra": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-6-astra": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-audio": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-audio-1.5": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-audio-2025-08-28": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-audio-mini": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-audio-mini-2025-10-06": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-audio-mini-2025-12-15": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-image-1": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-image-1-mini": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-image-1.5": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-image-2": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-image-2-2026-04-21": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-image-2.5-flare": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-image-2.5-flare-2026-09-08": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-image-2.5-sunburst": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-image-2.5-sunburst-2026-09-08": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-live-transcribe": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-realtime": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-realtime-1.5": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-realtime-2": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-realtime-2.1": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-realtime-2.1-mini": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-realtime-2025-08-28": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-realtime-mini": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-realtime-mini-2025-12-15": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-realtime-translate": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-realtime-whisper": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "gpt-transcribe": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "o1": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "o1-2024-12-17": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "o1-pro": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "o1-pro-2025-03-19": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "o3": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "o3-2025-04-16": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "o3-mini": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "o3-mini-2025-01-31": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "o4-mini": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "o4-mini-2025-04-16": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "o4-mini-deep-research": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "o4-mini-deep-research-2025-06-26": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "omni-moderation-2024-09-26": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "omni-moderation-latest": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "sora-2": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "sora-2-pro": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "text-embedding-3-large": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "text-embedding-3-small": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "text-embedding-ada-002": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "tts-1": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "tts-1-hd": [
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ]
+  ],
+  "whisper-1": [
+   [
+    "deprecated",
+    "unknown",
+    "true"
+   ],
+   [
+    "endpoints.v1_live_sessions",
+    "unknown",
+    "false"
+   ],
+   [
+    "shutdown_date",
+    "unknown",
+    "2027-02-26"
+   ]
+  ]
+ },
  "warnings": [
+  "babbage-002: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "babbage-002: contradiction: 'fine_tuning' listed under Supported features but v1/fine-tuning is Not supported",
+  "chat-latest: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "chatgpt-image-latest: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "davinci-002: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "davinci-002: contradiction: 'fine_tuning' listed under Supported features but v1/fine-tuning is Not supported",
+  "gpt-3.5-turbo: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-3.5-turbo-0125: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-3.5-turbo-1106: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "gpt-3.5-turbo-16k: No official model documentation record matched this API model ID.",
+  "gpt-3.5-turbo-instruct: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "gpt-3.5-turbo-instruct-0914: No official model documentation record matched this API model ID.",
+  "gpt-4: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-4-0613: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-4-turbo: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-4-turbo-2024-04-09: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-4.1: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-4.1-2025-04-14: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-4.1-mini: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-4.1-mini-2025-04-14: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-4.1-nano: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-4.1-nano-2025-04-14: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-4o: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-4o-2024-05-13: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-4o-2024-08-06: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-4o-2024-11-20: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-4o-mini: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-4o-mini-2024-07-18: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-4o-mini-search-preview: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-4o-mini-search-preview-2025-03-11: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-4o-mini-transcribe: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-4o-mini-transcribe-2025-03-20: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-4o-mini-transcribe-2025-12-15: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-4o-mini-tts: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-4o-mini-tts-2025-03-20: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-4o-mini-tts-2025-12-15: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-4o-search-preview: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-4o-search-preview-2025-03-11: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-4o-transcribe: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-4o-transcribe-diarize: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5-2025-08-07: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5-chat-latest: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5-codex: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5-mini: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5-mini-2025-08-07: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5-nano: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5-nano-2025-08-07: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5-pro: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5-pro-2025-10-06: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "gpt-5-search-api: No official model documentation record matched this API model ID.",
   "gpt-5-search-api-2025-10-14: No official model documentation record matched this API model ID.",
+  "gpt-5.1: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5.1-2025-11-13: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5.1-chat-latest: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5.1-codex: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5.1-codex-max: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5.1-codex-mini: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5.2: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5.2-2025-12-11: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5.2-chat-latest: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5.2-codex: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5.2-pro: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5.2-pro-2025-12-11: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5.3-chat-latest: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5.3-codex: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5.4: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5.4-2026-03-05: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5.4-mini: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5.4-mini-2026-03-17: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5.4-nano: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5.4-nano-2026-03-17: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5.4-pro: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5.4-pro-2026-03-05: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5.5: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5.5-2026-04-23: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5.5-pro: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5.5-pro-2026-04-23: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5.6-luna: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5.6-sol: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5.6-terra: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-6-astra: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-audio: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-audio-1.5: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-audio-2025-08-28: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-audio-mini: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-audio-mini-2025-10-06: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-audio-mini-2025-12-15: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-image-1: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-image-1-mini: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-image-1.5: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-image-2: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-image-2-2026-04-21: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-image-2.5-flare: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-image-2.5-flare-2026-09-08: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-image-2.5-sunburst: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-image-2.5-sunburst-2026-09-08: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-live-1: unrecognised Model details bullet: 'Unsupported modalities: image, video'",
+  "gpt-live-1: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-live-transcribe: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-realtime: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-realtime-1.5: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-realtime-2: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-realtime-2.1: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-realtime-2.1-mini: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-realtime-2025-08-28: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-realtime-mini: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-realtime-mini-2025-12-15: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-realtime-translate: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-realtime-whisper: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-transcribe: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "o1: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "o1-2024-12-17: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "o1-pro: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "o1-pro-2025-03-19: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "o3: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "o3-2025-04-16: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "o3-mini: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "o3-mini-2025-01-31: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "o4-mini: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "o4-mini-2025-04-16: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "o4-mini-deep-research: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "o4-mini-deep-research-2025-06-26: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "omni-moderation-2024-09-26: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "omni-moderation-latest: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "sora-2: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "sora-2-pro: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "text-embedding-3-large: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "text-embedding-3-small: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "text-embedding-ada-002: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "tts-1: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "tts-1-1106: No official model documentation record matched this API model ID.",
+  "tts-1-hd: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "tts-1-hd-1106: No official model documentation record matched this API model ID.",
+  "whisper-1: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "id 'gpt-5.6-sol' claimed by gpt-5.6-sol, gpt-daybreak-blue-latest; resolved to 'gpt-5.6-sol'",
   "id 'gpt-5.6-cyber' claimed by gpt-5.6-cyber, gpt-daybreak-red-latest; resolved to 'gpt-5.6-cyber'",
   "id 'text-moderation-007' claimed by text-moderation-latest, text-moderation-stable; resolved to 'text-moderation-latest'",
   "6 API model id(s) have no documentation record: gpt-3.5-turbo-16k, gpt-3.5-turbo-instruct-0914, gpt-5-search-api, gpt-5-search-api-2025-10-14, tts-1-1106, tts-1-hd-1106",
+  "chatgpt-4o-latest: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "codex-mini-latest: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "computer-use-preview: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-daybreak-blue-latest: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "gpt-daybreak-blue-latest: claims an id owned by 'gpt-5.6-sol'; recorded as routes_to",
+  "gpt-daybreak-red-latest: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "gpt-daybreak-red-latest: claims an id owned by 'gpt-5.6-cyber'; recorded as routes_to",
+  "gpt-4-turbo-preview: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "gpt-4-turbo-preview: contradiction: 'fine_tuning' listed under Supported features but v1/fine-tuning is Not supported",
+  "gpt-4.5-preview: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-4o-audio-preview: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-4o-mini-audio-preview: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-4o-mini-realtime-preview: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-4o-realtime-preview: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-5.6-cyber: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-oss-120b: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-oss-20b: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "o1-preview: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "o1-mini: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "o3-deep-research: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "o3-pro: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "text-moderation-latest: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "text-moderation-stable: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "text-moderation-stable: claims an id owned by 'text-moderation-latest'; recorded as routes_to"
  ]
 }

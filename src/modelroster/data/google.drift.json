@@ -1,8 +1,8 @@
 {
  "provider": "google",
  "first_run": false,
- "previous_retrieved_at": "2026-09-09T11:24:31Z",
- "retrieved_at": "2026-09-10T11:20:54Z",
+ "previous_retrieved_at": "2026-09-10T11:20:54Z",
+ "retrieved_at": "2026-09-11T11:22:12Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
@@ -11,126 +11,11 @@
  },
  "added_models": [],
  "removed_models": [],
- "added_families": [
-  "models/lyria-realtime-exp"
- ],
+ "added_families": [],
  "removed_families": [],
  "new_snapshots": [],
  "removed_snapshots": [],
- "changed_capabilities": {
-  "models/lyria-realtime-exp": [
-   [
-    "context_window",
-    "unknown",
-    "1048576"
-   ],
-   [
-    "display_name",
-    "unknown",
-    "Lyria Realtime Experimental"
-   ],
-   [
-    "endpoints.batch_embed_contents",
-    "unknown",
-    "false"
-   ],
-   [
-    "endpoints.batch_generate_content",
-    "unknown",
-    "false"
-   ],
-   [
-    "endpoints.bidi_generate_content",
-    "unknown",
-    "false"
-   ],
-   [
-    "endpoints.bidi_generate_music",
-    "unknown",
-    "true"
-   ],
-   [
-    "endpoints.count_text_tokens",
-    "unknown",
-    "false"
-   ],
-   [
-    "endpoints.count_tokens",
-    "unknown",
-    "false"
-   ],
-   [
-    "endpoints.create_cached_content",
-    "unknown",
-    "false"
-   ],
-   [
-    "endpoints.create_tuned_model",
-    "unknown",
-    "false"
-   ],
-   [
-    "endpoints.embed_content",
-    "unknown",
-    "false"
-   ],
-   [
-    "endpoints.embed_text",
-    "unknown",
-    "false"
-   ],
-   [
-    "endpoints.generate_answer",
-    "unknown",
-    "false"
-   ],
-   [
-    "endpoints.generate_content",
-    "unknown",
-    "false"
-   ],
-   [
-    "endpoints.generate_text",
-    "unknown",
-    "false"
-   ],
-   [
-    "endpoints.predict",
-    "unknown",
-    "false"
-   ],
-   [
-    "endpoints.predict_long_running",
-    "unknown",
-    "false"
-   ],
-   [
-    "endpoints.stream_generate_content",
-    "unknown",
-    "false"
-   ],
-   [
-    "family",
-    "unknown",
-    "models/lyria-realtime-exp"
-   ],
-   [
-    "max_input_tokens",
-    "unknown",
-    "1048576"
-   ],
-   [
-    "max_output_tokens",
-    "unknown",
-    "65536"
-   ],
-   [
-    "relationship",
-    "unknown",
-    "canonical"
-   ]
-  ]
- },
+ "changed_capabilities": {},
  "warnings": [
   "models/gemini-embedding-001: unrecognised generation method 'asyncBatchEmbedContent' (stored as endpoint 'async_batch_embed_content')",
   "models/gemini-embedding-2: unrecognised generation method 'asyncBatchEmbedContent' (stored as endpoint 'async_batch_embed_content')",
