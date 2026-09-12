@@ -12,6 +12,13 @@ Two version numbers matter:
 
 ## [Unreleased]
 
+## [0.1.5] — 2026-09-12
+
+Data-only automatic release. Drift since v0.1.4:
+
+- cohere: 1 record(s) changed
+- nvidia: +2 model(s)
+
 ## [0.1.4] — 2026-09-11
 
 Data-only automatic release. Drift since v0.1.3:
