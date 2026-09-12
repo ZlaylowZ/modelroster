@@ -1,8 +1,8 @@
 {
  "provider": "cohere",
  "first_run": false,
- "previous_retrieved_at": "2026-09-11T11:22:12Z",
- "retrieved_at": "2026-09-11T14:37:51Z",
+ "previous_retrieved_at": "2026-09-11T14:37:51Z",
+ "retrieved_at": "2026-09-12T10:47:54Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
@@ -15,6 +15,24 @@
  "removed_families": [],
  "new_snapshots": [],
  "removed_snapshots": [],
- "changed_capabilities": {},
+ "changed_capabilities": {
+  "north-small-translate-09-2026": [
+   [
+    "capabilities.extra.cohere.json_mode",
+    "true",
+    "false"
+   ],
+   [
+    "capabilities.extra.cohere.json_schema",
+    "true",
+    "false"
+   ],
+   [
+    "capabilities.structured_outputs",
+    "true",
+    "false"
+   ]
+  ]
+ },
  "warnings": []
 }

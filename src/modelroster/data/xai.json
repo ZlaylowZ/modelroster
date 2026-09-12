@@ -2,7 +2,7 @@
  "provider": "xai",
  "schema_version": 2,
  "parser_version": "2026.08.25-1",
- "retrieved_at": "2026-09-11T14:38:09Z",
+ "retrieved_at": "2026-09-12T10:48:11Z",
  "sources": {
   "listing": "https://api.x.ai/v1/models",
   "language_models": "https://api.x.ai/v1/language-models",
@@ -173,7 +173,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-11T14:38:09Z",
+   "retrieved_at": "2026-09-12T10:48:10Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -341,7 +341,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-11T14:38:09Z",
+   "retrieved_at": "2026-09-12T10:48:10Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -491,7 +491,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-11T14:38:09Z",
+   "retrieved_at": "2026-09-12T10:48:10Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -548,7 +548,10 @@
     "citations": null,
     "code_execution": null,
     "pdf_input": null,
-    "extra": {}
+    "extra": {
+     "docs.reasoning_efforts_supported_": null,
+     "docs.reasoning_efforts_default_": null
+    }
    },
    "endpoints": {
     "chat_completions": true
@@ -631,9 +634,14 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-11T14:38:09Z",
+   "retrieved_at": "2026-09-12T10:48:10Z",
    "parser_version": "2026.08.25-1",
-   "warnings": []
+   "warnings": [
+    "unexpected capability value '`none`, `low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
+    "unrecognised capability 'reasoning efforts (supported)' (kept)",
+    "unexpected capability value '`low`' for 'reasoning efforts (default)'",
+    "unrecognised capability 'reasoning efforts (default)' (kept)"
+   ]
   },
   "grok-4.5": {
    "provider": "xai",
@@ -689,7 +697,10 @@
     "citations": null,
     "code_execution": null,
     "pdf_input": null,
-    "extra": {}
+    "extra": {
+     "docs.reasoning_efforts_supported_": null,
+     "docs.reasoning_efforts_default_": null
+    }
    },
    "endpoints": {
     "chat_completions": true
@@ -773,9 +784,14 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-11T14:38:09Z",
+   "retrieved_at": "2026-09-12T10:48:10Z",
    "parser_version": "2026.08.25-1",
-   "warnings": []
+   "warnings": [
+    "unexpected capability value '`low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
+    "unrecognised capability 'reasoning efforts (supported)' (kept)",
+    "unexpected capability value '`high`' for 'reasoning efforts (default)'",
+    "unrecognised capability 'reasoning efforts (default)' (kept)"
+   ]
   },
   "grok-4.6": {
    "provider": "xai",
@@ -828,7 +844,10 @@
     "citations": null,
     "code_execution": null,
     "pdf_input": null,
-    "extra": {}
+    "extra": {
+     "docs.reasoning_efforts_supported_": null,
+     "docs.reasoning_efforts_default_": null
+    }
    },
    "endpoints": {
     "chat_completions": true
@@ -885,7 +904,7 @@
     "object": "model",
     "language_model": {
      "id": "grok-4.6",
-     "fingerprint": "fp_94fc96ba9b",
+     "fingerprint": "fp_ed9d5bf251",
      "created": 1785974400,
      "object": "model",
      "owned_by": "xai",
@@ -909,9 +928,14 @@
      "aliases": []
     }
    },
-   "retrieved_at": "2026-09-11T14:38:09Z",
+   "retrieved_at": "2026-09-12T10:48:10Z",
    "parser_version": "2026.08.25-1",
-   "warnings": []
+   "warnings": [
+    "unexpected capability value '`low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
+    "unrecognised capability 'reasoning efforts (supported)' (kept)",
+    "unexpected capability value '`high`' for 'reasoning efforts (default)'",
+    "unrecognised capability 'reasoning efforts (default)' (kept)"
+   ]
   },
   "grok-build-0.1": {
    "provider": "xai",
@@ -1053,7 +1077,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-11T14:38:09Z",
+   "retrieved_at": "2026-09-12T10:48:10Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1147,7 +1171,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:38:09Z",
+   "retrieved_at": "2026-09-12T10:48:10Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1235,7 +1259,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:38:09Z",
+   "retrieved_at": "2026-09-12T10:48:10Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1331,7 +1355,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:38:09Z",
+   "retrieved_at": "2026-09-12T10:48:10Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1419,7 +1443,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:38:09Z",
+   "retrieved_at": "2026-09-12T10:48:10Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1514,7 +1538,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:38:09Z",
+   "retrieved_at": "2026-09-12T10:48:10Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   }
@@ -1523,7 +1547,20 @@
   "api_models": 12,
   "models": 12
  },
- "warnings": [],
+ "warnings": [
+  "grok-4.3: unexpected capability value '`none`, `low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
+  "grok-4.3: unrecognised capability 'reasoning efforts (supported)' (kept)",
+  "grok-4.3: unexpected capability value '`low`' for 'reasoning efforts (default)'",
+  "grok-4.3: unrecognised capability 'reasoning efforts (default)' (kept)",
+  "grok-4.5: unexpected capability value '`low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
+  "grok-4.5: unrecognised capability 'reasoning efforts (supported)' (kept)",
+  "grok-4.5: unexpected capability value '`high`' for 'reasoning efforts (default)'",
+  "grok-4.5: unrecognised capability 'reasoning efforts (default)' (kept)",
+  "grok-4.6: unexpected capability value '`low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
+  "grok-4.6: unrecognised capability 'reasoning efforts (supported)' (kept)",
+  "grok-4.6: unexpected capability value '`high`' for 'reasoning efforts (default)'",
+  "grok-4.6: unrecognised capability 'reasoning efforts (default)' (kept)"
+ ],
  "extra": {
   "docs_pages": {
    "grok-4.20-0309-non-reasoning": "ok",

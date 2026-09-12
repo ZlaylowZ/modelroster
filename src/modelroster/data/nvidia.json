@@ -2,7 +2,7 @@
  "provider": "nvidia",
  "schema_version": 2,
  "parser_version": "2026.08.25-1",
- "retrieved_at": "2026-09-11T14:37:52Z",
+ "retrieved_at": "2026-09-12T10:47:54Z",
  "sources": {
   "listing": "https://integrate.api.nvidia.com/v1/models"
  },
@@ -72,6 +72,7 @@
   "nvidia/nemotron-4-340b-reward",
   "nvidia/nemotron-nano-3-30b-a3b",
   "nvidia/nemotron-parse",
+  "nvidia/nemotron-parse-2.0",
   "nvidia/neva-22b",
   "nvidia/nv-embedqa-mistral-7b-v2",
   "nvidia/nvclip",
@@ -86,6 +87,7 @@
   "writer/palmyra-fin-70b-32k",
   "writer/palmyra-med-70b",
   "writer/palmyra-med-70b-32k",
+  "z-ai/glm-5.3-flash",
   "zyphra/zamba2-7b-instruct"
  ],
  "models": {
@@ -161,7 +163,7 @@
     "owned_by": "01-ai",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -237,7 +239,7 @@
     "owned_by": "adept",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -313,7 +315,7 @@
     "owned_by": "ai21labs",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -389,7 +391,7 @@
     "owned_by": "aisingapore",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -465,7 +467,7 @@
     "owned_by": "bigcode",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -541,7 +543,7 @@
     "owned_by": "databricks",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -617,7 +619,7 @@
     "owned_by": "deepseek-ai",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -693,7 +695,7 @@
     "owned_by": "deepseek-ai",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -769,7 +771,7 @@
     "owned_by": "deepseek-ai",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -845,7 +847,7 @@
     "owned_by": "google",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -921,7 +923,7 @@
     "owned_by": "google",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -997,7 +999,7 @@
     "owned_by": "google",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1073,7 +1075,7 @@
     "owned_by": "google",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1149,7 +1151,7 @@
     "owned_by": "google",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1225,7 +1227,7 @@
     "owned_by": "google",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1301,7 +1303,7 @@
     "owned_by": "google",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1377,7 +1379,7 @@
     "owned_by": "google",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1453,7 +1455,7 @@
     "owned_by": "google",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1529,7 +1531,7 @@
     "owned_by": "ibm",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1605,7 +1607,7 @@
     "owned_by": "ibm",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1681,7 +1683,7 @@
     "owned_by": "ibm",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1757,7 +1759,7 @@
     "owned_by": "ibm",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1833,7 +1835,7 @@
     "owned_by": "meta",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1909,7 +1911,7 @@
     "owned_by": "meta",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1985,7 +1987,7 @@
     "owned_by": "meta",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2061,7 +2063,7 @@
     "owned_by": "meta",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2137,7 +2139,7 @@
     "owned_by": "meta",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2213,7 +2215,7 @@
     "owned_by": "meta",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2289,7 +2291,7 @@
     "owned_by": "microsoft",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2365,7 +2367,7 @@
     "owned_by": "microsoft",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2441,7 +2443,7 @@
     "owned_by": "microsoft",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2517,7 +2519,7 @@
     "owned_by": "mistralai",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2593,7 +2595,7 @@
     "owned_by": "mistralai",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2669,7 +2671,7 @@
     "owned_by": "mistralai",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2745,7 +2747,7 @@
     "owned_by": "mistralai",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2821,7 +2823,7 @@
     "owned_by": "mistralai",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2897,7 +2899,7 @@
     "owned_by": "mistralai",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2973,7 +2975,7 @@
     "owned_by": "moonshotai",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3049,7 +3051,7 @@
     "owned_by": "moonshotai",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3125,7 +3127,7 @@
     "owned_by": "nv-mistralai",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3201,7 +3203,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3277,7 +3279,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3353,7 +3355,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3429,7 +3431,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3505,7 +3507,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3581,7 +3583,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3657,7 +3659,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3733,7 +3735,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3809,7 +3811,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3885,7 +3887,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3961,7 +3963,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4037,7 +4039,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4113,7 +4115,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4189,7 +4191,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4265,7 +4267,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4341,7 +4343,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4417,7 +4419,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4493,7 +4495,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4569,7 +4571,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4645,7 +4647,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4721,7 +4723,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4797,7 +4799,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4873,7 +4875,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4949,7 +4951,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5025,7 +5027,83 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
+   "parser_version": "2026.08.25-1",
+   "warnings": []
+  },
+  "nvidia/nemotron-parse-2.0": {
+   "provider": "nvidia",
+   "model_id": "nvidia/nemotron-parse-2.0",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "nvidia",
+    "object": "model"
+   },
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5101,7 +5179,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5177,7 +5255,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5253,7 +5331,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5329,7 +5407,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5405,7 +5483,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5481,7 +5559,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5557,7 +5635,7 @@
     "owned_by": "nvidia",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5633,7 +5711,7 @@
     "owned_by": "openai",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5709,7 +5787,7 @@
     "owned_by": "poolside",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5785,7 +5863,7 @@
     "owned_by": "snowflake",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5861,7 +5939,7 @@
     "owned_by": "writer",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5937,7 +6015,7 @@
     "owned_by": "writer",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6013,7 +6091,7 @@
     "owned_by": "writer",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6089,7 +6167,83 @@
     "owned_by": "writer",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
+   "parser_version": "2026.08.25-1",
+   "warnings": []
+  },
+  "z-ai/glm-5.3-flash": {
+   "provider": "nvidia",
+   "model_id": "z-ai/glm-5.3-flash",
+   "display_name": null,
+   "description": null,
+   "family": null,
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "unknown",
+   "released": "1993-04-26",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": null,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {},
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://integrate.api.nvidia.com/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 735790403,
+    "owned_by": "z-ai",
+    "object": "model"
+   },
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6165,14 +6319,14 @@
     "owned_by": "zyphra",
     "object": "model"
    },
-   "retrieved_at": "2026-09-11T14:37:52Z",
+   "retrieved_at": "2026-09-12T10:47:54Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   }
  },
  "stats": {
-  "api_models": 80,
-  "models": 80
+  "api_models": 82,
+  "models": 82
  },
  "warnings": [],
  "extra": {}

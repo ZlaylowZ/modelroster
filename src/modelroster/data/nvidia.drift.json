@@ -1,15 +1,18 @@
 {
  "provider": "nvidia",
  "first_run": false,
- "previous_retrieved_at": "2026-09-11T11:22:13Z",
- "retrieved_at": "2026-09-11T14:37:52Z",
+ "previous_retrieved_at": "2026-09-11T14:37:52Z",
+ "retrieved_at": "2026-09-12T10:47:54Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
   "previous": 80,
-  "current": 80
+  "current": 82
  },
- "added_models": [],
+ "added_models": [
+  "nvidia/nemotron-parse-2.0",
+  "z-ai/glm-5.3-flash"
+ ],
  "removed_models": [],
  "added_families": [],
  "removed_families": [],
