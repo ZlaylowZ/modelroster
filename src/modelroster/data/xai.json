@@ -2,7 +2,7 @@
  "provider": "xai",
  "schema_version": 2,
  "parser_version": "2026.08.25-1",
- "retrieved_at": "2026-09-12T10:48:11Z",
+ "retrieved_at": "2026-09-13T11:54:17Z",
  "sources": {
   "listing": "https://api.x.ai/v1/models",
   "language_models": "https://api.x.ai/v1/language-models",
@@ -173,7 +173,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-12T10:48:10Z",
+   "retrieved_at": "2026-09-13T11:54:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -341,7 +341,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-12T10:48:10Z",
+   "retrieved_at": "2026-09-13T11:54:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -491,7 +491,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-12T10:48:10Z",
+   "retrieved_at": "2026-09-13T11:54:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -634,7 +634,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-12T10:48:10Z",
+   "retrieved_at": "2026-09-13T11:54:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unexpected capability value '`none`, `low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
@@ -784,7 +784,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-12T10:48:10Z",
+   "retrieved_at": "2026-09-13T11:54:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unexpected capability value '`low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
@@ -904,7 +904,7 @@
     "object": "model",
     "language_model": {
      "id": "grok-4.6",
-     "fingerprint": "fp_ed9d5bf251",
+     "fingerprint": "fp_6e475b3d35",
      "created": 1785974400,
      "object": "model",
      "owned_by": "xai",
@@ -928,7 +928,7 @@
      "aliases": []
     }
    },
-   "retrieved_at": "2026-09-12T10:48:10Z",
+   "retrieved_at": "2026-09-13T11:54:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unexpected capability value '`low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
@@ -1077,7 +1077,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-12T10:48:10Z",
+   "retrieved_at": "2026-09-13T11:54:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1171,7 +1171,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-09-12T10:48:10Z",
+   "retrieved_at": "2026-09-13T11:54:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1259,7 +1259,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-09-12T10:48:10Z",
+   "retrieved_at": "2026-09-13T11:54:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1355,7 +1355,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-09-12T10:48:10Z",
+   "retrieved_at": "2026-09-13T11:54:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1443,7 +1443,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-09-12T10:48:10Z",
+   "retrieved_at": "2026-09-13T11:54:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1538,7 +1538,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-09-12T10:48:10Z",
+   "retrieved_at": "2026-09-13T11:54:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   }
