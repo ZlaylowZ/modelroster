@@ -2,13 +2,14 @@
  "provider": "google",
  "schema_version": 2,
  "parser_version": "2026.08.25-1",
- "retrieved_at": "2026-09-13T11:54:02Z",
+ "retrieved_at": "2026-09-14T12:48:45Z",
  "sources": {
   "listing": "https://generativelanguage.googleapis.com/v1beta/openai/models",
   "native": "https://generativelanguage.googleapis.com/v1beta/models"
  },
  "model_order": [
   "models/antigravity-preview-05-2026",
+  "models/antigravity-preview-09-2026",
   "models/aqa",
   "models/deep-research-max-preview-04-2026",
   "models/deep-research-preview-04-2026",
@@ -185,7 +186,131 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
+   "parser_version": "2026.08.25-1",
+   "warnings": []
+  },
+  "models/antigravity-preview-09-2026": {
+   "provider": "google",
+   "model_id": "models/antigravity-preview-09-2026",
+   "display_name": "Antigravity Agent Preview",
+   "description": "Preview release of Antigravity Agent (09-2026)",
+   "family": "models/antigravity-preview-09-2026",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": null,
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 131072,
+   "max_input_tokens": 131072,
+   "max_output_tokens": 65536,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": false,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {
+    "chat_completions": true,
+    "generate_content": true,
+    "stream_generate_content": false,
+    "count_tokens": true,
+    "embed_content": false,
+    "batch_embed_contents": false,
+    "generate_answer": false,
+    "predict": false,
+    "predict_long_running": false,
+    "bidi_generate_content": false,
+    "create_cached_content": false,
+    "batch_generate_content": false,
+    "count_text_tokens": false,
+    "generate_text": false,
+    "embed_text": false,
+    "create_tuned_model": false
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "endpoints.chat_completions": {
+     "section": "api:/v1beta/openai/models",
+     "evidence": "listed by the OpenAI-compatibility shim"
+    },
+    "context_window": {
+     "section": "api:/v1beta/models",
+     "evidence": "inputTokenLimit"
+    },
+    "max_input_tokens": {
+     "section": "api:/v1beta/models",
+     "evidence": "inputTokenLimit"
+    },
+    "max_output_tokens": {
+     "section": "api:/v1beta/models",
+     "evidence": "outputTokenLimit"
+    },
+    "endpoints": {
+     "section": "api:/v1beta/models",
+     "evidence": "supportedGenerationMethods"
+    },
+    "streaming": {
+     "section": "api:/v1beta/models",
+     "evidence": "supportedGenerationMethods contains streamGenerateContent"
+    }
+   },
+   "sources": {
+    "listing": "https://generativelanguage.googleapis.com/v1beta/openai/models",
+    "documentation": null,
+    "native": "https://generativelanguage.googleapis.com/v1beta/models"
+   },
+   "raw": {
+    "owned_by": "google",
+    "object": "model",
+    "native": {
+     "name": "models/antigravity-preview-09-2026",
+     "version": "0.1",
+     "displayName": "Antigravity Agent Preview",
+     "inputTokenLimit": 131072,
+     "outputTokenLimit": 65536,
+     "supportedGenerationMethods": [
+      "generateContent",
+      "countTokens"
+     ]
+    }
+   },
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -307,7 +432,7 @@
      "topK": 40
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -444,7 +569,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -581,7 +706,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -718,7 +843,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -855,7 +980,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -994,7 +1119,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1123,7 +1248,7 @@
      "maxTemperature": 1
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1262,7 +1387,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1395,7 +1520,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1528,7 +1653,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1661,7 +1786,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1789,7 +1914,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1928,7 +2053,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2057,7 +2182,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2196,7 +2321,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2334,7 +2459,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2472,7 +2597,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2610,7 +2735,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2748,7 +2873,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2887,7 +3012,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3025,7 +3150,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3164,7 +3289,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3287,7 +3412,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3425,7 +3550,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3564,7 +3689,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3703,7 +3828,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3842,7 +3967,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3981,7 +4106,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4104,7 +4229,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4241,7 +4366,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4364,7 +4489,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4503,7 +4628,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4642,7 +4767,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4781,7 +4906,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4904,7 +5029,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised generation method 'asyncBatchEmbedContent' (stored as endpoint 'async_batch_embed_content')"
@@ -5029,7 +5154,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised generation method 'asyncBatchEmbedContent' (stored as endpoint 'async_batch_embed_content')"
@@ -5154,7 +5279,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised generation method 'asyncBatchEmbedContent' (stored as endpoint 'async_batch_embed_content')"
@@ -5295,7 +5420,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5434,7 +5559,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5571,7 +5696,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5708,7 +5833,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5847,7 +5972,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5986,7 +6111,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6109,7 +6234,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6246,7 +6371,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6383,7 +6508,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6511,7 +6636,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6639,7 +6764,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6767,7 +6892,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6887,7 +7012,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised generation method 'bidiGenerateMusic' (stored as endpoint 'bidi_generate_music')"
@@ -7027,7 +7152,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7146,7 +7271,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7265,7 +7390,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7384,14 +7509,14 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-13T11:54:02Z",
+   "retrieved_at": "2026-09-14T12:48:45Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   }
  },
  "stats": {
-  "api_models": 55,
-  "models": 55
+  "api_models": 56,
+  "models": 56
  },
  "warnings": [
   "models/gemini-embedding-001: unrecognised generation method 'asyncBatchEmbedContent' (stored as endpoint 'async_batch_embed_content')",

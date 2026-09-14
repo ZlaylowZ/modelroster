@@ -1,17 +1,21 @@
 {
  "provider": "google",
  "first_run": false,
- "previous_retrieved_at": "2026-09-12T10:47:54Z",
- "retrieved_at": "2026-09-13T11:54:02Z",
+ "previous_retrieved_at": "2026-09-13T11:54:02Z",
+ "retrieved_at": "2026-09-14T12:48:45Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
   "previous": 55,
-  "current": 55
+  "current": 56
  },
- "added_models": [],
+ "added_models": [
+  "models/antigravity-preview-09-2026"
+ ],
  "removed_models": [],
- "added_families": [],
+ "added_families": [
+  "models/antigravity-preview-09-2026"
+ ],
  "removed_families": [],
  "new_snapshots": [],
  "removed_snapshots": [],
