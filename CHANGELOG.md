@@ -12,6 +12,12 @@ Two version numbers matter:
 
 ## [Unreleased]
 
+## [0.1.7] — 2026-09-15
+
+Data-only automatic release. Drift since v0.1.6:
+
+- google: 2 record(s) changed
+
 ## [0.1.6] — 2026-09-14
 
 Data-only automatic release. Drift since v0.1.5:
