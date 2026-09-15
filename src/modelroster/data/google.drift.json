@@ -1,25 +1,46 @@
 {
  "provider": "google",
  "first_run": false,
- "previous_retrieved_at": "2026-09-13T11:54:02Z",
- "retrieved_at": "2026-09-14T12:48:45Z",
+ "previous_retrieved_at": "2026-09-14T12:48:45Z",
+ "retrieved_at": "2026-09-15T11:45:06Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
-  "previous": 55,
+  "previous": 56,
   "current": 56
  },
- "added_models": [
-  "models/antigravity-preview-09-2026"
- ],
+ "added_models": [],
  "removed_models": [],
- "added_families": [
-  "models/antigravity-preview-09-2026"
- ],
+ "added_families": [],
  "removed_families": [],
  "new_snapshots": [],
  "removed_snapshots": [],
- "changed_capabilities": {},
+ "changed_capabilities": {
+  "models/antigravity-preview-05-2026": [
+   [
+    "context_window",
+    "131072",
+    "1048576"
+   ],
+   [
+    "max_input_tokens",
+    "131072",
+    "1048576"
+   ]
+  ],
+  "models/antigravity-preview-09-2026": [
+   [
+    "context_window",
+    "131072",
+    "1048576"
+   ],
+   [
+    "max_input_tokens",
+    "131072",
+    "1048576"
+   ]
+  ]
+ },
  "warnings": [
   "models/gemini-embedding-001: unrecognised generation method 'asyncBatchEmbedContent' (stored as endpoint 'async_batch_embed_content')",
   "models/gemini-embedding-2: unrecognised generation method 'asyncBatchEmbedContent' (stored as endpoint 'async_batch_embed_content')",
