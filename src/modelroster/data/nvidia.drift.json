@@ -1,15 +1,17 @@
 {
  "provider": "nvidia",
  "first_run": false,
- "previous_retrieved_at": "2026-09-14T12:48:45Z",
- "retrieved_at": "2026-09-15T11:45:07Z",
+ "previous_retrieved_at": "2026-09-15T11:45:07Z",
+ "retrieved_at": "2026-09-16T11:35:23Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
   "previous": 81,
-  "current": 81
+  "current": 82
  },
- "added_models": [],
+ "added_models": [
+  "z-ai/glm-5.3"
+ ],
  "removed_models": [],
  "added_families": [],
  "removed_families": [],
