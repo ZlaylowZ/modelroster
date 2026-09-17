@@ -1,17 +1,25 @@
 {
  "provider": "mistral",
  "first_run": false,
- "previous_retrieved_at": "2026-09-15T11:45:07Z",
- "retrieved_at": "2026-09-16T11:35:23Z",
+ "previous_retrieved_at": "2026-09-16T11:35:23Z",
+ "retrieved_at": "2026-09-17T11:42:24Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
   "previous": 50,
-  "current": 50
+  "current": 53
  },
- "added_models": [],
+ "added_models": [
+  "zai-glm-5",
+  "zai-glm-5-3",
+  "zai-glm-latest"
+ ],
  "removed_models": [],
- "added_families": [],
+ "added_families": [
+  "zai-glm-5",
+  "zai-glm-5-3",
+  "zai-glm-latest"
+ ],
  "removed_families": [],
  "new_snapshots": [],
  "removed_snapshots": [],
