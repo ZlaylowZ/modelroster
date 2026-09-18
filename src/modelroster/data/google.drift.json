@@ -1,8 +1,8 @@
 {
  "provider": "google",
  "first_run": false,
- "previous_retrieved_at": "2026-09-16T11:35:22Z",
- "retrieved_at": "2026-09-17T11:42:24Z",
+ "previous_retrieved_at": "2026-09-17T11:42:24Z",
+ "retrieved_at": "2026-09-18T11:15:52Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
