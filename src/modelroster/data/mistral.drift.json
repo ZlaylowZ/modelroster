@@ -1,8 +1,8 @@
 {
  "provider": "mistral",
  "first_run": false,
- "previous_retrieved_at": "2026-09-19T11:00:13Z",
- "retrieved_at": "2026-09-20T11:25:29Z",
+ "previous_retrieved_at": "2026-09-20T11:25:29Z",
+ "retrieved_at": "2026-09-21T12:49:26Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
