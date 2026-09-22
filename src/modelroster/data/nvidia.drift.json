@@ -1,18 +1,18 @@
 {
  "provider": "nvidia",
  "first_run": false,
- "previous_retrieved_at": "2026-09-20T11:25:29Z",
- "retrieved_at": "2026-09-21T12:49:26Z",
+ "previous_retrieved_at": "2026-09-21T12:49:26Z",
+ "retrieved_at": "2026-09-22T11:39:42Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
-  "previous": 82,
-  "current": 81
+  "previous": 81,
+  "current": 82
  },
- "added_models": [],
- "removed_models": [
-  "deepseek-ai/deepseek-v4-flash-0731"
+ "added_models": [
+  "deepseek-ai/deepseek-v4.1-flash"
  ],
+ "removed_models": [],
  "added_families": [],
  "removed_families": [],
  "new_snapshots": [],

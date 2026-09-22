@@ -2,7 +2,7 @@
  "provider": "xai",
  "schema_version": 2,
  "parser_version": "2026.08.25-1",
- "retrieved_at": "2026-09-21T12:49:41Z",
+ "retrieved_at": "2026-09-22T11:39:59Z",
  "sources": {
   "listing": "https://api.x.ai/v1/models",
   "language_models": "https://api.x.ai/v1/language-models",
@@ -15,6 +15,7 @@
   "grok-4.3",
   "grok-4.5",
   "grok-4.6",
+  "grok-4.7",
   "grok-build-0.1",
   "grok-imagine-image",
   "grok-imagine-image-2.0",
@@ -173,7 +174,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-21T12:49:41Z",
+   "retrieved_at": "2026-09-22T11:39:58Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -341,7 +342,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-21T12:49:41Z",
+   "retrieved_at": "2026-09-22T11:39:58Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -491,7 +492,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-21T12:49:41Z",
+   "retrieved_at": "2026-09-22T11:39:58Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -608,7 +609,7 @@
     "object": "model",
     "language_model": {
      "id": "grok-4.3",
-     "fingerprint": "fp_9b34ef18c1",
+     "fingerprint": "fp_5bdbcb6cb6",
      "created": 1776384000,
      "object": "model",
      "owned_by": "xai",
@@ -644,7 +645,7 @@
      }
     }
    },
-   "retrieved_at": "2026-09-21T12:49:41Z",
+   "retrieved_at": "2026-09-22T11:39:58Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unexpected capability value '`none`, `low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
@@ -767,7 +768,7 @@
     "object": "model",
     "language_model": {
      "id": "grok-4.5",
-     "fingerprint": "fp_7fd98326f4",
+     "fingerprint": "fp_291be6530b",
      "created": 1782691200,
      "object": "model",
      "owned_by": "xai",
@@ -803,7 +804,7 @@
      }
     }
    },
-   "retrieved_at": "2026-09-21T12:49:41Z",
+   "retrieved_at": "2026-09-22T11:39:58Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unexpected capability value '`low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
@@ -956,7 +957,160 @@
      }
     }
    },
-   "retrieved_at": "2026-09-21T12:49:41Z",
+   "retrieved_at": "2026-09-22T11:39:58Z",
+   "parser_version": "2026.08.25-1",
+   "warnings": [
+    "unexpected capability value '`low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
+    "unrecognised capability 'reasoning efforts (supported)' (kept)",
+    "unexpected capability value '`high`' for 'reasoning efforts (default)'",
+    "unrecognised capability 'reasoning efforts (default)' (kept)"
+   ]
+  },
+  "grok-4.7": {
+   "provider": "xai",
+   "model_id": "grok-4.7",
+   "display_name": "Grok 4.7",
+   "description": "SpaceXAI's frontier model for coding, agentic tasks, and knowledge work.",
+   "family": "grok-4.7",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": "2026-09-02",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 500000,
+   "max_input_tokens": null,
+   "max_output_tokens": null,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": true,
+     "output": false
+    },
+    "audio": {
+     "input": false,
+     "output": false
+    },
+    "video": {
+     "input": false,
+     "output": false
+    }
+   },
+   "capabilities": {
+    "reasoning": true,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": true,
+    "structured_outputs": true,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": false,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {
+     "docs.reasoning_efforts_supported_": null,
+     "docs.reasoning_efforts_default_": null
+    }
+   },
+   "endpoints": {
+    "chat_completions": true
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    },
+    "modalities.input": {
+     "section": "api:/v1/language-models",
+     "evidence": "input_modalities"
+    },
+    "modalities.output": {
+     "section": "api:/v1/language-models",
+     "evidence": "output_modalities"
+    },
+    "endpoints.chat_completions": {
+     "section": "api:/v1/language-models",
+     "evidence": "listed as a language model"
+    },
+    "tool_calling": {
+     "section": "docs:developers/models",
+     "evidence": "Capabilities bullet"
+    },
+    "structured_outputs": {
+     "section": "docs:developers/models",
+     "evidence": "Capabilities bullet"
+    },
+    "reasoning": {
+     "section": "docs:developers/models",
+     "evidence": "Capabilities bullet"
+    },
+    "batch": {
+     "section": "docs:developers/models",
+     "evidence": "At a glance: Batch API"
+    },
+    "context_window": {
+     "section": "docs:developers/models",
+     "evidence": "At a glance: Context window"
+    }
+   },
+   "sources": {
+    "listing": "https://api.x.ai/v1/models",
+    "documentation": "https://docs.x.ai/developers/models/grok-4.7.md",
+    "language_models": "https://api.x.ai/v1/language-models"
+   },
+   "raw": {
+    "created": 1788307200,
+    "owned_by": "xai",
+    "object": "model",
+    "language_model": {
+     "id": "grok-4.7",
+     "fingerprint": "fp_b68f62e321",
+     "created": 1788307200,
+     "object": "model",
+     "owned_by": "xai",
+     "version": "1.0",
+     "input_modalities": [
+      "text",
+      "image"
+     ],
+     "output_modalities": [
+      "text"
+     ],
+     "prompt_text_token_price": 20000,
+     "cached_prompt_text_token_price": 5000,
+     "prompt_image_token_price": 20000,
+     "completion_text_token_price": 60000,
+     "search_price": 0,
+     "prompt_text_token_price_long_context": 40000,
+     "cached_prompt_text_token_price_long_context": 10000,
+     "completion_text_token_price_long_context": 120000,
+     "long_context_threshold": 200000,
+     "aliases": [],
+     "capabilities": {
+      "reasoning_effort": [
+       "low",
+       "medium",
+       "high",
+       "xhigh"
+      ],
+      "default_reasoning_effort": "high"
+     }
+    }
+   },
+   "retrieved_at": "2026-09-22T11:39:58Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unexpected capability value '`low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
@@ -1105,7 +1259,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-21T12:49:41Z",
+   "retrieved_at": "2026-09-22T11:39:58Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1199,7 +1353,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-09-21T12:49:41Z",
+   "retrieved_at": "2026-09-22T11:39:58Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1287,7 +1441,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-09-21T12:49:41Z",
+   "retrieved_at": "2026-09-22T11:39:58Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1383,7 +1537,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-09-21T12:49:41Z",
+   "retrieved_at": "2026-09-22T11:39:58Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1471,7 +1625,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-09-21T12:49:41Z",
+   "retrieved_at": "2026-09-22T11:39:58Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1566,14 +1720,14 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-09-21T12:49:41Z",
+   "retrieved_at": "2026-09-22T11:39:58Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   }
  },
  "stats": {
-  "api_models": 12,
-  "models": 12
+  "api_models": 13,
+  "models": 13
  },
  "warnings": [
   "grok-4.3: unexpected capability value '`none`, `low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
@@ -1587,7 +1741,11 @@
   "grok-4.6: unexpected capability value '`low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
   "grok-4.6: unrecognised capability 'reasoning efforts (supported)' (kept)",
   "grok-4.6: unexpected capability value '`high`' for 'reasoning efforts (default)'",
-  "grok-4.6: unrecognised capability 'reasoning efforts (default)' (kept)"
+  "grok-4.6: unrecognised capability 'reasoning efforts (default)' (kept)",
+  "grok-4.7: unexpected capability value '`low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
+  "grok-4.7: unrecognised capability 'reasoning efforts (supported)' (kept)",
+  "grok-4.7: unexpected capability value '`high`' for 'reasoning efforts (default)'",
+  "grok-4.7: unrecognised capability 'reasoning efforts (default)' (kept)"
  ],
  "extra": {
   "docs_pages": {
@@ -1597,6 +1755,7 @@
    "grok-4.3": "ok",
    "grok-4.5": "ok",
    "grok-4.6": "ok",
+   "grok-4.7": "ok",
    "grok-build-0.1": "ok",
    "grok-imagine-image": "ok_no_capabilities",
    "grok-imagine-image-2.0": "ok_no_capabilities",

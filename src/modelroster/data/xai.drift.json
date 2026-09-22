@@ -1,17 +1,21 @@
 {
  "provider": "xai",
  "first_run": false,
- "previous_retrieved_at": "2026-09-20T11:25:46Z",
- "retrieved_at": "2026-09-21T12:49:41Z",
+ "previous_retrieved_at": "2026-09-21T12:49:41Z",
+ "retrieved_at": "2026-09-22T11:39:59Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
   "previous": 12,
-  "current": 12
+  "current": 13
  },
- "added_models": [],
+ "added_models": [
+  "grok-4.7"
+ ],
  "removed_models": [],
- "added_families": [],
+ "added_families": [
+  "grok-4.7"
+ ],
  "removed_families": [],
  "new_snapshots": [],
  "removed_snapshots": [],
@@ -28,6 +32,10 @@
   "grok-4.6: unexpected capability value '`low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
   "grok-4.6: unrecognised capability 'reasoning efforts (supported)' (kept)",
   "grok-4.6: unexpected capability value '`high`' for 'reasoning efforts (default)'",
-  "grok-4.6: unrecognised capability 'reasoning efforts (default)' (kept)"
+  "grok-4.6: unrecognised capability 'reasoning efforts (default)' (kept)",
+  "grok-4.7: unexpected capability value '`low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
+  "grok-4.7: unrecognised capability 'reasoning efforts (supported)' (kept)",
+  "grok-4.7: unexpected capability value '`high`' for 'reasoning efforts (default)'",
+  "grok-4.7: unrecognised capability 'reasoning efforts (default)' (kept)"
  ]
 }
