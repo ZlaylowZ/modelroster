@@ -1,17 +1,21 @@
 {
  "provider": "anthropic",
  "first_run": false,
- "previous_retrieved_at": "2026-09-21T12:49:25Z",
- "retrieved_at": "2026-09-22T11:39:41Z",
+ "previous_retrieved_at": "2026-09-22T11:39:41Z",
+ "retrieved_at": "2026-09-23T11:37:57Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
   "previous": 11,
-  "current": 11
+  "current": 12
  },
- "added_models": [],
+ "added_models": [
+  "claude-opus-5-5"
+ ],
  "removed_models": [],
- "added_families": [],
+ "added_families": [
+  "claude-opus-5-5"
+ ],
  "removed_families": [],
  "new_snapshots": [],
  "removed_snapshots": [],

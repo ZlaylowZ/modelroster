@@ -1,19 +1,28 @@
 {
  "provider": "openai",
  "first_run": false,
- "previous_retrieved_at": "2026-09-21T12:49:41Z",
- "retrieved_at": "2026-09-22T11:39:58Z",
+ "previous_retrieved_at": "2026-09-22T11:39:58Z",
+ "retrieved_at": "2026-09-23T11:38:14Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
   "previous": 132,
-  "current": 132
+  "current": 134
  },
- "added_models": [],
+ "added_models": [
+  "gpt-6-luna",
+  "gpt-6-sol"
+ ],
  "removed_models": [],
- "added_families": [],
+ "added_families": [
+  "gpt-6-luna",
+  "gpt-6-sol"
+ ],
  "removed_families": [],
- "new_snapshots": [],
+ "new_snapshots": [
+  "gpt-6-luna",
+  "gpt-6-sol"
+ ],
  "removed_snapshots": [],
  "changed_capabilities": {},
  "warnings": [
@@ -99,6 +108,8 @@
   "gpt-5.6-sol: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "gpt-5.6-terra: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "gpt-6-astra: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-6-luna: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-6-sol: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "gpt-audio: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "gpt-audio-1.5: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "gpt-audio-2025-08-28: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
