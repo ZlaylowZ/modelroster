@@ -2,7 +2,7 @@
  "provider": "google",
  "schema_version": 2,
  "parser_version": "2026.08.25-1",
- "retrieved_at": "2026-09-23T11:37:57Z",
+ "retrieved_at": "2026-09-24T11:47:05Z",
  "sources": {
   "listing": "https://generativelanguage.googleapis.com/v1beta/openai/models",
   "native": "https://generativelanguage.googleapis.com/v1beta/models"
@@ -45,6 +45,8 @@
   "models/gemini-3.6-flash",
   "models/gemini-3.7-flash",
   "models/gemini-3.8-flash",
+  "models/gemini-3.8-flash-lite-tts",
+  "models/gemini-3.8-flash-tts",
   "models/gemini-3.8-live",
   "models/gemini-3.8-live-extended-thinking",
   "models/gemini-embedding-001",
@@ -189,7 +191,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -313,7 +315,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -437,7 +439,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -559,7 +561,7 @@
      "topK": 40
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -696,7 +698,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -833,7 +835,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -970,7 +972,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1107,7 +1109,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1246,7 +1248,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1375,7 +1377,7 @@
      "maxTemperature": 1
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1514,7 +1516,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1647,7 +1649,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1780,7 +1782,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1913,7 +1915,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2041,7 +2043,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2180,7 +2182,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2309,7 +2311,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2448,7 +2450,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2586,7 +2588,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2724,7 +2726,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2862,7 +2864,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3000,7 +3002,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3139,7 +3141,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3277,7 +3279,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3416,7 +3418,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3539,7 +3541,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3677,7 +3679,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3816,7 +3818,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3955,7 +3957,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4094,7 +4096,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4233,7 +4235,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4356,7 +4358,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4493,7 +4495,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4616,7 +4618,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4755,7 +4757,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4894,7 +4896,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5033,7 +5035,265 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
+   "parser_version": "2026.08.25-1",
+   "warnings": []
+  },
+  "models/gemini-3.8-flash-lite-tts": {
+   "provider": "google",
+   "model_id": "models/gemini-3.8-flash-lite-tts",
+   "display_name": "Gemini 3.8 Flash Lite TTS",
+   "description": "Gemini 3.8 Flash Lite TTS",
+   "family": "models/gemini-3.8-flash-lite-tts",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": null,
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 8192,
+   "max_input_tokens": 8192,
+   "max_output_tokens": 16384,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": false,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {
+    "chat_completions": true,
+    "generate_content": true,
+    "stream_generate_content": false,
+    "count_tokens": true,
+    "embed_content": false,
+    "batch_embed_contents": false,
+    "generate_answer": false,
+    "predict": false,
+    "predict_long_running": false,
+    "bidi_generate_content": false,
+    "create_cached_content": false,
+    "batch_generate_content": true,
+    "count_text_tokens": false,
+    "generate_text": false,
+    "embed_text": false,
+    "create_tuned_model": false
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "endpoints.chat_completions": {
+     "section": "api:/v1beta/openai/models",
+     "evidence": "listed by the OpenAI-compatibility shim"
+    },
+    "context_window": {
+     "section": "api:/v1beta/models",
+     "evidence": "inputTokenLimit"
+    },
+    "max_input_tokens": {
+     "section": "api:/v1beta/models",
+     "evidence": "inputTokenLimit"
+    },
+    "max_output_tokens": {
+     "section": "api:/v1beta/models",
+     "evidence": "outputTokenLimit"
+    },
+    "endpoints": {
+     "section": "api:/v1beta/models",
+     "evidence": "supportedGenerationMethods"
+    },
+    "streaming": {
+     "section": "api:/v1beta/models",
+     "evidence": "supportedGenerationMethods contains streamGenerateContent"
+    }
+   },
+   "sources": {
+    "listing": "https://generativelanguage.googleapis.com/v1beta/openai/models",
+    "documentation": null,
+    "native": "https://generativelanguage.googleapis.com/v1beta/models"
+   },
+   "raw": {
+    "owned_by": "google",
+    "object": "model",
+    "native": {
+     "name": "models/gemini-3.8-flash-lite-tts",
+     "version": "3.8-flash-lite-tts",
+     "displayName": "Gemini 3.8 Flash Lite TTS",
+     "inputTokenLimit": 8192,
+     "outputTokenLimit": 16384,
+     "supportedGenerationMethods": [
+      "generateContent",
+      "countTokens",
+      "batchGenerateContent"
+     ],
+     "temperature": 1,
+     "topP": 0.95,
+     "topK": 64,
+     "maxTemperature": 2
+    }
+   },
+   "retrieved_at": "2026-09-24T11:47:05Z",
+   "parser_version": "2026.08.25-1",
+   "warnings": []
+  },
+  "models/gemini-3.8-flash-tts": {
+   "provider": "google",
+   "model_id": "models/gemini-3.8-flash-tts",
+   "display_name": "Gemini 3.8 Flash TTS",
+   "description": "Gemini 3.8 Flash TTS",
+   "family": "models/gemini-3.8-flash-tts",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": null,
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 8192,
+   "max_input_tokens": 8192,
+   "max_output_tokens": 16384,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": false,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {
+    "chat_completions": true,
+    "generate_content": true,
+    "stream_generate_content": false,
+    "count_tokens": true,
+    "embed_content": false,
+    "batch_embed_contents": false,
+    "generate_answer": false,
+    "predict": false,
+    "predict_long_running": false,
+    "bidi_generate_content": false,
+    "create_cached_content": false,
+    "batch_generate_content": true,
+    "count_text_tokens": false,
+    "generate_text": false,
+    "embed_text": false,
+    "create_tuned_model": false
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "endpoints.chat_completions": {
+     "section": "api:/v1beta/openai/models",
+     "evidence": "listed by the OpenAI-compatibility shim"
+    },
+    "context_window": {
+     "section": "api:/v1beta/models",
+     "evidence": "inputTokenLimit"
+    },
+    "max_input_tokens": {
+     "section": "api:/v1beta/models",
+     "evidence": "inputTokenLimit"
+    },
+    "max_output_tokens": {
+     "section": "api:/v1beta/models",
+     "evidence": "outputTokenLimit"
+    },
+    "endpoints": {
+     "section": "api:/v1beta/models",
+     "evidence": "supportedGenerationMethods"
+    },
+    "streaming": {
+     "section": "api:/v1beta/models",
+     "evidence": "supportedGenerationMethods contains streamGenerateContent"
+    }
+   },
+   "sources": {
+    "listing": "https://generativelanguage.googleapis.com/v1beta/openai/models",
+    "documentation": null,
+    "native": "https://generativelanguage.googleapis.com/v1beta/models"
+   },
+   "raw": {
+    "owned_by": "google",
+    "object": "model",
+    "native": {
+     "name": "models/gemini-3.8-flash-tts",
+     "version": "3.8-flash-tts",
+     "displayName": "Gemini 3.8 Flash TTS",
+     "inputTokenLimit": 8192,
+     "outputTokenLimit": 16384,
+     "supportedGenerationMethods": [
+      "generateContent",
+      "countTokens",
+      "batchGenerateContent"
+     ],
+     "temperature": 1,
+     "topP": 0.95,
+     "topK": 64,
+     "maxTemperature": 2
+    }
+   },
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5156,7 +5416,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5288,7 +5548,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5411,7 +5671,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised generation method 'asyncBatchEmbedContent' (stored as endpoint 'async_batch_embed_content')"
@@ -5536,7 +5796,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised generation method 'asyncBatchEmbedContent' (stored as endpoint 'async_batch_embed_content')"
@@ -5661,7 +5921,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised generation method 'asyncBatchEmbedContent' (stored as endpoint 'async_batch_embed_content')"
@@ -5802,7 +6062,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5941,7 +6201,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6078,7 +6338,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6215,7 +6475,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6354,7 +6614,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6493,7 +6753,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6616,7 +6876,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6753,7 +7013,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6890,7 +7150,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7018,7 +7278,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7146,7 +7406,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7274,7 +7534,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7394,7 +7654,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised generation method 'bidiGenerateMusic' (stored as endpoint 'bidi_generate_music')"
@@ -7534,7 +7794,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7653,7 +7913,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7772,7 +8032,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7891,14 +8151,14 @@
      ]
     }
    },
-   "retrieved_at": "2026-09-23T11:37:57Z",
+   "retrieved_at": "2026-09-24T11:47:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   }
  },
  "stats": {
-  "api_models": 59,
-  "models": 59
+  "api_models": 61,
+  "models": 61
  },
  "warnings": [
   "models/gemini-embedding-001: unrecognised generation method 'asyncBatchEmbedContent' (stored as endpoint 'async_batch_embed_content')",
