@@ -1,8 +1,8 @@
 {
  "provider": "openai",
  "first_run": false,
- "previous_retrieved_at": "2026-09-23T11:38:14Z",
- "retrieved_at": "2026-09-24T11:47:21Z",
+ "previous_retrieved_at": "2026-09-24T11:47:21Z",
+ "retrieved_at": "2026-09-25T11:51:53Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
@@ -12,10 +12,364 @@
  "added_models": [],
  "removed_models": [],
  "added_families": [],
- "removed_families": [],
+ "removed_families": [
+  "sora-2",
+  "sora-2-pro"
+ ],
  "new_snapshots": [],
- "removed_snapshots": [],
- "changed_capabilities": {},
+ "removed_snapshots": [
+  "sora-2",
+  "sora-2-2025-10-06",
+  "sora-2-2025-12-08",
+  "sora-2-pro",
+  "sora-2-pro-2025-10-06"
+ ],
+ "changed_capabilities": {
+  "sora-2": [
+   [
+    "capabilities.batch",
+    "false",
+    "unknown"
+   ],
+   [
+    "capabilities.fine_tuning",
+    "false",
+    "unknown"
+   ],
+   [
+    "capabilities.reasoning",
+    "false",
+    "unknown"
+   ],
+   [
+    "default_snapshot",
+    "sora-2-2025-12-08",
+    "unknown"
+   ],
+   [
+    "display_name",
+    "Sora 2",
+    "unknown"
+   ],
+   [
+    "endpoints.assistants",
+    "false",
+    "unknown"
+   ],
+   [
+    "endpoints.batch",
+    "false",
+    "unknown"
+   ],
+   [
+    "endpoints.chat_completions",
+    "false",
+    "unknown"
+   ],
+   [
+    "endpoints.completions_legacy",
+    "false",
+    "unknown"
+   ],
+   [
+    "endpoints.embeddings",
+    "false",
+    "unknown"
+   ],
+   [
+    "endpoints.fine_tuning",
+    "false",
+    "unknown"
+   ],
+   [
+    "endpoints.image_edit",
+    "false",
+    "unknown"
+   ],
+   [
+    "endpoints.image_generation",
+    "false",
+    "unknown"
+   ],
+   [
+    "endpoints.moderation",
+    "false",
+    "unknown"
+   ],
+   [
+    "endpoints.realtime",
+    "false",
+    "unknown"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "false",
+    "unknown"
+   ],
+   [
+    "endpoints.realtime_translation",
+    "false",
+    "unknown"
+   ],
+   [
+    "endpoints.responses",
+    "false",
+    "unknown"
+   ],
+   [
+    "endpoints.speech_generation",
+    "false",
+    "unknown"
+   ],
+   [
+    "endpoints.transcription",
+    "false",
+    "unknown"
+   ],
+   [
+    "endpoints.translation",
+    "false",
+    "unknown"
+   ],
+   [
+    "endpoints.v1_live_sessions",
+    "false",
+    "unknown"
+   ],
+   [
+    "endpoints.videos",
+    "true",
+    "unknown"
+   ],
+   [
+    "family",
+    "sora-2",
+    "unknown"
+   ],
+   [
+    "modalities.audio.input",
+    "false",
+    "unknown"
+   ],
+   [
+    "modalities.audio.output",
+    "true",
+    "unknown"
+   ],
+   [
+    "modalities.image.input",
+    "true",
+    "unknown"
+   ],
+   [
+    "modalities.image.output",
+    "false",
+    "unknown"
+   ],
+   [
+    "modalities.text.input",
+    "true",
+    "unknown"
+   ],
+   [
+    "modalities.text.output",
+    "false",
+    "unknown"
+   ],
+   [
+    "modalities.video.input",
+    "false",
+    "unknown"
+   ],
+   [
+    "modalities.video.output",
+    "true",
+    "unknown"
+   ],
+   [
+    "relationship",
+    "canonical",
+    "unknown"
+   ],
+   [
+    "snapshots",
+    "[sora-2-2025-12-08, sora-2-2025-10-06, sora-2]",
+    "[]"
+   ]
+  ],
+  "sora-2-pro": [
+   [
+    "capabilities.batch",
+    "false",
+    "unknown"
+   ],
+   [
+    "capabilities.fine_tuning",
+    "false",
+    "unknown"
+   ],
+   [
+    "capabilities.reasoning",
+    "false",
+    "unknown"
+   ],
+   [
+    "default_snapshot",
+    "sora-2-pro-2025-10-06",
+    "unknown"
+   ],
+   [
+    "display_name",
+    "Sora 2 Pro",
+    "unknown"
+   ],
+   [
+    "endpoints.assistants",
+    "false",
+    "unknown"
+   ],
+   [
+    "endpoints.batch",
+    "false",
+    "unknown"
+   ],
+   [
+    "endpoints.chat_completions",
+    "false",
+    "unknown"
+   ],
+   [
+    "endpoints.completions_legacy",
+    "false",
+    "unknown"
+   ],
+   [
+    "endpoints.embeddings",
+    "false",
+    "unknown"
+   ],
+   [
+    "endpoints.fine_tuning",
+    "false",
+    "unknown"
+   ],
+   [
+    "endpoints.image_edit",
+    "false",
+    "unknown"
+   ],
+   [
+    "endpoints.image_generation",
+    "false",
+    "unknown"
+   ],
+   [
+    "endpoints.moderation",
+    "false",
+    "unknown"
+   ],
+   [
+    "endpoints.realtime",
+    "false",
+    "unknown"
+   ],
+   [
+    "endpoints.realtime_transcription",
+    "false",
+    "unknown"
+   ],
+   [
+    "endpoints.realtime_translation",
+    "false",
+    "unknown"
+   ],
+   [
+    "endpoints.responses",
+    "false",
+    "unknown"
+   ],
+   [
+    "endpoints.speech_generation",
+    "false",
+    "unknown"
+   ],
+   [
+    "endpoints.transcription",
+    "false",
+    "unknown"
+   ],
+   [
+    "endpoints.translation",
+    "false",
+    "unknown"
+   ],
+   [
+    "endpoints.v1_live_sessions",
+    "false",
+    "unknown"
+   ],
+   [
+    "endpoints.videos",
+    "true",
+    "unknown"
+   ],
+   [
+    "family",
+    "sora-2-pro",
+    "unknown"
+   ],
+   [
+    "modalities.audio.input",
+    "false",
+    "unknown"
+   ],
+   [
+    "modalities.audio.output",
+    "true",
+    "unknown"
+   ],
+   [
+    "modalities.image.input",
+    "true",
+    "unknown"
+   ],
+   [
+    "modalities.image.output",
+    "false",
+    "unknown"
+   ],
+   [
+    "modalities.text.input",
+    "true",
+    "unknown"
+   ],
+   [
+    "modalities.text.output",
+    "false",
+    "unknown"
+   ],
+   [
+    "modalities.video.input",
+    "false",
+    "unknown"
+   ],
+   [
+    "modalities.video.output",
+    "true",
+    "unknown"
+   ],
+   [
+    "relationship",
+    "canonical",
+    "unknown"
+   ],
+   [
+    "snapshots",
+    "[sora-2-pro-2025-10-06, sora-2-pro]",
+    "[]"
+   ]
+  ]
+ },
  "warnings": [
   "babbage-002: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "babbage-002: contradiction: 'fine_tuning' listed under Supported features but v1/fine-tuning is Not supported",
@@ -144,8 +498,8 @@
   "o4-mini-deep-research-2025-06-26: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "omni-moderation-2024-09-26: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "omni-moderation-latest: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
-  "sora-2: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
-  "sora-2-pro: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "sora-2: No official model documentation record matched this API model ID.",
+  "sora-2-pro: No official model documentation record matched this API model ID.",
   "text-embedding-3-large: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "text-embedding-3-small: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "text-embedding-ada-002: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -157,7 +511,7 @@
   "id 'gpt-5.6-sol' claimed by gpt-5.6-sol, gpt-daybreak-blue-latest; resolved to 'gpt-5.6-sol'",
   "id 'gpt-5.6-cyber' claimed by gpt-5.6-cyber, gpt-daybreak-red-latest; resolved to 'gpt-5.6-cyber'",
   "id 'text-moderation-007' claimed by text-moderation-latest, text-moderation-stable; resolved to 'text-moderation-latest'",
-  "6 API model id(s) have no documentation record: gpt-3.5-turbo-16k, gpt-3.5-turbo-instruct-0914, gpt-5-search-api, gpt-5-search-api-2025-10-14, tts-1-1106, tts-1-hd-1106",
+  "8 API model id(s) have no documentation record: gpt-3.5-turbo-16k, gpt-3.5-turbo-instruct-0914, gpt-5-search-api, gpt-5-search-api-2025-10-14, sora-2, sora-2-pro, tts-1-1106, tts-1-hd-1106",
   "chatgpt-4o-latest: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "codex-mini-latest: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "computer-use-preview: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
