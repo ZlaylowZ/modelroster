@@ -1,16 +1,18 @@
 {
  "provider": "nvidia",
  "first_run": false,
- "previous_retrieved_at": "2026-09-26T11:25:51Z",
- "retrieved_at": "2026-09-27T12:03:34Z",
+ "previous_retrieved_at": "2026-09-27T12:03:34Z",
+ "retrieved_at": "2026-09-28T13:56:30Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
   "previous": 82,
-  "current": 82
+  "current": 81
  },
  "added_models": [],
- "removed_models": [],
+ "removed_models": [
+  "mistralai/mistral-nemotron"
+ ],
  "added_families": [],
  "removed_families": [],
  "new_snapshots": [],
