@@ -1,17 +1,21 @@
 {
  "provider": "anthropic",
  "first_run": false,
- "previous_retrieved_at": "2026-09-27T12:03:33Z",
- "retrieved_at": "2026-09-28T13:56:28Z",
+ "previous_retrieved_at": "2026-09-28T13:56:28Z",
+ "retrieved_at": "2026-09-29T12:54:22Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
   "previous": 12,
-  "current": 12
+  "current": 13
  },
- "added_models": [],
+ "added_models": [
+  "claude-sonnet-5-5"
+ ],
  "removed_models": [],
- "added_families": [],
+ "added_families": [
+  "claude-sonnet-5-5"
+ ],
  "removed_families": [],
  "new_snapshots": [],
  "removed_snapshots": [],
