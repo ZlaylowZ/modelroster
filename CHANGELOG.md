@@ -12,6 +12,12 @@ Two version numbers matter:
 
 ## [Unreleased]
 
+## [0.1.16] — 2026-09-29
+
+Data-only automatic release. Drift since v0.1.15:
+
+- anthropic: +1 model(s)
+
 ## [0.1.15] — 2026-09-28
 
 Data-only automatic release. Drift since v0.1.14:
