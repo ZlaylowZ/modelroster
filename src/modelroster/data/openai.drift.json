@@ -1,19 +1,25 @@
 {
  "provider": "openai",
  "first_run": false,
- "previous_retrieved_at": "2026-09-28T13:56:44Z",
- "retrieved_at": "2026-09-29T12:54:41Z",
+ "previous_retrieved_at": "2026-09-29T12:54:41Z",
+ "retrieved_at": "2026-09-30T12:35:50Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
   "previous": 134,
-  "current": 134
+  "current": 135
  },
- "added_models": [],
+ "added_models": [
+  "gpt-6.1-sol"
+ ],
  "removed_models": [],
- "added_families": [],
+ "added_families": [
+  "gpt-6.1-sol"
+ ],
  "removed_families": [],
- "new_snapshots": [],
+ "new_snapshots": [
+  "gpt-6.1-sol"
+ ],
  "removed_snapshots": [],
  "changed_capabilities": {},
  "warnings": [
@@ -101,6 +107,8 @@
   "gpt-6-astra: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "gpt-6-luna: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "gpt-6-sol: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-6.1-sol: unrecognised Model details bullet: 'Unsupported modalities: audio, video'",
+  "gpt-6.1-sol: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "gpt-audio: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "gpt-audio-1.5: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "gpt-audio-2025-08-28: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",

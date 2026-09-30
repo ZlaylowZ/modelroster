@@ -1,20 +1,29 @@
 {
  "provider": "cohere",
  "first_run": false,
- "previous_retrieved_at": "2026-09-28T13:56:28Z",
- "retrieved_at": "2026-09-29T12:54:22Z",
+ "previous_retrieved_at": "2026-09-29T12:54:22Z",
+ "retrieved_at": "2026-09-30T12:35:33Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
   "previous": 33,
-  "current": 33
+  "current": 35
  },
- "added_models": [],
+ "added_models": [
+  "embed-v5.0-fast",
+  "embed-v5.0-pro"
+ ],
  "removed_models": [],
- "added_families": [],
+ "added_families": [
+  "embed-v5.0-fast",
+  "embed-v5.0-pro"
+ ],
  "removed_families": [],
  "new_snapshots": [],
  "removed_snapshots": [],
  "changed_capabilities": {},
- "warnings": []
+ "warnings": [
+  "embed-v5.0-fast: unrecognised feature 'extended_output_dimensions' (kept)",
+  "embed-v5.0-pro: unrecognised feature 'extended_output_dimensions' (kept)"
+ ]
 }
