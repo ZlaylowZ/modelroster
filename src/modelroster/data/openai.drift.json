@@ -1,27 +1,70 @@
 {
  "provider": "openai",
  "first_run": false,
- "previous_retrieved_at": "2026-09-29T12:54:41Z",
- "retrieved_at": "2026-09-30T12:35:50Z",
+ "previous_retrieved_at": "2026-09-30T12:35:50Z",
+ "retrieved_at": "2026-10-01T13:16:41Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
-  "previous": 134,
+  "previous": 135,
   "current": 135
  },
- "added_models": [
-  "gpt-6.1-sol"
- ],
+ "added_models": [],
  "removed_models": [],
- "added_families": [
-  "gpt-6.1-sol"
- ],
+ "added_families": [],
  "removed_families": [],
- "new_snapshots": [
-  "gpt-6.1-sol"
- ],
+ "new_snapshots": [],
  "removed_snapshots": [],
- "changed_capabilities": {},
+ "changed_capabilities": {
+  "gpt-image-2.5-flare": [
+   [
+    "capabilities.batch",
+    "false",
+    "true"
+   ],
+   [
+    "endpoints.batch",
+    "false",
+    "true"
+   ]
+  ],
+  "gpt-image-2.5-flare-2026-09-08": [
+   [
+    "capabilities.batch",
+    "false",
+    "true"
+   ],
+   [
+    "endpoints.batch",
+    "false",
+    "true"
+   ]
+  ],
+  "gpt-image-2.5-sunburst": [
+   [
+    "capabilities.batch",
+    "false",
+    "true"
+   ],
+   [
+    "endpoints.batch",
+    "false",
+    "true"
+   ]
+  ],
+  "gpt-image-2.5-sunburst-2026-09-08": [
+   [
+    "capabilities.batch",
+    "false",
+    "true"
+   ],
+   [
+    "endpoints.batch",
+    "false",
+    "true"
+   ]
+  ]
+ },
  "warnings": [
   "babbage-002: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "babbage-002: contradiction: 'fine_tuning' listed under Supported features but v1/fine-tuning is Not supported",
