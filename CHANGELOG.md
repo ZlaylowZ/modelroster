@@ -12,6 +12,12 @@ Two version numbers matter:
 
 ## [Unreleased]
 
+## [0.1.18] — 2026-10-01
+
+Data-only automatic release. Drift since v0.1.17:
+
+- openai: 4 record(s) changed
+
 ## [0.1.17] — 2026-09-30
 
 Data-only automatic release. Drift since v0.1.16:
