@@ -1,15 +1,17 @@
 {
  "provider": "xai",
  "first_run": false,
- "previous_retrieved_at": "2026-09-30T12:35:50Z",
- "retrieved_at": "2026-10-01T13:16:44Z",
+ "previous_retrieved_at": "2026-10-01T13:16:44Z",
+ "retrieved_at": "2026-10-02T12:36:20Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
   "previous": 13,
-  "current": 13
+  "current": 14
  },
- "added_models": [],
+ "added_models": [
+  "grok-imagine-video-1.5-lite"
+ ],
  "removed_models": [],
  "added_families": [],
  "removed_families": [],
