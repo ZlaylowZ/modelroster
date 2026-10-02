@@ -12,6 +12,12 @@ Two version numbers matter:
 
 ## [Unreleased]
 
+## [0.1.19] — 2026-10-02
+
+Data-only automatic release. Drift since v0.1.18:
+
+- xai: +1 model(s)
+
 ## [0.1.18] — 2026-10-01
 
 Data-only automatic release. Drift since v0.1.17:
