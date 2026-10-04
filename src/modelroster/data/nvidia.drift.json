@@ -1,18 +1,18 @@
 {
  "provider": "nvidia",
  "first_run": false,
- "previous_retrieved_at": "2026-10-02T12:36:04Z",
- "retrieved_at": "2026-10-03T11:40:39Z",
+ "previous_retrieved_at": "2026-10-03T11:40:39Z",
+ "retrieved_at": "2026-10-04T12:22:42Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
-  "previous": 81,
-  "current": 80
+  "previous": 80,
+  "current": 81
  },
- "added_models": [],
- "removed_models": [
+ "added_models": [
   "nvidia/nemotron-3-super-120b-a12b"
  ],
+ "removed_models": [],
  "added_families": [],
  "removed_families": [],
  "new_snapshots": [],
