@@ -2,7 +2,7 @@
  "provider": "xai",
  "schema_version": 2,
  "parser_version": "2026.08.25-1",
- "retrieved_at": "2026-10-04T12:22:58Z",
+ "retrieved_at": "2026-10-05T14:41:14Z",
  "sources": {
   "listing": "https://api.x.ai/v1/models",
   "language_models": "https://api.x.ai/v1/language-models",
@@ -175,7 +175,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-10-04T12:22:57Z",
+   "retrieved_at": "2026-10-05T14:41:13Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -343,7 +343,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-10-04T12:22:57Z",
+   "retrieved_at": "2026-10-05T14:41:13Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -493,7 +493,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-10-04T12:22:57Z",
+   "retrieved_at": "2026-10-05T14:41:13Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -646,7 +646,7 @@
      }
     }
    },
-   "retrieved_at": "2026-10-04T12:22:57Z",
+   "retrieved_at": "2026-10-05T14:41:13Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unexpected capability value '`none`, `low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
@@ -769,7 +769,7 @@
     "object": "model",
     "language_model": {
      "id": "grok-4.5",
-     "fingerprint": "fp_b11daf4fe1",
+     "fingerprint": "fp_5a824b3f8b",
      "created": 1782691200,
      "object": "model",
      "owned_by": "xai",
@@ -805,7 +805,7 @@
      }
     }
    },
-   "retrieved_at": "2026-10-04T12:22:57Z",
+   "retrieved_at": "2026-10-05T14:41:13Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unexpected capability value '`low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
@@ -958,7 +958,7 @@
      }
     }
    },
-   "retrieved_at": "2026-10-04T12:22:57Z",
+   "retrieved_at": "2026-10-05T14:41:13Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unexpected capability value '`low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
@@ -1078,7 +1078,7 @@
     "object": "model",
     "language_model": {
      "id": "grok-4.7",
-     "fingerprint": "fp_8bc5062785",
+     "fingerprint": "fp_b1a9776119",
      "created": 1788307200,
      "object": "model",
      "owned_by": "xai",
@@ -1111,7 +1111,7 @@
      }
     }
    },
-   "retrieved_at": "2026-10-04T12:22:57Z",
+   "retrieved_at": "2026-10-05T14:41:13Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unexpected capability value '`low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
@@ -1260,7 +1260,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-10-04T12:22:57Z",
+   "retrieved_at": "2026-10-05T14:41:13Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1354,7 +1354,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-10-04T12:22:57Z",
+   "retrieved_at": "2026-10-05T14:41:13Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1442,7 +1442,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-10-04T12:22:57Z",
+   "retrieved_at": "2026-10-05T14:41:13Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1538,7 +1538,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-10-04T12:22:57Z",
+   "retrieved_at": "2026-10-05T14:41:13Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1626,7 +1626,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-10-04T12:22:57Z",
+   "retrieved_at": "2026-10-05T14:41:13Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1721,7 +1721,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-10-04T12:22:57Z",
+   "retrieved_at": "2026-10-05T14:41:13Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1809,7 +1809,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-10-04T12:22:57Z",
+   "retrieved_at": "2026-10-05T14:41:13Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   }
