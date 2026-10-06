@@ -1,18 +1,16 @@
 {
  "provider": "nvidia",
  "first_run": false,
- "previous_retrieved_at": "2026-10-04T12:22:42Z",
- "retrieved_at": "2026-10-05T14:40:58Z",
+ "previous_retrieved_at": "2026-10-05T14:40:58Z",
+ "retrieved_at": "2026-10-06T13:19:12Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
-  "previous": 81,
+  "previous": 80,
   "current": 80
  },
  "added_models": [],
- "removed_models": [
-  "nvidia/riva-translate-4b-instruct-v1.1"
- ],
+ "removed_models": [],
  "added_families": [],
  "removed_families": [],
  "new_snapshots": [],
