@@ -2,7 +2,7 @@
  "provider": "anthropic",
  "schema_version": 2,
  "parser_version": "2026.08.25-1",
- "retrieved_at": "2026-10-06T13:19:10Z",
+ "retrieved_at": "2026-10-07T13:24:57Z",
  "sources": {
   "listing": "https://api.anthropic.com/v1/models"
  },
@@ -87,7 +87,8 @@
      "context_management": true,
      "context_management.clear_tool_uses_20250919": true,
      "context_management.clear_thinking_20251015": true,
-     "context_management.compact_20260112": true
+     "context_management.compact_20260112": true,
+     "server_tools": true
     }
    },
    "endpoints": {
@@ -218,6 +219,15 @@
      "pdf_input": {
       "supported": true
      },
+     "server_tools": {
+      "supported": true,
+      "code_execution": {
+       "supported": true
+      },
+      "web_search": {
+       "supported": true
+      }
+     },
      "structured_outputs": {
       "supported": true
      },
@@ -237,10 +247,11 @@
      }
     }
    },
-   "retrieved_at": "2026-10-06T13:19:10Z",
+   "retrieved_at": "2026-10-07T13:24:57Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
-    "unrecognised thinking type 'disabled'"
+    "unrecognised thinking type 'disabled'",
+    "unrecognised capability block 'server_tools'"
    ]
   },
   "claude-opus-5-5": {
@@ -308,7 +319,8 @@
      "context_management": true,
      "context_management.clear_tool_uses_20250919": true,
      "context_management.clear_thinking_20251015": true,
-     "context_management.compact_20260112": true
+     "context_management.compact_20260112": true,
+     "server_tools": true
     }
    },
    "endpoints": {
@@ -439,6 +451,15 @@
      "pdf_input": {
       "supported": true
      },
+     "server_tools": {
+      "supported": true,
+      "code_execution": {
+       "supported": true
+      },
+      "web_search": {
+       "supported": true
+      }
+     },
      "structured_outputs": {
       "supported": true
      },
@@ -458,10 +479,11 @@
      }
     }
    },
-   "retrieved_at": "2026-10-06T13:19:10Z",
+   "retrieved_at": "2026-10-07T13:24:57Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
-    "unrecognised thinking type 'disabled'"
+    "unrecognised thinking type 'disabled'",
+    "unrecognised capability block 'server_tools'"
    ]
   },
   "claude-fable-5-1": {
@@ -529,7 +551,8 @@
      "context_management": true,
      "context_management.clear_tool_uses_20250919": true,
      "context_management.clear_thinking_20251015": true,
-     "context_management.compact_20260112": true
+     "context_management.compact_20260112": true,
+     "server_tools": true
     }
    },
    "endpoints": {
@@ -660,6 +683,15 @@
      "pdf_input": {
       "supported": true
      },
+     "server_tools": {
+      "supported": true,
+      "code_execution": {
+       "supported": true
+      },
+      "web_search": {
+       "supported": true
+      }
+     },
      "structured_outputs": {
       "supported": true
      },
@@ -679,10 +711,11 @@
      }
     }
    },
-   "retrieved_at": "2026-10-06T13:19:10Z",
+   "retrieved_at": "2026-10-07T13:24:57Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
-    "unrecognised thinking type 'disabled'"
+    "unrecognised thinking type 'disabled'",
+    "unrecognised capability block 'server_tools'"
    ]
   },
   "claude-opus-5": {
@@ -751,7 +784,8 @@
      "context_management": true,
      "context_management.clear_tool_uses_20250919": true,
      "context_management.clear_thinking_20251015": true,
-     "context_management.compact_20260112": true
+     "context_management.compact_20260112": true,
+     "server_tools": true
     }
    },
    "endpoints": {
@@ -882,6 +916,15 @@
      "pdf_input": {
       "supported": true
      },
+     "server_tools": {
+      "supported": true,
+      "code_execution": {
+       "supported": true
+      },
+      "web_search": {
+       "supported": true
+      }
+     },
      "structured_outputs": {
       "supported": true
      },
@@ -901,10 +944,11 @@
      }
     }
    },
-   "retrieved_at": "2026-10-06T13:19:10Z",
+   "retrieved_at": "2026-10-07T13:24:57Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
-    "unrecognised thinking type 'disabled'"
+    "unrecognised thinking type 'disabled'",
+    "unrecognised capability block 'server_tools'"
    ]
   },
   "claude-sonnet-5": {
@@ -973,7 +1017,8 @@
      "context_management": true,
      "context_management.clear_tool_uses_20250919": true,
      "context_management.clear_thinking_20251015": true,
-     "context_management.compact_20260112": true
+     "context_management.compact_20260112": true,
+     "server_tools": true
     }
    },
    "endpoints": {
@@ -1104,6 +1149,15 @@
      "pdf_input": {
       "supported": true
      },
+     "server_tools": {
+      "supported": true,
+      "code_execution": {
+       "supported": true
+      },
+      "web_search": {
+       "supported": true
+      }
+     },
      "structured_outputs": {
       "supported": true
      },
@@ -1123,10 +1177,11 @@
      }
     }
    },
-   "retrieved_at": "2026-10-06T13:19:10Z",
+   "retrieved_at": "2026-10-07T13:24:57Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
-    "unrecognised thinking type 'disabled'"
+    "unrecognised thinking type 'disabled'",
+    "unrecognised capability block 'server_tools'"
    ]
   },
   "claude-fable-5": {
@@ -1194,7 +1249,8 @@
      "context_management": true,
      "context_management.clear_tool_uses_20250919": true,
      "context_management.clear_thinking_20251015": true,
-     "context_management.compact_20260112": true
+     "context_management.compact_20260112": true,
+     "server_tools": true
     }
    },
    "endpoints": {
@@ -1325,6 +1381,15 @@
      "pdf_input": {
       "supported": true
      },
+     "server_tools": {
+      "supported": true,
+      "code_execution": {
+       "supported": true
+      },
+      "web_search": {
+       "supported": true
+      }
+     },
      "structured_outputs": {
       "supported": true
      },
@@ -1344,10 +1409,11 @@
      }
     }
    },
-   "retrieved_at": "2026-10-06T13:19:10Z",
+   "retrieved_at": "2026-10-07T13:24:57Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
-    "unrecognised thinking type 'disabled'"
+    "unrecognised thinking type 'disabled'",
+    "unrecognised capability block 'server_tools'"
    ]
   },
   "claude-opus-4-8": {
@@ -1416,7 +1482,8 @@
      "context_management": true,
      "context_management.clear_tool_uses_20250919": true,
      "context_management.clear_thinking_20251015": true,
-     "context_management.compact_20260112": true
+     "context_management.compact_20260112": true,
+     "server_tools": true
     }
    },
    "endpoints": {
@@ -1547,6 +1614,15 @@
      "pdf_input": {
       "supported": true
      },
+     "server_tools": {
+      "supported": true,
+      "code_execution": {
+       "supported": true
+      },
+      "web_search": {
+       "supported": true
+      }
+     },
      "structured_outputs": {
       "supported": true
      },
@@ -1566,10 +1642,11 @@
      }
     }
    },
-   "retrieved_at": "2026-10-06T13:19:10Z",
+   "retrieved_at": "2026-10-07T13:24:57Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
-    "unrecognised thinking type 'disabled'"
+    "unrecognised thinking type 'disabled'",
+    "unrecognised capability block 'server_tools'"
    ]
   },
   "claude-opus-4-7": {
@@ -1638,7 +1715,8 @@
      "context_management": true,
      "context_management.clear_tool_uses_20250919": true,
      "context_management.clear_thinking_20251015": true,
-     "context_management.compact_20260112": true
+     "context_management.compact_20260112": true,
+     "server_tools": true
     }
    },
    "endpoints": {
@@ -1769,6 +1847,15 @@
      "pdf_input": {
       "supported": true
      },
+     "server_tools": {
+      "supported": true,
+      "code_execution": {
+       "supported": true
+      },
+      "web_search": {
+       "supported": true
+      }
+     },
      "structured_outputs": {
       "supported": true
      },
@@ -1788,10 +1875,11 @@
      }
     }
    },
-   "retrieved_at": "2026-10-06T13:19:10Z",
+   "retrieved_at": "2026-10-07T13:24:57Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
-    "unrecognised thinking type 'disabled'"
+    "unrecognised thinking type 'disabled'",
+    "unrecognised capability block 'server_tools'"
    ]
   },
   "claude-sonnet-4-6": {
@@ -1860,7 +1948,8 @@
      "context_management": true,
      "context_management.clear_tool_uses_20250919": true,
      "context_management.clear_thinking_20251015": true,
-     "context_management.compact_20260112": true
+     "context_management.compact_20260112": true,
+     "server_tools": true
     }
    },
    "endpoints": {
@@ -1991,6 +2080,15 @@
      "pdf_input": {
       "supported": true
      },
+     "server_tools": {
+      "supported": true,
+      "code_execution": {
+       "supported": true
+      },
+      "web_search": {
+       "supported": true
+      }
+     },
      "structured_outputs": {
       "supported": true
      },
@@ -2010,10 +2108,11 @@
      }
     }
    },
-   "retrieved_at": "2026-10-06T13:19:10Z",
+   "retrieved_at": "2026-10-07T13:24:57Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
-    "unrecognised thinking type 'disabled'"
+    "unrecognised thinking type 'disabled'",
+    "unrecognised capability block 'server_tools'"
    ]
   },
   "claude-opus-4-6": {
@@ -2082,7 +2181,8 @@
      "context_management": true,
      "context_management.clear_tool_uses_20250919": true,
      "context_management.clear_thinking_20251015": true,
-     "context_management.compact_20260112": true
+     "context_management.compact_20260112": true,
+     "server_tools": true
     }
    },
    "endpoints": {
@@ -2213,6 +2313,15 @@
      "pdf_input": {
       "supported": true
      },
+     "server_tools": {
+      "supported": true,
+      "code_execution": {
+       "supported": true
+      },
+      "web_search": {
+       "supported": true
+      }
+     },
      "structured_outputs": {
       "supported": true
      },
@@ -2232,10 +2341,11 @@
      }
     }
    },
-   "retrieved_at": "2026-10-06T13:19:10Z",
+   "retrieved_at": "2026-10-07T13:24:57Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
-    "unrecognised thinking type 'disabled'"
+    "unrecognised thinking type 'disabled'",
+    "unrecognised capability block 'server_tools'"
    ]
   },
   "claude-opus-4-5-20251101": {
@@ -2302,7 +2412,8 @@
      "context_management": true,
      "context_management.clear_tool_uses_20250919": true,
      "context_management.clear_thinking_20251015": true,
-     "context_management.compact_20260112": false
+     "context_management.compact_20260112": false,
+     "server_tools": true
     }
    },
    "endpoints": {
@@ -2433,6 +2544,15 @@
      "pdf_input": {
       "supported": true
      },
+     "server_tools": {
+      "supported": true,
+      "code_execution": {
+       "supported": true
+      },
+      "web_search": {
+       "supported": true
+      }
+     },
      "structured_outputs": {
       "supported": true
      },
@@ -2452,10 +2572,11 @@
      }
     }
    },
-   "retrieved_at": "2026-10-06T13:19:10Z",
+   "retrieved_at": "2026-10-07T13:24:57Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
-    "unrecognised thinking type 'disabled'"
+    "unrecognised thinking type 'disabled'",
+    "unrecognised capability block 'server_tools'"
    ]
   },
   "claude-haiku-4-5-20251001": {
@@ -2518,7 +2639,8 @@
      "context_management": true,
      "context_management.clear_tool_uses_20250919": true,
      "context_management.clear_thinking_20251015": true,
-     "context_management.compact_20260112": false
+     "context_management.compact_20260112": false,
+     "server_tools": true
     }
    },
    "endpoints": {
@@ -2649,6 +2771,15 @@
      "pdf_input": {
       "supported": true
      },
+     "server_tools": {
+      "supported": true,
+      "code_execution": {
+       "supported": true
+      },
+      "web_search": {
+       "supported": true
+      }
+     },
      "structured_outputs": {
       "supported": true
      },
@@ -2668,10 +2799,11 @@
      }
     }
    },
-   "retrieved_at": "2026-10-06T13:19:10Z",
+   "retrieved_at": "2026-10-07T13:24:57Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
-    "unrecognised thinking type 'disabled'"
+    "unrecognised thinking type 'disabled'",
+    "unrecognised capability block 'server_tools'"
    ]
   },
   "claude-sonnet-4-5-20250929": {
@@ -2734,7 +2866,8 @@
      "context_management": true,
      "context_management.clear_tool_uses_20250919": true,
      "context_management.clear_thinking_20251015": true,
-     "context_management.compact_20260112": false
+     "context_management.compact_20260112": false,
+     "server_tools": true
     }
    },
    "endpoints": {
@@ -2865,6 +2998,15 @@
      "pdf_input": {
       "supported": true
      },
+     "server_tools": {
+      "supported": true,
+      "code_execution": {
+       "supported": true
+      },
+      "web_search": {
+       "supported": true
+      }
+     },
      "structured_outputs": {
       "supported": true
      },
@@ -2884,10 +3026,11 @@
      }
     }
    },
-   "retrieved_at": "2026-10-06T13:19:10Z",
+   "retrieved_at": "2026-10-07T13:24:57Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
-    "unrecognised thinking type 'disabled'"
+    "unrecognised thinking type 'disabled'",
+    "unrecognised capability block 'server_tools'"
    ]
   }
  },
@@ -2897,18 +3040,31 @@
  },
  "warnings": [
   "claude-sonnet-5-5: unrecognised thinking type 'disabled'",
+  "claude-sonnet-5-5: unrecognised capability block 'server_tools'",
   "claude-opus-5-5: unrecognised thinking type 'disabled'",
+  "claude-opus-5-5: unrecognised capability block 'server_tools'",
   "claude-fable-5-1: unrecognised thinking type 'disabled'",
+  "claude-fable-5-1: unrecognised capability block 'server_tools'",
   "claude-opus-5: unrecognised thinking type 'disabled'",
+  "claude-opus-5: unrecognised capability block 'server_tools'",
   "claude-sonnet-5: unrecognised thinking type 'disabled'",
+  "claude-sonnet-5: unrecognised capability block 'server_tools'",
   "claude-fable-5: unrecognised thinking type 'disabled'",
+  "claude-fable-5: unrecognised capability block 'server_tools'",
   "claude-opus-4-8: unrecognised thinking type 'disabled'",
+  "claude-opus-4-8: unrecognised capability block 'server_tools'",
   "claude-opus-4-7: unrecognised thinking type 'disabled'",
+  "claude-opus-4-7: unrecognised capability block 'server_tools'",
   "claude-sonnet-4-6: unrecognised thinking type 'disabled'",
+  "claude-sonnet-4-6: unrecognised capability block 'server_tools'",
   "claude-opus-4-6: unrecognised thinking type 'disabled'",
+  "claude-opus-4-6: unrecognised capability block 'server_tools'",
   "claude-opus-4-5-20251101: unrecognised thinking type 'disabled'",
+  "claude-opus-4-5-20251101: unrecognised capability block 'server_tools'",
   "claude-haiku-4-5-20251001: unrecognised thinking type 'disabled'",
-  "claude-sonnet-4-5-20250929: unrecognised thinking type 'disabled'"
+  "claude-haiku-4-5-20251001: unrecognised capability block 'server_tools'",
+  "claude-sonnet-4-5-20250929: unrecognised thinking type 'disabled'",
+  "claude-sonnet-4-5-20250929: unrecognised capability block 'server_tools'"
  ],
  "extra": {}
 }

@@ -2,13 +2,14 @@
  "provider": "inception",
  "schema_version": 2,
  "parser_version": "2026.08.25-1",
- "retrieved_at": "2026-10-06T13:19:12Z",
+ "retrieved_at": "2026-10-07T13:24:58Z",
  "sources": {
   "listing": "https://api.inceptionlabs.ai/v1/models"
  },
  "model_order": [
   "mercury-2",
-  "mercury-2.5"
+  "mercury-2.5",
+  "mercury-decide"
  ],
  "models": {
   "mercury-2": {
@@ -132,7 +133,7 @@
      "stop"
     ]
    },
-   "retrieved_at": "2026-10-06T13:19:12Z",
+   "retrieved_at": "2026-10-07T13:24:58Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -257,14 +258,139 @@
      "stop"
     ]
    },
-   "retrieved_at": "2026-10-06T13:19:12Z",
+   "retrieved_at": "2026-10-07T13:24:58Z",
+   "parser_version": "2026.08.25-1",
+   "warnings": []
+  },
+  "mercury-decide": {
+   "provider": "inception",
+   "model_id": "mercury-decide",
+   "display_name": "Inception: Mercury Decide",
+   "description": "Typed-decision preview. Decisions endpoint only.",
+   "family": "mercury-decide",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": "2025-04-01",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 32000,
+   "max_input_tokens": null,
+   "max_output_tokens": 50000,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": false,
+     "output": false
+    },
+    "audio": {
+     "input": false,
+     "output": false
+    },
+    "video": {
+     "input": false,
+     "output": false
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": false,
+    "structured_outputs": false,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {
+     "inception.tools": false,
+     "inception.json_mode": false,
+     "inception.structured_outputs": false,
+     "inception.streaming": false,
+     "inception.reasoning": false,
+     "inception.vision": false
+    }
+   },
+   "endpoints": {
+    "chat_completions": true
+   },
+   "builtin_tools": null,
+   "pricing": {
+    "input": 0.04,
+    "output": 0.0,
+    "cached_input": 0.0,
+    "currency": "USD",
+    "per": "1M tokens"
+   },
+   "tier": "verified",
+   "provenance": {
+    "released": {
+     "section": "api:/models",
+     "evidence": "created timestamp"
+    },
+    "modalities.input": {
+     "section": "api:/v1/models",
+     "evidence": "input_modalities"
+    },
+    "modalities.output": {
+     "section": "api:/v1/models",
+     "evidence": "output_modalities"
+    },
+    "context_window": {
+     "section": "api:/v1/models",
+     "evidence": "context_length"
+    },
+    "max_output_tokens": {
+     "section": "api:/v1/models",
+     "evidence": "max_output_length"
+    },
+    "tool_calling": {
+     "section": "api:/v1/models",
+     "evidence": "supported_features list"
+    },
+    "structured_outputs": {
+     "section": "api:/v1/models",
+     "evidence": "supported_features list"
+    },
+    "pricing": {
+     "section": "api:/v1/models",
+     "evidence": "pricing per token x 1e6"
+    },
+    "endpoints.chat_completions": {
+     "section": "api:/v1/models",
+     "evidence": "listed by the OpenAI-compatible models endpoint"
+    }
+   },
+   "sources": {
+    "listing": "https://api.inceptionlabs.ai/v1/models",
+    "documentation": null
+   },
+   "raw": {
+    "created": 1743465660,
+    "supported_sampling_parameters": [
+     "temperature",
+     "stop"
+    ]
+   },
+   "retrieved_at": "2026-10-07T13:24:58Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   }
  },
  "stats": {
-  "api_models": 2,
-  "models": 2
+  "api_models": 3,
+  "models": 3
  },
  "warnings": [],
  "extra": {}

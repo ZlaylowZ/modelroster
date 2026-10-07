@@ -1,23 +1,17 @@
 {
  "provider": "mistral",
  "first_run": false,
- "previous_retrieved_at": "2026-10-05T14:40:58Z",
- "retrieved_at": "2026-10-06T13:19:12Z",
+ "previous_retrieved_at": "2026-10-06T13:19:12Z",
+ "retrieved_at": "2026-10-07T13:24:58Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
-  "previous": 53,
+  "previous": 55,
   "current": 55
  },
- "added_models": [
-  "mistral-large-4",
-  "mistral-large-4-0"
- ],
+ "added_models": [],
  "removed_models": [],
- "added_families": [
-  "mistral-large-4",
-  "mistral-large-4-0"
- ],
+ "added_families": [],
  "removed_families": [],
  "new_snapshots": [],
  "removed_snapshots": [],

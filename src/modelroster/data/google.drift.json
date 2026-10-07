@@ -1,21 +1,38 @@
 {
  "provider": "google",
  "first_run": false,
- "previous_retrieved_at": "2026-10-05T14:40:57Z",
- "retrieved_at": "2026-10-06T13:19:11Z",
+ "previous_retrieved_at": "2026-10-06T13:19:11Z",
+ "retrieved_at": "2026-10-07T13:24:58Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
   "previous": 61,
-  "current": 61
+  "current": 62
  },
- "added_models": [],
+ "added_models": [
+  "models/gemini-nano-banana-2.1"
+ ],
  "removed_models": [],
- "added_families": [],
+ "added_families": [
+  "models/gemini-nano-banana-2.1"
+ ],
  "removed_families": [],
  "new_snapshots": [],
  "removed_snapshots": [],
- "changed_capabilities": {},
+ "changed_capabilities": {
+  "models/gemini-3.1-flash-tts-preview": [
+   [
+    "capabilities.extended_thinking",
+    "true",
+    "unknown"
+   ],
+   [
+    "capabilities.reasoning",
+    "true",
+    "unknown"
+   ]
+  ]
+ },
  "warnings": [
   "models/gemini-embedding-001: unrecognised generation method 'asyncBatchEmbedContent' (stored as endpoint 'async_batch_embed_content')",
   "models/gemini-embedding-2: unrecognised generation method 'asyncBatchEmbedContent' (stored as endpoint 'async_batch_embed_content')",
