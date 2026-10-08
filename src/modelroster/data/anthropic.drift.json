@@ -1,114 +1,41 @@
 {
  "provider": "anthropic",
  "first_run": false,
- "previous_retrieved_at": "2026-10-06T13:19:10Z",
- "retrieved_at": "2026-10-07T13:24:57Z",
+ "previous_retrieved_at": "2026-10-07T13:24:57Z",
+ "retrieved_at": "2026-10-08T13:30:30Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
   "previous": 13,
-  "current": 13
+  "current": 14
  },
- "added_models": [],
+ "added_models": [
+  "claude-haiku-5-5"
+ ],
  "removed_models": [],
- "added_families": [],
+ "added_families": [
+  "claude-haiku-5-5"
+ ],
  "removed_families": [],
  "new_snapshots": [],
  "removed_snapshots": [],
  "changed_capabilities": {
-  "claude-fable-5": [
-   [
-    "capabilities.extra.server_tools",
-    "unknown",
-    "true"
-   ]
-  ],
-  "claude-fable-5-1": [
-   [
-    "capabilities.extra.server_tools",
-    "unknown",
-    "true"
-   ]
-  ],
-  "claude-haiku-4-5-20251001": [
-   [
-    "capabilities.extra.server_tools",
-    "unknown",
-    "true"
-   ]
-  ],
-  "claude-opus-4-5-20251101": [
-   [
-    "capabilities.extra.server_tools",
-    "unknown",
-    "true"
-   ]
-  ],
-  "claude-opus-4-6": [
-   [
-    "capabilities.extra.server_tools",
-    "unknown",
-    "true"
-   ]
-  ],
-  "claude-opus-4-7": [
-   [
-    "capabilities.extra.server_tools",
-    "unknown",
-    "true"
-   ]
-  ],
-  "claude-opus-4-8": [
-   [
-    "capabilities.extra.server_tools",
-    "unknown",
-    "true"
-   ]
-  ],
-  "claude-opus-5": [
-   [
-    "capabilities.extra.server_tools",
-    "unknown",
-    "true"
-   ]
-  ],
-  "claude-opus-5-5": [
-   [
-    "capabilities.extra.server_tools",
-    "unknown",
-    "true"
-   ]
-  ],
   "claude-sonnet-4-5-20250929": [
    [
-    "capabilities.extra.server_tools",
-    "unknown",
-    "true"
-   ]
-  ],
-  "claude-sonnet-4-6": [
+    "context_window",
+    "1000000",
+    "200000"
+   ],
    [
-    "capabilities.extra.server_tools",
-    "unknown",
-    "true"
-   ]
-  ],
-  "claude-sonnet-5": [
-   [
-    "capabilities.extra.server_tools",
-    "unknown",
-    "true"
-   ]
-  ],
-  "claude-sonnet-5-5": [
-   [
-    "capabilities.extra.server_tools",
-    "unknown",
-    "true"
+    "max_input_tokens",
+    "1000000",
+    "200000"
    ]
   ]
  },
  "warnings": [
+  "claude-haiku-5-5: unrecognised thinking type 'disabled'",
+  "claude-haiku-5-5: unrecognised capability block 'server_tools'",
   "claude-sonnet-5-5: unrecognised thinking type 'disabled'",
   "claude-sonnet-5-5: unrecognised capability block 'server_tools'",
   "claude-opus-5-5: unrecognised thinking type 'disabled'",

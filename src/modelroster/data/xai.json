@@ -2,7 +2,7 @@
  "provider": "xai",
  "schema_version": 2,
  "parser_version": "2026.08.25-1",
- "retrieved_at": "2026-10-07T13:25:13Z",
+ "retrieved_at": "2026-10-08T13:30:46Z",
  "sources": {
   "listing": "https://api.x.ai/v1/models",
   "language_models": "https://api.x.ai/v1/language-models",
@@ -175,7 +175,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-10-07T13:25:13Z",
+   "retrieved_at": "2026-10-08T13:30:46Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -343,7 +343,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-10-07T13:25:13Z",
+   "retrieved_at": "2026-10-08T13:30:46Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -493,7 +493,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-10-07T13:25:13Z",
+   "retrieved_at": "2026-10-08T13:30:46Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -646,7 +646,7 @@
      }
     }
    },
-   "retrieved_at": "2026-10-07T13:25:13Z",
+   "retrieved_at": "2026-10-08T13:30:46Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unexpected capability value '`none`, `low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
@@ -769,7 +769,7 @@
     "object": "model",
     "language_model": {
      "id": "grok-4.5",
-     "fingerprint": "fp_b9a6c742bb",
+     "fingerprint": "fp_c44cf57e26",
      "created": 1782691200,
      "object": "model",
      "owned_by": "xai",
@@ -805,7 +805,7 @@
      }
     }
    },
-   "retrieved_at": "2026-10-07T13:25:13Z",
+   "retrieved_at": "2026-10-08T13:30:46Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unexpected capability value '`low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
@@ -925,7 +925,7 @@
     "object": "model",
     "language_model": {
      "id": "grok-4.6",
-     "fingerprint": "fp_64efb4b244",
+     "fingerprint": "fp_c8150aeeda",
      "created": 1785974400,
      "object": "model",
      "owned_by": "xai",
@@ -958,7 +958,7 @@
      }
     }
    },
-   "retrieved_at": "2026-10-07T13:25:13Z",
+   "retrieved_at": "2026-10-08T13:30:46Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unexpected capability value '`low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
@@ -1078,7 +1078,7 @@
     "object": "model",
     "language_model": {
      "id": "grok-4.7",
-     "fingerprint": "fp_f3ebf1f417",
+     "fingerprint": "fp_d9c2d33f3a",
      "created": 1788307200,
      "object": "model",
      "owned_by": "xai",
@@ -1111,7 +1111,7 @@
      }
     }
    },
-   "retrieved_at": "2026-10-07T13:25:13Z",
+   "retrieved_at": "2026-10-08T13:30:46Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unexpected capability value '`low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
@@ -1260,7 +1260,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-10-07T13:25:13Z",
+   "retrieved_at": "2026-10-08T13:30:46Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1354,7 +1354,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-10-07T13:25:13Z",
+   "retrieved_at": "2026-10-08T13:30:46Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1442,7 +1442,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-10-07T13:25:13Z",
+   "retrieved_at": "2026-10-08T13:30:46Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1538,7 +1538,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-10-07T13:25:13Z",
+   "retrieved_at": "2026-10-08T13:30:46Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1626,7 +1626,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-10-07T13:25:13Z",
+   "retrieved_at": "2026-10-08T13:30:46Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1721,7 +1721,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-10-07T13:25:13Z",
+   "retrieved_at": "2026-10-08T13:30:46Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1809,7 +1809,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-10-07T13:25:13Z",
+   "retrieved_at": "2026-10-08T13:30:46Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   }
