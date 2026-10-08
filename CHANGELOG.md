@@ -12,6 +12,14 @@ Two version numbers matter:
 
 ## [Unreleased]
 
+## [0.1.25] — 2026-10-08
+
+Data-only automatic release. Drift since v0.1.24:
+
+- anthropic: +1 model(s), 1 record(s) changed
+- google: 1 record(s) changed
+- mistral: 2 record(s) changed
+
 ## [0.1.24] — 2026-10-07
 
 Data-only automatic release. Drift since v0.1.23:
