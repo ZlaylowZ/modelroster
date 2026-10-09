@@ -1,38 +1,21 @@
 {
  "provider": "anthropic",
  "first_run": false,
- "previous_retrieved_at": "2026-10-07T13:24:57Z",
- "retrieved_at": "2026-10-08T13:30:30Z",
+ "previous_retrieved_at": "2026-10-08T13:30:30Z",
+ "retrieved_at": "2026-10-09T13:18:12Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
-  "previous": 13,
+  "previous": 14,
   "current": 14
  },
- "added_models": [
-  "claude-haiku-5-5"
- ],
+ "added_models": [],
  "removed_models": [],
- "added_families": [
-  "claude-haiku-5-5"
- ],
+ "added_families": [],
  "removed_families": [],
  "new_snapshots": [],
  "removed_snapshots": [],
- "changed_capabilities": {
-  "claude-sonnet-4-5-20250929": [
-   [
-    "context_window",
-    "1000000",
-    "200000"
-   ],
-   [
-    "max_input_tokens",
-    "1000000",
-    "200000"
-   ]
-  ]
- },
+ "changed_capabilities": {},
  "warnings": [
   "claude-haiku-5-5: unrecognised thinking type 'disabled'",
   "claude-haiku-5-5: unrecognised capability block 'server_tools'",
