@@ -1,8 +1,8 @@
 {
  "provider": "inception",
  "first_run": false,
- "previous_retrieved_at": "2026-10-08T13:30:30Z",
- "retrieved_at": "2026-10-09T13:18:12Z",
+ "previous_retrieved_at": "2026-10-09T13:18:12Z",
+ "retrieved_at": "2026-10-10T12:33:04Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
@@ -15,14 +15,6 @@
  "removed_families": [],
  "new_snapshots": [],
  "removed_snapshots": [],
- "changed_capabilities": {
-  "mercury-decide": [
-   [
-    "context_window",
-    "32000",
-    "65536"
-   ]
-  ]
- },
+ "changed_capabilities": {},
  "warnings": []
 }

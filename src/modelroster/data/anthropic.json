@@ -2,7 +2,7 @@
  "provider": "anthropic",
  "schema_version": 2,
  "parser_version": "2026.08.25-1",
- "retrieved_at": "2026-10-09T13:18:12Z",
+ "retrieved_at": "2026-10-10T12:33:03Z",
  "sources": {
   "listing": "https://api.anthropic.com/v1/models"
  },
@@ -249,7 +249,7 @@
      }
     }
    },
-   "retrieved_at": "2026-10-09T13:18:12Z",
+   "retrieved_at": "2026-10-10T12:33:03Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
@@ -481,7 +481,7 @@
      }
     }
    },
-   "retrieved_at": "2026-10-09T13:18:12Z",
+   "retrieved_at": "2026-10-10T12:33:03Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
@@ -713,7 +713,7 @@
      }
     }
    },
-   "retrieved_at": "2026-10-09T13:18:12Z",
+   "retrieved_at": "2026-10-10T12:33:03Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
@@ -945,7 +945,7 @@
      }
     }
    },
-   "retrieved_at": "2026-10-09T13:18:12Z",
+   "retrieved_at": "2026-10-10T12:33:03Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
@@ -1178,7 +1178,7 @@
      }
     }
    },
-   "retrieved_at": "2026-10-09T13:18:12Z",
+   "retrieved_at": "2026-10-10T12:33:03Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
@@ -1411,7 +1411,7 @@
      }
     }
    },
-   "retrieved_at": "2026-10-09T13:18:12Z",
+   "retrieved_at": "2026-10-10T12:33:03Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
@@ -1643,7 +1643,7 @@
      }
     }
    },
-   "retrieved_at": "2026-10-09T13:18:12Z",
+   "retrieved_at": "2026-10-10T12:33:03Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
@@ -1876,7 +1876,7 @@
      }
     }
    },
-   "retrieved_at": "2026-10-09T13:18:12Z",
+   "retrieved_at": "2026-10-10T12:33:03Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
@@ -2109,7 +2109,7 @@
      }
     }
    },
-   "retrieved_at": "2026-10-09T13:18:12Z",
+   "retrieved_at": "2026-10-10T12:33:03Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
@@ -2342,7 +2342,7 @@
      }
     }
    },
-   "retrieved_at": "2026-10-09T13:18:12Z",
+   "retrieved_at": "2026-10-10T12:33:03Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
@@ -2575,7 +2575,7 @@
      }
     }
    },
-   "retrieved_at": "2026-10-09T13:18:12Z",
+   "retrieved_at": "2026-10-10T12:33:03Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
@@ -2806,7 +2806,7 @@
      }
     }
    },
-   "retrieved_at": "2026-10-09T13:18:12Z",
+   "retrieved_at": "2026-10-10T12:33:03Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
@@ -3033,7 +3033,7 @@
      }
     }
    },
-   "retrieved_at": "2026-10-09T13:18:12Z",
+   "retrieved_at": "2026-10-10T12:33:03Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
@@ -3260,7 +3260,7 @@
      }
     }
    },
-   "retrieved_at": "2026-10-09T13:18:12Z",
+   "retrieved_at": "2026-10-10T12:33:03Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
