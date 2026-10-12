@@ -1,8 +1,8 @@
 {
  "provider": "openai",
  "first_run": false,
- "previous_retrieved_at": "2026-10-10T12:33:19Z",
- "retrieved_at": "2026-10-11T12:51:33Z",
+ "previous_retrieved_at": "2026-10-11T12:51:33Z",
+ "retrieved_at": "2026-10-12T15:27:10Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
@@ -15,15 +15,7 @@
  "removed_families": [],
  "new_snapshots": [],
  "removed_snapshots": [],
- "changed_capabilities": {
-  "chat-latest": [
-   [
-    "knowledge_cutoff",
-    "2025-08-31",
-    "2026-04-20"
-   ]
-  ]
- },
+ "changed_capabilities": {},
  "warnings": [
   "babbage-002: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "babbage-002: contradiction: 'fine_tuning' listed under Supported features but v1/fine-tuning is Not supported",
