@@ -2,7 +2,7 @@
  "provider": "xai",
  "schema_version": 2,
  "parser_version": "2026.08.25-1",
- "retrieved_at": "2026-10-12T15:27:11Z",
+ "retrieved_at": "2026-10-13T14:13:06Z",
  "sources": {
   "listing": "https://api.x.ai/v1/models",
   "language_models": "https://api.x.ai/v1/language-models",
@@ -175,7 +175,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-10-12T15:27:10Z",
+   "retrieved_at": "2026-10-13T14:13:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -343,7 +343,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-10-12T15:27:10Z",
+   "retrieved_at": "2026-10-13T14:13:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -493,7 +493,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-10-12T15:27:10Z",
+   "retrieved_at": "2026-10-13T14:13:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -646,7 +646,7 @@
      }
     }
    },
-   "retrieved_at": "2026-10-12T15:27:10Z",
+   "retrieved_at": "2026-10-13T14:13:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unexpected capability value '`none`, `low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
@@ -659,7 +659,7 @@
    "provider": "xai",
    "model_id": "grok-4.5",
    "display_name": "Grok 4.5",
-   "description": "SpaceXAI's intelligent coding model for agentic software, engineering, and workflow tasks. Trained in SpaceXAI's data centers in Memphis with new datasets spanning science, engineering, and math.",
+   "description": "SpaceXSI's intelligent coding model for agentic software, engineering, and workflow tasks. Trained in SpaceXSI's data centers in Memphis with new datasets spanning science, engineering, and math.",
    "family": "grok-4.5",
    "aliases": [
     "grok-4.5-latest",
@@ -805,7 +805,7 @@
      }
     }
    },
-   "retrieved_at": "2026-10-12T15:27:10Z",
+   "retrieved_at": "2026-10-13T14:13:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unexpected capability value '`low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
@@ -818,7 +818,7 @@
    "provider": "xai",
    "model_id": "grok-4.6",
    "display_name": "Grok 4.6",
-   "description": "SpaceXAI's frontier model for coding, agentic tasks, and knowledge work.",
+   "description": "SpaceXSI's frontier model for coding, agentic tasks, and knowledge work.",
    "family": "grok-4.6",
    "aliases": [],
    "snapshots": [],
@@ -958,7 +958,7 @@
      }
     }
    },
-   "retrieved_at": "2026-10-12T15:27:10Z",
+   "retrieved_at": "2026-10-13T14:13:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unexpected capability value '`low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
@@ -971,7 +971,7 @@
    "provider": "xai",
    "model_id": "grok-4.7",
    "display_name": "Grok 4.7",
-   "description": "SpaceXAI's frontier model for coding, agentic tasks, and knowledge work.",
+   "description": "SpaceXSI's frontier model for coding, agentic tasks, and knowledge work.",
    "family": "grok-4.7",
    "aliases": [],
    "snapshots": [],
@@ -1111,7 +1111,7 @@
      }
     }
    },
-   "retrieved_at": "2026-10-12T15:27:10Z",
+   "retrieved_at": "2026-10-13T14:13:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unexpected capability value '`low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
@@ -1124,7 +1124,7 @@
    "provider": "xai",
    "model_id": "grok-build-0.1",
    "display_name": "Grok Build 0.1",
-   "description": "SpaceXAI's intelligent coding model for agentic software, engineering, and workflow tasks.",
+   "description": "SpaceXSI's intelligent coding model for agentic software, engineering, and workflow tasks.",
    "family": "grok-build-0.1",
    "aliases": [
     "grok-code-fast-1",
@@ -1260,7 +1260,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-10-12T15:27:10Z",
+   "retrieved_at": "2026-10-13T14:13:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1354,7 +1354,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-10-12T15:27:10Z",
+   "retrieved_at": "2026-10-13T14:13:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1442,7 +1442,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-10-12T15:27:10Z",
+   "retrieved_at": "2026-10-13T14:13:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1538,7 +1538,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-10-12T15:27:10Z",
+   "retrieved_at": "2026-10-13T14:13:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1626,7 +1626,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-10-12T15:27:10Z",
+   "retrieved_at": "2026-10-13T14:13:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1721,7 +1721,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-10-12T15:27:10Z",
+   "retrieved_at": "2026-10-13T14:13:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1809,7 +1809,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-10-12T15:27:10Z",
+   "retrieved_at": "2026-10-13T14:13:05Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   }
