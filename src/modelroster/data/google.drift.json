@@ -1,17 +1,21 @@
 {
  "provider": "google",
  "first_run": false,
- "previous_retrieved_at": "2026-10-12T15:26:53Z",
- "retrieved_at": "2026-10-13T14:12:48Z",
+ "previous_retrieved_at": "2026-10-13T14:12:48Z",
+ "retrieved_at": "2026-10-14T11:53:22Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
   "previous": 62,
-  "current": 62
+  "current": 63
  },
- "added_models": [],
+ "added_models": [
+  "models/gemini-4-argon"
+ ],
  "removed_models": [],
- "added_families": [],
+ "added_families": [
+  "models/gemini-4-argon"
+ ],
  "removed_families": [],
  "new_snapshots": [],
  "removed_snapshots": [],
