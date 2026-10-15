@@ -12,6 +12,14 @@ Two version numbers matter:
 
 ## [Unreleased]
 
+## [0.1.29] — 2026-10-15
+
+Data-only automatic release. Drift since v0.1.28:
+
+- inception: 1 record(s) changed
+- mistral: -1 model(s), 13 record(s) changed
+- nvidia: +1 model(s), -1 model(s)
+
 ## [0.1.28] — 2026-10-14
 
 Data-only automatic release. Drift since v0.1.27:
