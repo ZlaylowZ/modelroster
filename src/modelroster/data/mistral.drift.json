@@ -1,20 +1,116 @@
 {
  "provider": "mistral",
  "first_run": false,
- "previous_retrieved_at": "2026-10-13T14:12:49Z",
- "retrieved_at": "2026-10-14T11:53:23Z",
+ "previous_retrieved_at": "2026-10-14T11:53:23Z",
+ "retrieved_at": "2026-10-15T11:30:06Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
   "previous": 55,
-  "current": 55
+  "current": 54
  },
  "added_models": [],
- "removed_models": [],
+ "removed_models": [
+  "mistral-ocr-4-0"
+ ],
  "added_families": [],
- "removed_families": [],
+ "removed_families": [
+  "mistral-ocr-4-0"
+ ],
  "new_snapshots": [],
  "removed_snapshots": [],
- "changed_capabilities": {},
+ "changed_capabilities": {
+  "mistral-ocr-2512": [
+   [
+    "display_name",
+    "mistral-ocr-2512",
+    "Mistral OCR 3.0"
+   ]
+  ],
+  "mistral-ocr-3": [
+   [
+    "display_name",
+    "mistral-ocr-2512",
+    "Mistral OCR 3.0"
+   ]
+  ],
+  "mistral-ocr-3-0": [
+   [
+    "display_name",
+    "mistral-ocr-2512",
+    "Mistral OCR 3.0"
+   ]
+  ],
+  "mistral-ocr-4": [
+   [
+    "display_name",
+    "mistral-ocr-latest",
+    "Mistral OCR 4.1"
+   ]
+  ],
+  "mistral-ocr-4-1": [
+   [
+    "display_name",
+    "mistral-ocr-latest",
+    "Mistral OCR 4.1"
+   ]
+  ],
+  "mistral-ocr-latest": [
+   [
+    "display_name",
+    "mistral-ocr-latest",
+    "Mistral OCR 4.1"
+   ]
+  ],
+  "voxtral-mini-2602": [
+   [
+    "display_name",
+    "voxtral-mini-2602",
+    "Voxtral Mini Transcribe"
+   ]
+  ],
+  "voxtral-mini-latest": [
+   [
+    "display_name",
+    "voxtral-mini-2602",
+    "Voxtral Mini Transcribe"
+   ]
+  ],
+  "voxtral-mini-realtime-2602": [
+   [
+    "display_name",
+    "voxtral-mini-transcribe-realtime-2602",
+    "Voxtral Mini Transcribe Realtime"
+   ]
+  ],
+  "voxtral-mini-realtime-latest": [
+   [
+    "display_name",
+    "voxtral-mini-transcribe-realtime-2602",
+    "Voxtral Mini Transcribe Realtime"
+   ]
+  ],
+  "voxtral-mini-transcribe-realtime-2602": [
+   [
+    "display_name",
+    "voxtral-mini-transcribe-realtime-2602",
+    "Voxtral Mini Transcribe Realtime"
+   ]
+  ],
+  "voxtral-small-2507": [
+   [
+    "display_name",
+    "voxtral-small-2507",
+    "Voxtral Small Transcribe"
+   ]
+  ],
+  "voxtral-small-latest": [
+   [
+    "display_name",
+    "voxtral-small-2507",
+    "Voxtral Small Transcribe"
+   ]
+  ]
+ },
  "warnings": []
 }

@@ -1,16 +1,20 @@
 {
  "provider": "nvidia",
  "first_run": false,
- "previous_retrieved_at": "2026-10-13T14:12:49Z",
- "retrieved_at": "2026-10-14T11:53:23Z",
+ "previous_retrieved_at": "2026-10-14T11:53:23Z",
+ "retrieved_at": "2026-10-15T11:30:06Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
   "previous": 80,
   "current": 80
  },
- "added_models": [],
- "removed_models": [],
+ "added_models": [
+  "stepfun-ai/step-5-preview"
+ ],
+ "removed_models": [
+  "moonshotai/kimi-k3"
+ ],
  "added_families": [],
  "removed_families": [],
  "new_snapshots": [],
