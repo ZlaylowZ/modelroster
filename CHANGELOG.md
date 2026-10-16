@@ -12,6 +12,14 @@ Two version numbers matter:
 
 ## [Unreleased]
 
+## [0.1.30] — 2026-10-16
+
+Data-only automatic release. Drift since v0.1.29:
+
+- anthropic: 1 record(s) changed
+- nvidia: +1 model(s)
+- openai: 16 record(s) changed
+
 ## [0.1.29] — 2026-10-15
 
 Data-only automatic release. Drift since v0.1.28:
