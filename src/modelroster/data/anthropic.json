@@ -2,7 +2,7 @@
  "provider": "anthropic",
  "schema_version": 2,
  "parser_version": "2026.08.25-1",
- "retrieved_at": "2026-10-15T11:30:05Z",
+ "retrieved_at": "2026-10-16T11:25:25Z",
  "sources": {
   "listing": "https://api.anthropic.com/v1/models"
  },
@@ -244,15 +244,19 @@
        },
        "disabled": {
         "supported": true
+       },
+       "between_tools": {
+        "supported": false
        }
       }
      }
     }
    },
-   "retrieved_at": "2026-10-15T11:30:05Z",
+   "retrieved_at": "2026-10-16T11:25:25Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
+    "unrecognised thinking type 'between_tools'",
     "unrecognised capability block 'server_tools'"
    ]
   },
@@ -316,7 +320,8 @@
     "extra": {
      "effort_supported": true,
      "thinking_types": [
-      "adaptive"
+      "adaptive",
+      "between_tools"
      ],
      "context_management": true,
      "context_management.clear_tool_uses_20250919": true,
@@ -476,15 +481,19 @@
        },
        "disabled": {
         "supported": false
+       },
+       "between_tools": {
+        "supported": true
        }
       }
      }
     }
    },
-   "retrieved_at": "2026-10-15T11:30:05Z",
+   "retrieved_at": "2026-10-16T11:25:25Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
+    "unrecognised thinking type 'between_tools'",
     "unrecognised capability block 'server_tools'"
    ]
   },
@@ -708,15 +717,19 @@
        },
        "disabled": {
         "supported": false
+       },
+       "between_tools": {
+        "supported": false
        }
       }
      }
     }
    },
-   "retrieved_at": "2026-10-15T11:30:05Z",
+   "retrieved_at": "2026-10-16T11:25:25Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
+    "unrecognised thinking type 'between_tools'",
     "unrecognised capability block 'server_tools'"
    ]
   },
@@ -940,15 +953,19 @@
        },
        "disabled": {
         "supported": false
+       },
+       "between_tools": {
+        "supported": false
        }
       }
      }
     }
    },
-   "retrieved_at": "2026-10-15T11:30:05Z",
+   "retrieved_at": "2026-10-16T11:25:25Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
+    "unrecognised thinking type 'between_tools'",
     "unrecognised capability block 'server_tools'"
    ]
   },
@@ -1173,15 +1190,19 @@
        },
        "disabled": {
         "supported": true
+       },
+       "between_tools": {
+        "supported": false
        }
       }
      }
     }
    },
-   "retrieved_at": "2026-10-15T11:30:05Z",
+   "retrieved_at": "2026-10-16T11:25:25Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
+    "unrecognised thinking type 'between_tools'",
     "unrecognised capability block 'server_tools'"
    ]
   },
@@ -1406,15 +1427,19 @@
        },
        "disabled": {
         "supported": true
+       },
+       "between_tools": {
+        "supported": false
        }
       }
      }
     }
    },
-   "retrieved_at": "2026-10-15T11:30:05Z",
+   "retrieved_at": "2026-10-16T11:25:25Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
+    "unrecognised thinking type 'between_tools'",
     "unrecognised capability block 'server_tools'"
    ]
   },
@@ -1638,15 +1663,19 @@
        },
        "disabled": {
         "supported": false
+       },
+       "between_tools": {
+        "supported": false
        }
       }
      }
     }
    },
-   "retrieved_at": "2026-10-15T11:30:05Z",
+   "retrieved_at": "2026-10-16T11:25:25Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
+    "unrecognised thinking type 'between_tools'",
     "unrecognised capability block 'server_tools'"
    ]
   },
@@ -1871,15 +1900,19 @@
        },
        "disabled": {
         "supported": true
+       },
+       "between_tools": {
+        "supported": false
        }
       }
      }
     }
    },
-   "retrieved_at": "2026-10-15T11:30:05Z",
+   "retrieved_at": "2026-10-16T11:25:25Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
+    "unrecognised thinking type 'between_tools'",
     "unrecognised capability block 'server_tools'"
    ]
   },
@@ -2104,15 +2137,19 @@
        },
        "disabled": {
         "supported": true
+       },
+       "between_tools": {
+        "supported": false
        }
       }
      }
     }
    },
-   "retrieved_at": "2026-10-15T11:30:05Z",
+   "retrieved_at": "2026-10-16T11:25:25Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
+    "unrecognised thinking type 'between_tools'",
     "unrecognised capability block 'server_tools'"
    ]
   },
@@ -2337,15 +2374,19 @@
        },
        "disabled": {
         "supported": true
+       },
+       "between_tools": {
+        "supported": false
        }
       }
      }
     }
    },
-   "retrieved_at": "2026-10-15T11:30:05Z",
+   "retrieved_at": "2026-10-16T11:25:25Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
+    "unrecognised thinking type 'between_tools'",
     "unrecognised capability block 'server_tools'"
    ]
   },
@@ -2570,15 +2611,19 @@
        },
        "disabled": {
         "supported": true
+       },
+       "between_tools": {
+        "supported": false
        }
       }
      }
     }
    },
-   "retrieved_at": "2026-10-15T11:30:05Z",
+   "retrieved_at": "2026-10-16T11:25:25Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
+    "unrecognised thinking type 'between_tools'",
     "unrecognised capability block 'server_tools'"
    ]
   },
@@ -2801,15 +2846,19 @@
        },
        "disabled": {
         "supported": true
+       },
+       "between_tools": {
+        "supported": false
        }
       }
      }
     }
    },
-   "retrieved_at": "2026-10-15T11:30:05Z",
+   "retrieved_at": "2026-10-16T11:25:25Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
+    "unrecognised thinking type 'between_tools'",
     "unrecognised capability block 'server_tools'"
    ]
   },
@@ -3028,15 +3077,19 @@
        },
        "disabled": {
         "supported": true
+       },
+       "between_tools": {
+        "supported": false
        }
       }
      }
     }
    },
-   "retrieved_at": "2026-10-15T11:30:05Z",
+   "retrieved_at": "2026-10-16T11:25:25Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
+    "unrecognised thinking type 'between_tools'",
     "unrecognised capability block 'server_tools'"
    ]
   },
@@ -3255,15 +3308,19 @@
        },
        "disabled": {
         "supported": true
+       },
+       "between_tools": {
+        "supported": false
        }
       }
      }
     }
    },
-   "retrieved_at": "2026-10-15T11:30:05Z",
+   "retrieved_at": "2026-10-16T11:25:25Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
+    "unrecognised thinking type 'between_tools'",
     "unrecognised capability block 'server_tools'"
    ]
   }
@@ -3274,32 +3331,46 @@
  },
  "warnings": [
   "claude-haiku-5-5: unrecognised thinking type 'disabled'",
+  "claude-haiku-5-5: unrecognised thinking type 'between_tools'",
   "claude-haiku-5-5: unrecognised capability block 'server_tools'",
   "claude-sonnet-5-5: unrecognised thinking type 'disabled'",
+  "claude-sonnet-5-5: unrecognised thinking type 'between_tools'",
   "claude-sonnet-5-5: unrecognised capability block 'server_tools'",
   "claude-opus-5-5: unrecognised thinking type 'disabled'",
+  "claude-opus-5-5: unrecognised thinking type 'between_tools'",
   "claude-opus-5-5: unrecognised capability block 'server_tools'",
   "claude-fable-5-1: unrecognised thinking type 'disabled'",
+  "claude-fable-5-1: unrecognised thinking type 'between_tools'",
   "claude-fable-5-1: unrecognised capability block 'server_tools'",
   "claude-opus-5: unrecognised thinking type 'disabled'",
+  "claude-opus-5: unrecognised thinking type 'between_tools'",
   "claude-opus-5: unrecognised capability block 'server_tools'",
   "claude-sonnet-5: unrecognised thinking type 'disabled'",
+  "claude-sonnet-5: unrecognised thinking type 'between_tools'",
   "claude-sonnet-5: unrecognised capability block 'server_tools'",
   "claude-fable-5: unrecognised thinking type 'disabled'",
+  "claude-fable-5: unrecognised thinking type 'between_tools'",
   "claude-fable-5: unrecognised capability block 'server_tools'",
   "claude-opus-4-8: unrecognised thinking type 'disabled'",
+  "claude-opus-4-8: unrecognised thinking type 'between_tools'",
   "claude-opus-4-8: unrecognised capability block 'server_tools'",
   "claude-opus-4-7: unrecognised thinking type 'disabled'",
+  "claude-opus-4-7: unrecognised thinking type 'between_tools'",
   "claude-opus-4-7: unrecognised capability block 'server_tools'",
   "claude-sonnet-4-6: unrecognised thinking type 'disabled'",
+  "claude-sonnet-4-6: unrecognised thinking type 'between_tools'",
   "claude-sonnet-4-6: unrecognised capability block 'server_tools'",
   "claude-opus-4-6: unrecognised thinking type 'disabled'",
+  "claude-opus-4-6: unrecognised thinking type 'between_tools'",
   "claude-opus-4-6: unrecognised capability block 'server_tools'",
   "claude-opus-4-5-20251101: unrecognised thinking type 'disabled'",
+  "claude-opus-4-5-20251101: unrecognised thinking type 'between_tools'",
   "claude-opus-4-5-20251101: unrecognised capability block 'server_tools'",
   "claude-haiku-4-5-20251001: unrecognised thinking type 'disabled'",
+  "claude-haiku-4-5-20251001: unrecognised thinking type 'between_tools'",
   "claude-haiku-4-5-20251001: unrecognised capability block 'server_tools'",
   "claude-sonnet-4-5-20250929: unrecognised thinking type 'disabled'",
+  "claude-sonnet-4-5-20250929: unrecognised thinking type 'between_tools'",
   "claude-sonnet-4-5-20250929: unrecognised capability block 'server_tools'"
  ],
  "extra": {}

@@ -2,7 +2,7 @@
  "provider": "inception",
  "schema_version": 2,
  "parser_version": "2026.08.25-1",
- "retrieved_at": "2026-10-15T11:30:06Z",
+ "retrieved_at": "2026-10-16T11:25:26Z",
  "sources": {
   "listing": "https://api.inceptionlabs.ai/v1/models"
  },
@@ -133,7 +133,7 @@
      "stop"
     ]
    },
-   "retrieved_at": "2026-10-15T11:30:06Z",
+   "retrieved_at": "2026-10-16T11:25:26Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -258,7 +258,7 @@
      "stop"
     ]
    },
-   "retrieved_at": "2026-10-15T11:30:06Z",
+   "retrieved_at": "2026-10-16T11:25:26Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -383,7 +383,7 @@
      "stop"
     ]
    },
-   "retrieved_at": "2026-10-15T11:30:06Z",
+   "retrieved_at": "2026-10-16T11:25:26Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   }

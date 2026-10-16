@@ -1,20 +1,18 @@
 {
  "provider": "nvidia",
  "first_run": false,
- "previous_retrieved_at": "2026-10-14T11:53:23Z",
- "retrieved_at": "2026-10-15T11:30:06Z",
+ "previous_retrieved_at": "2026-10-15T11:30:06Z",
+ "retrieved_at": "2026-10-16T11:25:26Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
   "previous": 80,
-  "current": 80
+  "current": 81
  },
  "added_models": [
-  "stepfun-ai/step-5-preview"
+  "nvidia/nemotron-3.5-super-vl-120b-a12b"
  ],
- "removed_models": [
-  "moonshotai/kimi-k3"
- ],
+ "removed_models": [],
  "added_families": [],
  "removed_families": [],
  "new_snapshots": [],
