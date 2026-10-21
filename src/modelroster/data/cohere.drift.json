@@ -1,23 +1,33 @@
 {
  "provider": "cohere",
  "first_run": false,
- "previous_retrieved_at": "2026-10-19T13:17:04Z",
- "retrieved_at": "2026-10-20T11:37:58Z",
+ "previous_retrieved_at": "2026-10-20T11:37:58Z",
+ "retrieved_at": "2026-10-21T11:50:16Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
   "previous": 35,
-  "current": 35
+  "current": 37
  },
- "added_models": [],
+ "added_models": [
+  "rerank-v5.0-fast",
+  "rerank-v5.0-pro"
+ ],
  "removed_models": [],
- "added_families": [],
+ "added_families": [
+  "rerank-v5.0-fast",
+  "rerank-v5.0-pro"
+ ],
  "removed_families": [],
  "new_snapshots": [],
  "removed_snapshots": [],
  "changed_capabilities": {},
  "warnings": [
   "embed-v5.0-fast: unrecognised feature 'extended_output_dimensions' (kept)",
-  "embed-v5.0-pro: unrecognised feature 'extended_output_dimensions' (kept)"
+  "embed-v5.0-pro: unrecognised feature 'extended_output_dimensions' (kept)",
+  "rerank-v5.0-fast: unrecognised feature 'relevant_spans' (kept)",
+  "rerank-v5.0-fast: unrecognised feature 'rerank_token_based_billing' (kept)",
+  "rerank-v5.0-pro: unrecognised feature 'relevant_spans' (kept)",
+  "rerank-v5.0-pro: unrecognised feature 'rerank_token_based_billing' (kept)"
  ]
 }

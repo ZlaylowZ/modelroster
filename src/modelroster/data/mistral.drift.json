@@ -1,35 +1,38 @@
 {
  "provider": "mistral",
  "first_run": false,
- "previous_retrieved_at": "2026-10-19T13:17:05Z",
- "retrieved_at": "2026-10-20T11:37:59Z",
+ "previous_retrieved_at": "2026-10-20T11:37:59Z",
+ "retrieved_at": "2026-10-21T11:50:18Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
   "previous": 54,
-  "current": 54
+  "current": 62
  },
- "added_models": [],
+ "added_models": [
+  "voxtral-mini-transcribe-3",
+  "voxtral-mini-transcribe-3-0",
+  "voxtral-mini-transcribe-realtime-3",
+  "voxtral-mini-transcribe-realtime-3-0",
+  "voxtral-mini-tts-3",
+  "voxtral-mini-tts-3-0",
+  "voxtral-small-transcribe-3",
+  "voxtral-small-transcribe-3-0"
+ ],
  "removed_models": [],
- "added_families": [],
+ "added_families": [
+  "voxtral-mini-transcribe-3",
+  "voxtral-mini-transcribe-3-0",
+  "voxtral-mini-transcribe-realtime-3",
+  "voxtral-mini-transcribe-realtime-3-0",
+  "voxtral-mini-tts-3",
+  "voxtral-mini-tts-3-0",
+  "voxtral-small-transcribe-3",
+  "voxtral-small-transcribe-3-0"
+ ],
  "removed_families": [],
  "new_snapshots": [],
  "removed_snapshots": [],
- "changed_capabilities": {
-  "voxtral-mini-tts-2603": [
-   [
-    "display_name",
-    "voxtral-mini-tts-2603",
-    "Voxtral Mini TTS"
-   ]
-  ],
-  "voxtral-mini-tts-latest": [
-   [
-    "display_name",
-    "voxtral-mini-tts-2603",
-    "Voxtral Mini TTS"
-   ]
-  ]
- },
+ "changed_capabilities": {},
  "warnings": []
 }
