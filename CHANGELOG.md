@@ -12,6 +12,21 @@ Two version numbers matter:
 
 ## [Unreleased]
 
+## [0.1.33] — 2026-10-22
+
+### Security
+
+- Require certifi >= 2026.10.19 (eMudhra/emSign compromised intermediate
+  CAs). Users must also upgrade their installer: pip >= 26.2.2
+  (`python -m pip install -U pip`), uv >= 0.13.4 (`uv self update`),
+  pipx >= 1.18.4; older pip/uv trust the compromised chain even when the OS
+  does not.
+- CI (`ci.yml`, `publish.yml`, `refresh.yml`): `actions/setup-python` uses
+  `check-latest`, every job installs a hash-pinned pip 26.2.2 before any
+  package install (including the clean-venv wheel smoke test), and
+  `pypa/gh-action-pypi-publish` is pinned to v1.14.3.
+- Added `.github/dependabot.yml` (weekly pip and github-actions updates).
+
 ## [0.1.32] — 2026-10-21
 
 Data-only automatic release. Drift since v0.1.31:
