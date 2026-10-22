@@ -1,35 +1,17 @@
 {
  "provider": "mistral",
  "first_run": false,
- "previous_retrieved_at": "2026-10-20T11:37:59Z",
- "retrieved_at": "2026-10-21T11:50:18Z",
+ "previous_retrieved_at": "2026-10-21T11:50:18Z",
+ "retrieved_at": "2026-10-22T11:53:44Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
-  "previous": 54,
+  "previous": 62,
   "current": 62
  },
- "added_models": [
-  "voxtral-mini-transcribe-3",
-  "voxtral-mini-transcribe-3-0",
-  "voxtral-mini-transcribe-realtime-3",
-  "voxtral-mini-transcribe-realtime-3-0",
-  "voxtral-mini-tts-3",
-  "voxtral-mini-tts-3-0",
-  "voxtral-small-transcribe-3",
-  "voxtral-small-transcribe-3-0"
- ],
+ "added_models": [],
  "removed_models": [],
- "added_families": [
-  "voxtral-mini-transcribe-3",
-  "voxtral-mini-transcribe-3-0",
-  "voxtral-mini-transcribe-realtime-3",
-  "voxtral-mini-transcribe-realtime-3-0",
-  "voxtral-mini-tts-3",
-  "voxtral-mini-tts-3-0",
-  "voxtral-small-transcribe-3",
-  "voxtral-small-transcribe-3-0"
- ],
+ "added_families": [],
  "removed_families": [],
  "new_snapshots": [],
  "removed_snapshots": [],

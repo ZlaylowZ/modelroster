@@ -1,23 +1,17 @@
 {
  "provider": "cohere",
  "first_run": false,
- "previous_retrieved_at": "2026-10-20T11:37:58Z",
- "retrieved_at": "2026-10-21T11:50:16Z",
+ "previous_retrieved_at": "2026-10-21T11:50:16Z",
+ "retrieved_at": "2026-10-22T11:53:42Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
-  "previous": 35,
+  "previous": 37,
   "current": 37
  },
- "added_models": [
-  "rerank-v5.0-fast",
-  "rerank-v5.0-pro"
- ],
+ "added_models": [],
  "removed_models": [],
- "added_families": [
-  "rerank-v5.0-fast",
-  "rerank-v5.0-pro"
- ],
+ "added_families": [],
  "removed_families": [],
  "new_snapshots": [],
  "removed_snapshots": [],
