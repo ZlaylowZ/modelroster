@@ -1,15 +1,17 @@
 {
  "provider": "nvidia",
  "first_run": false,
- "previous_retrieved_at": "2026-10-21T11:50:18Z",
- "retrieved_at": "2026-10-22T11:53:44Z",
+ "previous_retrieved_at": "2026-10-22T11:53:44Z",
+ "retrieved_at": "2026-10-23T11:40:14Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
   "previous": 83,
-  "current": 83
+  "current": 84
  },
- "added_models": [],
+ "added_models": [
+  "minimaxai/minimax-m3.1-flash"
+ ],
  "removed_models": [],
  "added_families": [],
  "removed_families": [],
