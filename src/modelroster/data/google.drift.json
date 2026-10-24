@@ -1,29 +1,29 @@
 {
  "provider": "google",
  "first_run": false,
- "previous_retrieved_at": "2026-10-22T11:53:42Z",
- "retrieved_at": "2026-10-23T11:40:14Z",
+ "previous_retrieved_at": "2026-10-23T11:40:14Z",
+ "retrieved_at": "2026-10-24T11:01:23Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
-  "previous": 63,
+  "previous": 60,
   "current": 60
  },
  "added_models": [],
- "removed_models": [
-  "models/veo-3.1-fast-generate-preview",
-  "models/veo-3.1-generate-preview",
-  "models/veo-3.1-lite-generate-preview"
- ],
+ "removed_models": [],
  "added_families": [],
- "removed_families": [
-  "models/veo-3.1-fast-generate-preview",
-  "models/veo-3.1-generate-preview",
-  "models/veo-3.1-lite-generate-preview"
- ],
+ "removed_families": [],
  "new_snapshots": [],
  "removed_snapshots": [],
- "changed_capabilities": {},
+ "changed_capabilities": {
+  "models/deep-research-pro-preview-12-2025": [
+   [
+    "display_name",
+    "Deep Research Pro Preview (Dec-12-2025)",
+    "Deep Research Pro Preview (Dec-12-2025) [Rerouted]"
+   ]
+  ]
+ },
  "warnings": [
   "models/gemini-embedding-001: unrecognised generation method 'asyncBatchEmbedContent' (stored as endpoint 'async_batch_embed_content')",
   "models/gemini-embedding-2: unrecognised generation method 'asyncBatchEmbedContent' (stored as endpoint 'async_batch_embed_content')",

@@ -1,8 +1,8 @@
 {
  "provider": "xai",
  "first_run": false,
- "previous_retrieved_at": "2026-10-22T11:54:01Z",
- "retrieved_at": "2026-10-23T11:40:30Z",
+ "previous_retrieved_at": "2026-10-23T11:40:30Z",
+ "retrieved_at": "2026-10-24T11:01:45Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {

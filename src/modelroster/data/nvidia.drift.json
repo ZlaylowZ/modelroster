@@ -1,16 +1,16 @@
 {
  "provider": "nvidia",
  "first_run": false,
- "previous_retrieved_at": "2026-10-22T11:53:44Z",
- "retrieved_at": "2026-10-23T11:40:14Z",
+ "previous_retrieved_at": "2026-10-23T11:40:14Z",
+ "retrieved_at": "2026-10-24T11:01:23Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
-  "previous": 83,
-  "current": 84
+  "previous": 84,
+  "current": 85
  },
  "added_models": [
-  "minimaxai/minimax-m3.1-flash"
+  "nvidia/nemotron-3.5-bolt-e4b"
  ],
  "removed_models": [],
  "added_families": [],
