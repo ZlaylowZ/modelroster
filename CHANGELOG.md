@@ -12,6 +12,14 @@ Two version numbers matter:
 
 ## [Unreleased]
 
+## [0.1.34] — 2026-10-24
+
+Data-only automatic release. Drift since v0.1.33:
+
+- google: 1 record(s) changed
+- nvidia: +1 model(s)
+- openai: 84 record(s) changed, snapshots -58
+
 ## [0.1.33] — 2026-10-23
 
 Data-only automatic release. Drift since v0.1.32:
