@@ -1,8 +1,8 @@
 {
  "provider": "google",
  "first_run": false,
- "previous_retrieved_at": "2026-10-23T11:40:14Z",
- "retrieved_at": "2026-10-24T11:01:23Z",
+ "previous_retrieved_at": "2026-10-24T11:01:23Z",
+ "retrieved_at": "2026-10-25T11:30:46Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
@@ -15,15 +15,7 @@
  "removed_families": [],
  "new_snapshots": [],
  "removed_snapshots": [],
- "changed_capabilities": {
-  "models/deep-research-pro-preview-12-2025": [
-   [
-    "display_name",
-    "Deep Research Pro Preview (Dec-12-2025)",
-    "Deep Research Pro Preview (Dec-12-2025) [Rerouted]"
-   ]
-  ]
- },
+ "changed_capabilities": {},
  "warnings": [
   "models/gemini-embedding-001: unrecognised generation method 'asyncBatchEmbedContent' (stored as endpoint 'async_batch_embed_content')",
   "models/gemini-embedding-2: unrecognised generation method 'asyncBatchEmbedContent' (stored as endpoint 'async_batch_embed_content')",

@@ -1,17 +1,15 @@
 {
  "provider": "nvidia",
  "first_run": false,
- "previous_retrieved_at": "2026-10-23T11:40:14Z",
- "retrieved_at": "2026-10-24T11:01:23Z",
+ "previous_retrieved_at": "2026-10-24T11:01:23Z",
+ "retrieved_at": "2026-10-25T11:30:47Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
-  "previous": 84,
+  "previous": 85,
   "current": 85
  },
- "added_models": [
-  "nvidia/nemotron-3.5-bolt-e4b"
- ],
+ "added_models": [],
  "removed_models": [],
  "added_families": [],
  "removed_families": [],
