@@ -1,21 +1,184 @@
 {
  "provider": "openai",
  "first_run": false,
- "previous_retrieved_at": "2026-10-25T11:31:02Z",
- "retrieved_at": "2026-10-26T13:04:35Z",
+ "previous_retrieved_at": "2026-10-26T13:04:35Z",
+ "retrieved_at": "2026-10-27T12:13:03Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
   "previous": 135,
-  "current": 135
+  "current": 136
  },
- "added_models": [],
+ "added_models": [
+  "gpt-6.1-terra"
+ ],
  "removed_models": [],
- "added_families": [],
+ "added_families": [
+  "gpt-6.1-terra"
+ ],
  "removed_families": [],
- "new_snapshots": [],
+ "new_snapshots": [
+  "gpt-6.1-terra"
+ ],
  "removed_snapshots": [],
- "changed_capabilities": {},
+ "changed_capabilities": {
+  "gpt-4o-mini-transcribe-2025-12-15": [
+   [
+    "deprecated",
+    "unknown",
+    "true"
+   ],
+   [
+    "shutdown_date",
+    "unknown",
+    "2027-02-26"
+   ]
+  ],
+  "gpt-4o-mini-tts": [
+   [
+    "deprecated",
+    "unknown",
+    "true"
+   ],
+   [
+    "shutdown_date",
+    "unknown",
+    "2027-01-06"
+   ]
+  ],
+  "gpt-5": [
+   [
+    "deprecated",
+    "unknown",
+    "true"
+   ],
+   [
+    "shutdown_date",
+    "unknown",
+    "2026-12-11"
+   ]
+  ],
+  "gpt-5-mini": [
+   [
+    "deprecated",
+    "unknown",
+    "true"
+   ],
+   [
+    "shutdown_date",
+    "unknown",
+    "2026-12-11"
+   ]
+  ],
+  "gpt-5-nano": [
+   [
+    "deprecated",
+    "unknown",
+    "true"
+   ],
+   [
+    "shutdown_date",
+    "unknown",
+    "2026-12-11"
+   ]
+  ],
+  "gpt-5-pro": [
+   [
+    "deprecated",
+    "unknown",
+    "true"
+   ],
+   [
+    "shutdown_date",
+    "unknown",
+    "2026-12-11"
+   ]
+  ],
+  "gpt-5.1-2025-11-13": [
+   [
+    "deprecated",
+    "unknown",
+    "true"
+   ],
+   [
+    "shutdown_date",
+    "unknown",
+    "2027-04-01"
+   ]
+  ],
+  "gpt-5.4-nano-2026-03-17": [
+   [
+    "deprecated",
+    "unknown",
+    "true"
+   ],
+   [
+    "shutdown_date",
+    "unknown",
+    "2027-04-01"
+   ]
+  ],
+  "gpt-audio-2025-08-28": [
+   [
+    "deprecated",
+    "unknown",
+    "true"
+   ],
+   [
+    "shutdown_date",
+    "unknown",
+    "2027-01-20"
+   ]
+  ],
+  "gpt-audio-mini-2025-12-15": [
+   [
+    "deprecated",
+    "unknown",
+    "true"
+   ],
+   [
+    "shutdown_date",
+    "unknown",
+    "2027-01-20"
+   ]
+  ],
+  "gpt-realtime-2025-08-28": [
+   [
+    "deprecated",
+    "unknown",
+    "true"
+   ],
+   [
+    "shutdown_date",
+    "unknown",
+    "2027-01-20"
+   ]
+  ],
+  "gpt-realtime-mini-2025-12-15": [
+   [
+    "deprecated",
+    "unknown",
+    "true"
+   ],
+   [
+    "shutdown_date",
+    "unknown",
+    "2027-01-20"
+   ]
+  ],
+  "o3": [
+   [
+    "deprecated",
+    "unknown",
+    "true"
+   ],
+   [
+    "shutdown_date",
+    "unknown",
+    "2026-12-11"
+   ]
+  ]
+ },
  "warnings": [
   "babbage-002: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "babbage-002: unrecognised Snapshots bullet: '`babbage-002` — Shut down'",
@@ -176,6 +339,8 @@
   "gpt-6-sol: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "gpt-6.1-sol: unrecognised Model details bullet: 'Unsupported modalities: audio, video'",
   "gpt-6.1-sol: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-6.1-terra: unrecognised Model details bullet: 'Unsupported modalities: audio, video'",
+  "gpt-6.1-terra: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "gpt-audio: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "gpt-audio: unrecognised Snapshots bullet: '`gpt-audio-2025-08-28` — Deprecated'",
   "gpt-audio: default snapshot 'gpt-audio-2025-08-28' is not in the Snapshots list",

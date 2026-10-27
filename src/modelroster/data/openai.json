@@ -2,7 +2,7 @@
  "provider": "openai",
  "schema_version": 2,
  "parser_version": "2026.08.25-1",
- "retrieved_at": "2026-10-26T13:04:35Z",
+ "retrieved_at": "2026-10-27T12:13:03Z",
  "sources": {
   "listing": "https://api.openai.com/v1/models",
   "documentation_catalog": "https://developers.openai.com/api/docs/models.md"
@@ -91,6 +91,7 @@
   "gpt-6-luna",
   "gpt-6-sol",
   "gpt-6.1-sol",
+  "gpt-6.1-terra",
   "gpt-audio",
   "gpt-audio-1.5",
   "gpt-audio-2025-08-28",
@@ -441,7 +442,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-09-28"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -768,7 +769,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -1062,7 +1063,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-12-01"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -1366,7 +1367,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-09-28"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -1675,7 +1676,7 @@
     "owned_by": "openai",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -1752,7 +1753,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -1825,7 +1826,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-09-28"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -1898,7 +1899,7 @@
     "owned_by": "openai-internal",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -1971,7 +1972,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-09-28"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -2044,7 +2045,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -2350,7 +2351,7 @@
     "owned_by": "openai",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -2426,7 +2427,7 @@
     "owned_by": "openai",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -2732,7 +2733,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -2807,7 +2808,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -3125,7 +3126,7 @@
     "owned_by": "system",
     "shutdown_date": "2027-01-14"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -3200,7 +3201,7 @@
     "owned_by": "system",
     "shutdown_date": "2027-01-14"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -3518,7 +3519,7 @@
     "owned_by": "system",
     "shutdown_date": "2027-01-14"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -3593,7 +3594,7 @@
     "owned_by": "system",
     "shutdown_date": "2027-01-14"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -3911,7 +3912,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -3986,7 +3987,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -4304,7 +4305,7 @@
     "owned_by": "system",
     "shutdown_date": "2027-01-14"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -4381,7 +4382,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -4454,7 +4455,7 @@
     "owned_by": "system",
     "shutdown_date": "2027-01-14"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -4527,7 +4528,7 @@
     "owned_by": "system",
     "shutdown_date": "2027-01-14"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -4845,7 +4846,7 @@
     "owned_by": "system",
     "shutdown_date": "2027-01-14"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -4920,7 +4921,7 @@
     "owned_by": "system",
     "shutdown_date": "2027-01-14"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -5222,7 +5223,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -5297,7 +5298,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-07-23"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -5573,7 +5574,7 @@
     "owned_by": "system",
     "shutdown_date": "2027-02-26"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -5649,7 +5650,7 @@
     "owned_by": "system",
     "shutdown_date": "2027-01-20"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -5667,8 +5668,8 @@
    "routes_to": null,
    "relationship": "unknown",
    "released": "2025-12-13",
-   "deprecated": null,
-   "shutdown_date": null,
+   "deprecated": true,
+   "shutdown_date": "2027-02-26",
    "context_window": null,
    "max_input_tokens": null,
    "max_output_tokens": null,
@@ -5720,9 +5721,9 @@
    "raw": {
     "created": 1765610407,
     "owned_by": "system",
-    "shutdown_date": null
+    "shutdown_date": "2027-02-26"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -5740,8 +5741,8 @@
    "routes_to": null,
    "relationship": "canonical",
    "released": "2025-03-19",
-   "deprecated": null,
-   "shutdown_date": null,
+   "deprecated": true,
+   "shutdown_date": "2027-01-06",
    "context_window": null,
    "max_input_tokens": null,
    "max_output_tokens": null,
@@ -5961,6 +5962,10 @@
     "released": {
      "section": "api:/v1/models",
      "evidence": "created timestamp"
+    },
+    "shutdown_date": {
+     "section": "api:/v1/models",
+     "evidence": "shutdown_date field"
     }
    },
    "sources": {
@@ -5990,9 +5995,9 @@
     },
     "created": 1742403959,
     "owned_by": "system",
-    "shutdown_date": null
+    "shutdown_date": "2027-01-06"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -6068,7 +6073,7 @@
     "owned_by": "system",
     "shutdown_date": "2027-01-06"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -6141,7 +6146,7 @@
     "owned_by": "system",
     "shutdown_date": "2027-01-06"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -6443,7 +6448,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -6518,7 +6523,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-07-23"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -6794,7 +6799,7 @@
     "owned_by": "system",
     "shutdown_date": "2027-02-26"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -7072,7 +7077,7 @@
     "owned_by": "system",
     "shutdown_date": "2027-02-26"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -7092,8 +7097,8 @@
    "routes_to": null,
    "relationship": "canonical",
    "released": "2025-08-05",
-   "deprecated": null,
-   "shutdown_date": null,
+   "deprecated": true,
+   "shutdown_date": "2026-12-11",
    "context_window": 400000,
    "max_input_tokens": 272000,
    "max_output_tokens": 128000,
@@ -7372,6 +7377,10 @@
     "released": {
      "section": "api:/v1/models",
      "evidence": "created timestamp"
+    },
+    "shutdown_date": {
+     "section": "api:/v1/models",
+     "evidence": "shutdown_date field"
     }
    },
    "sources": {
@@ -7401,9 +7410,9 @@
     },
     "created": 1754425777,
     "owned_by": "system",
-    "shutdown_date": null
+    "shutdown_date": "2026-12-11"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -7478,7 +7487,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-12-11"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -7800,7 +7809,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-07-23"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -8122,7 +8131,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-07-23"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -8142,8 +8151,8 @@
    "routes_to": null,
    "relationship": "canonical",
    "released": "2025-08-05",
-   "deprecated": null,
-   "shutdown_date": null,
+   "deprecated": true,
+   "shutdown_date": "2026-12-11",
    "context_window": 400000,
    "max_input_tokens": 272000,
    "max_output_tokens": 128000,
@@ -8409,6 +8418,10 @@
     "released": {
      "section": "api:/v1/models",
      "evidence": "created timestamp"
+    },
+    "shutdown_date": {
+     "section": "api:/v1/models",
+     "evidence": "shutdown_date field"
     }
    },
    "sources": {
@@ -8438,9 +8451,9 @@
     },
     "created": 1754425928,
     "owned_by": "system",
-    "shutdown_date": null
+    "shutdown_date": "2026-12-11"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -8515,7 +8528,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-12-11"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -8533,8 +8546,8 @@
    "routes_to": null,
    "relationship": "canonical",
    "released": "2025-08-05",
-   "deprecated": null,
-   "shutdown_date": null,
+   "deprecated": true,
+   "shutdown_date": "2026-12-11",
    "context_window": 400000,
    "max_input_tokens": 272000,
    "max_output_tokens": 128000,
@@ -8800,6 +8813,10 @@
     "released": {
      "section": "api:/v1/models",
      "evidence": "created timestamp"
+    },
+    "shutdown_date": {
+     "section": "api:/v1/models",
+     "evidence": "shutdown_date field"
     }
    },
    "sources": {
@@ -8829,9 +8846,9 @@
     },
     "created": 1754426384,
     "owned_by": "system",
-    "shutdown_date": null
+    "shutdown_date": "2026-12-11"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -8906,7 +8923,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-12-11"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -8924,8 +8941,8 @@
    "routes_to": null,
    "relationship": "canonical",
    "released": "2025-10-03",
-   "deprecated": null,
-   "shutdown_date": null,
+   "deprecated": true,
+   "shutdown_date": "2026-12-11",
    "context_window": 400000,
    "max_input_tokens": null,
    "max_output_tokens": 272000,
@@ -9187,6 +9204,10 @@
     "released": {
      "section": "api:/v1/models",
      "evidence": "created timestamp"
+    },
+    "shutdown_date": {
+     "section": "api:/v1/models",
+     "evidence": "shutdown_date field"
     }
    },
    "sources": {
@@ -9216,9 +9237,9 @@
     },
     "created": 1759469822,
     "owned_by": "system",
-    "shutdown_date": null
+    "shutdown_date": "2026-12-11"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -9293,7 +9314,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-12-11"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -9366,7 +9387,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -9439,7 +9460,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -9768,7 +9789,7 @@
     "owned_by": "system",
     "shutdown_date": "2027-04-01"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -9788,8 +9809,8 @@
    "routes_to": null,
    "relationship": "unknown",
    "released": "2025-11-10",
-   "deprecated": null,
-   "shutdown_date": null,
+   "deprecated": true,
+   "shutdown_date": "2027-04-01",
    "context_window": null,
    "max_input_tokens": null,
    "max_output_tokens": null,
@@ -9841,9 +9862,9 @@
    "raw": {
     "created": 1762800353,
     "owned_by": "system",
-    "shutdown_date": null
+    "shutdown_date": "2027-04-01"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -10165,7 +10186,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-07-23"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -10483,7 +10504,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-07-23"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -10801,7 +10822,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-07-23"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -11119,7 +11140,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-07-23"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -11453,7 +11474,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -11785,7 +11806,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -12107,7 +12128,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-08-10"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -12429,7 +12450,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-07-23"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -12749,7 +12770,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -13067,7 +13088,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -13389,7 +13410,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-08-10"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -13711,7 +13732,7 @@
     "owned_by": "system",
     "shutdown_date": "2027-04-01"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -14045,7 +14066,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -14377,7 +14398,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -14713,7 +14734,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -15049,7 +15070,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -15383,7 +15404,7 @@
     "owned_by": "system",
     "shutdown_date": "2027-04-01"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -15403,8 +15424,8 @@
    "routes_to": null,
    "relationship": "unknown",
    "released": "2026-03-14",
-   "deprecated": null,
-   "shutdown_date": null,
+   "deprecated": true,
+   "shutdown_date": "2027-04-01",
    "context_window": null,
    "max_input_tokens": null,
    "max_output_tokens": null,
@@ -15456,9 +15477,9 @@
    "raw": {
     "created": 1773450837,
     "owned_by": "system",
-    "shutdown_date": null
+    "shutdown_date": "2027-04-01"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -15788,7 +15809,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -16118,7 +16139,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -16450,7 +16471,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -16782,7 +16803,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -17112,7 +17133,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -17442,7 +17463,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -17779,7 +17800,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -18125,7 +18146,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -18462,7 +18483,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -18784,7 +18805,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -19106,7 +19127,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -19428,7 +19449,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -19750,7 +19771,330 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
+   "parser_version": "2026.08.25-1",
+   "warnings": [
+    "unrecognised Model details bullet: 'Unsupported modalities: audio, video'",
+    "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
+   ]
+  },
+  "gpt-6.1-terra": {
+   "provider": "openai",
+   "model_id": "gpt-6.1-terra",
+   "display_name": "GPT-6.1 Terra",
+   "description": "A fast, efficient model for visual reasoning, precise computer use, and clear, natural writing.",
+   "family": "gpt-6.1-terra",
+   "aliases": [],
+   "snapshots": [
+    "gpt-6.1-terra"
+   ],
+   "default_snapshot": "gpt-6.1-terra",
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": "2026-10-13",
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 1050000,
+   "max_input_tokens": 922000,
+   "max_output_tokens": 128000,
+   "knowledge_cutoff": "2026-06-01",
+   "knowledge_cutoff_raw": "Jun 01, 2026",
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": true,
+     "output": false
+    },
+    "audio": {
+     "input": false,
+     "output": false
+    },
+    "video": {
+     "input": false,
+     "output": false
+    }
+   },
+   "capabilities": {
+    "reasoning": true,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": true,
+    "structured_outputs": true,
+    "streaming": true,
+    "prompt_caching": true,
+    "fine_tuning": false,
+    "batch": true,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {
+     "features.function_calling": true,
+     "features.streaming": true,
+     "features.image_input": true,
+     "features.structured_outputs": true,
+     "features.prompt_caching": true,
+     "features.file_search": true,
+     "features.web_search": true,
+     "features.file_uploads": false,
+     "features.fine_tuning": false,
+     "features.evals": false,
+     "features.stored_completions": false,
+     "features.predicted_outputs": false,
+     "features.inpainting": false,
+     "features.mcp": false,
+     "features.image_generation": false,
+     "features.system_messages": false
+    }
+   },
+   "endpoints": {
+    "v1_live_sessions": false,
+    "chat_completions": true,
+    "responses": true,
+    "realtime": false,
+    "realtime_translation": false,
+    "realtime_transcription": false,
+    "assistants": false,
+    "batch": true,
+    "fine_tuning": false,
+    "embeddings": false,
+    "image_generation": false,
+    "videos": false,
+    "image_edit": false,
+    "speech_generation": false,
+    "transcription": false,
+    "translation": false,
+    "moderation": false,
+    "completions_legacy": false
+   },
+   "builtin_tools": {
+    "web_search": true,
+    "mcp": true,
+    "function_calling": false,
+    "file_search": true,
+    "code_interpreter": true,
+    "image_generation": true,
+    "hosted_shell": true,
+    "skills": true,
+    "apply_patch": true,
+    "tool_search": true,
+    "computer_use": true
+   },
+   "pricing": {
+    "input": 1.0,
+    "output": 5.0,
+    "cached_input": 0.05,
+    "currency": "USD",
+    "per": "1M tokens"
+   },
+   "tier": "verified",
+   "provenance": {
+    "context_window": {
+     "section": "Model details",
+     "evidence": "bullet"
+    },
+    "max_input_tokens": {
+     "section": "Model details",
+     "evidence": "bullet"
+    },
+    "max_output_tokens": {
+     "section": "Model details",
+     "evidence": "bullet"
+    },
+    "knowledge_cutoff": {
+     "section": "Model details",
+     "evidence": "bullet"
+    },
+    "reasoning.supported": {
+     "section": "Model details",
+     "evidence": "Reasoning token support bullet"
+    },
+    "endpoints.v1_live_sessions": {
+     "section": "Endpoints",
+     "evidence": "table row",
+     "route": "v1/live/sessions"
+    },
+    "endpoints.chat_completions": {
+     "section": "Endpoints",
+     "evidence": "table row",
+     "route": "v1/chat/completions"
+    },
+    "endpoints.responses": {
+     "section": "Endpoints",
+     "evidence": "table row",
+     "route": "v1/responses"
+    },
+    "endpoints.realtime": {
+     "section": "Endpoints",
+     "evidence": "table row",
+     "route": "v1/realtime"
+    },
+    "endpoints.realtime_translation": {
+     "section": "Endpoints",
+     "evidence": "table row",
+     "route": "v1/realtime/translations"
+    },
+    "endpoints.realtime_transcription": {
+     "section": "Endpoints",
+     "evidence": "table row",
+     "route": "v1/realtime/transcription_sessions"
+    },
+    "endpoints.assistants": {
+     "section": "Endpoints",
+     "evidence": "table row",
+     "route": "v1/assistants"
+    },
+    "endpoints.batch": {
+     "section": "Endpoints",
+     "evidence": "table row",
+     "route": "v1/batch"
+    },
+    "endpoints.fine_tuning": {
+     "section": "Endpoints",
+     "evidence": "table row",
+     "route": "v1/fine-tuning"
+    },
+    "endpoints.embeddings": {
+     "section": "Endpoints",
+     "evidence": "table row",
+     "route": "v1/embeddings"
+    },
+    "endpoints.image_generation": {
+     "section": "Endpoints",
+     "evidence": "table row",
+     "route": "v1/images/generations"
+    },
+    "endpoints.videos": {
+     "section": "Endpoints",
+     "evidence": "table row",
+     "route": "v1/videos"
+    },
+    "endpoints.image_edit": {
+     "section": "Endpoints",
+     "evidence": "table row",
+     "route": "v1/images/edits"
+    },
+    "endpoints.speech_generation": {
+     "section": "Endpoints",
+     "evidence": "table row",
+     "route": "v1/audio/speech"
+    },
+    "endpoints.transcription": {
+     "section": "Endpoints",
+     "evidence": "table row",
+     "route": "v1/audio/transcriptions"
+    },
+    "endpoints.translation": {
+     "section": "Endpoints",
+     "evidence": "table row",
+     "route": "v1/audio/translations"
+    },
+    "endpoints.moderation": {
+     "section": "Endpoints",
+     "evidence": "table row",
+     "route": "v1/moderations"
+    },
+    "endpoints.completions_legacy": {
+     "section": "Endpoints",
+     "evidence": "table row",
+     "route": "v1/completions"
+    },
+    "modalities.input": {
+     "section": "Model details",
+     "evidence": "Input modalities bullet"
+    },
+    "modalities.output": {
+     "section": "Model details",
+     "evidence": "Output modalities bullet"
+    },
+    "function_calling": {
+     "section": "Supported features",
+     "evidence": "listed"
+    },
+    "structured_outputs": {
+     "section": "Supported features",
+     "evidence": "listed"
+    },
+    "streaming": {
+     "section": "Supported features",
+     "evidence": "listed"
+    },
+    "prompt_caching": {
+     "section": "Supported features",
+     "evidence": "listed"
+    },
+    "features": {
+     "section": "Supported features",
+     "evidence": "positive list"
+    },
+    "fine_tuning": {
+     "section": "Endpoints",
+     "evidence": "table row",
+     "route": "v1/fine-tuning"
+    },
+    "tools": {
+     "section": "Supported tools",
+     "evidence": "positive list"
+    },
+    "pricing": {
+     "section": "Pricing",
+     "evidence": "Text tokens table"
+    },
+    "snapshots": {
+     "section": "Snapshots",
+     "evidence": "bullet list"
+    },
+    "tool_calling": {
+     "section": "Supported features",
+     "evidence": "listed"
+    },
+    "reasoning": {
+     "section": "Model details",
+     "evidence": "Reasoning token support bullet"
+    },
+    "batch": {
+     "section": "Endpoints",
+     "evidence": "table row",
+     "route": "v1/batch"
+    },
+    "released": {
+     "section": "api:/v1/models",
+     "evidence": "created timestamp"
+    }
+   },
+   "sources": {
+    "listing": "https://api.openai.com/v1/models",
+    "documentation": "https://developers.openai.com/api/docs/models/gpt-6.1-terra.md"
+   },
+   "raw": {
+    "endpoints_raw": {
+     "v1/live/sessions": "Not supported",
+     "v1/chat/completions": "Supported",
+     "v1/responses": "Supported",
+     "v1/realtime": "Not supported",
+     "v1/realtime/translations": "Not supported",
+     "v1/realtime/transcription_sessions": "Not supported",
+     "v1/assistants": "Not supported",
+     "v1/batch": "Supported",
+     "v1/fine-tuning": "Not supported",
+     "v1/embeddings": "Not supported",
+     "v1/images/generations": "Not supported",
+     "v1/videos": "Not supported",
+     "v1/images/edits": "Not supported",
+     "v1/audio/speech": "Not supported",
+     "v1/audio/transcriptions": "Not supported",
+     "v1/audio/translations": "Not supported",
+     "v1/moderations": "Not supported",
+     "v1/completions": "Not supported"
+    },
+    "created": 1791908780,
+    "owned_by": "system",
+    "shutdown_date": null
+   },
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised Model details bullet: 'Unsupported modalities: audio, video'",
@@ -20057,7 +20401,7 @@
     "owned_by": "system",
     "shutdown_date": "2027-01-20"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -20367,7 +20711,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -20385,8 +20729,8 @@
    "routes_to": null,
    "relationship": "unknown",
    "released": "2025-08-27",
-   "deprecated": null,
-   "shutdown_date": null,
+   "deprecated": true,
+   "shutdown_date": "2027-01-20",
    "context_window": null,
    "max_input_tokens": null,
    "max_output_tokens": null,
@@ -20438,9 +20782,9 @@
    "raw": {
     "created": 1756256146,
     "owned_by": "system",
-    "shutdown_date": null
+    "shutdown_date": "2027-01-20"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -20758,7 +21102,7 @@
     "owned_by": "system",
     "shutdown_date": "2027-01-20"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -20834,7 +21178,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-07-23"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -20852,8 +21196,8 @@
    "routes_to": null,
    "relationship": "unknown",
    "released": "2025-12-15",
-   "deprecated": null,
-   "shutdown_date": null,
+   "deprecated": true,
+   "shutdown_date": "2027-01-20",
    "context_window": null,
    "max_input_tokens": null,
    "max_output_tokens": null,
@@ -20905,9 +21249,9 @@
    "raw": {
     "created": 1765760008,
     "owned_by": "system",
-    "shutdown_date": null
+    "shutdown_date": "2027-01-20"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -21201,7 +21545,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -21477,7 +21821,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-12-01"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -21773,7 +22117,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-12-01"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -22061,7 +22405,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -22347,7 +22691,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -22644,7 +22988,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -22941,7 +23285,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -23238,7 +23582,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -23535,7 +23879,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -23825,7 +24169,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised Model details bullet: 'Unsupported modalities: image, video'",
@@ -24112,7 +24456,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -24418,7 +24762,7 @@
     "owned_by": "system",
     "shutdown_date": "2027-01-20"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -24728,7 +25072,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -25034,7 +25378,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -25340,7 +25684,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -25646,7 +25990,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -25664,8 +26008,8 @@
    "routes_to": null,
    "relationship": "unknown",
    "released": "2025-08-27",
-   "deprecated": null,
-   "shutdown_date": null,
+   "deprecated": true,
+   "shutdown_date": "2027-01-20",
    "context_window": null,
    "max_input_tokens": null,
    "max_output_tokens": null,
@@ -25717,9 +26061,9 @@
    "raw": {
     "created": 1756271773,
     "owned_by": "system",
-    "shutdown_date": null
+    "shutdown_date": "2027-01-20"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -26025,7 +26369,7 @@
     "owned_by": "system",
     "shutdown_date": "2027-01-20"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -26046,8 +26390,8 @@
    "routes_to": null,
    "relationship": "unknown",
    "released": "2025-12-13",
-   "deprecated": null,
-   "shutdown_date": null,
+   "deprecated": true,
+   "shutdown_date": "2027-01-20",
    "context_window": null,
    "max_input_tokens": null,
    "max_output_tokens": null,
@@ -26099,9 +26443,9 @@
    "raw": {
     "created": 1765612007,
     "owned_by": "system",
-    "shutdown_date": null
+    "shutdown_date": "2027-01-20"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -26399,7 +26743,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -26697,7 +27041,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -26983,7 +27327,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -27299,7 +27643,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -27374,7 +27718,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -27690,7 +28034,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -27765,7 +28109,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -27783,8 +28127,8 @@
    "routes_to": null,
    "relationship": "canonical",
    "released": "2025-04-09",
-   "deprecated": null,
-   "shutdown_date": null,
+   "deprecated": true,
+   "shutdown_date": "2026-12-11",
    "context_window": 200000,
    "max_input_tokens": null,
    "max_output_tokens": 100000,
@@ -28046,6 +28390,10 @@
     "released": {
      "section": "api:/v1/models",
      "evidence": "created timestamp"
+    },
+    "shutdown_date": {
+     "section": "api:/v1/models",
+     "evidence": "shutdown_date field"
     }
    },
    "sources": {
@@ -28075,9 +28423,9 @@
     },
     "created": 1744225308,
     "owned_by": "system",
-    "shutdown_date": null
+    "shutdown_date": "2026-12-11"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -28152,7 +28500,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-12-11"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -28468,7 +28816,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -28543,7 +28891,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -28859,7 +29207,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -28934,7 +29282,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-10-23"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -29250,7 +29598,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-07-23"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -29325,7 +29673,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-07-23"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -29611,7 +29959,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -29897,7 +30245,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -29970,7 +30318,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-09-24"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -30043,7 +30391,7 @@
     "owned_by": "system",
     "shutdown_date": "2026-09-24"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -30309,7 +30657,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -30575,7 +30923,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -30841,7 +31189,7 @@
     "owned_by": "openai-internal",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
@@ -31105,7 +31453,7 @@
     "owned_by": "openai-internal",
     "shutdown_date": "2027-01-06"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -31180,7 +31528,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -31444,7 +31792,7 @@
     "owned_by": "system",
     "shutdown_date": "2027-01-06"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -31519,7 +31867,7 @@
     "owned_by": "system",
     "shutdown_date": null
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "No official model documentation record matched this API model ID."
@@ -31783,7 +32131,7 @@
     "owned_by": "openai-internal",
     "shutdown_date": "2027-02-26"
    },
-   "retrieved_at": "2026-10-26T13:04:34Z",
+   "retrieved_at": "2026-10-27T12:13:01Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -31793,13 +32141,13 @@
   }
  },
  "stats": {
-  "api_models": 135,
-  "documented_model_families": 101,
-  "matched_api_models": 92,
+  "api_models": 136,
+  "documented_model_families": 102,
+  "matched_api_models": 93,
   "unmatched_api_models": 43,
-  "pages_discovered": 101,
+  "pages_discovered": 102,
   "page_failures": 0,
-  "models": 135
+  "models": 136
  },
  "warnings": [
   "babbage-002: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
@@ -31961,6 +32309,8 @@
   "gpt-6-sol: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "gpt-6.1-sol: unrecognised Model details bullet: 'Unsupported modalities: audio, video'",
   "gpt-6.1-sol: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-6.1-terra: unrecognised Model details bullet: 'Unsupported modalities: audio, video'",
+  "gpt-6.1-terra: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "gpt-audio: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "gpt-audio: unrecognised Snapshots bullet: '`gpt-audio-2025-08-28` — Deprecated'",
   "gpt-audio: default snapshot 'gpt-audio-2025-08-28' is not in the Snapshots list",
@@ -32959,6 +33309,290 @@
      }
     },
     "warnings": [
+     "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
+    ]
+   },
+   "gpt-6.1-terra": {
+    "canonical_model_id": "gpt-6.1-terra",
+    "display_name": "GPT-6.1 Terra",
+    "description": "A fast, efficient model for visual reasoning, precise computer use, and clear, natural writing.",
+    "documentation_url": "https://developers.openai.com/api/docs/models/gpt-6.1-terra.md",
+    "aliases": [],
+    "snapshots": [
+     "gpt-6.1-terra"
+    ],
+    "default_snapshot": "gpt-6.1-terra",
+    "routes_to": null,
+    "reasoning": {
+     "supported": true,
+     "efforts": null,
+     "default_effort": null
+    },
+    "function_calling": true,
+    "structured_outputs": true,
+    "streaming": true,
+    "fine_tuning": false,
+    "prompt_caching": true,
+    "features": {
+     "function_calling": true,
+     "streaming": true,
+     "image_input": true,
+     "structured_outputs": true,
+     "prompt_caching": true,
+     "file_search": true,
+     "web_search": true,
+     "file_uploads": false,
+     "fine_tuning": false,
+     "evals": false,
+     "stored_completions": false,
+     "predicted_outputs": false,
+     "inpainting": false,
+     "mcp": false,
+     "image_generation": false,
+     "system_messages": false
+    },
+    "modalities": {
+     "text": {
+      "input": true,
+      "output": true
+     },
+     "image": {
+      "input": true,
+      "output": false
+     },
+     "audio": {
+      "input": false,
+      "output": false
+     },
+     "video": {
+      "input": false,
+      "output": false
+     }
+    },
+    "endpoints": {
+     "v1_live_sessions": false,
+     "chat_completions": true,
+     "responses": true,
+     "realtime": false,
+     "realtime_translation": false,
+     "realtime_transcription": false,
+     "assistants": false,
+     "batch": true,
+     "fine_tuning": false,
+     "embeddings": false,
+     "image_generation": false,
+     "videos": false,
+     "image_edit": false,
+     "speech_generation": false,
+     "transcription": false,
+     "translation": false,
+     "moderation": false,
+     "completions_legacy": false
+    },
+    "endpoints_raw": {
+     "v1/live/sessions": "Not supported",
+     "v1/chat/completions": "Supported",
+     "v1/responses": "Supported",
+     "v1/realtime": "Not supported",
+     "v1/realtime/translations": "Not supported",
+     "v1/realtime/transcription_sessions": "Not supported",
+     "v1/assistants": "Not supported",
+     "v1/batch": "Supported",
+     "v1/fine-tuning": "Not supported",
+     "v1/embeddings": "Not supported",
+     "v1/images/generations": "Not supported",
+     "v1/videos": "Not supported",
+     "v1/images/edits": "Not supported",
+     "v1/audio/speech": "Not supported",
+     "v1/audio/transcriptions": "Not supported",
+     "v1/audio/translations": "Not supported",
+     "v1/moderations": "Not supported",
+     "v1/completions": "Not supported"
+    },
+    "tools": {
+     "web_search": true,
+     "mcp": true,
+     "function_calling": false,
+     "file_search": true,
+     "code_interpreter": true,
+     "image_generation": true,
+     "hosted_shell": true,
+     "skills": true,
+     "apply_patch": true,
+     "tool_search": true,
+     "computer_use": true
+    },
+    "context_window": 1050000,
+    "max_input_tokens": 922000,
+    "max_output_tokens": 128000,
+    "knowledge_cutoff": "2026-06-01",
+    "knowledge_cutoff_raw": "Jun 01, 2026",
+    "pricing": {
+     "input": 1.0,
+     "output": 5.0,
+     "cached_input": 0.05,
+     "currency": "USD",
+     "per": "1M tokens"
+    },
+    "provenance": {
+     "context_window": {
+      "section": "Model details",
+      "evidence": "bullet"
+     },
+     "max_input_tokens": {
+      "section": "Model details",
+      "evidence": "bullet"
+     },
+     "max_output_tokens": {
+      "section": "Model details",
+      "evidence": "bullet"
+     },
+     "knowledge_cutoff": {
+      "section": "Model details",
+      "evidence": "bullet"
+     },
+     "reasoning.supported": {
+      "section": "Model details",
+      "evidence": "Reasoning token support bullet"
+     },
+     "endpoints.v1_live_sessions": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/live/sessions"
+     },
+     "endpoints.chat_completions": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/chat/completions"
+     },
+     "endpoints.responses": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/responses"
+     },
+     "endpoints.realtime": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/realtime"
+     },
+     "endpoints.realtime_translation": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/realtime/translations"
+     },
+     "endpoints.realtime_transcription": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/realtime/transcription_sessions"
+     },
+     "endpoints.assistants": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/assistants"
+     },
+     "endpoints.batch": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/batch"
+     },
+     "endpoints.fine_tuning": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/fine-tuning"
+     },
+     "endpoints.embeddings": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/embeddings"
+     },
+     "endpoints.image_generation": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/images/generations"
+     },
+     "endpoints.videos": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/videos"
+     },
+     "endpoints.image_edit": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/images/edits"
+     },
+     "endpoints.speech_generation": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/audio/speech"
+     },
+     "endpoints.transcription": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/audio/transcriptions"
+     },
+     "endpoints.translation": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/audio/translations"
+     },
+     "endpoints.moderation": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/moderations"
+     },
+     "endpoints.completions_legacy": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/completions"
+     },
+     "modalities.input": {
+      "section": "Model details",
+      "evidence": "Input modalities bullet"
+     },
+     "modalities.output": {
+      "section": "Model details",
+      "evidence": "Output modalities bullet"
+     },
+     "function_calling": {
+      "section": "Supported features",
+      "evidence": "listed"
+     },
+     "structured_outputs": {
+      "section": "Supported features",
+      "evidence": "listed"
+     },
+     "streaming": {
+      "section": "Supported features",
+      "evidence": "listed"
+     },
+     "prompt_caching": {
+      "section": "Supported features",
+      "evidence": "listed"
+     },
+     "features": {
+      "section": "Supported features",
+      "evidence": "positive list"
+     },
+     "fine_tuning": {
+      "section": "Endpoints",
+      "evidence": "table row",
+      "route": "v1/fine-tuning"
+     },
+     "tools": {
+      "section": "Supported tools",
+      "evidence": "positive list"
+     },
+     "pricing": {
+      "section": "Pricing",
+      "evidence": "Text tokens table"
+     },
+     "snapshots": {
+      "section": "Snapshots",
+      "evidence": "bullet list"
+     }
+    },
+    "warnings": [
+     "unrecognised Model details bullet: 'Unsupported modalities: audio, video'",
      "unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')"
     ]
    },
@@ -59101,6 +59735,10 @@
     "canonical_model_id": "gpt-6-luna",
     "relationship": "canonical"
    },
+   "gpt-6.1-terra": {
+    "canonical_model_id": "gpt-6.1-terra",
+    "relationship": "canonical"
+   },
    "babbage-002": {
     "canonical_model_id": "babbage-002",
     "relationship": "canonical"
@@ -59561,7 +60199,7 @@
    }
   ],
   "page_failures": [],
-  "pages_discovered": 101,
+  "pages_discovered": 102,
   "unmatched_api_models": [
    "gpt-3.5-turbo-0125",
    "gpt-3.5-turbo-1106",
@@ -59640,6 +60278,10 @@
     "prose_alias": false
    },
    "gpt-6-luna": {
+    "effort_sentence": false,
+    "prose_alias": false
+   },
+   "gpt-6.1-terra": {
     "effort_sentence": false,
     "prose_alias": false
    },
