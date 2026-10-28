@@ -12,6 +12,15 @@ Two version numbers matter:
 
 ## [Unreleased]
 
+## [0.1.36] — 2026-10-28
+
+Data-only automatic release. Drift since v0.1.35:
+
+- cohere: +2 model(s), -2 model(s)
+- inception: 1 record(s) changed
+- nvidia: -1 model(s)
+- openai: 2 record(s) changed
+
 ## [0.1.35] — 2026-10-27
 
 Data-only automatic release. Drift since v0.1.34:
