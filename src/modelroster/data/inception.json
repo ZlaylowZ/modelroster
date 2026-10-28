@@ -2,7 +2,7 @@
  "provider": "inception",
  "schema_version": 2,
  "parser_version": "2026.08.25-1",
- "retrieved_at": "2026-10-27T12:12:48Z",
+ "retrieved_at": "2026-10-28T12:55:21Z",
  "sources": {
   "listing": "https://api.inceptionlabs.ai/v1/models"
  },
@@ -134,7 +134,7 @@
      "stop"
     ]
    },
-   "retrieved_at": "2026-10-27T12:12:48Z",
+   "retrieved_at": "2026-10-28T12:55:21Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -259,7 +259,7 @@
      "stop"
     ]
    },
-   "retrieved_at": "2026-10-27T12:12:48Z",
+   "retrieved_at": "2026-10-28T12:55:21Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -328,9 +328,9 @@
    },
    "builtin_tools": null,
    "pricing": {
-    "input": 0.0,
-    "output": 0.0,
-    "cached_input": 0.0,
+    "input": 0.1,
+    "output": 0.35,
+    "cached_input": 0.01,
     "currency": "USD",
     "per": "1M tokens"
    },
@@ -384,7 +384,7 @@
      "stop"
     ]
    },
-   "retrieved_at": "2026-10-27T12:12:48Z",
+   "retrieved_at": "2026-10-28T12:55:21Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -509,7 +509,7 @@
      "stop"
     ]
    },
-   "retrieved_at": "2026-10-27T12:12:48Z",
+   "retrieved_at": "2026-10-28T12:55:21Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   }
