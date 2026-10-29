@@ -1,17 +1,21 @@
 {
  "provider": "mistral",
  "first_run": false,
- "previous_retrieved_at": "2026-10-27T12:12:48Z",
- "retrieved_at": "2026-10-28T12:55:21Z",
+ "previous_retrieved_at": "2026-10-28T12:55:21Z",
+ "retrieved_at": "2026-10-29T13:02:02Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
   "previous": 63,
-  "current": 63
+  "current": 64
  },
- "added_models": [],
+ "added_models": [
+  "deepseek-v4-1-flash-1017"
+ ],
  "removed_models": [],
- "added_families": [],
+ "added_families": [
+  "deepseek-v4-1-flash-1017"
+ ],
  "removed_families": [],
  "new_snapshots": [],
  "removed_snapshots": [],

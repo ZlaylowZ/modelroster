@@ -1,8 +1,8 @@
 {
  "provider": "openai",
  "first_run": false,
- "previous_retrieved_at": "2026-10-27T12:13:03Z",
- "retrieved_at": "2026-10-28T12:55:37Z",
+ "previous_retrieved_at": "2026-10-28T12:55:37Z",
+ "retrieved_at": "2026-10-29T13:02:18Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
@@ -15,22 +15,7 @@
  "removed_families": [],
  "new_snapshots": [],
  "removed_snapshots": [],
- "changed_capabilities": {
-  "gpt-4.1-mini": [
-   [
-    "builtin_tools.image_generation",
-    "false",
-    "true"
-   ]
-  ],
-  "gpt-5-nano": [
-   [
-    "builtin_tools.image_generation",
-    "true",
-    "false"
-   ]
-  ]
- },
+ "changed_capabilities": {},
  "warnings": [
   "babbage-002: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "babbage-002: unrecognised Snapshots bullet: '`babbage-002` — Shut down'",
