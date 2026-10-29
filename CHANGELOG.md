@@ -12,6 +12,13 @@ Two version numbers matter:
 
 ## [Unreleased]
 
+## [0.1.37] — 2026-10-29
+
+Data-only automatic release. Drift since v0.1.36:
+
+- inception: -2 model(s)
+- mistral: +1 model(s)
+
 ## [0.1.36] — 2026-10-28
 
 Data-only automatic release. Drift since v0.1.35:
