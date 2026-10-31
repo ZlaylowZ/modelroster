@@ -1,17 +1,15 @@
 {
  "provider": "nvidia",
  "first_run": false,
- "previous_retrieved_at": "2026-10-29T13:02:02Z",
- "retrieved_at": "2026-10-30T12:56:53Z",
+ "previous_retrieved_at": "2026-10-30T12:56:53Z",
+ "retrieved_at": "2026-10-31T12:30:35Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
-  "previous": 84,
+  "previous": 85,
   "current": 85
  },
- "added_models": [
-  "mistralai/mistral-large-4-1t-a52b"
- ],
+ "added_models": [],
  "removed_models": [],
  "added_families": [],
  "removed_families": [],
