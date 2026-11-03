@@ -1,18 +1,22 @@
 {
  "provider": "xai",
  "first_run": false,
- "previous_retrieved_at": "2026-11-01T13:25:48Z",
- "retrieved_at": "2026-11-02T15:54:25Z",
+ "previous_retrieved_at": "2026-11-02T15:54:25Z",
+ "retrieved_at": "2026-11-03T14:15:27Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
   "previous": 14,
-  "current": 14
+  "current": 13
  },
  "added_models": [],
- "removed_models": [],
+ "removed_models": [
+  "grok-imagine-image-quality"
+ ],
  "added_families": [],
- "removed_families": [],
+ "removed_families": [
+  "grok-imagine-image-quality"
+ ],
  "new_snapshots": [],
  "removed_snapshots": [],
  "changed_capabilities": {},

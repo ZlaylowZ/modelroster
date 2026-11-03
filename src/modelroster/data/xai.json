@@ -2,7 +2,7 @@
  "provider": "xai",
  "schema_version": 2,
  "parser_version": "2026.08.25-1",
- "retrieved_at": "2026-11-02T15:54:25Z",
+ "retrieved_at": "2026-11-03T14:15:27Z",
  "sources": {
   "listing": "https://api.x.ai/v1/models",
   "language_models": "https://api.x.ai/v1/language-models",
@@ -19,7 +19,6 @@
   "grok-build-0.1",
   "grok-imagine-image",
   "grok-imagine-image-2.0",
-  "grok-imagine-image-quality",
   "grok-imagine-video",
   "grok-imagine-video-1.5",
   "grok-imagine-video-1.5-lite"
@@ -175,7 +174,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-11-02T15:54:25Z",
+   "retrieved_at": "2026-11-03T14:15:27Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -343,7 +342,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-11-02T15:54:25Z",
+   "retrieved_at": "2026-11-03T14:15:27Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -493,7 +492,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-11-02T15:54:25Z",
+   "retrieved_at": "2026-11-03T14:15:27Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -646,7 +645,7 @@
      }
     }
    },
-   "retrieved_at": "2026-11-02T15:54:25Z",
+   "retrieved_at": "2026-11-03T14:15:27Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unexpected capability value '`none`, `low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
@@ -805,7 +804,7 @@
      }
     }
    },
-   "retrieved_at": "2026-11-02T15:54:25Z",
+   "retrieved_at": "2026-11-03T14:15:27Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unexpected capability value '`low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
@@ -958,7 +957,7 @@
      }
     }
    },
-   "retrieved_at": "2026-11-02T15:54:25Z",
+   "retrieved_at": "2026-11-03T14:15:27Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unexpected capability value '`low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
@@ -1111,7 +1110,7 @@
      }
     }
    },
-   "retrieved_at": "2026-11-02T15:54:25Z",
+   "retrieved_at": "2026-11-03T14:15:27Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unexpected capability value '`low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
@@ -1260,7 +1259,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-11-02T15:54:25Z",
+   "retrieved_at": "2026-11-03T14:15:27Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1354,7 +1353,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-11-02T15:54:25Z",
+   "retrieved_at": "2026-11-03T14:15:27Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1442,103 +1441,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-11-02T15:54:25Z",
-   "parser_version": "2026.08.25-1",
-   "warnings": []
-  },
-  "grok-imagine-image-quality": {
-   "provider": "xai",
-   "model_id": "grok-imagine-image-quality",
-   "display_name": "grok-imagine-image-quality",
-   "description": null,
-   "family": "grok-imagine-image-quality",
-   "aliases": [
-    "grok-imagine-image-quality-20260403",
-    "grok-imagine-image-quality-latest",
-    "grok-imagine-image-pro"
-   ],
-   "snapshots": [],
-   "default_snapshot": null,
-   "routes_to": null,
-   "relationship": "canonical",
-   "released": "2026-04-03",
-   "deprecated": null,
-   "shutdown_date": null,
-   "context_window": null,
-   "max_input_tokens": null,
-   "max_output_tokens": null,
-   "knowledge_cutoff": null,
-   "knowledge_cutoff_raw": null,
-   "modalities": {
-    "text": {
-     "input": true,
-     "output": false
-    },
-    "image": {
-     "input": true,
-     "output": true
-    },
-    "audio": {
-     "input": false,
-     "output": false
-    },
-    "video": {
-     "input": false,
-     "output": false
-    }
-   },
-   "capabilities": {
-    "reasoning": null,
-    "reasoning_efforts": null,
-    "default_effort": null,
-    "extended_thinking": null,
-    "tool_calling": null,
-    "structured_outputs": null,
-    "streaming": null,
-    "prompt_caching": null,
-    "fine_tuning": null,
-    "batch": false,
-    "citations": null,
-    "code_execution": null,
-    "pdf_input": null,
-    "extra": {}
-   },
-   "endpoints": {},
-   "builtin_tools": null,
-   "pricing": null,
-   "tier": "verified",
-   "provenance": {
-    "released": {
-     "section": "api:/models",
-     "evidence": "created timestamp"
-    },
-    "batch": {
-     "section": "docs:developers/models",
-     "evidence": "At a glance: Batch API"
-    },
-    "modalities.input": {
-     "section": "docs:developers/models",
-     "evidence": "At a glance: Modalities"
-    },
-    "modalities.output": {
-     "section": "docs:developers/models",
-     "evidence": "At a glance: Modalities"
-    },
-    "aliases": {
-     "section": "docs:developers/models",
-     "evidence": "At a glance: Aliases"
-    }
-   },
-   "sources": {
-    "listing": "https://api.x.ai/v1/models",
-    "documentation": "https://docs.x.ai/developers/models/grok-imagine-image-quality.md"
-   },
-   "raw": {
-    "created": 1775174400,
-    "owned_by": "xai",
-    "object": "model"
-   },
-   "retrieved_at": "2026-11-02T15:54:25Z",
+   "retrieved_at": "2026-11-03T14:15:27Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1626,7 +1529,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-11-02T15:54:25Z",
+   "retrieved_at": "2026-11-03T14:15:27Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1721,7 +1624,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-11-02T15:54:25Z",
+   "retrieved_at": "2026-11-03T14:15:27Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1809,14 +1712,14 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-11-02T15:54:25Z",
+   "retrieved_at": "2026-11-03T14:15:27Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   }
  },
  "stats": {
-  "api_models": 14,
-  "models": 14
+  "api_models": 13,
+  "models": 13
  },
  "warnings": [
   "grok-4.3: unexpected capability value '`none`, `low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
@@ -1848,7 +1751,6 @@
    "grok-build-0.1": "ok",
    "grok-imagine-image": "ok_no_capabilities",
    "grok-imagine-image-2.0": "ok_no_capabilities",
-   "grok-imagine-image-quality": "ok_no_capabilities",
    "grok-imagine-video": "ok_no_capabilities",
    "grok-imagine-video-1.5": "ok_no_capabilities",
    "grok-imagine-video-1.5-lite": "ok_no_capabilities"
