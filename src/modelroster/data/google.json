@@ -2,7 +2,7 @@
  "provider": "google",
  "schema_version": 2,
  "parser_version": "2026.08.25-1",
- "retrieved_at": "2026-11-05T14:39:56Z",
+ "retrieved_at": "2026-11-06T14:17:17Z",
  "sources": {
   "listing": "https://generativelanguage.googleapis.com/v1beta/openai/models",
   "native": "https://generativelanguage.googleapis.com/v1beta/models"
@@ -57,6 +57,7 @@
   "models/gemini-flash-lite-latest",
   "models/gemini-nano-banana-2.1",
   "models/gemini-omni-1.1-flash",
+  "models/gemini-omni-1.2-flash",
   "models/gemini-omni-flash-preview",
   "models/gemini-pro-latest",
   "models/gemini-robotics-er-2-preview",
@@ -190,7 +191,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -314,7 +315,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -438,7 +439,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -560,7 +561,7 @@
      "topK": 40
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -697,7 +698,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -834,7 +835,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -971,7 +972,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1108,7 +1109,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1247,7 +1248,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1376,7 +1377,7 @@
      "maxTemperature": 1
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1515,7 +1516,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1648,7 +1649,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1781,7 +1782,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -1914,7 +1915,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2042,7 +2043,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2181,7 +2182,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2310,7 +2311,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2449,7 +2450,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2587,7 +2588,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2725,7 +2726,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -2863,7 +2864,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3001,7 +3002,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3140,7 +3141,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3278,7 +3279,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3417,7 +3418,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3540,7 +3541,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3669,7 +3670,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3808,7 +3809,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -3947,7 +3948,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4086,7 +4087,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4225,7 +4226,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4348,7 +4349,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4476,7 +4477,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4599,7 +4600,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4738,7 +4739,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -4877,7 +4878,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5016,7 +5017,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5145,7 +5146,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5274,7 +5275,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5397,7 +5398,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5529,7 +5530,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5667,7 +5668,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -5790,7 +5791,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised generation method 'asyncBatchEmbedContent' (stored as endpoint 'async_batch_embed_content')"
@@ -5915,7 +5916,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised generation method 'asyncBatchEmbedContent' (stored as endpoint 'async_batch_embed_content')"
@@ -6040,7 +6041,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised generation method 'asyncBatchEmbedContent' (stored as endpoint 'async_batch_embed_content')"
@@ -6181,7 +6182,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6320,7 +6321,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6458,7 +6459,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6595,7 +6596,144 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
+   "parser_version": "2026.08.25-1",
+   "warnings": []
+  },
+  "models/gemini-omni-1.2-flash": {
+   "provider": "google",
+   "model_id": "models/gemini-omni-1.2-flash",
+   "display_name": "Gemini Omni 1.2 Flash",
+   "description": "Gemini Omni 1.2 Flash",
+   "family": "models/gemini-omni-1.2-flash",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": null,
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 131072,
+   "max_input_tokens": 131072,
+   "max_output_tokens": 65536,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": true,
+     "output": true
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": true,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": true,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": false,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {
+    "chat_completions": true,
+    "generate_content": true,
+    "stream_generate_content": false,
+    "count_tokens": true,
+    "embed_content": false,
+    "batch_embed_contents": false,
+    "generate_answer": false,
+    "predict": false,
+    "predict_long_running": false,
+    "bidi_generate_content": false,
+    "create_cached_content": false,
+    "batch_generate_content": false,
+    "count_text_tokens": false,
+    "generate_text": false,
+    "embed_text": false,
+    "create_tuned_model": false
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "endpoints.chat_completions": {
+     "section": "api:/v1beta/openai/models",
+     "evidence": "listed by the OpenAI-compatibility shim"
+    },
+    "context_window": {
+     "section": "api:/v1beta/models",
+     "evidence": "inputTokenLimit"
+    },
+    "max_input_tokens": {
+     "section": "api:/v1beta/models",
+     "evidence": "inputTokenLimit"
+    },
+    "max_output_tokens": {
+     "section": "api:/v1beta/models",
+     "evidence": "outputTokenLimit"
+    },
+    "endpoints": {
+     "section": "api:/v1beta/models",
+     "evidence": "supportedGenerationMethods"
+    },
+    "streaming": {
+     "section": "api:/v1beta/models",
+     "evidence": "supportedGenerationMethods contains streamGenerateContent"
+    },
+    "reasoning": {
+     "section": "api:/v1beta/models",
+     "evidence": "thinking"
+    },
+    "extended_thinking": {
+     "section": "api:/v1beta/models",
+     "evidence": "thinking"
+    }
+   },
+   "sources": {
+    "listing": "https://generativelanguage.googleapis.com/v1beta/openai/models",
+    "documentation": null,
+    "native": "https://generativelanguage.googleapis.com/v1beta/models"
+   },
+   "raw": {
+    "owned_by": "google",
+    "object": "model",
+    "native": {
+     "name": "models/gemini-omni-1.2-flash",
+     "version": "001",
+     "displayName": "Gemini Omni 1.2 Flash",
+     "inputTokenLimit": 131072,
+     "outputTokenLimit": 65536,
+     "supportedGenerationMethods": [
+      "generateContent",
+      "countTokens"
+     ],
+     "temperature": 1,
+     "topP": 0.95,
+     "topK": 64,
+     "maxTemperature": 2,
+     "thinking": true
+    }
+   },
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6732,7 +6870,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -6871,7 +7009,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7010,7 +7148,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7133,7 +7271,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7270,7 +7408,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7407,7 +7545,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7535,7 +7673,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7663,7 +7801,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7791,7 +7929,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   },
@@ -7911,7 +8049,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": [
     "unrecognised generation method 'bidiGenerateMusic' (stored as endpoint 'bidi_generate_music')"
@@ -8051,14 +8189,14 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-05T14:39:55Z",
+   "retrieved_at": "2026-11-06T14:17:17Z",
    "parser_version": "2026.08.25-1",
    "warnings": []
   }
  },
  "stats": {
-  "api_models": 60,
-  "models": 60
+  "api_models": 61,
+  "models": 61
  },
  "warnings": [
   "models/gemini-embedding-001: unrecognised generation method 'asyncBatchEmbedContent' (stored as endpoint 'async_batch_embed_content')",
