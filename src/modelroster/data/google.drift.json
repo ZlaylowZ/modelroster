@@ -1,21 +1,17 @@
 {
  "provider": "google",
  "first_run": false,
- "previous_retrieved_at": "2026-11-05T14:39:56Z",
- "retrieved_at": "2026-11-06T14:17:17Z",
+ "previous_retrieved_at": "2026-11-06T14:17:17Z",
+ "retrieved_at": "2026-11-07T13:01:31Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
-  "previous": 60,
+  "previous": 61,
   "current": 61
  },
- "added_models": [
-  "models/gemini-omni-1.2-flash"
- ],
+ "added_models": [],
  "removed_models": [],
- "added_families": [
-  "models/gemini-omni-1.2-flash"
- ],
+ "added_families": [],
  "removed_families": [],
  "new_snapshots": [],
  "removed_snapshots": [],
