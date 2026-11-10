@@ -1,8 +1,8 @@
 {
  "provider": "google",
  "first_run": false,
- "previous_retrieved_at": "2026-11-08T13:25:35Z",
- "retrieved_at": "2026-11-09T16:20:57Z",
+ "previous_retrieved_at": "2026-11-09T16:20:57Z",
+ "retrieved_at": "2026-11-10T14:53:47Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
@@ -15,7 +15,44 @@
  "removed_families": [],
  "new_snapshots": [],
  "removed_snapshots": [],
- "changed_capabilities": {},
+ "changed_capabilities": {
+  "models/deep-research-max-preview-04-2026": [
+   [
+    "context_window",
+    "131072",
+    "1048576"
+   ],
+   [
+    "max_input_tokens",
+    "131072",
+    "1048576"
+   ]
+  ],
+  "models/deep-research-preview-04-2026": [
+   [
+    "context_window",
+    "131072",
+    "1048576"
+   ],
+   [
+    "max_input_tokens",
+    "131072",
+    "1048576"
+   ]
+  ],
+  "models/deep-research-pro-preview-12-2025": [
+   [
+    "context_window",
+    "131072",
+    "1048576"
+   ],
+   [
+    "max_input_tokens",
+    "131072",
+    "1048576"
+   ]
+  ]
+ },
  "warnings": [
   "models/gemini-embedding-001: unrecognised generation method 'asyncBatchEmbedContent' (stored as endpoint 'async_batch_embed_content')",
   "models/gemini-embedding-2: unrecognised generation method 'asyncBatchEmbedContent' (stored as endpoint 'async_batch_embed_content')",
