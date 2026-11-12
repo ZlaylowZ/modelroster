@@ -1,8 +1,8 @@
 {
  "provider": "mistral",
  "first_run": false,
- "previous_retrieved_at": "2026-11-10T14:53:47Z",
- "retrieved_at": "2026-11-11T14:24:05Z",
+ "previous_retrieved_at": "2026-11-11T14:24:05Z",
+ "retrieved_at": "2026-11-12T15:15:51Z",
  "parser_version": "2026.08.25-1",
  "previous_parser_version": "2026.08.25-1",
  "counts": {
@@ -15,6 +15,70 @@
  "removed_families": [],
  "new_snapshots": [],
  "removed_snapshots": [],
- "changed_capabilities": {},
+ "changed_capabilities": {
+  "mistral-large-2512": [
+   [
+    "aliases",
+    "[mistral-large-latest]",
+    "[]"
+   ]
+  ],
+  "mistral-large-4": [
+   [
+    "aliases",
+    "[mistral-large-4-0]",
+    "[mistral-large-4-0, mistral-large-latest]"
+   ]
+  ],
+  "mistral-large-4-0": [
+   [
+    "aliases",
+    "[mistral-large-4]",
+    "[mistral-large-4, mistral-large-latest]"
+   ]
+  ],
+  "mistral-large-latest": [
+   [
+    "aliases",
+    "[mistral-large-2512]",
+    "[mistral-large-4, mistral-large-4-0]"
+   ],
+   [
+    "capabilities.extra.mistral.fine_tuning",
+    "true",
+    "false"
+   ],
+   [
+    "capabilities.extra.mistral.reasoning",
+    "false",
+    "true"
+   ],
+   [
+    "capabilities.extra.mistral.unified_resources",
+    "false",
+    "true"
+   ],
+   [
+    "capabilities.fine_tuning",
+    "true",
+    "false"
+   ],
+   [
+    "capabilities.reasoning",
+    "false",
+    "true"
+   ],
+   [
+    "context_window",
+    "262144",
+    "1048576"
+   ],
+   [
+    "display_name",
+    "mistral-large-2512",
+    "mistral-large-4"
+   ]
+  ]
+ },
  "warnings": []
 }
