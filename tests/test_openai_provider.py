@@ -103,6 +103,25 @@ def test_stats():
     assert (st["api_models"], st["documented_model_families"], st["matched_api_models"], st["unmatched_api_models"]) == (3, 1, 2, 1)
 
 
+def test_sub_catalog_unreachable_degrades_to_page_failure(fake_keys):
+    prov = OpenAIProvider()
+    pages = prov.fixtures(FIXTURES)
+    pages.pop("https://developers.openai.com/api/docs/models/all.md")
+    http = FixtureFetcher(pages)
+    docs, failed, discovered = prov.fetch_documentation(http)
+    assert any(f["slug"] == "all" and "fetch" in f["reason"] for f in failed)
+    assert discovered < 60                                  # featured pages only
+
+
+def test_documented_snapshot_deprecation_marks_record(fake_keys):
+    reg = overlay(docs("gpt-4o"), ["gpt-4o", "gpt-4o-2024-08-06"])
+    snap = reg["models"]["gpt-4o-2024-08-06"]
+    assert snap["deprecated"] is True                        # "— Deprecated" bullet, no date in listing
+    assert snap["provenance"]["deprecated"]["section"] == "Snapshots"
+    assert reg["models"]["gpt-4o"]["raw"]["snapshot_status"]["gpt-4o-2024-05-13"] == "shut_down"
+    assert reg["models"]["gpt-4o"]["deprecated"] is None     # the family itself is not annotated
+
+
 def test_shutdown_date_marks_deprecated():
     reg = overlay(docs("gpt-4o"), [{"id": "gpt-4o", "created": 1, "owned_by": "x", "shutdown_date": "2026-10-23"}])
     rec = reg["models"]["gpt-4o"]
@@ -126,7 +145,7 @@ def test_full_fixture_pipeline_lists_real_listing(fake_keys):
     assert len(raw) == len(listing("openai_models.json")["data"])
     res = prov.enrich(raw, http)
     assert res.stats["page_failures"] == 0
-    assert res.stats["documented_model_families"] == 96
+    assert res.stats["documented_model_families"] == 107    # merged models.md + all.md discovery
 
 
 # ── OpenAI-specific gates ──

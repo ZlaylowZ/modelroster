@@ -40,6 +40,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Supported |
 | Responses | `v1/responses` | Supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -88,7 +89,7 @@ Tools supported by this model when using the Responses API.
 | Model | Input | Cached input | Output |
 | --- | ---: | ---: | ---: |
 | GPT-5.6 Terra | $2 | $0.2 | $12 |
-| GPT-5.6 Sol | $5 | $0.5 | $30 |
+| GPT-5.6 Sol | $4 | $0.4 | $20 |
 | GPT-5.4 mini | $0.75 | $0.075 | $4.5 |
 
 ## Snapshots
@@ -96,6 +97,14 @@ Tools supported by this model when using the Responses API.
 Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for GPT-5.6 Terra.
 
 - `gpt-5.6-terra`
+
+## Cloud providers
+
+Model IDs across cloud providers.
+
+| Provider | Model ID |
+| --- | --- |
+| [Amazon Bedrock](/api/docs/guides/amazon-bedrock) | `openai.gpt-5.6-terra` |
 
 ## Rate limits
 
@@ -105,8 +114,6 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | RPM | TPM | Batch queue limit |
 | --- | ---: | ---: | ---: |
-| Tier 1 | 500 | 500,000 | 1,500,000 |
-| Tier 2 | 5,000 | 1,000,000 | 3,000,000 |
-| Tier 3 | 5,000 | 2,000,000 | 100,000,000 |
-| Tier 4 | 10,000 | 4,000,000 | 200,000,000 |
-| Tier 5 | 15,000 | 40,000,000 | 15,000,000,000 |
+| Build | 5,000 | 1,000,000 | 3,000,000 |
+| Launch | 10,000 | 4,000,000 | 200,000,000 |
+| Grow | 15,000 | 40,000,000 | 15,000,000,000 |

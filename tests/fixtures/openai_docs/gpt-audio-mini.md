@@ -1,10 +1,12 @@
-# gpt-audio-mini
+# GPT-Audio mini
 
 > For the complete documentation index, see [llms.txt](/llms.txt). Markdown versions of documentation pages are available by appending `.md` to the page URL.
 
 > A cost-efficient version of GPT Audio
 
 Model ID: `gpt-audio-mini`
+
+Status: Deprecated
 
 A cost-efficient version of GPT Audio. It accepts audio inputs and outputs, and can be used in the Chat Completions REST API.
 
@@ -32,6 +34,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Supported |
 | Responses | `v1/responses` | Not supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -63,10 +66,10 @@ Tools supported by this model when using the Responses API.
 
 ## Snapshots
 
-Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for gpt-audio-mini.
+Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for GPT-Audio mini.
 
-- `gpt-audio-mini-2025-10-06`
-- `gpt-audio-mini-2025-12-15`
+- `gpt-audio-mini-2025-10-06` — Shut down
+- `gpt-audio-mini-2025-12-15` — Deprecated
 
 ## Rate limits
 
@@ -76,8 +79,6 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | RPM | TPM |
 | --- | ---: | ---: |
-| Tier 1 | 500 | 30,000 |
-| Tier 2 | 5,000 | 450,000 |
-| Tier 3 | 5,000 | 800,000 |
-| Tier 4 | 10,000 | 2,000,000 |
-| Tier 5 | 10,000 | 30,000,000 |
+| Build | 5,000 | 450,000 |
+| Launch | 10,000 | 2,000,000 |
+| Grow | 10,000 | 30,000,000 |

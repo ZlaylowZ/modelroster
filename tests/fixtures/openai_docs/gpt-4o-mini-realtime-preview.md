@@ -1,4 +1,4 @@
-# GPT-4o mini Realtime
+# GPT-4o Mini Realtime
 
 > For the complete documentation index, see [llms.txt](/llms.txt). Markdown versions of documentation pages are available by appending `.md` to the page URL.
 
@@ -6,7 +6,9 @@
 
 Model ID: `gpt-4o-mini-realtime-preview`
 
-This is a preview release of the GPT-4o-mini Realtime model, capable of responding to audio and text inputs in realtime over WebRTC or a WebSocket interface.
+Status: Shut down
+
+This preview of GPT-4o mini in the Realtime API can respond to audio and text inputs over WebRTC or a WebSocket interface.
 
 ## Model details
 
@@ -41,6 +43,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Not supported |
 | Responses | `v1/responses` | Not supported |
 | Realtime | `v1/realtime` | Supported |
@@ -66,9 +69,9 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 ## Snapshots
 
-Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for GPT-4o mini Realtime.
+Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for GPT-4o Mini Realtime.
 
-- `gpt-4o-mini-realtime-preview-2024-12-17`
+- `gpt-4o-mini-realtime-preview-2024-12-17` — Shut down
 
 ## Rate limits
 
@@ -76,10 +79,8 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 ### default
 
-| Tier | RPM | RPD | TPM |
-| --- | ---: | ---: | ---: |
-| Tier 1 | 200 | 1,000 | 40,000 |
-| Tier 2 | 400 | - | 200,000 |
-| Tier 3 | 5,000 | - | 800,000 |
-| Tier 4 | 10,000 | - | 4,000,000 |
-| Tier 5 | 20,000 | - | 15,000,000 |
+| Tier | RPM | TPM |
+| --- | ---: | ---: |
+| Build | 400 | 200,000 |
+| Launch | 10,000 | 4,000,000 |
+| Grow | 20,000 | 15,000,000 |

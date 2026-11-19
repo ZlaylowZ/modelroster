@@ -74,6 +74,9 @@ _RE_REASONING_MARKER = re.compile(r"^Reasoning token support$")
 _RE_TABLE_ROW = re.compile(r"^\|\s*(.+?)\s*\|\s*`([^`]+)`\s*\|\s*(.+?)\s*\|\s*$")
 _RE_PRICE_ROW = re.compile(r"^\|\s*(.+?)\s*\|\s*\$?([\d.,]+)\s*\|\s*(.+?)\s*\|\s*$")
 _RE_BACKTICK_ID = re.compile(r"^`([^`]+)`$")
+# Since 2026-11 a Snapshots bullet may annotate lifecycle: "`id` — Deprecated"
+_RE_SNAPSHOT_BULLET = re.compile(r"^`([^`]+)`(?:\s*[—–-]+\s*(.+?))?\s*$")
+SNAPSHOT_STATUSES = {"deprecated": "deprecated", "shut down": "shut_down"}
 _RE_CATALOG_LINK = re.compile(r"\((" + re.escape(MODEL_PAGE_PREFIX) + r"[A-Za-z0-9._-]+?)(?:\.md)?\)")
 
 PRICE_LABELS = {"input": "input", "cached input": "cached_input", "output": "output"}
@@ -87,7 +90,7 @@ def empty_doc_record() -> dict:
     return {
         "canonical_model_id": None, "display_name": None, "description": None,
         "documentation_url": None, "aliases": [], "snapshots": [], "default_snapshot": None,
-        "routes_to": None,
+        "routes_to": None, "snapshot_status": {},
         "reasoning": {"supported": None, "efforts": None, "default_effort": None},
         "function_calling": None, "structured_outputs": None, "streaming": None,
         "fine_tuning": None, "prompt_caching": None,
@@ -295,9 +298,15 @@ def parse_model_page(markdown: str, documentation_url: str | None = None, slug: 
         if section == SECTION_SNAPSHOTS:
             m = _RE_BULLET.match(line)
             if m:
-                mm = _RE_BACKTICK_ID.match(m.group(1).strip())
+                mm = _RE_SNAPSHOT_BULLET.match(m.group(1).strip())
                 if mm:
                     snapshots.append(mm.group(1))
+                    if mm.group(2):
+                        status = SNAPSHOT_STATUSES.get(mm.group(2).strip().lower())
+                        if status is None:
+                            status = mm.group(2).strip()
+                            warnings.append("unrecognised snapshot status %r for %r (kept)" % (status, mm.group(1)))
+                        rec["snapshot_status"][mm.group(1)] = status
                 else:
                     warnings.append("unrecognised Snapshots bullet: %r" % m.group(1))
             continue
@@ -381,6 +390,8 @@ def parse_model_page(markdown: str, documentation_url: str | None = None, slug: 
     rec["snapshots"] = snapshots
     if snapshots:
         rec["provenance"]["snapshots"] = prov("Snapshots", "bullet list")
+    if rec["snapshot_status"]:
+        rec["provenance"]["snapshot_status"] = prov("Snapshots", "bullet annotation")
     if rec["default_snapshot"] and rec["default_snapshot"] not in snapshots:
         warnings.append("default snapshot %r is not in the Snapshots list" % rec["default_snapshot"])
 

@@ -1,4 +1,4 @@
-# GPT Live Transcribe
+# GPT-Live-Transcribe
 
 > For the complete documentation index, see [llms.txt](/llms.txt). Markdown versions of documentation pages are available by appending `.md` to the page URL.
 
@@ -6,7 +6,7 @@
 
 Model ID: `gpt-live-transcribe`
 
-GPT Live Transcribe is a streaming speech-to-text model for applications that need low-latency transcript deltas from live audio. It supports tunable latency, unstructured context, keyword hints, and multiple language hints.
+GPT-Live-Transcribe is a streaming speech-to-text model for applications that need low-latency transcript deltas from live audio. It supports tunable latency, unstructured context, keyword hints, and multiple language hints.
 
 ## Model details
 
@@ -28,6 +28,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Not supported |
 | Responses | `v1/responses` | Not supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -52,7 +53,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 ## Snapshots
 
-Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for GPT Live Transcribe.
+Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for GPT-Live-Transcribe.
 
 - `gpt-live-transcribe`
 
@@ -64,8 +65,6 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | RPM | TPM |
 | --- | ---: | ---: |
-| Tier 1 | 500 | 60,000 |
-| Tier 2 | 2,000 | 210,000 |
-| Tier 3 | 5,000 | 390,000 |
-| Tier 4 | 10,000 | 600,000 |
-| Tier 5 | 10,000 | 780,000 |
+| Build | 2,000 | 210,000 |
+| Launch | 10,000 | 600,000 |
+| Grow | 10,000 | 780,000 |

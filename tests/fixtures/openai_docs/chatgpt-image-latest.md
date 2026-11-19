@@ -6,7 +6,9 @@
 
 Model ID: `chatgpt-image-latest`
 
-This points to the Image snapshot previously used in ChatGPT. We recommend [GPT Image 2](/api/docs/models/gpt-image-2) for API use.
+Status: Deprecated
+
+This points to the Image snapshot previously used in ChatGPT. We recommend [GPT-Image-2.5 Sunburst](/api/docs/models/gpt-image-2.5-sunburst) for API use.
 
 ## Model details
 
@@ -65,6 +67,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Not supported |
 | Responses | `v1/responses` | Not supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -91,7 +94,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for chatgpt-image-latest.
 
-- `chatgpt-image-latest`
+- `chatgpt-image-latest` — Deprecated
 
 ## Rate limits
 
@@ -101,8 +104,6 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | TPM | IPM |
 | --- | ---: | ---: |
-| Tier 1 | 100,000 | 5 |
-| Tier 2 | 250,000 | 20 |
-| Tier 3 | 800,000 | 50 |
-| Tier 4 | 3,000,000 | 150 |
-| Tier 5 | 8,000,000 | 250 |
+| Build | 250,000 | 20 |
+| Launch | 3,000,000 | 150 |
+| Grow | 8,000,000 | 250 |

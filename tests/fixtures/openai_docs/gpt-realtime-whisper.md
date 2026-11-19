@@ -33,6 +33,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Not supported |
 | Responses | `v1/responses` | Not supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -69,8 +70,6 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | Minutes-of-audio per minute |
 | --- | ---: |
-| Tier 1 | 100 |
-| Tier 2 | 350 |
-| Tier 3 | 650 |
-| Tier 4 | 1,000 |
-| Tier 5 | 1,300 |
+| Build | 350 |
+| Launch | 1,000 |
+| Grow | 1,300 |

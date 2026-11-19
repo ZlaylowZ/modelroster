@@ -33,6 +33,7 @@ H100 GPU (117B parameters with 5.1B active parameters).
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Not supported |
 | Responses | `v1/responses` | Supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -72,6 +73,14 @@ Snapshots let you lock in a specific version of the model so that performance an
 
 - `gpt-oss-120b`
 
+## Cloud providers
+
+Model IDs across cloud providers.
+
+| Provider | Model ID |
+| --- | --- |
+| [Amazon Bedrock](/api/docs/guides/amazon-bedrock) | `openai.gpt-oss-120b` |
+
 ## Rate limits
 
 Rate limits ensure fair and reliable access to the API by placing specific caps on requests, tokens, audio duration, or other usage within a given time period. Your usage tier determines how high these limits are set and automatically increases as you send more requests and spend more on the API.
@@ -80,8 +89,6 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | RPM | TPM | Batch queue limit |
 | --- | ---: | ---: | ---: |
-| Tier 1 | 0 | 0 | 0 |
-| Tier 2 | 0 | 0 | 0 |
-| Tier 3 | 0 | 0 | 0 |
-| Tier 4 | 0 | 0 | 0 |
-| Tier 5 | 0 | 0 | 0 |
+| Build | 0 | 0 | 0 |
+| Launch | 0 | 0 | 0 |
+| Grow | 0 | 0 | 0 |

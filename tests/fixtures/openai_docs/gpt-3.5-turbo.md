@@ -6,7 +6,9 @@
 
 Model ID: `gpt-3.5-turbo`
 
-GPT-3.5 Turbo models can understand and generate natural language or code and have been optimized for chat using the Chat Completions API but work well for non-chat tasks as well. As of July 2024, use gpt-4o-mini in place of GPT-3.5 Turbo, as it is cheaper, more capable, multimodal, and just as fast. GPT-3.5 Turbo is still available for use in the API.
+Status: Shut down
+
+GPT-3.5 Turbo models can understand and generate natural language or code and have been optimized for chat using the Chat Completions API but work well for non-chat tasks as well. As of July 2024, use gpt-4o-mini in place of GPT-3.5 Turbo, as it is cheaper, more capable, multimodal, and just as fast. GPT-3.5 Turbo was shut down on October 23, 2026, and is no longer available in the API.
 
 ## Model details
 
@@ -32,6 +34,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Supported |
 | Responses | `v1/responses` | Supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -66,9 +69,9 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for GPT-3.5 Turbo.
 
-- `gpt-3.5-turbo-0125`
-- `gpt-3.5-turbo-1106`
-- `gpt-3.5-turbo-instruct`
+- `gpt-3.5-turbo-0125` — Shut down
+- `gpt-3.5-turbo-1106` — Shut down
+- `gpt-3.5-turbo-instruct` — Shut down
 
 ## Rate limits
 
@@ -76,10 +79,8 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 ### default
 
-| Tier | RPM | RPD | TPM | Batch queue limit |
-| --- | ---: | ---: | ---: | ---: |
-| Tier 1 | 500 | 10,000 | 200,000 | 2,000,000 |
-| Tier 2 | 5,000 | - | 2,000,000 | 5,000,000 |
-| Tier 3 | 5,000 | - | 4,000,000 | 50,000,000 |
-| Tier 4 | 10,000 | - | 10,000,000 | 1,000,000,000 |
-| Tier 5 | 10,000 | - | 50,000,000 | 10,000,000,000 |
+| Tier | RPM | TPM | Batch queue limit |
+| --- | ---: | ---: | ---: |
+| Build | 5,000 | 2,000,000 | 5,000,000 |
+| Launch | 10,000 | 10,000,000 | 1,000,000,000 |
+| Grow | 10,000 | 50,000,000 | 10,000,000,000 |

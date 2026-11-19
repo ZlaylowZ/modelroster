@@ -6,6 +6,8 @@
 
 Model ID: `gpt-realtime-mini`
 
+Status: Deprecated
+
 GPT-Realtime mini is capable of responding to audio and text inputs in realtime over WebRTC, WebSocket, or SIP connections.
 
 ## Model details
@@ -33,6 +35,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Not supported |
 | Responses | `v1/responses` | Not supported |
 | Realtime | `v1/realtime` | Supported |
@@ -67,8 +70,8 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for GPT-Realtime mini.
 
-- `gpt-realtime-mini-2025-10-06`
-- `gpt-realtime-mini-2025-12-15`
+- `gpt-realtime-mini-2025-10-06` — Shut down
+- `gpt-realtime-mini-2025-12-15` — Deprecated
 
 ## Rate limits
 
@@ -78,8 +81,6 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | RPM | TPM |
 | --- | ---: | ---: |
-| Tier 1 | 200 | 40,000 |
-| Tier 2 | 400 | 200,000 |
-| Tier 3 | 5,000 | 800,000 |
-| Tier 4 | 10,000 | 4,000,000 |
-| Tier 5 | 20,000 | 15,000,000 |
+| Build | 400 | 200,000 |
+| Launch | 10,000 | 4,000,000 |
+| Grow | 20,000 | 15,000,000 |

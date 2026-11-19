@@ -6,6 +6,8 @@
 
 Model ID: `gpt-4.5-preview`
 
+Status: Shut down
+
 Deprecated - a research preview of GPT-4.5. We recommend using gpt-4.1 or o3 
 models instead for most use cases
 
@@ -34,6 +36,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Supported |
 | Responses | `v1/responses` | Supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -74,7 +77,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for GPT-4.5 Preview.
 
-- `gpt-4.5-preview-2025-02-27`
+- `gpt-4.5-preview-2025-02-27` — Shut down
 
 ## Rate limits
 
@@ -84,8 +87,6 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | RPM | TPM | Batch queue limit |
 | --- | ---: | ---: | ---: |
-| Tier 1 | 1,000 | 125,000 | 50,000 |
-| Tier 2 | 5,000 | 250,000 | 500,000 |
-| Tier 3 | 5,000 | 500,000 | 50,000,000 |
-| Tier 4 | 10,000 | 1,000,000 | 100,000,000 |
-| Tier 5 | 10,000 | 2,000,000 | 5,000,000,000 |
+| Build | 5,000 | 250,000 | 500,000 |
+| Launch | 10,000 | 1,000,000 | 100,000,000 |
+| Grow | 10,000 | 2,000,000 | 5,000,000,000 |

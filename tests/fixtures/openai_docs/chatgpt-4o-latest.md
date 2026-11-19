@@ -6,7 +6,9 @@
 
 Model ID: `chatgpt-4o-latest`
 
-ChatGPT-4o was a model alias for the GPT-4o snapshot used in ChatGPT. It has been deprecated and removed from the API. We recommend using [GPT-5.6](/api/docs/models/gpt-5.6-sol) for most API integrations.
+Status: Shut down
+
+ChatGPT-4o was a model alias for the GPT-4o snapshot used in ChatGPT. It has been deprecated and removed from the API. We recommend using [GPT-6.2 Astra](/api/docs/models/gpt-6.2-astra) for most API integrations.
 
 ## Model details
 
@@ -32,6 +34,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Supported |
 | Responses | `v1/responses` | Supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -68,7 +71,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for ChatGPT-4o.
 
-- `chatgpt-4o-latest`
+- `chatgpt-4o-latest` — Shut down
 
 ## Rate limits
 
@@ -78,8 +81,6 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | RPM | TPM | Batch queue limit |
 | --- | ---: | ---: | ---: |
-| Tier 1 | 500 | 30,000 | 90,000 |
-| Tier 2 | 5,000 | 450,000 | 1,350,000 |
-| Tier 3 | 5,000 | 800,000 | 50,000,000 |
-| Tier 4 | 10,000 | 2,000,000 | 200,000,000 |
-| Tier 5 | 10,000 | 30,000,000 | 5,000,000,000 |
+| Build | 5,000 | 450,000 | 1,350,000 |
+| Launch | 10,000 | 2,000,000 | 200,000,000 |
+| Grow | 10,000 | 30,000,000 | 5,000,000,000 |

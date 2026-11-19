@@ -6,6 +6,8 @@
 
 Model ID: `gpt-4`
 
+Status: Shut down
+
 GPT-4 is an older version of a high-intelligence GPT model, usable in Chat Completions.
 
 ## Model details
@@ -32,6 +34,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Supported |
 | Responses | `v1/responses` | Supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -67,8 +70,8 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for GPT-4.
 
-- `gpt-4-0613`
-- `gpt-4-0314`
+- `gpt-4-0613` — Shut down
+- `gpt-4-0314` — Shut down
 
 ## Rate limits
 
@@ -76,10 +79,8 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 ### default
 
-| Tier | RPM | RPD | TPM | Batch queue limit |
-| --- | ---: | ---: | ---: | ---: |
-| Tier 1 | 500 | 10,000 | 10,000 | 100,000 |
-| Tier 2 | 5,000 | - | 40,000 | 200,000 |
-| Tier 3 | 5,000 | - | 80,000 | 5,000,000 |
-| Tier 4 | 10,000 | - | 300,000 | 30,000,000 |
-| Tier 5 | 10,000 | - | 1,000,000 | 150,000,000 |
+| Tier | RPM | TPM | Batch queue limit |
+| --- | ---: | ---: | ---: |
+| Build | 5,000 | 40,000 | 200,000 |
+| Launch | 10,000 | 300,000 | 30,000,000 |
+| Grow | 10,000 | 1,000,000 | 150,000,000 |

@@ -1,10 +1,12 @@
-# GPT-4 Turbo Preview
+# GPT-4 Turbo preview
 
 > For the complete documentation index, see [llms.txt](/llms.txt). Markdown versions of documentation pages are available by appending `.md` to the page URL.
 
 > An older fast GPT model
 
 Model ID: `gpt-4-turbo-preview`
+
+Status: Shut down
 
 This is a research preview of the GPT-4 Turbo model, an older high-intelligence GPT model.
 
@@ -32,6 +34,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Supported |
 | Responses | `v1/responses` | Supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -58,16 +61,16 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Model | Input | Cached input | Output |
 | --- | ---: | ---: | ---: |
-| GPT-4 Turbo Preview | $10 | - | $30 |
+| GPT-4 Turbo preview | $10 | - | $30 |
 | GPT-4o mini | $0.15 | $0.075 | $0.6 |
 | o3-mini | $1.1 | $0.55 | $4.4 |
 
 ## Snapshots
 
-Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for GPT-4 Turbo Preview.
+Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for GPT-4 Turbo preview.
 
-- `gpt-4-0125-preview`
-- `gpt-4-1106-vision-preview`
+- `gpt-4-0125-preview` — Shut down
+- `gpt-4-1106-vision-preview` — Shut down
 
 ## Rate limits
 
@@ -77,8 +80,6 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | RPM | TPM | Batch queue limit |
 | --- | ---: | ---: | ---: |
-| Tier 1 | 500 | 30,000 | 90,000 |
-| Tier 2 | 5,000 | 450,000 | 1,350,000 |
-| Tier 3 | 5,000 | 600,000 | 40,000,000 |
-| Tier 4 | 10,000 | 800,000 | 80,000,000 |
-| Tier 5 | 10,000 | 2,000,000 | 300,000,000 |
+| Build | 5,000 | 450,000 | 1,350,000 |
+| Launch | 10,000 | 800,000 | 80,000,000 |
+| Grow | 10,000 | 2,000,000 | 300,000,000 |

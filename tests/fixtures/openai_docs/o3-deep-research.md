@@ -2,17 +2,18 @@
 
 > For the complete documentation index, see [llms.txt](/llms.txt). Markdown versions of documentation pages are available by appending `.md` to the page URL.
 
-> Our most powerful deep research model
+> Retired deep research model
 
 Model ID: `o3-deep-research`
 
-o3-deep-research is our most advanced model for deep research, 
-designed to tackle complex, multi-step research tasks. It can 
-search and synthesize information from across the internet as 
-well as from your own data—brought in through MCP connectors.
+Status: Shut down
 
-Learn more about getting started with this model in our
-[deep research](/api/docs/guides/deep-research) guide.
+o3-deep-research searched public web sources and private data from MCP
+connectors to answer multi-step research questions. The model shut down
+on July 23, 2026.
+
+For current research workflows, see
+[Run longer web research](/api/docs/guides/tools-web-search?api-mode=responses#run-longer-web-research).
 
 ## Model details
 
@@ -40,6 +41,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Not supported |
 | Responses | `v1/responses` | Supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -87,7 +89,7 @@ Tools supported by this model when using the Responses API.
 
 Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for o3-deep-research.
 
-- `o3-deep-research-2025-06-26`
+- `o3-deep-research-2025-06-26` — Shut down
 
 ## Rate limits
 
@@ -97,8 +99,6 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | RPM | TPM | Batch queue limit |
 | --- | ---: | ---: | ---: |
-| Tier 1 | 500 | 200,000 | 200,000 |
-| Tier 2 | 5,000 | 450,000 | 300,000 |
-| Tier 3 | 5,000 | 800,000 | 500,000 |
-| Tier 4 | 10,000 | 2,000,000 | 2,000,000 |
-| Tier 5 | 10,000 | 30,000,000 | 10,000,000 |
+| Build | 5,000 | 450,000 | 300,000 |
+| Launch | 10,000 | 2,000,000 | 2,000,000 |
+| Grow | 10,000 | 30,000,000 | 10,000,000 |

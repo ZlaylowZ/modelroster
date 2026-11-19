@@ -66,7 +66,12 @@ def fmt(v: Any) -> str:
     return str(v)
 
 
-def validate(current: dict, previous: dict | None, provider: Any = None) -> tuple[list[str], list[str]]:
+def validate(current: dict, previous: dict | None, provider: Any = None,
+             accept_shrink: bool = False) -> tuple[list[str], list[str]]:
+    """`accept_shrink` is the human acknowledgment that a smaller catalog is
+    real (a provider retiring models en masse): shrink refusals — the generic
+    gate and any provider gate whose message says "shrank" — are demoted to
+    warnings for this run only. Every other gate still blocks."""
     errors: list[str] = []
     warnings: list[str] = []
     models = current.get("models") or {}
@@ -85,6 +90,11 @@ def validate(current: dict, previous: dict | None, provider: Any = None) -> tupl
         e, w = provider.validate(current, previous)
         errors.extend(e)
         warnings.extend(w)
+    if accept_shrink:
+        demoted = [e for e in errors if "shrank" in e]
+        errors = [e for e in errors if "shrank" not in e]
+        for e in demoted:
+            warnings.append("accepted shrink: %s" % e)
     # de-duplicate while preserving order
     seen: set[str] = set()
     warnings = [w for w in warnings if not (w in seen or seen.add(w))]

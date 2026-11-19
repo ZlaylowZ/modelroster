@@ -10,6 +10,8 @@ Moderation models are free models designed to detect harmful content.
 This model is our most capable moderation model, accepting images as input as well.
 You can find the model card [here](https://cdn.openai.com/API/docs/omni_moderation_information_for_developers.pdf).
 
+For child-safety workflows, approved organizations can use a separate model, `omni-moderation-csam-latest`, to check images for potential child sexual abuse material (CSAM). See the [CSAM classifier guide](/api/docs/guides/csam-classifier) for access and an example request.
+
 ## Model details
 
 - Default snapshot: `omni-moderation-2024-09-26`
@@ -20,6 +22,7 @@ You can find the model card [here](https://cdn.openai.com/API/docs/omni_moderati
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Not supported |
 | Responses | `v1/responses` | Not supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -56,9 +59,7 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | RPM | RPD | TPM |
 | --- | ---: | ---: | ---: |
-| free | 250 | 5,000 | 10,000 |
-| Tier 1 | 500 | 10,000 | 10,000 |
-| Tier 2 | 500 | - | 20,000 |
-| Tier 3 | 1,000 | - | 50,000 |
-| Tier 4 | 2,000 | - | 250,000 |
-| Tier 5 | 5,000 | - | 500,000 |
+| Free | 250 | 5,000 | 10,000 |
+| Build | 500 | - | 20,000 |
+| Launch | 2,000 | - | 250,000 |
+| Grow | 5,000 | - | 500,000 |

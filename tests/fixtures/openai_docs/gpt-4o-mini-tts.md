@@ -6,6 +6,8 @@
 
 Model ID: `gpt-4o-mini-tts`
 
+Status: Deprecated
+
 GPT-4o mini TTS is a text-to-speech model built on GPT-4o mini, a fast and powerful language model. Use it to convert text to natural sounding spoken text. The maximum number of input tokens is 2000.
 
 ## Model details
@@ -34,6 +36,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Not supported |
 | Responses | `v1/responses` | Not supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -57,15 +60,15 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 | Model | Input | Cached input | Output |
 | --- | ---: | ---: | ---: |
 | GPT-4o mini TTS | $0.6 | - | - |
-| GPT-4o mini Realtime | $0.6 | $0.3 | $2.4 |
+| GPT-4o Mini Realtime | $0.6 | $0.3 | $2.4 |
 | GPT-4o Realtime | $5 | $2.5 | $20 |
 
 ## Snapshots
 
 Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for GPT-4o mini TTS.
 
-- `gpt-4o-mini-tts-2025-03-20`
-- `gpt-4o-mini-tts-2025-12-15`
+- `gpt-4o-mini-tts-2025-03-20` — Deprecated
+- `gpt-4o-mini-tts-2025-12-15` — Deprecated
 
 ## Rate limits
 
@@ -75,8 +78,6 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | RPM | TPM |
 | --- | ---: | ---: |
-| Tier 1 | 500 | 50,000 |
-| Tier 2 | 2,000 | 150,000 |
-| Tier 3 | 5,000 | 600,000 |
-| Tier 4 | 10,000 | 2,000,000 |
-| Tier 5 | 10,000 | 8,000,000 |
+| Build | 2,000 | 150,000 |
+| Launch | 10,000 | 2,000,000 |
+| Grow | 10,000 | 8,000,000 |

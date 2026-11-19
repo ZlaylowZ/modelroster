@@ -6,6 +6,8 @@
 
 Model ID: `tts-1-hd`
 
+Status: Deprecated
+
 TTS is a model that converts text to natural sounding spoken text. The tts-1-hd model is optimized for high quality text-to-speech use cases. Use it with the Speech endpoint in the Audio API.
 
 ## Model details
@@ -29,6 +31,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Not supported |
 | Responses | `v1/responses` | Not supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -53,13 +56,13 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 | --- | ---: |
 | TTS-1 HD | $30 |
 | TTS-1 | $15 |
-| GPT-4o mini Realtime | - |
+| GPT-4o Mini Realtime | - |
 
 ## Snapshots
 
 Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for TTS-1 HD.
 
-- `tts-1-hd`
+- `tts-1-hd` — Deprecated
 
 ## Rate limits
 
@@ -69,9 +72,7 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | RPM |
 | --- | ---: |
-| free | - |
-| Tier 1 | 500 |
-| Tier 2 | 2,500 |
-| Tier 3 | 5,000 |
-| Tier 4 | 7,500 |
-| Tier 5 | 10,000 |
+| Free | - |
+| Build | 2,500 |
+| Launch | 7,500 |
+| Grow | 10,000 |

@@ -9,17 +9,34 @@ from modelroster.providers.openai_docs import (
 from modelroster.schema import KNOWN_FEATURE_KEYS, KNOWN_TOOL_KEYS, MODALITIES, parse_cutoff
 
 
+def merged_discovery():
+    """The provider's two-page discovery (models.md + the all.md sub-catalog),
+    minus the known non-model pages — mirrors OpenAIProvider.fetch_documentation."""
+    from modelroster.providers.openai import NON_MODEL_SLUGS
+    pages = discover_model_pages(load_doc("models"))
+    seen = {s for s, _ in pages}
+    for extra_slug, extra_url in discover_model_pages(load_doc("all")):
+        if extra_slug not in seen:
+            seen.add(extra_slug)
+            pages.append((extra_slug, extra_url))
+    return [(s, u) for s, u in pages if s not in NON_MODEL_SLUGS]
+
+
 def test_discover_model_pages_dedupes_md_and_bare_links():
     pages = discover_model_pages(load_doc("models"))
     slugs = [s for s, _ in pages]
     assert len(slugs) == len(set(slugs))
-    assert "gpt-5.4" in slugs and "gpt-5.6-sol" in slugs and "text-embedding-3-small" in slugs
     assert all(url.endswith(".md") for _, url in pages)
-    assert len(slugs) > 80
+    # since 2026-11 models.md lists only featured models plus the all.md sub-catalog
+    assert "all" in slugs and len(slugs) < 60
+    merged = [s for s, _ in merged_discovery()]
+    assert len(merged) > 100
+    assert "gpt-5.4" in merged and "gpt-5.6-sol" in merged and "text-embedding-3-small" in merged
+    assert "all" not in merged and "compare" not in merged
 
 
 def test_every_catalogued_page_has_a_fixture():
-    missing = [s for s, _ in discover_model_pages(load_doc("models")) if not (DOCS / (s + ".md")).exists()]
+    missing = [s for s, _ in merged_discovery() if not (DOCS / (s + ".md")).exists()]
     assert missing == []
 
 
@@ -162,6 +179,19 @@ def test_snapshots_and_default_snapshot():
     r = parse("gpt-4o")
     assert r["snapshots"] == ["gpt-4o-2024-11-20", "gpt-4o-2024-08-06", "gpt-4o-2024-05-13"]
     assert r["default_snapshot"] == "gpt-4o-2024-08-06"
+    # lifecycle annotations (format of 2026-11) are captured, not dropped
+    assert r["snapshot_status"] == {"gpt-4o-2024-11-20": "deprecated", "gpt-4o-2024-08-06": "deprecated",
+                                    "gpt-4o-2024-05-13": "shut_down"}
+    assert not any("unrecognised Snapshots bullet" in w for w in r["warnings"])
+    assert parse("gpt-5.4")["snapshot_status"] == {}       # unannotated bullets carry no status
+
+
+def test_unknown_snapshot_status_kept_with_warning():
+    md = load_doc("gpt-4o").replace("`gpt-4o-2024-11-20` — Deprecated", "`gpt-4o-2024-11-20` — Hibernating")
+    r = parse_model_page(md, slug="gpt-4o")
+    assert r["snapshot_status"]["gpt-4o-2024-11-20"] == "Hibernating"
+    assert "gpt-4o-2024-11-20" in r["snapshots"]
+    assert any("unrecognised snapshot status" in w for w in r["warnings"])
 
 
 def test_prose_alias_is_captured_with_provenance():
@@ -234,9 +264,8 @@ def test_contradiction_feature_vs_endpoint_is_warned():
 
 
 def test_all_fixture_pages_parse_without_empty_results():
-    from modelroster.providers.openai_docs import discover_model_pages
     empties = []
-    for slug, _ in discover_model_pages(load_doc("models")):
+    for slug, _ in merged_discovery():
         r = parse(slug)
         if is_empty_parse(r):
             empties.append(slug)

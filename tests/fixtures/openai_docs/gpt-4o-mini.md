@@ -6,9 +6,11 @@
 
 Model ID: `gpt-4o-mini`
 
-GPT-4o mini (“o” for “omni”) is a fast, affordable small model for focused tasks. 
+Status: Deprecated
+
+GPT-4o mini (“o” for “omni”) is a fast, affordable small model for focused tasks.
 It accepts both text and image inputs, and produces text outputs (including Structured Outputs). 
-It is ideal for fine-tuning, and model outputs from a larger model like GPT-4o can be distilled to GPT-4o-mini to produce similar results at lower cost and latency.
+It is ideal for fine-tuning, and model outputs from a larger model like GPT-4o can be distilled to GPT-4o mini to produce similar results at lower cost and latency.
 
 ## Model details
 
@@ -35,6 +37,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Supported |
 | Responses | `v1/responses` | Supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -88,7 +91,7 @@ Tools supported by this model when using the Responses API.
 
 Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for GPT-4o mini.
 
-- `gpt-4o-mini-2024-07-18`
+- `gpt-4o-mini-2024-07-18` — Deprecated
 
 ## Rate limits
 
@@ -96,10 +99,8 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 ### default
 
-| Tier | RPM | RPD | TPM | Batch queue limit |
-| --- | ---: | ---: | ---: | ---: |
-| Tier 1 | 500 | 10,000 | 200,000 | 2,000,000 |
-| Tier 2 | 5,000 | - | 2,000,000 | 20,000,000 |
-| Tier 3 | 5,000 | - | 4,000,000 | 40,000,000 |
-| Tier 4 | 10,000 | - | 10,000,000 | 1,000,000,000 |
-| Tier 5 | 30,000 | - | 150,000,000 | 15,000,000,000 |
+| Tier | RPM | TPM | Batch queue limit |
+| --- | ---: | ---: | ---: |
+| Build | 5,000 | 2,000,000 | 20,000,000 |
+| Launch | 10,000 | 10,000,000 | 1,000,000,000 |
+| Grow | 30,000 | 150,000,000 | 15,000,000,000 |

@@ -6,7 +6,7 @@
 
 Model ID: `gpt-5.4`
 
-GPT-5.4 is our frontier model for complex professional work.
+GPT-5.4 is a flagship model for complex professional work.
 Learn more in our [GPT-5.4 model guidance](/api/docs/guides/latest-model?model=gpt-5.4). Reasoning.effort supports: none (default), low, medium, high and xhigh.
 
 ## Model details
@@ -38,6 +38,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Supported |
 | Responses | `v1/responses` | Supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -97,6 +98,14 @@ Snapshots let you lock in a specific version of the model so that performance an
 
 - `gpt-5.4-2026-03-05`
 
+## Cloud providers
+
+Model IDs across cloud providers.
+
+| Provider | Model ID |
+| --- | --- |
+| [Amazon Bedrock](/api/docs/guides/amazon-bedrock) | `openai.gpt-5.4` |
+
 ## Rate limits
 
 Rate limits ensure fair and reliable access to the API by placing specific caps on requests, tokens, audio duration, or other usage within a given time period. Your usage tier determines how high these limits are set and automatically increases as you send more requests and spend more on the API.
@@ -105,11 +114,9 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | RPM | TPM | Batch queue limit |
 | --- | ---: | ---: | ---: |
-| Tier 1 | 500 | 500,000 | 1,500,000 |
-| Tier 2 | 5,000 | 1,000,000 | 3,000,000 |
-| Tier 3 | 5,000 | 2,000,000 | 100,000,000 |
-| Tier 4 | 10,000 | 4,000,000 | 200,000,000 |
-| Tier 5 | 15,000 | 40,000,000 | 15,000,000,000 |
+| Build | 5,000 | 1,000,000 | 3,000,000 |
+| Launch | 10,000 | 4,000,000 | 200,000,000 |
+| Grow | 15,000 | 40,000,000 | 15,000,000,000 |
 
 ### Long Context
 
@@ -117,8 +124,6 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | RPM | TPM | Batch queue limit |
 | --- | ---: | ---: | ---: |
-| Tier 1 | 200 | 400,000 | 5,000,000 |
-| Tier 2 | 500 | 1,000,000 | 40,000,000 |
-| Tier 3 | 1,000 | 2,000,000 | 80,000,000 |
-| Tier 4 | 2,000 | 10,000,000 | 200,000,000 |
-| Tier 5 | 8,000 | 20,000,000 | 2,000,000,000 |
+| Build | 500 | 1,000,000 | 40,000,000 |
+| Launch | 2,000 | 10,000,000 | 200,000,000 |
+| Grow | 8,000 | 20,000,000 | 2,000,000,000 |

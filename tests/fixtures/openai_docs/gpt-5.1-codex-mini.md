@@ -1,4 +1,4 @@
-# GPT-5.1-Codex mini
+# GPT-5.1-Codex-Mini
 
 > For the complete documentation index, see [llms.txt](/llms.txt). Markdown versions of documentation pages are available by appending `.md` to the page URL.
 
@@ -6,7 +6,9 @@
 
 Model ID: `gpt-5.1-codex-mini`
 
-GPT-5.1-Codex mini is a smaller, more cost-effective, less-capable version of GPT-5.1-Codex.
+Status: Shut down
+
+GPT-5.1-Codex-Mini is a smaller, more cost-effective, less-capable version of GPT-5.1-Codex.
 
 ## Model details
 
@@ -34,6 +36,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Not supported |
 | Responses | `v1/responses` | Supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -73,15 +76,15 @@ Tools supported by this model when using the Responses API.
 
 | Model | Input | Cached input | Output |
 | --- | ---: | ---: | ---: |
-| GPT-5.1-Codex mini | $0.25 | $0.025 | $2 |
+| GPT-5.1-Codex-Mini | $0.25 | $0.025 | $2 |
 | GPT-5-Codex | $1.25 | $0.125 | $10 |
-| GPT-5.1-Codex mini | $0.25 | $0.025 | $2 |
+| GPT-5.1-Codex-Mini | $0.25 | $0.025 | $2 |
 
 ## Snapshots
 
-Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for GPT-5.1-Codex mini.
+Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for GPT-5.1-Codex-Mini.
 
-- `gpt-5.1-codex-mini`
+- `gpt-5.1-codex-mini` — Shut down
 
 ## Rate limits
 
@@ -91,8 +94,6 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | RPM | TPM | Batch queue limit |
 | --- | ---: | ---: | ---: |
-| Tier 1 | 500 | 500,000 | 5,000,000 |
-| Tier 2 | 5,000 | 2,000,000 | 20,000,000 |
-| Tier 3 | 5,000 | 4,000,000 | 40,000,000 |
-| Tier 4 | 10,000 | 10,000,000 | 1,000,000,000 |
-| Tier 5 | 30,000 | 180,000,000 | 15,000,000,000 |
+| Build | 5,000 | 2,000,000 | 20,000,000 |
+| Launch | 10,000 | 10,000,000 | 1,000,000,000 |
+| Grow | 30,000 | 180,000,000 | 15,000,000,000 |

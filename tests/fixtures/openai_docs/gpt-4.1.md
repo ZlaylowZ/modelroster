@@ -6,6 +6,8 @@
 
 Model ID: `gpt-4.1`
 
+Status: Deprecated
+
 GPT-4.1 excels at instruction following and tool calling, with broad 
 knowledge across domains. It features a 1M token context window, and
 low latency without a reasoning step.
@@ -37,6 +39,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Supported |
 | Responses | `v1/responses` | Supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -91,7 +94,7 @@ Tools supported by this model when using the Responses API.
 
 Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for GPT-4.1.
 
-- `gpt-4.1-2025-04-14`
+- `gpt-4.1-2025-04-14` — Deprecated
 
 ## Rate limits
 
@@ -101,11 +104,9 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | RPM | TPM | Batch queue limit |
 | --- | ---: | ---: | ---: |
-| Tier 1 | 500 | 30,000 | 90,000 |
-| Tier 2 | 5,000 | 450,000 | 1,350,000 |
-| Tier 3 | 5,000 | 800,000 | 50,000,000 |
-| Tier 4 | 10,000 | 2,000,000 | 200,000,000 |
-| Tier 5 | 10,000 | 30,000,000 | 5,000,000,000 |
+| Build | 5,000 | 450,000 | 1,350,000 |
+| Launch | 10,000 | 2,000,000 | 200,000,000 |
+| Grow | 10,000 | 30,000,000 | 5,000,000,000 |
 
 ### Long Context
 
@@ -113,8 +114,6 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | RPM | TPM | Batch queue limit |
 | --- | ---: | ---: | ---: |
-| Tier 1 | 100 | 200,000 | 2,000,000 |
-| Tier 2 | 250 | 500,000 | 20,000,000 |
-| Tier 3 | 500 | 1,000,000 | 40,000,000 |
-| Tier 4 | 1,000 | 5,000,000 | 100,000,000 |
-| Tier 5 | 4,000 | 10,000,000 | 1,000,000,000 |
+| Build | 250 | 500,000 | 20,000,000 |
+| Launch | 1,000 | 5,000,000 | 100,000,000 |
+| Grow | 4,000 | 10,000,000 | 1,000,000,000 |

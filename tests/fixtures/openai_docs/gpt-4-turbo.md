@@ -6,6 +6,8 @@
 
 Model ID: `gpt-4-turbo`
 
+Status: Shut down
+
 GPT-4 Turbo is the next generation of GPT-4, an older high-intelligence GPT model. It was designed to be a cheaper, better version of GPT-4. Today, we recommend using a newer model like GPT-4o.
 
 ## Model details
@@ -32,6 +34,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Supported |
 | Responses | `v1/responses` | Supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -68,7 +71,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for GPT-4 Turbo.
 
-- `gpt-4-turbo-2024-04-09`
+- `gpt-4-turbo-2024-04-09` — Shut down
 
 ## Rate limits
 
@@ -78,8 +81,6 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | RPM | TPM | Batch queue limit |
 | --- | ---: | ---: | ---: |
-| Tier 1 | 500 | 30,000 | 90,000 |
-| Tier 2 | 5,000 | 450,000 | 1,350,000 |
-| Tier 3 | 5,000 | 600,000 | 40,000,000 |
-| Tier 4 | 10,000 | 800,000 | 80,000,000 |
-| Tier 5 | 10,000 | 2,000,000 | 300,000,000 |
+| Build | 5,000 | 450,000 | 1,350,000 |
+| Launch | 10,000 | 800,000 | 80,000,000 |
+| Grow | 10,000 | 2,000,000 | 300,000,000 |

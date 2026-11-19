@@ -6,6 +6,8 @@
 
 Model ID: `computer-use-preview`
 
+Status: Shut down
+
 The computer-use-preview model is a specialized model for the computer use 
 tool. It is trained to understand and execute computer tasks.
 See the [computer use guide](/api/docs/guides/tools-computer-use) for more
@@ -37,6 +39,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Not supported |
 | Responses | `v1/responses` | Supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -71,7 +74,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for computer-use-preview.
 
-- `computer-use-preview-2025-03-11`
+- `computer-use-preview-2025-03-11` — Shut down
 
 ## Rate limits
 
@@ -81,6 +84,5 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | RPM | TPM | Batch queue limit |
 | --- | ---: | ---: | ---: |
-| Tier 3 | 3,000 | 20,000,000 | 450,000,000 |
-| Tier 4 | 3,000 | 20,000,000 | 450,000,000 |
-| Tier 5 | 3,000 | 20,000,000 | 450,000,000 |
+| Launch | 3,000 | 20,000,000 | 450,000,000 |
+| Grow | 3,000 | 20,000,000 | 450,000,000 |

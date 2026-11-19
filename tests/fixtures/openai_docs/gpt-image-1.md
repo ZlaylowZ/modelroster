@@ -2,11 +2,13 @@
 
 > For the complete documentation index, see [llms.txt](/llms.txt). Markdown versions of documentation pages are available by appending `.md` to the page URL.
 
-> Our previous image generation model
+> Retired image generation model
 
 Model ID: `gpt-image-1`
 
-GPT Image 1 is a natively multimodal language model that accepts both text and image inputs, and produces image outputs.
+Status: Shut down
+
+GPT Image 1 was shut down on October 23, 2026 and is no longer available. We recommend [GPT-Image-2.5 Sunburst](/api/docs/models/gpt-image-2.5-sunburst) for current image generation and editing. See the [deprecation notice](/api/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots) for migration options.
 
 ## Model details
 
@@ -64,6 +66,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Not supported |
 | Responses | `v1/responses` | Supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -90,7 +93,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for GPT Image 1.
 
-- `gpt-image-1`
+- `gpt-image-1` — Shut down
 
 ## Rate limits
 
@@ -100,8 +103,6 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | TPM | IPM |
 | --- | ---: | ---: |
-| Tier 1 | 100,000 | 5 |
-| Tier 2 | 250,000 | 20 |
-| Tier 3 | 800,000 | 50 |
-| Tier 4 | 3,000,000 | 150 |
-| Tier 5 | 8,000,000 | 250 |
+| Build | 250,000 | 20 |
+| Launch | 3,000,000 | 150 |
+| Grow | 8,000,000 | 250 |

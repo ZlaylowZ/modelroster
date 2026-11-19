@@ -7,7 +7,7 @@
 Model ID: `chat-latest`
 
 chat-latest points to the latest Instant model currently used in ChatGPT.
-We recommend leveraging [GPT-5.6](/api/docs/models/gpt-5.6-sol) for production API usage. Learn more on the [Model guidance](/api/docs/guides/latest-model) page. The underlying model snapshot will be regularly updated.
+We recommend leveraging [GPT-6.2 Astra](/api/docs/models/gpt-6.2-astra) for production API usage. Learn more on the [Model guidance](/api/docs/guides/latest-model) page. The underlying model snapshot will be regularly updated.
 
 ## Model details
 
@@ -17,7 +17,7 @@ We recommend leveraging [GPT-5.6](/api/docs/models/gpt-5.6-sol) for production A
 - 400,000 context window
 - Maximum input tokens: 272,000
 - 128,000 max output tokens
-- Aug 31, 2025 knowledge cutoff
+- Apr 20, 2026 knowledge cutoff
 
 ## Pricing
 
@@ -35,6 +35,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Supported |
 | Responses | `v1/responses` | Supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -85,8 +86,6 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | RPM | TPM | Batch queue limit |
 | --- | ---: | ---: | ---: |
-| Tier 1 | 500 | 30,000 | 50,000 |
-| Tier 2 | 5,000 | 450,000 | 1,350,000 |
-| Tier 3 | 5,000 | 800,000 | 100,000,000 |
-| Tier 4 | 10,000 | 2,000,000 | 200,000,000 |
-| Tier 5 | 15,000 | 40,000,000 | 15,000,000,000 |
+| Build | 5,000 | 450,000 | 1,350,000 |
+| Launch | 10,000 | 2,000,000 | 200,000,000 |
+| Grow | 15,000 | 40,000,000 | 15,000,000,000 |

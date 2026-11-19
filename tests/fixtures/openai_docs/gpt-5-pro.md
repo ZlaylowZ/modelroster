@@ -1,4 +1,4 @@
-# GPT-5 Pro
+# GPT-5 pro
 
 > For the complete documentation index, see [llms.txt](/llms.txt). Markdown versions of documentation pages are available by appending `.md` to the page URL.
 
@@ -6,15 +6,17 @@
 
 Model ID: `gpt-5-pro`
 
-GPT-5 Pro uses more compute to think harder and provide consistently better answers.
+Status: Deprecated
 
- GPT-5 Pro is available in the [Responses API only](/api/docs/api-reference/responses)
+GPT-5 pro uses more compute to think harder and provide consistently better answers.
+
+ GPT-5 pro is available in the [Responses API only](/api/docs/api-reference/responses)
  to enable support for multi-turn model interactions before responding to API
- requests, and other advanced API features in the future. Since GPT-5 Pro is designed
+ requests, and other advanced API features in the future. Since GPT-5 pro is designed
  to tackle tough problems, some requests may take several minutes to finish.
  To avoid timeouts, try using [background mode](/api/docs/guides/background). 
- As our most advanced reasoning model, GPT-5 Pro defaults to (and only supports) `reasoning.effort: high`.
- GPT-5 Pro does not support code interpreter.
+ As our most advanced reasoning model, GPT-5 pro defaults to (and only supports) `reasoning.effort: high`.
+ GPT-5 pro does not support code interpreter.
 
 ## Model details
 
@@ -41,6 +43,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Not supported |
 | Responses | `v1/responses` | Supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -83,15 +86,15 @@ Tools supported by this model when using the Responses API.
 
 | Model | Input | Cached input | Output |
 | --- | ---: | ---: | ---: |
-| GPT-5 Pro | $15 | - | $120 |
+| GPT-5 pro | $15 | - | $120 |
 | GPT-5 | $1.25 | $0.125 | $10 |
 | o3-pro | $20 | - | $80 |
 
 ## Snapshots
 
-Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for GPT-5 Pro.
+Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for GPT-5 pro.
 
-- `gpt-5-pro-2025-10-06`
+- `gpt-5-pro-2025-10-06` — Deprecated
 
 ## Rate limits
 
@@ -101,8 +104,6 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | RPM | TPM | Batch queue limit |
 | --- | ---: | ---: | ---: |
-| Tier 1 | 500 | 30,000 | 90,000 |
-| Tier 2 | 5,000 | 450,000 | 1,350,000 |
-| Tier 3 | 5,000 | 800,000 | 50,000,000 |
-| Tier 4 | 10,000 | 2,000,000 | 200,000,000 |
-| Tier 5 | 10,000 | 30,000,000 | 5,000,000,000 |
+| Build | 5,000 | 450,000 | 1,350,000 |
+| Launch | 10,000 | 2,000,000 | 200,000,000 |
+| Grow | 10,000 | 30,000,000 | 5,000,000,000 |

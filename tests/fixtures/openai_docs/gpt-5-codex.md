@@ -6,6 +6,8 @@
 
 Model ID: `gpt-5-codex`
 
+Status: Shut down
+
 GPT-5-Codex is a version of GPT-5 optimized for agentic coding tasks in [Codex](https://developers.openai.com/codex) or similar environments.
 It's available in the [Responses API](/api/docs/api-reference/responses) only and the underlying model snapshot will be regularly updated.
 If you want to learn more about prompting GPT-5-Codex, refer to our [dedicated guide](/cookbook/examples/gpt-5/codex_prompting_guide).
@@ -37,6 +39,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Not supported |
 | Responses | `v1/responses` | Supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -83,7 +86,7 @@ Tools supported by this model when using the Responses API.
 
 Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for GPT-5-Codex.
 
-- `gpt-5-codex`
+- `gpt-5-codex` — Shut down
 
 ## Rate limits
 
@@ -93,8 +96,6 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | RPM | TPM | Batch queue limit |
 | --- | ---: | ---: | ---: |
-| Tier 1 | 500 | 500,000 | 1,500,000 |
-| Tier 2 | 5,000 | 1,000,000 | 3,000,000 |
-| Tier 3 | 5,000 | 2,000,000 | 100,000,000 |
-| Tier 4 | 10,000 | 4,000,000 | 200,000,000 |
-| Tier 5 | 15,000 | 10,000,000 | 15,000,000,000 |
+| Build | 5,000 | 1,000,000 | 3,000,000 |
+| Launch | 10,000 | 4,000,000 | 200,000,000 |
+| Grow | 15,000 | 10,000,000 | 15,000,000,000 |

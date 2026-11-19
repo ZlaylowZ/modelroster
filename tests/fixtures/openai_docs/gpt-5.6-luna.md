@@ -6,6 +6,11 @@
 
 Model ID: `gpt-5.6-luna`
 
+A rate-limit entry for your usage tier does not confirm model access. If
+GPT-5.6 Luna is missing from Playground or the API model list,
+[check model availability](/api/docs/guides/rate-limits#model-availability).
+
+
 GPT-5.6 Luna is designed for cost-sensitive, high-volume workloads. It
 roughly corresponds to the nano model tier used in earlier GPT-5 families.
 Reasoning.effort supports: none, low, medium (default), high, xhigh, and max.
@@ -40,6 +45,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Supported |
 | Responses | `v1/responses` | Supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -97,6 +103,14 @@ Snapshots let you lock in a specific version of the model so that performance an
 
 - `gpt-5.6-luna`
 
+## Cloud providers
+
+Model IDs across cloud providers.
+
+| Provider | Model ID |
+| --- | --- |
+| [Amazon Bedrock](/api/docs/guides/amazon-bedrock) | `openai.gpt-5.6-luna` |
+
 ## Rate limits
 
 Rate limits ensure fair and reliable access to the API by placing specific caps on requests, tokens, audio duration, or other usage within a given time period. Your usage tier determines how high these limits are set and automatically increases as you send more requests and spend more on the API.
@@ -105,8 +119,6 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | RPM | TPM | Batch queue limit |
 | --- | ---: | ---: | ---: |
-| Tier 1 | 500 | 500,000 | 5,000,000 |
-| Tier 2 | 5,000 | 2,000,000 | 20,000,000 |
-| Tier 3 | 5,000 | 4,000,000 | 40,000,000 |
-| Tier 4 | 10,000 | 10,000,000 | 1,000,000,000 |
-| Tier 5 | 30,000 | 180,000,000 | 15,000,000,000 |
+| Build | 5,000 | 2,000,000 | 20,000,000 |
+| Launch | 10,000 | 10,000,000 | 1,000,000,000 |
+| Grow | 30,000 | 180,000,000 | 15,000,000,000 |

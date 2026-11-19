@@ -1,4 +1,4 @@
-# GPT Transcribe
+# GPT-Transcribe
 
 > For the complete documentation index, see [llms.txt](/llms.txt). Markdown versions of documentation pages are available by appending `.md` to the page URL.
 
@@ -6,7 +6,7 @@
 
 Model ID: `gpt-transcribe`
 
-GPT Transcribe is a speech-to-text model for completed audio files, streamed file transcripts, and committed turns in Realtime sessions over WebSocket. It supports unstructured context, keyword hints, and multiple language hints to improve transcription of domain terms, multilingual audio, and code-switching.
+GPT-Transcribe is a speech-to-text model for completed audio files, streamed file transcripts, and committed turns in Realtime sessions over WebSocket. It supports unstructured context, keyword hints, and multiple language hints to improve transcription of domain terms, multilingual audio, and code-switching.
 
 ## Model details
 
@@ -28,6 +28,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Not supported |
 | Responses | `v1/responses` | Not supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -52,7 +53,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 ## Snapshots
 
-Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for GPT Transcribe.
+Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for GPT-Transcribe.
 
 - `gpt-transcribe`
 
@@ -64,8 +65,6 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | RPM | TPM |
 | --- | ---: | ---: |
-| Tier 1 | 500 | 200,000 |
-| Tier 2 | 5,000 | 2,000,000 |
-| Tier 3 | 5,000 | 4,000,000 |
-| Tier 4 | 10,000 | 10,000,000 |
-| Tier 5 | 30,000 | 150,000,000 |
+| Build | 5,000 | 2,000,000 |
+| Launch | 10,000 | 10,000,000 |
+| Grow | 30,000 | 150,000,000 |

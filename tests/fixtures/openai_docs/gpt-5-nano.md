@@ -6,10 +6,12 @@
 
 Model ID: `gpt-5-nano`
 
-GPT-5 Nano is our fastest, cheapest version of GPT-5. It's great for
+Status: Deprecated
+
+GPT-5 nano is our fastest, cheapest version of GPT-5. It's great for
 summarization and classification tasks. For most new speed- and
 cost-sensitive workloads, we recommend starting with
-[GPT-5.6 Luna](/api/docs/models/gpt-5.6-luna). Learn more in our
+[GPT-6 Luna](/api/docs/models/gpt-6-luna). Learn more in our
 [Model guidance](/api/docs/guides/latest-model) page.
 
 ## Model details
@@ -39,6 +41,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Supported |
 | Responses | `v1/responses` | Supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -74,7 +77,6 @@ Tools supported by this model when using the Responses API.
 - function_calling
 - web_search
 - file_search
-- image_generation
 - code_interpreter
 - mcp
 
@@ -90,7 +92,7 @@ Tools supported by this model when using the Responses API.
 
 Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for GPT-5 nano.
 
-- `gpt-5-nano-2025-08-07`
+- `gpt-5-nano-2025-08-07` — Deprecated
 
 ## Rate limits
 
@@ -100,8 +102,6 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | RPM | TPM | Batch queue limit |
 | --- | ---: | ---: | ---: |
-| Tier 1 | 500 | 200,000 | 2,000,000 |
-| Tier 2 | 5,000 | 2,000,000 | 20,000,000 |
-| Tier 3 | 5,000 | 4,000,000 | 40,000,000 |
-| Tier 4 | 10,000 | 10,000,000 | 1,000,000,000 |
-| Tier 5 | 30,000 | 180,000,000 | 15,000,000,000 |
+| Build | 5,000 | 2,000,000 | 20,000,000 |
+| Launch | 10,000 | 10,000,000 | 1,000,000,000 |
+| Grow | 30,000 | 180,000,000 | 15,000,000,000 |

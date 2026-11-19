@@ -60,7 +60,8 @@ def cmd_update(args: argparse.Namespace) -> int:
     results = []
     for n in names:
         results.append(run_provider(n, data_dir=args.data_dir, offline=args.offline, no_cache=args.no_cache,
-                                    dry_run=args.dry_run, fixtures_root=args.fixtures, quiet=args.quiet))
+                                    dry_run=args.dry_run, fixtures_root=args.fixtures, quiet=args.quiet,
+                                    accept_shrink=args.accept_shrink))
     print()
     for r in results:
         print(r.summary())
@@ -300,6 +301,8 @@ def build_parser() -> argparse.ArgumentParser:
     u.add_argument("--all", action="store_true", help="explicitly all providers (the default)")
     u.add_argument("--offline", action="store_true", help="serve every request from the on-disk cache; never open a socket")
     u.add_argument("--no-cache", action="store_true", help="ignore and do not write the HTTP cache")
+    u.add_argument("--accept-shrink", action="store_true",
+                   help="acknowledge that a smaller catalog is real: demote shrink refusals to warnings for this run")
     u.add_argument("--dry-run", action="store_true", help="fetch, parse, validate, report; write nothing")
     u.add_argument("--fixtures", default=None, help="replay captured fixtures from this directory instead of the network")
     u.add_argument("--emit", default=None, help="also write a dependency-free snapshot module to this path")

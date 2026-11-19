@@ -6,6 +6,8 @@
 
 Model ID: `o4-mini`
 
+Status: Shut down
+
 o4-mini is our latest small o-series model. It's optimized for fast, 
 effective reasoning with exceptionally efficient performance in coding and 
 visual tasks. It's succeeded by [GPT-5 mini](/api/docs/models/gpt-5-mini).
@@ -39,6 +41,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Supported |
 | Responses | `v1/responses` | Supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -92,7 +95,7 @@ Tools supported by this model when using the Responses API.
 
 Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for o4-mini.
 
-- `o4-mini-2025-04-16`
+- `o4-mini-2025-04-16` — Shut down
 
 ## Rate limits
 
@@ -102,8 +105,6 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | RPM | TPM | Batch queue limit |
 | --- | ---: | ---: | ---: |
-| Tier 1 | 1,000 | 100,000 | 1,000,000 |
-| Tier 2 | 2,000 | 2,000,000 | 2,000,000 |
-| Tier 3 | 5,000 | 4,000,000 | 40,000,000 |
-| Tier 4 | 10,000 | 10,000,000 | 1,000,000,000 |
-| Tier 5 | 30,000 | 150,000,000 | 15,000,000,000 |
+| Build | 2,000 | 2,000,000 | 2,000,000 |
+| Launch | 10,000 | 10,000,000 | 1,000,000,000 |
+| Grow | 30,000 | 150,000,000 | 15,000,000,000 |

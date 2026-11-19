@@ -2,11 +2,13 @@
 
 > For the complete documentation index, see [llms.txt](/llms.txt). Markdown versions of documentation pages are available by appending `.md` to the page URL.
 
-> A version of GPT-5.1-codex optimized for long running tasks.
+> A version of GPT-5.1-Codex optimized for long running tasks.
 
 Model ID: `gpt-5.1-codex-max`
 
-GPT‑5.1-Codex-Max is purpose-built for agentic coding.
+Status: Shut down
+
+GPT-5.1-Codex-Max is purpose-built for agentic coding.
 It's only available in the [Responses API](/api/docs/api-reference/responses).
 Learn how to get the most of GPT-5.1-Codex-Max in the [prompting guide](/cookbook/examples/gpt-5/codex_prompting_guide).
 
@@ -36,6 +38,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Not supported |
 | Responses | `v1/responses` | Supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -81,7 +84,7 @@ Tools supported by this model when using the Responses API.
 
 Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for GPT-5.1-Codex-Max.
 
-- `gpt-5.1-codex-max`
+- `gpt-5.1-codex-max` — Shut down
 
 ## Rate limits
 
@@ -91,8 +94,6 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | RPM | TPM | Batch queue limit |
 | --- | ---: | ---: | ---: |
-| Tier 1 | 500 | 500,000 | 1,500,000 |
-| Tier 2 | 5,000 | 1,000,000 | 3,000,000 |
-| Tier 3 | 5,000 | 2,000,000 | 100,000,000 |
-| Tier 4 | 10,000 | 4,000,000 | 200,000,000 |
-| Tier 5 | 15,000 | 40,000,000 | 15,000,000,000 |
+| Build | 5,000 | 1,000,000 | 3,000,000 |
+| Launch | 10,000 | 4,000,000 | 200,000,000 |
+| Grow | 15,000 | 40,000,000 | 15,000,000,000 |

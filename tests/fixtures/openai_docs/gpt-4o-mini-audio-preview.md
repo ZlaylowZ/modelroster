@@ -1,4 +1,4 @@
-# GPT-4o mini Audio
+# GPT-4o Mini Audio
 
 > For the complete documentation index, see [llms.txt](/llms.txt). Markdown versions of documentation pages are available by appending `.md` to the page URL.
 
@@ -6,7 +6,9 @@
 
 Model ID: `gpt-4o-mini-audio-preview`
 
-This is a preview release of the smaller GPT-4o Audio mini model. It's designed to input audio or create audio outputs via the REST API.
+Status: Shut down
+
+This preview brings GPT-4o mini to the Chat Completions API for audio. It's designed to input audio or create audio outputs via the REST API.
 
 ## Model details
 
@@ -39,6 +41,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Supported |
 | Responses | `v1/responses` | Not supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -73,9 +76,9 @@ Tools supported by this model when using the Responses API.
 
 ## Snapshots
 
-Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for GPT-4o mini Audio.
+Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for GPT-4o Mini Audio.
 
-- `gpt-4o-mini-audio-preview-2024-12-17`
+- `gpt-4o-mini-audio-preview-2024-12-17` — Shut down
 
 ## Rate limits
 
@@ -85,9 +88,7 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | RPM | RPD | TPM | Batch queue limit |
 | --- | ---: | ---: | ---: | ---: |
-| free | 3 | 200 | 40,000 | - |
-| Tier 1 | 500 | 10,000 | 200,000 | 2,000,000 |
-| Tier 2 | 5,000 | - | 2,000,000 | 20,000,000 |
-| Tier 3 | 5,000 | - | 4,000,000 | 40,000,000 |
-| Tier 4 | 10,000 | - | 10,000,000 | 1,000,000,000 |
-| Tier 5 | 30,000 | - | 150,000,000 | 15,000,000,000 |
+| Free | 3 | 200 | 40,000 | - |
+| Build | 5,000 | - | 2,000,000 | 20,000,000 |
+| Launch | 10,000 | - | 10,000,000 | 1,000,000,000 |
+| Grow | 30,000 | - | 150,000,000 | 15,000,000,000 |

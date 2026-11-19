@@ -103,7 +103,7 @@ def make_http(provider: Any, *, data_dir=None, offline=False, no_cache=False, fi
 
 def run_provider(provider: Any, *, data_dir=None, offline: bool = False, no_cache: bool = False,
                  dry_run: bool = False, fixtures_root=None, http=None, quiet: bool = False,
-                 out=None) -> UpdateResult:
+                 accept_shrink: bool = False, out=None) -> UpdateResult:
     out = out or sys.stdout
     if isinstance(provider, str):
         try:
@@ -150,7 +150,7 @@ def run_provider(provider: Any, *, data_dir=None, offline: bool = False, no_cach
             http.close()
 
     current = build_envelope(name, result)
-    errors, warnings = validate(current, previous, provider)
+    errors, warnings = validate(current, previous, provider, accept_shrink=accept_shrink)
     current["warnings"] = warnings
     res.registry, res.warnings = current, warnings
     if errors:

@@ -6,6 +6,8 @@
 
 Model ID: `gpt-4o-audio-preview`
 
+Status: Shut down
+
 This is a preview release of the GPT-4o Audio models. These models accept 
 audio inputs and outputs, and can be used in the Chat Completions REST API.
 
@@ -40,6 +42,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Supported |
 | Responses | `v1/responses` | Not supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -67,9 +70,9 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for GPT-4o Audio.
 
-- `gpt-4o-audio-preview-2025-06-03`
-- `gpt-4o-audio-preview-2024-12-17`
-- `gpt-4o-audio-preview-2024-10-01`
+- `gpt-4o-audio-preview-2025-06-03` — Shut down
+- `gpt-4o-audio-preview-2024-12-17` — Shut down
+- `gpt-4o-audio-preview-2024-10-01` — Shut down
 
 ## Rate limits
 
@@ -79,8 +82,6 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | RPM | TPM | Batch queue limit |
 | --- | ---: | ---: | ---: |
-| Tier 1 | 500 | 30,000 | 90,000 |
-| Tier 2 | 5,000 | 450,000 | 1,350,000 |
-| Tier 3 | 5,000 | 800,000 | 50,000,000 |
-| Tier 4 | 10,000 | 2,000,000 | 2,000,000 |
-| Tier 5 | 10,000 | 30,000,000 | 5,000,000,000 |
+| Build | 5,000 | 450,000 | 1,350,000 |
+| Launch | 10,000 | 2,000,000 | 2,000,000 |
+| Grow | 10,000 | 30,000,000 | 5,000,000,000 |

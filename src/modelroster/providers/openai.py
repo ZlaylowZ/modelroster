@@ -36,6 +36,13 @@ MAX_HEADER_LOSS_FRACTION = 0.25
 
 _RE_FINE_TUNE = re.compile(r"^ft:([^:]+):")
 
+# Pages under /api/docs/models/ that are catalogs or tools, not model pages.
+# "all" is the full-catalog sub-page models.md has linked since 2026-11; its
+# links are followed and merged into discovery. "compare" is the comparison
+# tool. Anything else that fails to parse still surfaces as a page failure.
+SUB_CATALOG_SLUGS = ("all",)
+NON_MODEL_SLUGS = ("all", "compare")
+
 
 def fine_tune_base(model_id: str | None) -> str | None:
     m = _RE_FINE_TUNE.match(model_id or "")
@@ -136,6 +143,12 @@ def doc_to_record(doc: dict, model_id: str, api: dict | None, relationship: str,
         rec.provenance["batch"] = rec.provenance.get("endpoints.batch")
     rec.sources = {"listing": MODELS_URL if api is not None else None, "documentation": doc["documentation_url"]}
     rec.raw["endpoints_raw"] = dict(doc["endpoints_raw"])
+    if doc.get("snapshot_status"):
+        rec.raw["snapshot_status"] = dict(doc["snapshot_status"])
+        own = doc["snapshot_status"].get(model_id)
+        if own in ("deprecated", "shut_down") and rec.deprecated is None:
+            rec.deprecated = True
+            rec.provenance["deprecated"] = prov("Snapshots", "bullet annotation", status=own)
     rec.warnings = list(doc["warnings"])
     if api is not None:
         rec.raw.update({"created": api.get("created"), "owned_by": api.get("owned_by"),
@@ -203,9 +216,27 @@ class OpenAIProvider(BaseProvider):
         pages = discover_model_pages(catalog_md)
         if not pages:
             raise DocParseError("no model documentation links discovered in models.md — format change?")
+        # Since 2026-11 models.md lists only featured models and links the
+        # complete catalog as a sub-page; follow each sub-catalog and merge.
+        seen = {slug for slug, _ in pages}
+        sub_failures = []
+        for slug, url in list(pages):
+            if slug in SUB_CATALOG_SLUGS:
+                try:
+                    sub_md, _ = http.get_text(url, expect_content_type="text/markdown")
+                except FetchError as exc:
+                    # Degrade loudly: the missing sub-catalog shows up as a page
+                    # failure, and the catalog-shrink gate guards the rest.
+                    sub_failures.append({"slug": slug, "reason": "fetch: %s" % exc})
+                    continue
+                for sub_slug, sub_url in discover_model_pages(sub_md):
+                    if sub_slug not in seen:
+                        seen.add(sub_slug)
+                        pages.append((sub_slug, sub_url))
+        pages = [(slug, url) for slug, url in pages if slug not in NON_MODEL_SLUGS]
         url_to_slug = {url: slug for slug, url in pages}
         fetched = http.get_many(list(url_to_slug), expect_content_type="text/markdown")
-        doc_records, failed = {}, []
+        doc_records, failed = {}, list(sub_failures)
         for url in url_to_slug:
             slug = url_to_slug[url]
             res = fetched.get(url)

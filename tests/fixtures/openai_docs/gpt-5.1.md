@@ -6,6 +6,8 @@
 
 Model ID: `gpt-5.1`
 
+Status: Deprecated
+
 GPT-5.1 is our flagship model for coding and agentic tasks with configurable reasoning and non-reasoning effort.
 Learn more in our [GPT-5.1 model guidance](/api/docs/guides/latest-model?model=gpt-5.1). Reasoning.effort supports: none (default), low, medium, and high.
 
@@ -35,6 +37,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Supported |
 | Responses | `v1/responses` | Supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -88,7 +91,7 @@ Tools supported by this model when using the Responses API.
 
 Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for GPT-5.1.
 
-- `gpt-5.1-2025-11-13`
+- `gpt-5.1-2025-11-13` — Deprecated
 
 ## Rate limits
 
@@ -98,8 +101,6 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | RPM | TPM | Batch queue limit |
 | --- | ---: | ---: | ---: |
-| Tier 1 | 500 | 500,000 | 1,500,000 |
-| Tier 2 | 5,000 | 1,000,000 | 3,000,000 |
-| Tier 3 | 5,000 | 2,000,000 | 100,000,000 |
-| Tier 4 | 10,000 | 4,000,000 | 200,000,000 |
-| Tier 5 | 15,000 | 40,000,000 | 15,000,000,000 |
+| Build | 5,000 | 1,000,000 | 3,000,000 |
+| Launch | 10,000 | 4,000,000 | 200,000,000 |
+| Grow | 15,000 | 40,000,000 | 15,000,000,000 |

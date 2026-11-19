@@ -42,7 +42,8 @@ and switching providers means researching a new set of names.
 
 * **Install and go.** The wheel ships current data for eight providers
   (anthropic, openai, xai, mistral, google, cohere, nvidia, inception —
-  382 models). No API keys, no network, no setup. `modelroster providers` shows what you have and when
+  323 models as of 0.1.40; automatic releases keep it within a day of the
+  providers). No API keys, no network, no setup. `modelroster providers` shows what you have and when
   it was retrieved.
 * **Stays current without you.** A daily pipeline refreshes the data from
   each provider's own listing APIs and official documentation, with
@@ -98,18 +99,19 @@ modelroster.models_supporting("reasoning", "google")  # 34 Gemini ids
 
 Coverage differs because providers publish different amounts of metadata.
 This table is what determines which providers appear under a given capability
-filter (counts from the 0.1.3 data):
+filter (counts from the 0.1.40 data; later automatic releases shift them —
+`modelroster providers` and `Registry.info()` always show your installed copy):
 
 | Provider | Models | tool_calling | reasoning | structured_outputs | context window | Source |
 |---|---:|---:|---:|---:|---:|---|
-| anthropic | 10 | 10 | 10 | 10 | 10 | `/v1/models` capabilities object (+ provider-wide tool/streaming docs) |
-| openai | 126 | 103 | 120 | 103 | 97 | official Markdown docs, 96 pages |
-| mistral | 56 | 56 | 56 | — | 56 | `/v1/models` capabilities object |
-| cohere | 31 | 15 | 3 | 15 | 31 | `/v1/models` endpoints + features lists |
-| xai | 12 | 7 | 7 | 7 | 7 | docs.x.ai per-model pages + `/v1/language-models` |
-| google | 51 | — | 34 | — | 50 | native `/v1beta/models` (no per-model tool field) |
-| inception | 1 | 1 | — | 1 | 1 | `/v1/models` supported_features |
-| nvidia | 95 | — | — | — | — | ids-only public listing |
+| anthropic | 15 | 15 | 15 | 15 | 15 | `/v1/models` capabilities object (+ provider-wide tool/streaming docs) |
+| openai | 98 | 77 | 94 | 77 | 69 | official Markdown docs (models.md + all.md, 107 pages) |
+| mistral | 62 | 62 | 62 | — | 62 | `/v1/models` capabilities object |
+| cohere | 37 | 21 | 3 | 21 | 37 | `/v1/models` endpoints + features lists |
+| xai | 13 | 8 | 8 | 8 | 8 | docs.x.ai per-model pages + `/v1/language-models` |
+| google | 64 | — | 40 | — | 64 | native `/v1beta/models` (no per-model tool field) |
+| inception | 2 | 2 | — | 2 | 2 | `/v1/models` supported_features |
+| nvidia | 32 | — | — | — | — | ids-only public listing |
 
 "—" means the provider's official source simply doesn't state it; those
 models are reachable via `r.models()`, provider listings, or `unknown_ok=True`.

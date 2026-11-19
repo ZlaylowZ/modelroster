@@ -2,15 +2,15 @@
 
 > For the complete documentation index, see [llms.txt](/llms.txt). Markdown versions of documentation pages are available by appending `.md` to the page URL.
 
-> Our most advanced cybersecurity model for authorized vulnerability research and security testing.
+> Cybersecurity model for authorized vulnerability research and security testing.
 
 Model ID: `gpt-5.6-cyber`
 
-An alias for our most advanced purpose-trained cybersecurity models, for
-approved defenders conducting advanced, authorized vulnerability research,
-exploit validation, and security testing.
+GPT-5.6 Cyber is an alias for purpose-trained cybersecurity models that help
+approved defenders investigate vulnerabilities and validate exploits in
+authorized environments.
 
-This model requires separate approval and provisioning, you can apply to join the Daybreak program [here](https://openai.com/daybreak/). More details on pricing [here](https://developers.openai.com/api/docs/pricing).
+GPT-5.6 Cyber is available to all [Daybreak Red](https://openai.com/daybreak/) customers. To use it through the API, enable Daybreak Red for the project that sends requests. More details on pricing [here](https://developers.openai.com/api/docs/pricing).
 
 ## Model details
 
@@ -42,6 +42,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Not supported |
 | Responses | `v1/responses` | Supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -99,6 +100,14 @@ Snapshots let you lock in a specific version of the model so that performance an
 
 - `gpt-5.6-cyber`
 
+## Cloud providers
+
+Model IDs across cloud providers.
+
+| Provider | Model ID |
+| --- | --- |
+| [Amazon Bedrock](/api/docs/guides/amazon-bedrock) | `openai.gpt-5.6-cyber` |
+
 ## Rate limits
 
 Rate limits ensure fair and reliable access to the API by placing specific caps on requests, tokens, audio duration, or other usage within a given time period. Your usage tier determines how high these limits are set and automatically increases as you send more requests and spend more on the API.
@@ -107,8 +116,6 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | RPM | TPM | Batch queue limit |
 | --- | ---: | ---: | ---: |
-| Tier 1 | 500 | 500,000 | 1,500,000 |
-| Tier 2 | 5,000 | 1,000,000 | 3,000,000 |
-| Tier 3 | 5,000 | 2,000,000 | 100,000,000 |
-| Tier 4 | 10,000 | 4,000,000 | 200,000,000 |
-| Tier 5 | 15,000 | 40,000,000 | 15,000,000,000 |
+| Build | 5,000 | 1,000,000 | 3,000,000 |
+| Launch | 10,000 | 4,000,000 | 200,000,000 |
+| Grow | 15,000 | 40,000,000 | 15,000,000,000 |

@@ -129,7 +129,12 @@ def test_modelref_validate_and_resolve(registry):
         ModelRef("openai", "claude-opus-5").validate(registry)
     with pytest.raises(UnknownModelError, match="unknown provider"):
         ModelRef("acme", "x").validate(registry)
-    assert ModelRef("openai", "gpt-4o-2024-08-06").resolve(registry).model_id == "gpt-4o"
+    assert ModelRef("openai", "gpt-5.4-2026-03-05").resolve(registry).model_id == "gpt-5.4"
+    # a snapshot the docs annotate as Deprecated is retired for validate/resolve...
+    with pytest.raises(RetiredModelError):
+        ModelRef("openai", "gpt-4o-2024-08-06").resolve(registry)
+    # ...but Registry.resolve (a lookup, not a validation) still follows it home
+    assert registry.resolve("gpt-4o-2024-08-06").model_id == "gpt-4o"
     assert registry.ref("claude-opus-5") == ModelRef("anthropic", "claude-opus-5")
 
 

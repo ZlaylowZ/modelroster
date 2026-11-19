@@ -1,10 +1,12 @@
-# o1 Preview
+# o1-preview
 
 > For the complete documentation index, see [llms.txt](/llms.txt). Markdown versions of documentation pages are available by appending `.md` to the page URL.
 
 > Preview of our first o-series reasoning model
 
 Model ID: `o1-preview`
+
+Status: Shut down
 
 Research preview of the o1 series of models, trained with reinforcement learning to perform complex reasoning. o1 models think before they answer, producing a long internal chain of thought before responding to the user.
 
@@ -34,6 +36,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Supported |
 | Responses | `v1/responses` | Not supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -64,15 +67,15 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Model | Input | Cached input | Output |
 | --- | ---: | ---: | ---: |
-| o1 Preview | $15 | $7.5 | $60 |
+| o1-preview | $15 | $7.5 | $60 |
 | o1 | $15 | $7.5 | $60 |
 | o3-mini | $1.1 | $0.55 | $4.4 |
 
 ## Snapshots
 
-Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for o1 Preview.
+Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for o1-preview.
 
-- `o1-preview-2024-09-12`
+- `o1-preview-2024-09-12` — Shut down
 
 ## Rate limits
 
@@ -82,8 +85,6 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | RPM | TPM | Batch queue limit |
 | --- | ---: | ---: | ---: |
-| Tier 1 | 500 | 30,000 | - |
-| Tier 2 | 5,000 | 450,000 | - |
-| Tier 3 | 5,000 | 800,000 | 50,000,000 |
-| Tier 4 | 10,000 | 2,000,000 | 200,000,000 |
-| Tier 5 | 10,000 | 30,000,000 | 5,000,000,000 |
+| Build | 5,000 | 450,000 | - |
+| Launch | 10,000 | 2,000,000 | 200,000,000 |
+| Grow | 10,000 | 30,000,000 | 5,000,000,000 |

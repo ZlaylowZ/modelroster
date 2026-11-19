@@ -1,10 +1,12 @@
-# gpt-image-1-mini
+# GPT Image 1 mini
 
 > For the complete documentation index, see [llms.txt](/llms.txt). Markdown versions of documentation pages are available by appending `.md` to the page URL.
 
 > A cost-efficient version of GPT Image 1
 
 Model ID: `gpt-image-1-mini`
+
+Status: Deprecated
 
 A cost-efficient version of GPT Image 1. It is a natively multimodal language model that accepts both text and image inputs, and produces image outputs.
 
@@ -64,6 +66,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Not supported |
 | Responses | `v1/responses` | Not supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -84,9 +87,9 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 ## Snapshots
 
-Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for gpt-image-1-mini.
+Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for GPT Image 1 mini.
 
-- `gpt-image-1-mini`
+- `gpt-image-1-mini` — Deprecated
 
 ## Rate limits
 
@@ -96,8 +99,6 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | IPM | TPM |
 | --- | ---: | ---: |
-| Tier 1 | 5 | 100,000 |
-| Tier 2 | 20 | 250,000 |
-| Tier 3 | 50 | 800,000 |
-| Tier 4 | 150 | 3,000,000 |
-| Tier 5 | 250 | 8,000,000 |
+| Build | 20 | 250,000 |
+| Launch | 150 | 3,000,000 |
+| Grow | 250 | 8,000,000 |

@@ -6,6 +6,8 @@
 
 Model ID: `codex-mini-latest`
 
+Status: Shut down
+
 codex-mini-latest is a fine-tuned version of o4-mini specifically
 for use in Codex CLI. For direct use in the API, we recommend starting
 with gpt-4.1.
@@ -36,6 +38,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Not supported |
 | Responses | `v1/responses` | Supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -76,7 +79,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for codex-mini-latest.
 
-- `codex-mini-latest`
+- `codex-mini-latest` — Shut down
 
 ## Rate limits
 
@@ -86,8 +89,6 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | RPM | TPM | Batch queue limit |
 | --- | ---: | ---: | ---: |
-| Tier 1 | 1,000 | 100,000 | 1,000,000 |
-| Tier 2 | 2,000 | 200,000 | 2,000,000 |
-| Tier 3 | 5,000 | 4,000,000 | 40,000,000 |
-| Tier 4 | 10,000 | 10,000,000 | 1,000,000,000 |
-| Tier 5 | 30,000 | 150,000,000 | 15,000,000,000 |
+| Build | 2,000 | 200,000 | 2,000,000 |
+| Launch | 10,000 | 10,000,000 | 1,000,000,000 |
+| Grow | 30,000 | 150,000,000 | 15,000,000,000 |

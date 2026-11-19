@@ -57,10 +57,14 @@ A gate firing (exit 2) means the data on disk is still the last good run. Do
 * `N/M documentation pages failed to fetch/parse` — transient (rerun, the
   fetcher retries and falls back to cache) unless the failures are `parse:` —
   then a format change.
-* `model list shrank` — compare the raw listing (`modelroster capture`) with
-  the previous data. Real mass retirements happen; if it is real, the gate can
-  be overridden by deleting *only* `<provider>.previous.json`… but first post
-  the diff and get a human ack.
+* `model list shrank` / `documentation catalog shrank` — compare the raw
+  listing (`modelroster capture`) or catalog page with the previous data.
+  Real mass retirements happen (NVIDIA 83 -> 32 on 2026-11); if it is real,
+  rerun once with `modelroster update --provider X --accept-shrink` — the
+  explicit human acknowledgment that demotes shrink refusals to warnings for
+  that run only. If it is NOT real, suspect a format change first: on
+  2026-11-03 OpenAI moved its full catalog to an `all.md` sub-page and the
+  fix was discovery, not acceptance.
 
 ## Parser version and releases
 

@@ -1,10 +1,12 @@
-# GPT Image 2
+# GPT-Image-2
 
 > For the complete documentation index, see [llms.txt](/llms.txt). Markdown versions of documentation pages are available by appending `.md` to the page URL.
 
 > State-of-the-art image generation model
 
 Model ID: `gpt-image-2`
+
+Status: Deprecated
 
 GPT Image 2 is our state-of-the-art image generation model for fast, high-quality image generation and editing. It supports flexible image sizes and high-fidelity image inputs. Learn more in our [image generation guide](/api/docs/guides/image-generation), or see the [pricing page](/api/docs/pricing#image-generation) and [image generation calculator](/api/docs/guides/image-generation#calculating-costs) for cost estimates.
 
@@ -18,6 +20,7 @@ GPT Image 2 is our state-of-the-art image generation model for fast, high-qualit
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Not supported |
 | Responses | `v1/responses` | Not supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -42,9 +45,9 @@ GPT Image 2 is our state-of-the-art image generation model for fast, high-qualit
 
 ## Snapshots
 
-Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for GPT Image 2.
+Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for GPT-Image-2.
 
-- `gpt-image-2-2026-04-21`
+- `gpt-image-2-2026-04-21` — Deprecated
 
 ## Rate limits
 
@@ -54,8 +57,6 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | TPM | IPM |
 | --- | ---: | ---: |
-| Tier 1 | 100,000 | 5 |
-| Tier 2 | 250,000 | 20 |
-| Tier 3 | 800,000 | 50 |
-| Tier 4 | 3,000,000 | 150 |
-| Tier 5 | 8,000,000 | 250 |
+| Build | 250,000 | 20 |
+| Launch | 3,000,000 | 150 |
+| Grow | 8,000,000 | 250 |

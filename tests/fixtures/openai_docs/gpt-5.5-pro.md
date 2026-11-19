@@ -38,6 +38,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Not supported |
 | Responses | `v1/responses` | Supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -100,8 +101,6 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | RPM | TPM | Batch queue limit |
 | --- | ---: | ---: | ---: |
-| Tier 1 | 50 | 50,000 | 500,000 |
-| Tier 2 | 500 | 200,000 | 1,000,000 |
-| Tier 3 | 500 | 500,000 | 10,000,000 |
-| Tier 4 | 1,000 | 1,000,000 | 20,000,000 |
-| Tier 5 | 2,000 | 4,000,000 | 1,500,000,000 |
+| Build | 500 | 200,000 | 1,000,000 |
+| Launch | 1,000 | 1,000,000 | 20,000,000 |
+| Grow | 2,000 | 4,000,000 | 1,500,000,000 |

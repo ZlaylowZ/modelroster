@@ -4,6 +4,11 @@ All tests except `test_live.py` run against these files only.
 
 ## openai_docs/
 
+Recaptured 2026-11-19 after OpenAI's 2026-11 restructuring: `models.md` now
+lists featured models only and links the complete catalog as `all.md`; both
+are fixtures, plus every page the pair links (107). Pages of models retired
+upstream remain as extra files for the direct-parse tests.
+
 Verbatim copies of OpenAI's official Markdown documentation pages
 (`https://developers.openai.com/api/docs/models/<slug>.md`) plus `models.md`
 (the catalog). `gpt-3.5-turbo`, `gpt-4o`, `gpt-5-mini`, `gpt-5.4`,

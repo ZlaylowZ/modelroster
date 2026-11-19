@@ -6,8 +6,10 @@
 
 Model ID: `gpt-5`
 
+Status: Deprecated
+
 GPT-5 is our previous model for coding, reasoning, and agentic tasks across domains.
-We recommend using the latest [GPT-5.6](/api/docs/models/gpt-5.6-sol). Learn more on the [Model guidance](/api/docs/guides/latest-model) page. Reasoning.effort supports: minimal, low, medium, and high.
+We recommend using the latest [GPT-6.2 Astra](/api/docs/models/gpt-6.2-astra). Learn more on the [Model guidance](/api/docs/guides/latest-model) page. Reasoning.effort supports: minimal, low, medium, and high.
 
 ## Model details
 
@@ -36,6 +38,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Supported |
 | Responses | `v1/responses` | Supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -88,7 +91,7 @@ Tools supported by this model when using the Responses API.
 
 Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for GPT-5.
 
-- `gpt-5-2025-08-07`
+- `gpt-5-2025-08-07` — Deprecated
 
 ## Rate limits
 
@@ -98,8 +101,6 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | RPM | TPM | Batch queue limit |
 | --- | ---: | ---: | ---: |
-| Tier 1 | 500 | 500,000 | 1,500,000 |
-| Tier 2 | 5,000 | 1,000,000 | 3,000,000 |
-| Tier 3 | 5,000 | 2,000,000 | 100,000,000 |
-| Tier 4 | 10,000 | 4,000,000 | 200,000,000 |
-| Tier 5 | 15,000 | 40,000,000 | 15,000,000,000 |
+| Build | 5,000 | 1,000,000 | 3,000,000 |
+| Launch | 10,000 | 4,000,000 | 200,000,000 |
+| Grow | 15,000 | 40,000,000 | 15,000,000,000 |

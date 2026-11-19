@@ -12,6 +12,25 @@ Two version numbers matter:
 
 ## [Unreleased]
 
+## [0.1.40] — 2026-11-19
+
+### Fixed
+- OpenAI discovery follows the `all.md` sub-catalog that models.md has linked
+  since ~2026-11-03 (models.md itself now lists only featured models), ending
+  the nightly "documentation catalog shrank" refusals; an unreachable
+  sub-catalog degrades to a counted page failure behind the shrink gate.
+  Parser 2026.11.19-1; OpenAI doc fixtures recaptured 2026-11-19 (107 pages).
+- Snapshots bullets' new lifecycle annotations ("`id` — Deprecated" /
+  "— Shut down") are parsed instead of dropped: snapshot lists are complete
+  again, statuses land in `raw["snapshot_status"]`, and an annotated snapshot
+  id is `deprecated` even when the listing carries no shutdown date.
+
+### Added
+- `modelroster update --accept-shrink`: the human acknowledgment that a
+  smaller catalog is real — shrink refusals demote to warnings for that run
+  only (every other gate still blocks). Used once to accept NVIDIA's cull of
+  hosted third-party models (83 -> 32).
+
 ## [0.1.39] — 2026-10-31
 
 Data-only automatic release. Drift since v0.1.38:

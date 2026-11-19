@@ -6,6 +6,8 @@
 
 Model ID: `gpt-4o`
 
+Status: Deprecated
+
 GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model.
 It accepts both text and image inputs, and produces text outputs (including Structured Outputs).
 It is the best model for most tasks, and is our most capable model outside of our o-series models.
@@ -35,6 +37,7 @@ Pricing is based on the number of tokens used, or other metrics based on the mod
 
 | Endpoint | Route | Support |
 | --- | --- | --- |
+| Live | `v1/live/sessions` | Not supported |
 | Chat Completions | `v1/chat/completions` | Supported |
 | Responses | `v1/responses` | Supported |
 | Realtime | `v1/realtime` | Not supported |
@@ -88,9 +91,9 @@ Tools supported by this model when using the Responses API.
 
 Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for GPT-4o.
 
-- `gpt-4o-2024-11-20`
-- `gpt-4o-2024-08-06`
-- `gpt-4o-2024-05-13`
+- `gpt-4o-2024-11-20` — Deprecated
+- `gpt-4o-2024-08-06` — Deprecated
+- `gpt-4o-2024-05-13` — Shut down
 
 ## Rate limits
 
@@ -100,8 +103,6 @@ Rate limits ensure fair and reliable access to the API by placing specific caps 
 
 | Tier | RPM | TPM | Batch queue limit |
 | --- | ---: | ---: | ---: |
-| Tier 1 | 500 | 30,000 | 90,000 |
-| Tier 2 | 5,000 | 450,000 | 1,350,000 |
-| Tier 3 | 5,000 | 800,000 | 50,000,000 |
-| Tier 4 | 10,000 | 2,000,000 | 200,000,000 |
-| Tier 5 | 10,000 | 30,000,000 | 5,000,000,000 |
+| Build | 5,000 | 450,000 | 1,350,000 |
+| Launch | 10,000 | 2,000,000 | 200,000,000 |
+| Grow | 10,000 | 30,000,000 | 5,000,000,000 |
