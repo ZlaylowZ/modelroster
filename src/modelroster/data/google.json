@@ -2,7 +2,7 @@
  "provider": "google",
  "schema_version": 2,
  "parser_version": "2026.11.19-1",
- "retrieved_at": "2026-11-19T14:40:30Z",
+ "retrieved_at": "2026-11-19T15:45:40Z",
  "sources": {
   "listing": "https://generativelanguage.googleapis.com/v1beta/openai/models",
   "native": "https://generativelanguage.googleapis.com/v1beta/models"
@@ -195,7 +195,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -319,7 +319,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -443,7 +443,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -565,7 +565,7 @@
      "topK": 40
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -702,7 +702,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -839,7 +839,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -976,7 +976,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -1113,7 +1113,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -1252,7 +1252,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -1381,7 +1381,7 @@
      "maxTemperature": 1
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -1520,7 +1520,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -1653,7 +1653,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -1786,7 +1786,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -1919,7 +1919,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -2047,7 +2047,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -2186,7 +2186,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -2315,7 +2315,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -2454,7 +2454,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -2592,7 +2592,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -2730,7 +2730,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -2868,7 +2868,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -3006,7 +3006,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -3145,7 +3145,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -3283,7 +3283,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -3422,7 +3422,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -3545,7 +3545,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -3674,7 +3674,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -3813,7 +3813,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -3952,7 +3952,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -4091,7 +4091,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -4230,7 +4230,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -4353,7 +4353,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -4481,7 +4481,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -4604,7 +4604,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -4743,7 +4743,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -4882,7 +4882,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -5021,7 +5021,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -5150,7 +5150,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -5279,7 +5279,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -5402,7 +5402,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -5534,7 +5534,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -5672,7 +5672,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -5810,7 +5810,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -5948,7 +5948,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -6086,7 +6086,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -6206,7 +6206,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised generation method 'createDecision' (stored as endpoint 'create_decision')"
@@ -6331,7 +6331,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised generation method 'asyncBatchEmbedContent' (stored as endpoint 'async_batch_embed_content')"
@@ -6456,7 +6456,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised generation method 'asyncBatchEmbedContent' (stored as endpoint 'async_batch_embed_content')"
@@ -6581,7 +6581,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised generation method 'asyncBatchEmbedContent' (stored as endpoint 'async_batch_embed_content')"
@@ -6722,7 +6722,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -6861,7 +6861,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -6999,7 +6999,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -7136,7 +7136,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -7273,7 +7273,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -7410,7 +7410,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -7549,7 +7549,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -7688,7 +7688,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -7811,7 +7811,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -7948,7 +7948,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -8085,7 +8085,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -8213,7 +8213,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -8341,7 +8341,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -8469,7 +8469,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -8589,7 +8589,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised generation method 'bidiGenerateMusic' (stored as endpoint 'bidi_generate_music')"
@@ -8729,7 +8729,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T14:40:30Z",
+   "retrieved_at": "2026-11-19T15:45:40Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   }
