@@ -1,8 +1,8 @@
 {
  "provider": "mistral",
  "schema_version": 2,
- "parser_version": "2026.08.25-1",
- "retrieved_at": "2026-11-18T15:40:56Z",
+ "parser_version": "2026.11.19-1",
+ "retrieved_at": "2026-11-19T14:40:31Z",
  "sources": {
   "listing": "https://api.mistral.ai/v1/models"
  },
@@ -86,7 +86,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 256000,
@@ -223,13 +223,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "codestral-embed": {
@@ -245,7 +245,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 8192,
@@ -382,13 +382,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "codestral-embed-2505": {
@@ -404,7 +404,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 8192,
@@ -541,13 +541,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "codestral-latest": {
@@ -565,7 +565,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 256000,
@@ -702,13 +702,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "deepseek-v4-1-flash-1017": {
@@ -722,7 +722,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 1048576,
@@ -859,13 +859,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "glm-5-2": {
@@ -881,7 +881,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 1048576,
@@ -1018,13 +1018,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "magistral-medium-latest": {
@@ -1047,7 +1047,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -1184,13 +1184,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "magistral-small-latest": {
@@ -1208,7 +1208,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -1345,13 +1345,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "ministral-14b-2512": {
@@ -1367,7 +1367,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -1504,13 +1504,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "ministral-14b-latest": {
@@ -1526,7 +1526,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -1663,13 +1663,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "ministral-3b-2512": {
@@ -1685,7 +1685,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 131072,
@@ -1822,13 +1822,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "ministral-3b-latest": {
@@ -1844,7 +1844,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 131072,
@@ -1981,13 +1981,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "ministral-8b-2512": {
@@ -2003,7 +2003,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -2140,13 +2140,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "ministral-8b-latest": {
@@ -2162,7 +2162,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -2299,13 +2299,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "mistral-code-fim-latest": {
@@ -2323,7 +2323,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 256000,
@@ -2460,13 +2460,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "mistral-code-latest": {
@@ -2484,7 +2484,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 256000,
@@ -2621,13 +2621,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "mistral-embed": {
@@ -2643,7 +2643,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 8192,
@@ -2780,13 +2780,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "mistral-embed-2312": {
@@ -2802,7 +2802,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 8192,
@@ -2939,13 +2939,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "mistral-large-2512": {
@@ -2959,7 +2959,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -3096,13 +3096,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "mistral-large-4": {
@@ -3119,7 +3119,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 1048576,
@@ -3256,13 +3256,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "mistral-large-4-0": {
@@ -3279,7 +3279,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 1048576,
@@ -3416,13 +3416,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "mistral-large-latest": {
@@ -3439,7 +3439,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 1048576,
@@ -3576,13 +3576,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "mistral-medium": {
@@ -3605,7 +3605,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -3742,13 +3742,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "mistral-medium-2604": {
@@ -3771,7 +3771,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -3908,13 +3908,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "mistral-medium-3": {
@@ -3937,7 +3937,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -4074,13 +4074,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "mistral-medium-3-5": {
@@ -4103,7 +4103,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -4240,13 +4240,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "mistral-medium-3.5": {
@@ -4269,7 +4269,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -4406,13 +4406,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "mistral-medium-latest": {
@@ -4435,7 +4435,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -4572,13 +4572,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "mistral-moderation-2603": {
@@ -4592,7 +4592,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 131071,
@@ -4729,13 +4729,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "mistral-ocr-2512": {
@@ -4752,7 +4752,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 16384,
@@ -4889,13 +4889,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "mistral-ocr-3": {
@@ -4912,7 +4912,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 16384,
@@ -5049,13 +5049,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "mistral-ocr-3-0": {
@@ -5072,7 +5072,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 16384,
@@ -5209,13 +5209,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "mistral-ocr-4": {
@@ -5232,7 +5232,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 16384,
@@ -5369,13 +5369,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "mistral-ocr-4-1": {
@@ -5392,7 +5392,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 16384,
@@ -5529,13 +5529,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "mistral-ocr-latest": {
@@ -5552,7 +5552,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 16384,
@@ -5689,13 +5689,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "mistral-small-2603": {
@@ -5713,7 +5713,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -5850,13 +5850,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "mistral-small-latest": {
@@ -5874,7 +5874,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -6011,13 +6011,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "mistral-vibe-cli-fast": {
@@ -6035,7 +6035,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -6172,13 +6172,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "mistral-vibe-cli-latest": {
@@ -6201,7 +6201,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -6338,13 +6338,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "mistral-vibe-cli-with-tools": {
@@ -6367,7 +6367,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -6504,13 +6504,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "voxtral-mini-2602": {
@@ -6526,7 +6526,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 16384,
@@ -6663,13 +6663,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "voxtral-mini-latest": {
@@ -6685,7 +6685,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 16384,
@@ -6822,13 +6822,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "voxtral-mini-realtime-2602": {
@@ -6845,7 +6845,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 32768,
@@ -6982,13 +6982,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "voxtral-mini-realtime-latest": {
@@ -7005,7 +7005,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 32768,
@@ -7142,13 +7142,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "voxtral-mini-transcribe-3": {
@@ -7164,7 +7164,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 65536,
@@ -7301,13 +7301,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "voxtral-mini-transcribe-3-0": {
@@ -7323,7 +7323,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 65536,
@@ -7460,13 +7460,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "voxtral-mini-transcribe-realtime-2602": {
@@ -7483,7 +7483,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 32768,
@@ -7620,13 +7620,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "voxtral-mini-transcribe-realtime-3": {
@@ -7642,7 +7642,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 65536,
@@ -7779,13 +7779,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "voxtral-mini-transcribe-realtime-3-0": {
@@ -7801,7 +7801,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 65536,
@@ -7938,13 +7938,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "voxtral-mini-tts-2603": {
@@ -7960,7 +7960,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 4096,
@@ -8097,13 +8097,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "voxtral-mini-tts-3": {
@@ -8119,7 +8119,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 4096,
@@ -8256,13 +8256,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "voxtral-mini-tts-3-0": {
@@ -8278,7 +8278,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 4096,
@@ -8415,13 +8415,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "voxtral-mini-tts-latest": {
@@ -8437,7 +8437,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 4096,
@@ -8574,13 +8574,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "voxtral-small-2507": {
@@ -8596,7 +8596,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 32768,
@@ -8733,13 +8733,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "voxtral-small-latest": {
@@ -8755,7 +8755,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 32768,
@@ -8892,13 +8892,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "voxtral-small-transcribe-3": {
@@ -8914,7 +8914,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 65536,
@@ -9051,13 +9051,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "voxtral-small-transcribe-3-0": {
@@ -9073,7 +9073,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 65536,
@@ -9210,13 +9210,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "zai-glm-5": {
@@ -9233,7 +9233,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 1048576,
@@ -9370,13 +9370,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "zai-glm-5-2": {
@@ -9392,7 +9392,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 1048576,
@@ -9529,13 +9529,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "zai-glm-5-3": {
@@ -9552,7 +9552,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 1048576,
@@ -9689,13 +9689,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "zai-glm-5-3-flash": {
@@ -9709,7 +9709,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 1048576,
@@ -9846,13 +9846,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "zai-glm-latest": {
@@ -9869,7 +9869,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-18",
+   "released": "2026-11-19",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 1048576,
@@ -10006,13 +10006,13 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795016456,
+    "created": 1795099230,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-18T15:40:56Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:31Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   }
  },

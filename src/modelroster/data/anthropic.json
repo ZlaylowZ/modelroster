@@ -1,8 +1,8 @@
 {
  "provider": "anthropic",
  "schema_version": 2,
- "parser_version": "2026.08.25-1",
- "retrieved_at": "2026-11-18T15:40:55Z",
+ "parser_version": "2026.11.19-1",
+ "retrieved_at": "2026-11-19T14:40:30Z",
  "sources": {
   "listing": "https://api.anthropic.com/v1/models"
  },
@@ -252,8 +252,8 @@
      }
     }
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
     "unrecognised thinking type 'between_tools'",
@@ -489,8 +489,8 @@
      }
     }
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
     "unrecognised thinking type 'between_tools'",
@@ -726,8 +726,8 @@
      }
     }
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
     "unrecognised thinking type 'between_tools'",
@@ -962,8 +962,8 @@
      }
     }
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
     "unrecognised thinking type 'between_tools'",
@@ -1198,8 +1198,8 @@
      }
     }
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
     "unrecognised thinking type 'between_tools'",
@@ -1435,8 +1435,8 @@
      }
     }
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
     "unrecognised thinking type 'between_tools'",
@@ -1672,8 +1672,8 @@
      }
     }
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
     "unrecognised thinking type 'between_tools'",
@@ -1908,8 +1908,8 @@
      }
     }
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
     "unrecognised thinking type 'between_tools'",
@@ -2145,8 +2145,8 @@
      }
     }
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
     "unrecognised thinking type 'between_tools'",
@@ -2382,8 +2382,8 @@
      }
     }
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
     "unrecognised thinking type 'between_tools'",
@@ -2619,8 +2619,8 @@
      }
     }
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
     "unrecognised thinking type 'between_tools'",
@@ -2856,8 +2856,8 @@
      }
     }
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
     "unrecognised thinking type 'between_tools'",
@@ -3091,8 +3091,8 @@
      }
     }
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
     "unrecognised thinking type 'between_tools'",
@@ -3322,8 +3322,8 @@
      }
     }
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
     "unrecognised thinking type 'between_tools'",
@@ -3553,8 +3553,8 @@
      }
     }
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised thinking type 'disabled'",
     "unrecognised thinking type 'between_tools'",

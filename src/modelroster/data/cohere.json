@@ -1,8 +1,8 @@
 {
  "provider": "cohere",
  "schema_version": 2,
- "parser_version": "2026.08.25-1",
- "retrieved_at": "2026-11-18T15:40:55Z",
+ "parser_version": "2026.11.19-1",
+ "retrieved_at": "2026-11-19T14:40:30Z",
  "sources": {
   "listing": "https://api.cohere.com/v1/models"
  },
@@ -129,8 +129,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/c4ai-aya-expanse-32b.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "c4ai-aya-vision-32b": {
@@ -241,8 +241,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/c4ai-aya-vision-32b.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "cohere-transcribe-03-2026": {
@@ -329,8 +329,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/cohere-transcribe-03-2026.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "command-a-03-2025": {
@@ -444,8 +444,8 @@
      "generate"
     ]
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "command-a-plus-05-2026": {
@@ -560,8 +560,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/command-a-plus-05-2026.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "command-a-reasoning-08-2025": {
@@ -676,8 +676,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/command-a-reasoning-08-2025.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "command-a-translate-08-2025": {
@@ -788,8 +788,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/command-a-translate-08-2025.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "command-a-vision-07-2025": {
@@ -900,8 +900,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/command-a-vision-07-2025.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "command-r-08-2024": {
@@ -1012,8 +1012,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/command-r-08-2024.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "command-r-plus-08-2024": {
@@ -1124,8 +1124,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/command-r-plus-08-2024.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "command-r7b-12-2024": {
@@ -1236,8 +1236,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/command-r7b-12-2024.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "command-r7b-arabic-02-2025": {
@@ -1348,8 +1348,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/command-r7b-arabic-02-2025.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "embed-english-light-v3.0": {
@@ -1435,8 +1435,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/embed-english-light-v3.0.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "embed-english-light-v3.0-image": {
@@ -1523,8 +1523,8 @@
     "tokenizer_url": null,
     "default_endpoints": []
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "embed-english-v3.0": {
@@ -1610,8 +1610,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/embed-english-v3.0.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "embed-english-v3.0-image": {
@@ -1698,8 +1698,8 @@
     "tokenizer_url": null,
     "default_endpoints": []
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "embed-multilingual-light-v3.0": {
@@ -1785,8 +1785,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/embed-multilingual-light-v3.0.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "embed-multilingual-light-v3.0-image": {
@@ -1873,8 +1873,8 @@
     "tokenizer_url": null,
     "default_endpoints": []
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "embed-multilingual-v3.0": {
@@ -1960,8 +1960,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/embed-multilingual-v3.0.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "embed-multilingual-v3.0-image": {
@@ -2048,8 +2048,8 @@
     "tokenizer_url": null,
     "default_endpoints": []
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "embed-v4.0": {
@@ -2135,8 +2135,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/embed-v4.0.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "embed-v5.0-fast": {
@@ -2244,8 +2244,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/embed-v5.0-fast.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised feature 'extended_output_dimensions' (kept)"
    ]
@@ -2355,8 +2355,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/embed-v5.0-pro.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised feature 'extended_output_dimensions' (kept)"
    ]
@@ -2469,8 +2469,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/north-mini-code-1.0.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "north-small-translate-1.0": {
@@ -2577,8 +2577,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/north-small-translate-1.0.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "parse-v5.0": {
@@ -2686,8 +2686,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/parse-v5.0.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "rerank-english-v3.0": {
@@ -2773,8 +2773,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/rerank-english-v3.0.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "rerank-multilingual-v3.0": {
@@ -2860,8 +2860,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/rerank-multilingual-v3.0.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "rerank-v3.5": {
@@ -2949,8 +2949,8 @@
      "rerank"
     ]
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "rerank-v4.0-fast": {
@@ -3036,8 +3036,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/rerank-v4.0-fast.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "rerank-v4.0-pro": {
@@ -3123,8 +3123,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/rerank-v4.0-pro.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "rerank-v5.0-fast": {
@@ -3233,8 +3233,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/rerank-v5.0-fast.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised feature 'relevant_spans' (kept)",
     "unrecognised feature 'rerank_token_based_billing' (kept)"
@@ -3346,8 +3346,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/rerank-v5.0-pro.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised feature 'relevant_spans' (kept)",
     "unrecognised feature 'rerank_token_based_billing' (kept)"
@@ -3461,8 +3461,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/tiny-aya-earth.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "tiny-aya-fire": {
@@ -3573,8 +3573,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/tiny-aya-fire.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "tiny-aya-global": {
@@ -3685,8 +3685,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/tiny-aya-global.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   },
   "tiny-aya-water": {
@@ -3797,8 +3797,8 @@
     "tokenizer_url": "https://storage.googleapis.com/cohere-public/tokenizers/tiny-aya-water.json",
     "default_endpoints": []
    },
-   "retrieved_at": "2026-11-18T15:40:55Z",
-   "parser_version": "2026.08.25-1",
+   "retrieved_at": "2026-11-19T14:40:30Z",
+   "parser_version": "2026.11.19-1",
    "warnings": []
   }
  },
