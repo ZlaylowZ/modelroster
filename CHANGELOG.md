@@ -12,6 +12,16 @@ Two version numbers matter:
 
 ## [Unreleased]
 
+## [0.1.41] — 2026-11-20
+
+Data-only automatic release. Drift since v0.1.40:
+
+- google: +1 model(s)
+- inception: -2 model(s)
+- nvidia: +1 model(s)
+- openai: +1 model(s), snapshots +1
+- xai: -1 model(s)
+
 ## [0.1.40] — 2026-11-19
 
 ### Fixed
