@@ -1,19 +1,25 @@
 {
  "provider": "openai",
  "first_run": false,
- "previous_retrieved_at": "2026-11-19T14:40:47Z",
- "retrieved_at": "2026-11-19T15:45:55Z",
+ "previous_retrieved_at": "2026-11-19T15:45:55Z",
+ "retrieved_at": "2026-11-20T15:28:01Z",
  "parser_version": "2026.11.19-1",
  "previous_parser_version": "2026.11.19-1",
  "counts": {
   "previous": 98,
-  "current": 98
+  "current": 99
  },
- "added_models": [],
+ "added_models": [
+  "gpt-live-1.1"
+ ],
  "removed_models": [],
- "added_families": [],
+ "added_families": [
+  "gpt-live-1.1"
+ ],
  "removed_families": [],
- "new_snapshots": [],
+ "new_snapshots": [
+  "gpt-live-1.1"
+ ],
  "removed_snapshots": [],
  "changed_capabilities": {},
  "warnings": [
@@ -94,6 +100,7 @@
   "gpt-image-2.6-sunburst: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "gpt-live-1: unrecognised Model details bullet: 'Unsupported modalities: image, video'",
   "gpt-live-1: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
+  "gpt-live-1.1: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "gpt-live-transcribe: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "gpt-realtime: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",
   "gpt-realtime-1.5: unrecognised endpoint route 'v1/live/sessions' (stored as 'v1_live_sessions')",

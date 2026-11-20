@@ -2,7 +2,7 @@
  "provider": "google",
  "schema_version": 2,
  "parser_version": "2026.11.19-1",
- "retrieved_at": "2026-11-19T15:45:40Z",
+ "retrieved_at": "2026-11-20T15:27:46Z",
  "sources": {
   "listing": "https://generativelanguage.googleapis.com/v1beta/openai/models",
   "native": "https://generativelanguage.googleapis.com/v1beta/models"
@@ -68,6 +68,7 @@
   "models/gemini-robotics-er-2-streaming-preview",
   "models/gemma-4-26b-a4b-it",
   "models/gemma-4-31b-it",
+  "models/genie-4",
   "models/lyria-3-clip-preview",
   "models/lyria-3-pro-preview",
   "models/lyria-3.5",
@@ -195,7 +196,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -319,7 +320,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -443,7 +444,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -565,7 +566,7 @@
      "topK": 40
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -702,7 +703,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -839,7 +840,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -976,7 +977,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -1113,7 +1114,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -1252,7 +1253,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -1381,7 +1382,7 @@
      "maxTemperature": 1
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -1520,7 +1521,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -1653,7 +1654,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -1786,7 +1787,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -1919,7 +1920,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -2047,7 +2048,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -2186,7 +2187,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -2315,7 +2316,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -2454,7 +2455,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -2592,7 +2593,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -2730,7 +2731,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -2868,7 +2869,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -3006,7 +3007,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -3145,7 +3146,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -3283,7 +3284,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -3422,7 +3423,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -3545,7 +3546,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -3674,7 +3675,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -3813,7 +3814,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -3952,7 +3953,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -4091,7 +4092,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -4230,7 +4231,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -4353,7 +4354,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -4481,7 +4482,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -4604,7 +4605,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -4743,7 +4744,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -4882,7 +4883,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -5021,7 +5022,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -5150,7 +5151,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -5279,7 +5280,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -5402,7 +5403,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -5534,7 +5535,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -5672,7 +5673,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -5810,7 +5811,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -5948,7 +5949,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -6086,7 +6087,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -6206,7 +6207,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised generation method 'createDecision' (stored as endpoint 'create_decision')"
@@ -6331,7 +6332,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised generation method 'asyncBatchEmbedContent' (stored as endpoint 'async_batch_embed_content')"
@@ -6456,7 +6457,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised generation method 'asyncBatchEmbedContent' (stored as endpoint 'async_batch_embed_content')"
@@ -6581,7 +6582,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised generation method 'asyncBatchEmbedContent' (stored as endpoint 'async_batch_embed_content')"
@@ -6722,7 +6723,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -6861,7 +6862,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -6999,7 +7000,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -7136,7 +7137,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -7273,7 +7274,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -7410,7 +7411,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -7549,7 +7550,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -7688,7 +7689,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -7811,7 +7812,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -7948,7 +7949,7 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -8085,7 +8086,126 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
+   "parser_version": "2026.11.19-1",
+   "warnings": []
+  },
+  "models/genie-4": {
+   "provider": "google",
+   "model_id": "models/genie-4",
+   "display_name": "Genie 4",
+   "description": "Real-time audio-video generation model",
+   "family": "models/genie-4",
+   "aliases": [],
+   "snapshots": [],
+   "default_snapshot": null,
+   "routes_to": null,
+   "relationship": "canonical",
+   "released": null,
+   "deprecated": null,
+   "shutdown_date": null,
+   "context_window": 1048576,
+   "max_input_tokens": 1048576,
+   "max_output_tokens": 65536,
+   "knowledge_cutoff": null,
+   "knowledge_cutoff_raw": null,
+   "modalities": {
+    "text": {
+     "input": null,
+     "output": null
+    },
+    "image": {
+     "input": null,
+     "output": null
+    },
+    "audio": {
+     "input": null,
+     "output": null
+    },
+    "video": {
+     "input": null,
+     "output": null
+    }
+   },
+   "capabilities": {
+    "reasoning": null,
+    "reasoning_efforts": null,
+    "default_effort": null,
+    "extended_thinking": null,
+    "tool_calling": null,
+    "structured_outputs": null,
+    "streaming": null,
+    "prompt_caching": null,
+    "fine_tuning": null,
+    "batch": null,
+    "citations": null,
+    "code_execution": null,
+    "pdf_input": null,
+    "extra": {}
+   },
+   "endpoints": {
+    "chat_completions": true,
+    "generate_content": false,
+    "stream_generate_content": false,
+    "count_tokens": false,
+    "embed_content": false,
+    "batch_embed_contents": false,
+    "generate_answer": false,
+    "predict": false,
+    "predict_long_running": false,
+    "bidi_generate_content": true,
+    "create_cached_content": false,
+    "batch_generate_content": false,
+    "count_text_tokens": false,
+    "generate_text": false,
+    "embed_text": false,
+    "create_tuned_model": false
+   },
+   "builtin_tools": null,
+   "pricing": null,
+   "tier": "verified",
+   "provenance": {
+    "endpoints.chat_completions": {
+     "section": "api:/v1beta/openai/models",
+     "evidence": "listed by the OpenAI-compatibility shim"
+    },
+    "context_window": {
+     "section": "api:/v1beta/models",
+     "evidence": "inputTokenLimit"
+    },
+    "max_input_tokens": {
+     "section": "api:/v1beta/models",
+     "evidence": "inputTokenLimit"
+    },
+    "max_output_tokens": {
+     "section": "api:/v1beta/models",
+     "evidence": "outputTokenLimit"
+    },
+    "endpoints": {
+     "section": "api:/v1beta/models",
+     "evidence": "supportedGenerationMethods"
+    }
+   },
+   "sources": {
+    "listing": "https://generativelanguage.googleapis.com/v1beta/openai/models",
+    "documentation": null,
+    "native": "https://generativelanguage.googleapis.com/v1beta/models"
+   },
+   "raw": {
+    "owned_by": "google",
+    "object": "model",
+    "native": {
+     "name": "models/genie-4",
+     "version": "001",
+     "displayName": "Genie 4",
+     "inputTokenLimit": 1048576,
+     "outputTokenLimit": 65536,
+     "supportedGenerationMethods": [
+      "bidiGenerateContent"
+     ]
+    }
+   },
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -8213,7 +8333,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -8341,7 +8461,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -8469,7 +8589,7 @@
      "maxTemperature": 2
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -8589,7 +8709,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised generation method 'bidiGenerateMusic' (stored as endpoint 'bidi_generate_music')"
@@ -8729,14 +8849,14 @@
      "thinking": true
     }
    },
-   "retrieved_at": "2026-11-19T15:45:40Z",
+   "retrieved_at": "2026-11-20T15:27:46Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   }
  },
  "stats": {
-  "api_models": 65,
-  "models": 65
+  "api_models": 66,
+  "models": 66
  },
  "warnings": [
   "models/gemini-decision-1: unrecognised generation method 'createDecision' (stored as endpoint 'create_decision')",

@@ -2,7 +2,7 @@
  "provider": "xai",
  "schema_version": 2,
  "parser_version": "2026.11.19-1",
- "retrieved_at": "2026-11-19T15:45:56Z",
+ "retrieved_at": "2026-11-20T15:28:02Z",
  "sources": {
   "listing": "https://api.x.ai/v1/models",
   "language_models": "https://api.x.ai/v1/language-models",
@@ -16,7 +16,6 @@
   "grok-4.5",
   "grok-4.6",
   "grok-4.7",
-  "grok-build-0.1",
   "grok-imagine-image",
   "grok-imagine-image-2.0",
   "grok-imagine-video",
@@ -174,7 +173,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-11-19T15:45:55Z",
+   "retrieved_at": "2026-11-20T15:28:01Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -342,7 +341,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-11-19T15:45:55Z",
+   "retrieved_at": "2026-11-20T15:28:01Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -492,7 +491,7 @@
      ]
     }
    },
-   "retrieved_at": "2026-11-19T15:45:55Z",
+   "retrieved_at": "2026-11-20T15:28:01Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -645,7 +644,7 @@
      }
     }
    },
-   "retrieved_at": "2026-11-19T15:45:55Z",
+   "retrieved_at": "2026-11-20T15:28:01Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unexpected capability value '`none`, `low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
@@ -768,7 +767,7 @@
     "object": "model",
     "language_model": {
      "id": "grok-4.5",
-     "fingerprint": "fp_411b7f3542",
+     "fingerprint": "fp_0b5ebeed5e",
      "created": 1782691200,
      "object": "model",
      "owned_by": "xai",
@@ -804,7 +803,7 @@
      }
     }
    },
-   "retrieved_at": "2026-11-19T15:45:55Z",
+   "retrieved_at": "2026-11-20T15:28:01Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unexpected capability value '`low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
@@ -957,7 +956,7 @@
      }
     }
    },
-   "retrieved_at": "2026-11-19T15:45:55Z",
+   "retrieved_at": "2026-11-20T15:28:01Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unexpected capability value '`low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
@@ -1110,7 +1109,7 @@
      }
     }
    },
-   "retrieved_at": "2026-11-19T15:45:55Z",
+   "retrieved_at": "2026-11-20T15:28:01Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unexpected capability value '`low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
@@ -1118,150 +1117,6 @@
     "unexpected capability value '`high`' for 'reasoning efforts (default)'",
     "unrecognised capability 'reasoning efforts (default)' (kept)"
    ]
-  },
-  "grok-build-0.1": {
-   "provider": "xai",
-   "model_id": "grok-build-0.1",
-   "display_name": "Grok Build 0.1",
-   "description": "SpaceXSI's intelligent coding model for agentic software, engineering, and workflow tasks.",
-   "family": "grok-build-0.1",
-   "aliases": [
-    "grok-code-fast-1",
-    "grok-code-fast",
-    "grok-code-fast-1-0825"
-   ],
-   "snapshots": [],
-   "default_snapshot": null,
-   "routes_to": null,
-   "relationship": "canonical",
-   "released": "2026-04-16",
-   "deprecated": null,
-   "shutdown_date": null,
-   "context_window": 256000,
-   "max_input_tokens": null,
-   "max_output_tokens": null,
-   "knowledge_cutoff": null,
-   "knowledge_cutoff_raw": null,
-   "modalities": {
-    "text": {
-     "input": true,
-     "output": true
-    },
-    "image": {
-     "input": true,
-     "output": false
-    },
-    "audio": {
-     "input": false,
-     "output": false
-    },
-    "video": {
-     "input": false,
-     "output": false
-    }
-   },
-   "capabilities": {
-    "reasoning": true,
-    "reasoning_efforts": null,
-    "default_effort": null,
-    "extended_thinking": null,
-    "tool_calling": true,
-    "structured_outputs": true,
-    "streaming": null,
-    "prompt_caching": null,
-    "fine_tuning": null,
-    "batch": false,
-    "citations": null,
-    "code_execution": null,
-    "pdf_input": null,
-    "extra": {}
-   },
-   "endpoints": {
-    "chat_completions": true
-   },
-   "builtin_tools": null,
-   "pricing": null,
-   "tier": "verified",
-   "provenance": {
-    "released": {
-     "section": "api:/models",
-     "evidence": "created timestamp"
-    },
-    "modalities.input": {
-     "section": "api:/v1/language-models",
-     "evidence": "input_modalities"
-    },
-    "modalities.output": {
-     "section": "api:/v1/language-models",
-     "evidence": "output_modalities"
-    },
-    "endpoints.chat_completions": {
-     "section": "api:/v1/language-models",
-     "evidence": "listed as a language model"
-    },
-    "tool_calling": {
-     "section": "docs:developers/models",
-     "evidence": "Capabilities bullet"
-    },
-    "structured_outputs": {
-     "section": "docs:developers/models",
-     "evidence": "Capabilities bullet"
-    },
-    "reasoning": {
-     "section": "docs:developers/models",
-     "evidence": "Capabilities bullet"
-    },
-    "batch": {
-     "section": "docs:developers/models",
-     "evidence": "At a glance: Batch API"
-    },
-    "context_window": {
-     "section": "docs:developers/models",
-     "evidence": "At a glance: Context window"
-    }
-   },
-   "sources": {
-    "listing": "https://api.x.ai/v1/models",
-    "documentation": "https://docs.x.ai/developers/models/grok-build-0.1.md",
-    "language_models": "https://api.x.ai/v1/language-models"
-   },
-   "raw": {
-    "created": 1776297600,
-    "owned_by": "xai",
-    "object": "model",
-    "language_model": {
-     "id": "grok-build-0.1",
-     "fingerprint": "fp_dedee3c72d",
-     "created": 1776297600,
-     "object": "model",
-     "owned_by": "xai",
-     "version": "1.0",
-     "input_modalities": [
-      "text",
-      "image"
-     ],
-     "output_modalities": [
-      "text"
-     ],
-     "prompt_text_token_price": 10000,
-     "cached_prompt_text_token_price": 2000,
-     "prompt_image_token_price": 10000,
-     "completion_text_token_price": 20000,
-     "search_price": 0,
-     "prompt_text_token_price_long_context": 20000,
-     "cached_prompt_text_token_price_long_context": 4000,
-     "completion_text_token_price_long_context": 40000,
-     "long_context_threshold": 200000,
-     "aliases": [
-      "grok-code-fast-1",
-      "grok-code-fast",
-      "grok-code-fast-1-0825"
-     ]
-    }
-   },
-   "retrieved_at": "2026-11-19T15:45:55Z",
-   "parser_version": "2026.11.19-1",
-   "warnings": []
   },
   "grok-imagine-image": {
    "provider": "xai",
@@ -1353,7 +1208,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-11-19T15:45:55Z",
+   "retrieved_at": "2026-11-20T15:28:01Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -1441,7 +1296,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-11-19T15:45:55Z",
+   "retrieved_at": "2026-11-20T15:28:01Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -1529,7 +1384,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-11-19T15:45:55Z",
+   "retrieved_at": "2026-11-20T15:28:01Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -1624,7 +1479,7 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-11-19T15:45:55Z",
+   "retrieved_at": "2026-11-20T15:28:01Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   },
@@ -1712,14 +1567,14 @@
     "owned_by": "xai",
     "object": "model"
    },
-   "retrieved_at": "2026-11-19T15:45:55Z",
+   "retrieved_at": "2026-11-20T15:28:01Z",
    "parser_version": "2026.11.19-1",
    "warnings": []
   }
  },
  "stats": {
-  "api_models": 13,
-  "models": 13
+  "api_models": 12,
+  "models": 12
  },
  "warnings": [
   "grok-4.3: unexpected capability value '`none`, `low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
@@ -1748,7 +1603,6 @@
    "grok-4.5": "ok",
    "grok-4.6": "ok",
    "grok-4.7": "ok",
-   "grok-build-0.1": "ok",
    "grok-imagine-image": "ok_no_capabilities",
    "grok-imagine-image-2.0": "ok_no_capabilities",
    "grok-imagine-video": "ok_no_capabilities",
