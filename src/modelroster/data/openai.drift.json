@@ -1,25 +1,19 @@
 {
  "provider": "openai",
  "first_run": false,
- "previous_retrieved_at": "2026-11-19T15:45:55Z",
- "retrieved_at": "2026-11-20T15:28:01Z",
+ "previous_retrieved_at": "2026-11-20T15:28:01Z",
+ "retrieved_at": "2026-11-21T14:40:08Z",
  "parser_version": "2026.11.19-1",
  "previous_parser_version": "2026.11.19-1",
  "counts": {
-  "previous": 98,
+  "previous": 99,
   "current": 99
  },
- "added_models": [
-  "gpt-live-1.1"
- ],
+ "added_models": [],
  "removed_models": [],
- "added_families": [
-  "gpt-live-1.1"
- ],
+ "added_families": [],
  "removed_families": [],
- "new_snapshots": [
-  "gpt-live-1.1"
- ],
+ "new_snapshots": [],
  "removed_snapshots": [],
  "changed_capabilities": {},
  "warnings": [

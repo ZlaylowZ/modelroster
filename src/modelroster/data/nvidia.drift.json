@@ -1,17 +1,15 @@
 {
  "provider": "nvidia",
  "first_run": false,
- "previous_retrieved_at": "2026-11-19T15:45:41Z",
- "retrieved_at": "2026-11-20T15:27:46Z",
+ "previous_retrieved_at": "2026-11-20T15:27:46Z",
+ "retrieved_at": "2026-11-21T14:39:52Z",
  "parser_version": "2026.11.19-1",
  "previous_parser_version": "2026.11.19-1",
  "counts": {
-  "previous": 32,
+  "previous": 33,
   "current": 33
  },
- "added_models": [
-  "fastino/gliner2-pii"
- ],
+ "added_models": [],
  "removed_models": [],
  "added_families": [],
  "removed_families": [],
