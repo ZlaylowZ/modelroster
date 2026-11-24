@@ -1,18 +1,16 @@
 {
  "provider": "nvidia",
  "first_run": false,
- "previous_retrieved_at": "2026-11-22T14:35:36Z",
- "retrieved_at": "2026-11-23T18:09:58Z",
+ "previous_retrieved_at": "2026-11-23T18:09:58Z",
+ "retrieved_at": "2026-11-24T17:46:07Z",
  "parser_version": "2026.11.19-1",
  "previous_parser_version": "2026.11.19-1",
  "counts": {
-  "previous": 33,
+  "previous": 32,
   "current": 32
  },
  "added_models": [],
- "removed_models": [
-  "nvidia/nemotron-3-embed-1b"
- ],
+ "removed_models": [],
  "added_families": [],
  "removed_families": [],
  "new_snapshots": [],
