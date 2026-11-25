@@ -1,20 +1,15 @@
 {
  "provider": "openai",
  "first_run": false,
- "previous_retrieved_at": "2026-11-23T18:10:15Z",
- "retrieved_at": "2026-11-24T17:46:23Z",
+ "previous_retrieved_at": "2026-11-24T17:46:23Z",
+ "retrieved_at": "2026-11-25T17:13:57Z",
  "parser_version": "2026.11.19-1",
  "previous_parser_version": "2026.11.19-1",
  "counts": {
-  "previous": 99,
+  "previous": 103,
   "current": 103
  },
- "added_models": [
-  "gpt-6-astra-healthcare",
-  "gpt-6.1-sol-healthcare",
-  "gpt-6.2-astra-healthcare",
-  "gpt-6.2-sol-healthcare"
- ],
+ "added_models": [],
  "removed_models": [],
  "added_families": [],
  "removed_families": [],
