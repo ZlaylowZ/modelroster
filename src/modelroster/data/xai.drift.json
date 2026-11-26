@@ -1,8 +1,8 @@
 {
  "provider": "xai",
  "first_run": false,
- "previous_retrieved_at": "2026-11-24T17:46:24Z",
- "retrieved_at": "2026-11-25T17:13:58Z",
+ "previous_retrieved_at": "2026-11-25T17:13:58Z",
+ "retrieved_at": "2026-11-26T16:55:23Z",
  "parser_version": "2026.11.19-1",
  "previous_parser_version": "2026.11.19-1",
  "counts": {
@@ -15,22 +15,7 @@
  "removed_families": [],
  "new_snapshots": [],
  "removed_snapshots": [],
- "changed_capabilities": {
-  "grok-4.6": [
-   [
-    "aliases",
-    "[]",
-    "[grok-4.6-latest]"
-   ]
-  ],
-  "grok-4.7": [
-   [
-    "aliases",
-    "[]",
-    "[grok-4.7-latest]"
-   ]
-  ]
- },
+ "changed_capabilities": {},
  "warnings": [
   "grok-4.3: unexpected capability value '`none`, `low`, `medium`, `high`, `xhigh`' for 'reasoning efforts (supported)'",
   "grok-4.3: unrecognised capability 'reasoning efforts (supported)' (kept)",
