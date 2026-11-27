@@ -2,7 +2,7 @@
  "provider": "mistral",
  "schema_version": 2,
  "parser_version": "2026.11.19-1",
- "retrieved_at": "2026-11-26T16:55:08Z",
+ "retrieved_at": "2026-11-27T16:40:52Z",
  "sources": {
   "listing": "https://api.mistral.ai/v1/models"
  },
@@ -87,7 +87,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 256000,
@@ -137,6 +137,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -224,14 +225,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "codestral-embed": {
    "provider": "mistral",
@@ -246,7 +249,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 8192,
@@ -296,6 +299,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": true,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -383,14 +387,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "codestral-embed-2505": {
    "provider": "mistral",
@@ -405,7 +411,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 8192,
@@ -455,6 +461,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": true,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -542,14 +549,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "codestral-latest": {
    "provider": "mistral",
@@ -566,7 +575,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 256000,
@@ -616,6 +625,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -703,14 +713,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "deepseek-v4-1-flash-1017": {
    "provider": "mistral",
@@ -723,7 +735,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 1048576,
@@ -773,6 +785,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -860,14 +873,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "glm-5-2": {
    "provider": "mistral",
@@ -882,7 +897,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 1048576,
@@ -932,6 +947,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -1019,14 +1035,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "glm-5-latest": {
    "provider": "mistral",
@@ -1043,7 +1061,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 1048576,
@@ -1093,6 +1111,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -1180,14 +1199,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "magistral-medium-latest": {
    "provider": "mistral",
@@ -1209,7 +1230,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -1259,6 +1280,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -1346,14 +1368,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "magistral-small-latest": {
    "provider": "mistral",
@@ -1370,7 +1394,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -1420,6 +1444,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -1507,14 +1532,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "ministral-14b-2512": {
    "provider": "mistral",
@@ -1529,7 +1556,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -1579,6 +1606,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -1666,14 +1694,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "ministral-14b-latest": {
    "provider": "mistral",
@@ -1688,7 +1718,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -1738,6 +1768,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -1825,14 +1856,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "ministral-3b-2512": {
    "provider": "mistral",
@@ -1847,7 +1880,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 131072,
@@ -1897,6 +1930,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -1984,14 +2018,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "ministral-3b-latest": {
    "provider": "mistral",
@@ -2006,7 +2042,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 131072,
@@ -2056,6 +2092,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -2143,14 +2180,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "ministral-8b-2512": {
    "provider": "mistral",
@@ -2165,7 +2204,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -2215,6 +2254,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -2302,14 +2342,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "ministral-8b-latest": {
    "provider": "mistral",
@@ -2324,7 +2366,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -2374,6 +2416,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -2461,14 +2504,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "mistral-code-fim-latest": {
    "provider": "mistral",
@@ -2485,7 +2530,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 256000,
@@ -2535,6 +2580,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -2622,14 +2668,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "mistral-code-latest": {
    "provider": "mistral",
@@ -2646,7 +2694,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 256000,
@@ -2696,6 +2744,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -2783,14 +2832,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "mistral-embed": {
    "provider": "mistral",
@@ -2805,7 +2856,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 8192,
@@ -2855,6 +2906,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": true,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -2942,14 +2994,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "mistral-embed-2312": {
    "provider": "mistral",
@@ -2964,7 +3018,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 8192,
@@ -3014,6 +3068,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": true,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -3101,14 +3156,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "mistral-large-2512": {
    "provider": "mistral",
@@ -3121,7 +3178,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -3171,6 +3228,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -3258,14 +3316,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "mistral-large-4": {
    "provider": "mistral",
@@ -3281,7 +3341,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 1048576,
@@ -3331,6 +3391,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -3418,14 +3479,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "mistral-large-4-0": {
    "provider": "mistral",
@@ -3441,7 +3504,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 1048576,
@@ -3491,6 +3554,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -3578,14 +3642,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "mistral-large-latest": {
    "provider": "mistral",
@@ -3601,7 +3667,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 1048576,
@@ -3651,6 +3717,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -3738,14 +3805,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "mistral-medium": {
    "provider": "mistral",
@@ -3767,7 +3836,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -3817,6 +3886,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -3904,14 +3974,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "mistral-medium-2604": {
    "provider": "mistral",
@@ -3933,7 +4005,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -3983,6 +4055,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -4070,14 +4143,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "mistral-medium-3": {
    "provider": "mistral",
@@ -4099,7 +4174,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -4149,6 +4224,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -4236,14 +4312,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "mistral-medium-3-5": {
    "provider": "mistral",
@@ -4265,7 +4343,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -4315,6 +4393,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -4402,14 +4481,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "mistral-medium-3.5": {
    "provider": "mistral",
@@ -4431,7 +4512,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -4481,6 +4562,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -4568,14 +4650,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "mistral-medium-latest": {
    "provider": "mistral",
@@ -4597,7 +4681,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -4647,6 +4731,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -4734,14 +4819,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "mistral-moderation-2603": {
    "provider": "mistral",
@@ -4754,7 +4841,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 131072,
@@ -4804,6 +4891,7 @@
      "mistral.ocr": false,
      "mistral.classification": true,
      "mistral.moderation": true,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -4891,14 +4979,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "mistral-ocr-2512": {
    "provider": "mistral",
@@ -4914,7 +5004,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 16384,
@@ -4964,6 +5054,7 @@
      "mistral.ocr": true,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -5051,14 +5142,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "mistral-ocr-3": {
    "provider": "mistral",
@@ -5074,7 +5167,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 16384,
@@ -5124,6 +5217,7 @@
      "mistral.ocr": true,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -5211,14 +5305,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "mistral-ocr-3-0": {
    "provider": "mistral",
@@ -5234,7 +5330,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 16384,
@@ -5284,6 +5380,7 @@
      "mistral.ocr": true,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -5371,14 +5468,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "mistral-ocr-4": {
    "provider": "mistral",
@@ -5394,7 +5493,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 16384,
@@ -5444,6 +5543,7 @@
      "mistral.ocr": true,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -5531,14 +5631,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "mistral-ocr-4-1": {
    "provider": "mistral",
@@ -5554,7 +5656,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 16384,
@@ -5604,6 +5706,7 @@
      "mistral.ocr": true,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -5691,14 +5794,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "mistral-ocr-latest": {
    "provider": "mistral",
@@ -5714,7 +5819,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 16384,
@@ -5764,6 +5869,7 @@
      "mistral.ocr": true,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -5851,14 +5957,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "mistral-small-2603": {
    "provider": "mistral",
@@ -5875,7 +5983,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -5925,6 +6033,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -6012,14 +6121,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "mistral-small-latest": {
    "provider": "mistral",
@@ -6036,7 +6147,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -6086,6 +6197,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -6173,14 +6285,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "mistral-vibe-cli-fast": {
    "provider": "mistral",
@@ -6197,7 +6311,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -6247,6 +6361,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -6334,14 +6449,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "mistral-vibe-cli-latest": {
    "provider": "mistral",
@@ -6363,7 +6480,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -6413,6 +6530,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -6500,14 +6618,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "mistral-vibe-cli-with-tools": {
    "provider": "mistral",
@@ -6529,7 +6649,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -6579,6 +6699,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -6666,14 +6787,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "voxtral-mini-2602": {
    "provider": "mistral",
@@ -6688,7 +6811,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 16384,
@@ -6738,6 +6861,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": true,
      "mistral.audio_transcription_realtime": false,
@@ -6825,14 +6949,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "voxtral-mini-latest": {
    "provider": "mistral",
@@ -6847,7 +6973,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 16384,
@@ -6897,6 +7023,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": true,
      "mistral.audio_transcription_realtime": false,
@@ -6984,14 +7111,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "voxtral-mini-realtime-2602": {
    "provider": "mistral",
@@ -7007,7 +7136,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 32768,
@@ -7057,6 +7186,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": true,
@@ -7144,14 +7274,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "voxtral-mini-realtime-latest": {
    "provider": "mistral",
@@ -7167,7 +7299,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 32768,
@@ -7217,6 +7349,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": true,
@@ -7304,14 +7437,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "voxtral-mini-transcribe-3": {
    "provider": "mistral",
@@ -7326,7 +7461,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 65536,
@@ -7376,6 +7511,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": true,
      "mistral.audio_transcription_realtime": false,
@@ -7463,14 +7599,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "voxtral-mini-transcribe-3-0": {
    "provider": "mistral",
@@ -7485,7 +7623,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 65536,
@@ -7535,6 +7673,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": true,
      "mistral.audio_transcription_realtime": false,
@@ -7622,14 +7761,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "voxtral-mini-transcribe-realtime-2602": {
    "provider": "mistral",
@@ -7645,7 +7786,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 32768,
@@ -7695,6 +7836,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": true,
@@ -7782,14 +7924,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "voxtral-mini-transcribe-realtime-3": {
    "provider": "mistral",
@@ -7804,7 +7948,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 65536,
@@ -7854,6 +7998,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": true,
@@ -7941,14 +8086,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "voxtral-mini-transcribe-realtime-3-0": {
    "provider": "mistral",
@@ -7963,7 +8110,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 65536,
@@ -8013,6 +8160,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": true,
@@ -8100,14 +8248,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "voxtral-mini-tts-2603": {
    "provider": "mistral",
@@ -8122,7 +8272,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 4096,
@@ -8172,6 +8322,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -8259,14 +8410,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "voxtral-mini-tts-3": {
    "provider": "mistral",
@@ -8281,7 +8434,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 4096,
@@ -8331,6 +8484,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -8418,14 +8572,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "voxtral-mini-tts-3-0": {
    "provider": "mistral",
@@ -8440,7 +8596,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 4096,
@@ -8490,6 +8646,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -8577,14 +8734,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "voxtral-mini-tts-latest": {
    "provider": "mistral",
@@ -8599,7 +8758,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 4096,
@@ -8649,6 +8808,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -8736,14 +8896,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "voxtral-small-2507": {
    "provider": "mistral",
@@ -8758,7 +8920,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 32768,
@@ -8808,6 +8970,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": true,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -8895,14 +9058,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "voxtral-small-latest": {
    "provider": "mistral",
@@ -8917,7 +9082,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 32768,
@@ -8967,6 +9132,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": true,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -9054,14 +9220,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "voxtral-small-transcribe-3": {
    "provider": "mistral",
@@ -9076,7 +9244,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 65536,
@@ -9126,6 +9294,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": true,
      "mistral.audio_transcription_realtime": false,
@@ -9213,14 +9382,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "voxtral-small-transcribe-3-0": {
    "provider": "mistral",
@@ -9235,7 +9406,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 65536,
@@ -9285,6 +9456,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": true,
      "mistral.audio_transcription_realtime": false,
@@ -9372,14 +9544,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "zai-glm-5": {
    "provider": "mistral",
@@ -9396,7 +9570,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 1048576,
@@ -9446,6 +9620,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -9533,14 +9708,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "zai-glm-5-2": {
    "provider": "mistral",
@@ -9555,7 +9732,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 1048576,
@@ -9605,6 +9782,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -9692,14 +9870,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "zai-glm-5-3": {
    "provider": "mistral",
@@ -9716,7 +9896,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 1048576,
@@ -9766,6 +9946,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -9853,14 +10034,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "zai-glm-5-3-flash": {
    "provider": "mistral",
@@ -9873,7 +10056,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 1048576,
@@ -9923,6 +10106,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -10010,14 +10194,16 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   },
   "zai-glm-latest": {
    "provider": "mistral",
@@ -10034,7 +10220,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-26",
+   "released": "2026-11-27",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 1048576,
@@ -10084,6 +10270,7 @@
      "mistral.ocr": false,
      "mistral.classification": false,
      "mistral.moderation": false,
+     "mistral.embedding": false,
      "mistral.audio": false,
      "mistral.audio_transcription": false,
      "mistral.audio_transcription_realtime": false,
@@ -10171,20 +10358,86 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795712107,
+    "created": 1795797652,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-26T16:55:08Z",
+   "retrieved_at": "2026-11-27T16:40:52Z",
    "parser_version": "2026.11.19-1",
-   "warnings": []
+   "warnings": [
+    "unrecognised capability key 'embedding' (kept in extra)"
+   ]
   }
  },
  "stats": {
   "api_models": 63,
   "models": 63
  },
- "warnings": [],
+ "warnings": [
+  "codestral-2508: unrecognised capability key 'embedding' (kept in extra)",
+  "codestral-embed: unrecognised capability key 'embedding' (kept in extra)",
+  "codestral-embed-2505: unrecognised capability key 'embedding' (kept in extra)",
+  "codestral-latest: unrecognised capability key 'embedding' (kept in extra)",
+  "deepseek-v4-1-flash-1017: unrecognised capability key 'embedding' (kept in extra)",
+  "glm-5-2: unrecognised capability key 'embedding' (kept in extra)",
+  "glm-5-latest: unrecognised capability key 'embedding' (kept in extra)",
+  "magistral-medium-latest: unrecognised capability key 'embedding' (kept in extra)",
+  "magistral-small-latest: unrecognised capability key 'embedding' (kept in extra)",
+  "ministral-14b-2512: unrecognised capability key 'embedding' (kept in extra)",
+  "ministral-14b-latest: unrecognised capability key 'embedding' (kept in extra)",
+  "ministral-3b-2512: unrecognised capability key 'embedding' (kept in extra)",
+  "ministral-3b-latest: unrecognised capability key 'embedding' (kept in extra)",
+  "ministral-8b-2512: unrecognised capability key 'embedding' (kept in extra)",
+  "ministral-8b-latest: unrecognised capability key 'embedding' (kept in extra)",
+  "mistral-code-fim-latest: unrecognised capability key 'embedding' (kept in extra)",
+  "mistral-code-latest: unrecognised capability key 'embedding' (kept in extra)",
+  "mistral-embed: unrecognised capability key 'embedding' (kept in extra)",
+  "mistral-embed-2312: unrecognised capability key 'embedding' (kept in extra)",
+  "mistral-large-2512: unrecognised capability key 'embedding' (kept in extra)",
+  "mistral-large-4: unrecognised capability key 'embedding' (kept in extra)",
+  "mistral-large-4-0: unrecognised capability key 'embedding' (kept in extra)",
+  "mistral-large-latest: unrecognised capability key 'embedding' (kept in extra)",
+  "mistral-medium: unrecognised capability key 'embedding' (kept in extra)",
+  "mistral-medium-2604: unrecognised capability key 'embedding' (kept in extra)",
+  "mistral-medium-3: unrecognised capability key 'embedding' (kept in extra)",
+  "mistral-medium-3-5: unrecognised capability key 'embedding' (kept in extra)",
+  "mistral-medium-3.5: unrecognised capability key 'embedding' (kept in extra)",
+  "mistral-medium-latest: unrecognised capability key 'embedding' (kept in extra)",
+  "mistral-moderation-2603: unrecognised capability key 'embedding' (kept in extra)",
+  "mistral-ocr-2512: unrecognised capability key 'embedding' (kept in extra)",
+  "mistral-ocr-3: unrecognised capability key 'embedding' (kept in extra)",
+  "mistral-ocr-3-0: unrecognised capability key 'embedding' (kept in extra)",
+  "mistral-ocr-4: unrecognised capability key 'embedding' (kept in extra)",
+  "mistral-ocr-4-1: unrecognised capability key 'embedding' (kept in extra)",
+  "mistral-ocr-latest: unrecognised capability key 'embedding' (kept in extra)",
+  "mistral-small-2603: unrecognised capability key 'embedding' (kept in extra)",
+  "mistral-small-latest: unrecognised capability key 'embedding' (kept in extra)",
+  "mistral-vibe-cli-fast: unrecognised capability key 'embedding' (kept in extra)",
+  "mistral-vibe-cli-latest: unrecognised capability key 'embedding' (kept in extra)",
+  "mistral-vibe-cli-with-tools: unrecognised capability key 'embedding' (kept in extra)",
+  "voxtral-mini-2602: unrecognised capability key 'embedding' (kept in extra)",
+  "voxtral-mini-latest: unrecognised capability key 'embedding' (kept in extra)",
+  "voxtral-mini-realtime-2602: unrecognised capability key 'embedding' (kept in extra)",
+  "voxtral-mini-realtime-latest: unrecognised capability key 'embedding' (kept in extra)",
+  "voxtral-mini-transcribe-3: unrecognised capability key 'embedding' (kept in extra)",
+  "voxtral-mini-transcribe-3-0: unrecognised capability key 'embedding' (kept in extra)",
+  "voxtral-mini-transcribe-realtime-2602: unrecognised capability key 'embedding' (kept in extra)",
+  "voxtral-mini-transcribe-realtime-3: unrecognised capability key 'embedding' (kept in extra)",
+  "voxtral-mini-transcribe-realtime-3-0: unrecognised capability key 'embedding' (kept in extra)",
+  "voxtral-mini-tts-2603: unrecognised capability key 'embedding' (kept in extra)",
+  "voxtral-mini-tts-3: unrecognised capability key 'embedding' (kept in extra)",
+  "voxtral-mini-tts-3-0: unrecognised capability key 'embedding' (kept in extra)",
+  "voxtral-mini-tts-latest: unrecognised capability key 'embedding' (kept in extra)",
+  "voxtral-small-2507: unrecognised capability key 'embedding' (kept in extra)",
+  "voxtral-small-latest: unrecognised capability key 'embedding' (kept in extra)",
+  "voxtral-small-transcribe-3: unrecognised capability key 'embedding' (kept in extra)",
+  "voxtral-small-transcribe-3-0: unrecognised capability key 'embedding' (kept in extra)",
+  "zai-glm-5: unrecognised capability key 'embedding' (kept in extra)",
+  "zai-glm-5-2: unrecognised capability key 'embedding' (kept in extra)",
+  "zai-glm-5-3: unrecognised capability key 'embedding' (kept in extra)",
+  "zai-glm-5-3-flash: unrecognised capability key 'embedding' (kept in extra)",
+  "zai-glm-latest: unrecognised capability key 'embedding' (kept in extra)"
+ ],
  "extra": {}
 }
