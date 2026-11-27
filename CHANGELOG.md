@@ -12,6 +12,12 @@ Two version numbers matter:
 
 ## [Unreleased]
 
+## [0.1.46] — 2026-11-27
+
+Data-only automatic release. Drift since v0.1.45:
+
+- mistral: 63 record(s) changed
+
 ## [0.1.45] — 2026-11-25
 
 Data-only automatic release. Drift since v0.1.44:
