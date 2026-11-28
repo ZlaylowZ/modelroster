@@ -2,7 +2,7 @@
  "provider": "mistral",
  "schema_version": 2,
  "parser_version": "2026.11.19-1",
- "retrieved_at": "2026-11-27T16:40:52Z",
+ "retrieved_at": "2026-11-28T15:31:54Z",
  "sources": {
   "listing": "https://api.mistral.ai/v1/models"
  },
@@ -87,7 +87,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 256000,
@@ -225,12 +225,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -249,7 +249,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 8192,
@@ -387,12 +387,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -411,7 +411,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 8192,
@@ -549,12 +549,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -575,7 +575,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 256000,
@@ -713,12 +713,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -735,7 +735,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 1048576,
@@ -873,12 +873,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -897,7 +897,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 1048576,
@@ -1035,12 +1035,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -1061,7 +1061,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 1048576,
@@ -1199,12 +1199,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -1230,7 +1230,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -1368,12 +1368,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -1394,7 +1394,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -1532,12 +1532,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -1556,7 +1556,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -1694,12 +1694,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -1718,7 +1718,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -1856,12 +1856,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -1880,7 +1880,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 131072,
@@ -2018,12 +2018,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -2042,7 +2042,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 131072,
@@ -2180,12 +2180,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -2204,7 +2204,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -2342,12 +2342,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -2366,7 +2366,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -2504,12 +2504,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -2530,7 +2530,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 256000,
@@ -2668,12 +2668,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -2694,7 +2694,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 256000,
@@ -2832,12 +2832,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -2856,7 +2856,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 8192,
@@ -2994,12 +2994,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -3018,7 +3018,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 8192,
@@ -3156,12 +3156,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -3178,7 +3178,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -3316,12 +3316,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -3341,7 +3341,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 1048576,
@@ -3479,12 +3479,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -3504,7 +3504,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 1048576,
@@ -3642,12 +3642,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -3667,7 +3667,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 1048576,
@@ -3805,12 +3805,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -3836,7 +3836,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -3974,12 +3974,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -4005,7 +4005,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -4143,12 +4143,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -4174,7 +4174,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -4312,12 +4312,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -4343,7 +4343,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -4481,12 +4481,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -4512,7 +4512,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -4650,12 +4650,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -4681,7 +4681,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -4819,12 +4819,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -4841,7 +4841,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 131072,
@@ -4979,12 +4979,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -5004,7 +5004,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 16384,
@@ -5142,12 +5142,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -5167,7 +5167,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 16384,
@@ -5305,12 +5305,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -5330,7 +5330,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 16384,
@@ -5468,12 +5468,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -5493,7 +5493,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 16384,
@@ -5631,12 +5631,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -5656,7 +5656,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 16384,
@@ -5794,12 +5794,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -5819,7 +5819,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 16384,
@@ -5957,12 +5957,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -5983,7 +5983,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -6121,12 +6121,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -6147,7 +6147,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -6285,12 +6285,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -6311,7 +6311,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -6449,12 +6449,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -6480,7 +6480,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -6618,12 +6618,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -6649,7 +6649,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 262144,
@@ -6787,12 +6787,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -6811,7 +6811,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 16384,
@@ -6949,12 +6949,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -6973,7 +6973,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 16384,
@@ -7111,12 +7111,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -7136,7 +7136,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 32768,
@@ -7274,12 +7274,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -7299,7 +7299,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 32768,
@@ -7437,12 +7437,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -7461,7 +7461,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 65536,
@@ -7599,12 +7599,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -7623,7 +7623,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 65536,
@@ -7761,12 +7761,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -7786,7 +7786,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 32768,
@@ -7924,12 +7924,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -7948,7 +7948,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 65536,
@@ -8086,12 +8086,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -8110,7 +8110,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 65536,
@@ -8248,12 +8248,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -8272,7 +8272,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 4096,
@@ -8410,12 +8410,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -8434,7 +8434,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 4096,
@@ -8572,12 +8572,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -8596,7 +8596,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 4096,
@@ -8734,12 +8734,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -8758,7 +8758,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 4096,
@@ -8896,12 +8896,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -8920,7 +8920,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 32768,
@@ -9058,12 +9058,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -9082,7 +9082,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 32768,
@@ -9220,12 +9220,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -9244,7 +9244,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 65536,
@@ -9382,12 +9382,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -9406,7 +9406,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 65536,
@@ -9544,12 +9544,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -9570,7 +9570,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 1048576,
@@ -9708,12 +9708,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -9732,7 +9732,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 1048576,
@@ -9870,12 +9870,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -9896,7 +9896,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 1048576,
@@ -10034,12 +10034,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -10056,7 +10056,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 1048576,
@@ -10194,12 +10194,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
@@ -10220,7 +10220,7 @@
    "default_snapshot": null,
    "routes_to": null,
    "relationship": "canonical",
-   "released": "2026-11-27",
+   "released": "2026-11-28",
    "deprecated": false,
    "shutdown_date": null,
    "context_window": 1048576,
@@ -10358,12 +10358,12 @@
     "documentation": null
    },
    "raw": {
-    "created": 1795797652,
+    "created": 1795879914,
     "owned_by": "mistralai",
     "object": "model",
     "type": "base"
    },
-   "retrieved_at": "2026-11-27T16:40:52Z",
+   "retrieved_at": "2026-11-28T15:31:54Z",
    "parser_version": "2026.11.19-1",
    "warnings": [
     "unrecognised capability key 'embedding' (kept in extra)"
